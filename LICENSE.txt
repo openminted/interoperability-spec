@@ -1,0 +1,5 @@
+Textual content and images licensed under https://creativecommons.org/licenses/by/4.0/
+
+Source code licensed under Apache Apache License, Version 2.0
+
+FIXME - Copy license texts verbatim here
