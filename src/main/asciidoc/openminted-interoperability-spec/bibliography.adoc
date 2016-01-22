@@ -1,0 +1,6 @@
+[bibliography]
+== Bibliography
+
+- [[[uimafit]]] Philip V. Ogren, Steven J. Bethard (2009) Building Test Suites for UIMA Components 
+  Proceedings of the Workshop on Software Engineering, Testing, and Quality Assurance for Natural 
+  Language Processing (SETQA-NLP 2009). June 2009. (link:http://anthology.aclweb.org/W/W09/W09-1501.pdf[PDF])

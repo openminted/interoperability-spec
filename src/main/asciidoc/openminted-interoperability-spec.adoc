@@ -5,3 +5,76 @@
 This document will host the interoperability specification for the OpenMinTeD platform. Currently,
 there is not much to see here. For the time being, we use this place to dump intermediate
 information that may or may not end up in the final specification.
+
+== Introduction
+
+=== Requirement concreteness
+
+The OpenMinTeD platform aims to be open and inclusive. As such, it aims to support multiple popular
+technologies and standards. As popularity is changing over time and as new standards and
+technologies are evolving, the platform will have to evolve as well. The distinction between
+abstract and concrete interoperability requirements that we make here allows us to answer two questions:
+
+* How difficult is it be to a new technology or standard be incorporated into the platform?
+* How difficult is to integrate new components based on already supported technologies and standards
+  into the platform.
+
+Abstract requirements are agnostic to concrete technologies and standards and help assessing 
+compliance with them helps answering the first question. Concrete requirements refer to specific
+implementation details and help answering the second question.
+
+.Requirement concreteness values
+* *Abstract* - the requirement specifies a need, but does not go into details how this
+  need must be fulfilled. The requirement may provide examples of techniques or implementations that
+  fulfill the requirement, but does not mandate their use.
+* *Concrete* - the requirement specifies a need and prescribes the use of specific techniques,
+  standards, implementations, etc..
+
+=== Requirements strength
+
+.Requirement strength values
+* *Mandatory* - compliance with a mandatory requirement is obligatory. Non-compliance with any 
+  mandatory requirement entails non-compliance with the specification as a whole. 
+* *Recommended* - compliance with a recommended requirement is not obligatory but strongly desired.
+* *Optional* - compliance with an optional requirement is not obligatory and not strongly desired,
+  but considered beneficial.
+
+=== Requirement compliance levels
+
+* *Full* - fully compliant
+* *Partial* - partially compliant. E.g. some parts of a product are compliant but not all. This is
+  typically the case if a product is in a state of transition from a non-compilant to a compliant
+  state.
+* *No* - not compliant.
+* *N/A* - not applicable. This is expected to occur mainly for concrete requirements if a certain
+  requirement is not applicable for a certain implementation, e.g. a requirement on remote API
+  access on a tool which does not offer a remote API. Abstract requirements should be formulated 
+  in such a way that they are always applicable.
+
+=== Overall compliance levels
+
+* *None* - not compliant at all
+* *Silver* - fully compliant with all mandatory requirements
+* *Gold* - fully compliant with all mandatory and recommended requirements
+* *Platin* - fully compliant with all mandatory, recommended, and optional requirements
+
+Overall compliance levels are maintained separately for abstract and concrete requirements. A
+product may attain a higher compliance level on abstract requirements than on concrete requirements.
+For example, an abstract mandatory requirement may be to provide metadata in a machine-readable format while
+a related concrete requirement may prescribe a certain metadata format. If a product offers
+metadata in a machine-readable format, it would be fully compliant with the abstract requirement,
+but if does not use the metadata format prescribed by the concrete requirement, it is not compliant
+here. The product may attain thus attain *silver* compliance on the abstract level, but *no* overall
+compliance level on the concrete level.
+
+=== Compliance profile
+
+A compliance profile is a machine readable file that describes the compliance of a product,
+component, format, etc. with the interoperability requirements.
+
+NOTE: The format and schema of this file is still to be determined. YAML may be a good format
+      candidate. 
+
+include::{include-dir}analystics-components.adoc[]
+
+include::{include-dir}bibliography.adoc[]
