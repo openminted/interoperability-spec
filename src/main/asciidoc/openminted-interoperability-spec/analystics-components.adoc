@@ -109,7 +109,7 @@ the respective component classes. Pointers to all XML descriptors as stored in a
 
 | GATE
 | partial
-| only for those components that still use CREOLE descriptors and do *not* use CREOLE Java annotations
+| only for those components that still use CREOLE descriptors and do *not* use CREOLE Java annotations. It is, however, trivial to produce separate versions as GATE contains an ANT task to write CREOLE descriptors to disk from the Java annotations and it would be trivial to add this to the build process of each plugin.
 
 | ILSP
 | unknown
