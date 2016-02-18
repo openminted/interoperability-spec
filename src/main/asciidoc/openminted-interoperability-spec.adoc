@@ -15,12 +15,12 @@ technologies and standards. As popularity is changing over time and as new stand
 technologies are evolving, the platform will have to evolve as well. The distinction between
 abstract and concrete interoperability requirements that we make here allows us to answer two questions:
 
-* How difficult is it be to a new technology or standard be incorporated into the platform?
-* How difficult is to integrate new components based on already supported technologies and standards
+* How difficult is it for a new technology or standard to be incorporated into the platform?
+* How difficult is it to integrate new components based on already supported technologies and standards
   into the platform.
 
 Abstract requirements are agnostic to concrete technologies and standards and help assessing 
-compliance with them helps answering the first question. Concrete requirements refer to specific
+compliance with them; helps answering the first question. Concrete requirements refer to specific
 implementation details and help answering the second question.
 
 .Requirement concreteness values
@@ -63,8 +63,8 @@ product may attain a higher compliance level on abstract requirements than on co
 For example, an abstract mandatory requirement may be to provide metadata in a machine-readable format while
 a related concrete requirement may prescribe a certain metadata format. If a product offers
 metadata in a machine-readable format, it would be fully compliant with the abstract requirement,
-but if does not use the metadata format prescribed by the concrete requirement, it is not compliant
-here. The product may attain thus attain *silver* compliance on the abstract level, but *no* overall
+but if it does not use the metadata format prescribed by the concrete requirement, it is not compliant
+here. The product may thus attain *silver* compliance on the abstract level, but *no* overall
 compliance level on the concrete level.
 
 === Compliance profile
