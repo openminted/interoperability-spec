@@ -1,15 +1,12 @@
-== Content repositories
-
 === URL to actual content must be discoverable
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __mandatory__#
+[small]#*_Status:_* __draft__#
+[small]#*_Category:_* __WG1__#
 
 The URL of the actual content, e.g. a text file, PDF file, or other common data format, must be
 derivable from readily discoverable data. It must either be included in the metadata or it must
 be reliably constructable from the metadata URL, e.g. by appending or changing a suffix. Derivation
 rules must be clearly documented.
-
-== Knowledge bases
-

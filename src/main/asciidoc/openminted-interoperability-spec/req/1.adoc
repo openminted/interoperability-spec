@@ -3,6 +3,7 @@
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __mandatory__#
+[small]#*_Status:_* __draft__#
 [small]#*_Category:_* __WG4__#
 
 In order to incorporate components into the platform in an efficient manner, the platform must be

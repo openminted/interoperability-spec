@@ -4,3 +4,4 @@
 == Resource metadata
 
 // include::{include-dir}req/XXX.adoc[]
+include::{include-dir}req/4.adoc[]
