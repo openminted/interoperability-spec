@@ -1,0 +1,6 @@
+// REC: This file will in the future be mainly auto-generated from category tags in the requirements
+// files.
+
+== IPR and licensing
+
+// include::{include-dir}req/XXX.adoc[]

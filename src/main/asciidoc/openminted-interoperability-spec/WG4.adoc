@@ -1,0 +1,8 @@
+// REC: This file will in the future be mainly auto-generated from category tags in the requirements
+// files.
+
+== Text Annotation and workflows
+
+include::{include-dir}req/1.adoc[]
+include::{include-dir}req/2.adoc[]
+include::{include-dir}req/3.adoc[]

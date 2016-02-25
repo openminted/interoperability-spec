@@ -6,9 +6,9 @@ This document will host the interoperability specification for the OpenMinTeD pl
 there is not much to see here. For the time being, we use this place to dump intermediate
 information that may or may not end up in the final specification.
 
-== Introduction
+= Introduction
 
-=== Requirement concreteness
+== Requirement concreteness
 
 The OpenMinTeD platform aims to be open and inclusive. As such, it aims to support multiple popular
 technologies and standards. As popularity is changing over time and as new standards and
@@ -30,7 +30,7 @@ implementation details and help answering the second question.
 * *Concrete* - the requirement specifies a need and prescribes the use of specific techniques,
   standards, implementations, etc..
 
-=== Requirements strength
+== Requirements strength
 
 .Requirement strength values
 * *Mandatory* - compliance with a mandatory requirement is obligatory. Non-compliance with any 
@@ -39,7 +39,7 @@ implementation details and help answering the second question.
 * *Optional* - compliance with an optional requirement is not obligatory and not strongly desired,
   but considered beneficial.
 
-=== Requirement compliance levels
+== Requirement compliance levels
 
 * *Full* - fully compliant
 * *Partial* - partially compliant. E.g. some parts of a product are compliant but not all. This is
@@ -67,7 +67,7 @@ but if it does not use the metadata format prescribed by the concrete requiremen
 here. The product may thus attain *silver* compliance on the abstract level, but *no* overall
 compliance level on the concrete level.
 
-=== Compliance profile
+== Compliance profile
 
 A compliance profile is a machine readable file that describes the compliance of a product,
 component, format, etc. with the interoperability requirements.
@@ -75,6 +75,11 @@ component, format, etc. with the interoperability requirements.
 NOTE: The format and schema of this file is still to be determined. YAML may be a good format
       candidate. 
 
-include::{include-dir}analystics-components.adoc[]
+= Requirements
+
+include::{include-dir}WG1.adoc[]
+include::{include-dir}WG2.adoc[]
+include::{include-dir}WG3.adoc[]
+include::{include-dir}WG4.adoc[]
 
 include::{include-dir}bibliography.adoc[]

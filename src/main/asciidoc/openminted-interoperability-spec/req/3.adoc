@@ -1,84 +1,9 @@
-== Analytics components
-
-NOTE: This is an example section to illustrate requirements specification and compliance assessment.
-
-=== Components should be described by machine-readable metadata
-
-[%hardbreaks]
-[small]#*_Concreteness:_* __abstract__#
-[small]#*_Strength:_* __mandatory__#
-
-In order to incorporate components into the platform in an efficient manner, the platform must be
-able to automatically obtain information about them. Hence, components must provide machine-readable
-metadata by which they describe themselves. 
-
-[cols="2,1,4"]
-|====
-|Product|Compliant|Justification
-
-| Alvis
-| full
-| Alvis component descriptors
-
-| ARGO/U-Compare
-| full
-| UIMA Analysis Engine descriptors
-
-| DKPro Core
-| full
-| UIMA Analysis Engine descriptors
-
-| GATE
-| full
-| CREOLE descriptors
-
-| ILSP
-| full
-| UIMA Analysis Engine descriptors
-|====
-
-
-=== Component metadata should be embedded into the component source code
-
-[%hardbreaks]
-[small]#*_Concreteness:_* __abstract__#
-[small]#*_Strength:_* __recommended__#
-
-To avoid implementation and metadata getting out-of-sync, the metadata should be closely integrated
-with the component source code such that e.g. parameter names and types are obtained directly from
-the implementation (cf. <<uimafit>>).
-
-[cols="2,1,4"]
-|====
-|Product|Compliant|Justification
-
-| Alvis
-| not
-| Alvis XML descriptors manually maintained
-
-| ARGO/U-Compare
-| not (I believe)
-| UIMA XML descriptors manually maintained
-
-| DKPro Core
-| full
-| using uimaFIT Java annotations to automatically generate UIMA XML descriptors
-
-| GATE
-| partial
-| using CREOLE Java annotations, but not yet in all components
-
-| ILSP
-| unknown
-| unknown
-|====
-
-
 === Component metadata is separable from the component
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __mandatory__#
+[small]#*_Category:_* __WG4__#
 
 The component metadata should be provided in such a way that it is separable from the component.
 I.e. despite the canonical source of much of the metadata being the source code (and in a second
@@ -88,6 +13,9 @@ accompanied by a metadata file that was automatically generated during build tim
 repositories for example should use this file when looking for component metadata. The file should
 be at a well-known location within the component artifact.
 
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+////
 [cols="2,1,4"]
 |====
 |Product|Compliant|Justification
@@ -115,3 +43,4 @@ the respective component classes. Pointers to all XML descriptors as stored in a
 | unknown
 | unknown
 |====
+////

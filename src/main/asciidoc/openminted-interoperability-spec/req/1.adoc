@@ -1,0 +1,39 @@
+=== Components should be described by machine-readable metadata
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __mandatory__#
+[small]#*_Category:_* __WG4__#
+
+In order to incorporate components into the platform in an efficient manner, the platform must be
+able to automatically obtain information about them. Hence, components must provide machine-readable
+metadata by which they describe themselves. 
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+////
+[cols="2,1,4"]
+|====
+|Product|Compliant|Justification
+
+| Alvis
+| full
+| Alvis component descriptors
+
+| ARGO/U-Compare
+| full
+| UIMA Analysis Engine descriptors
+
+| DKPro Core
+| full
+| UIMA Analysis Engine descriptors
+
+| GATE
+| full
+| CREOLE descriptors
+
+| ILSP
+| full
+| UIMA Analysis Engine descriptors
+|====
+////

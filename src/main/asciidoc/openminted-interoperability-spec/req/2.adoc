@@ -1,0 +1,39 @@
+=== Component metadata should be embedded into the component source code
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __recommended__#
+[small]#*_Category:_* __WG4__#
+
+To avoid implementation and metadata getting out-of-sync, the metadata should be closely integrated
+with the component source code such that e.g. parameter names and types are obtained directly from
+the implementation (cf. <<uimafit>>).
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+////
+[cols="2,1,4"]
+|====
+|Product|Compliant|Justification
+
+| Alvis
+| not
+| Alvis XML descriptors manually maintained
+
+| ARGO/U-Compare
+| not (I believe)
+| UIMA XML descriptors manually maintained
+
+| DKPro Core
+| full
+| using uimaFIT Java annotations to automatically generate UIMA XML descriptors
+
+| GATE
+| partial
+| using CREOLE Java annotations, but not yet in all components
+
+| ILSP
+| unknown
+| unknown
+|====
+////

@@ -1,0 +1,8 @@
+=== Components should be described by machine-readable metadata
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __(abstract|concrete)__#
+[small]#*_Strength:_* __(mandatory|recommended|optional)__#
+[small]#*_Category:_* __(WG1|WG2|WG3|WG4)__#
+
+This is where the description of the requirement goes. 
