@@ -8,7 +8,14 @@ information that may or may not end up in the final specification.
 
 = Introduction
 
-== Requirement concreteness
+== Requirement metadata
+
+=== ID
+
+Every requirement has an ID. We start counting from 1 and every new requirement increments the
+ID by 1. The ID is encoded in the requirement filename, e.g. `1.adoc`.
+
+=== Concreteness
 
 The OpenMinTeD platform aims to be open and inclusive. As such, it aims to support multiple popular
 technologies and standards. As popularity is changing over time and as new standards and
@@ -30,7 +37,7 @@ implementation details and help answering the second question.
 * *Concrete* - the requirement specifies a need and prescribes the use of specific techniques,
   standards, implementations, etc..
 
-== Requirements strength
+=== Strength
 
 .Requirement strength values
 * *Mandatory* - compliance with a mandatory requirement is obligatory. Non-compliance with any 
@@ -39,7 +46,33 @@ implementation details and help answering the second question.
 * *Optional* - compliance with an optional requirement is not obligatory and not strongly desired,
   but considered beneficial.
 
-== Requirement compliance levels
+=== Status
+
+The requirement status indicates how far it has proceeded in its lifecycle. If and which changes may
+be made to a requirement depends on this status.
+
+.Requirement status values
+* *Draft* - the requirement is a suggestion and can be changed substantially in any respect.
+* *Final* - the requirement is ready for release. Changes to a final requirement are only allowed
+            if they do not affect the compliance status of any product, component, format, etc. that
+            as already been evaluated against the requirement specification. If a change would
+            trigger a change in any compliance status, instead of changing an existing requirement,
+            a new requirement must be created under a new ID and compliance must be evaluated against
+            this new requirement specification in the next iteration. The previous requirement must
+            be moved to deprecated status.
+* *Deprecated* - the requirement is no longer to be used for compliance assessment. The requirement
+            specification must not be changed. An exception are amendments adding pointers to
+            potential new versions of the requirement and providing a rationale for the deprecation.
+            
+=== Category
+
+The category of a requirement is used to anchor it in the document structure of the interoperability
+specification. The actual document structure is kept in a separate file to faciliate its refactoring.
+A requirement may be in multiple categories which must be provided as a comma-separated list.
+
+== Compliance assessment
+
+=== Requirement compliance levels
 
 * *Full* - fully compliant
 * *Partial* - partially compliant. E.g. some parts of a product are compliant but not all. This is
@@ -67,7 +100,7 @@ but if it does not use the metadata format prescribed by the concrete requiremen
 here. The product may thus attain *silver* compliance on the abstract level, but *no* overall
 compliance level on the concrete level.
 
-== Compliance profile
+=== Compliance profile
 
 A compliance profile is a machine readable file that describes the compliance of a product,
 component, format, etc. with the interoperability requirements.
