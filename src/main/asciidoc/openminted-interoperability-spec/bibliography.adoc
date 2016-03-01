@@ -4,3 +4,5 @@
 - [[[uimafit]]] Philip V. Ogren, Steven J. Bethard (2009) Building Test Suites for UIMA Components 
   Proceedings of the Workshop on Software Engineering, Testing, and Quality Assurance for Natural 
   Language Processing (SETQA-NLP 2009). June 2009. (link:http://anthology.aclweb.org/W/W09/W09-1501.pdf[PDF])
+- [[[Prokopidis2011]]]Prokopidis, P., Georgantopoulos, B. & Papageorgiou, H. (2011). A suite of NLP tools for Greek.
+  in the 10th International Conference of Greek Linguistics. Komotini, Greece. (link:http://nlp.ilsp.gr/nlp/ICGL2011_Prokopidis_etal.pdf[PDF])
