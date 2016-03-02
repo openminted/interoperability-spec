@@ -1,0 +1,9 @@
+=== Discover resources of various types at various locations
+
+[%hardbreaks]
+[small]#*_What is the scenario:_* A researcher is doing research on a certain topic, e.g. sentiment extraction in the domain of political conflicts. She wants to find all relevant literature and datasets that she could use for her research and/or construction of an application. Publications that might be of interest to her are stored at various points, e.g. OpenAire but also institutional/university repositories, various publishers' sites (to which she may have access through academic subscriptions but not necessarily), research repositories etc. Datasets, i.e. corpora (raw & annotated) as well as lexica, vocabularies, ontologies etc., are also scattered at various repos & portals. They are described with different metadata schemas, depending on the resource type & repository. She would ideally like to make one query at one point and get a list of all resources of relevance, a common description and a quick gist of the contents of the resource (e.g. abstract of the publication, sample of the dataset).#
+[small]#*_Why is the scenario relevant to the WG:_* text#
+[small]#*_Why is the scenario relevant to the other WGs:_* text#
+[small]#*_Why is the scenario relevant to external experts:_* text#
+[small]#*_How could OpenMinTeD / the WGs address it:_* text#
+[small]#*_What kind of feedback could we expect from other WGs / external experts for that scenario:_* text#
