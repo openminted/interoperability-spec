@@ -22,7 +22,6 @@
               <backend>html5</backend>
               <sourceHighlighter>coderay</sourceHighlighter>
               <sourceDocumentName>openminted-interoperability-spec.adoc</sourceDocumentName>
-              <imagesDir></imagesDir>
               <doctype>book</doctype>
               <attributes>
                 <toc>left</toc>
@@ -30,6 +29,26 @@
               </attributes>
             </configuration>
           </execution>
+            <execution>
+                <id>openminted-interoperability-scenarios-html</id>
+                <phase>generate-resources</phase>
+                <goals>
+                    <goal>process-asciidoc</goal>
+                </goals>
+                <configuration>
+                    <backend>html5</backend>
+                    <sourceHighlighter>coderay</sourceHighlighter>
+                    <sourceDocumentName>openminted-interoperability-scenarios.adoc</sourceDocumentName>
+                    <doctype>book</doctype>
+                    <attributes>
+                        <toc>left</toc>
+                        <docinfo1>true</docinfo1>
+                        <toclevels>5</toclevels>
+                        <sectanchors>true</sectanchors>
+                        <include-dir>${project.basedir}/src/main/asciidoc/openminted-interoperability-scenarios/</include-dir>
+                    </attributes>
+                </configuration>
+            </execution>
         </executions>
       </plugin>
     </plugins>
