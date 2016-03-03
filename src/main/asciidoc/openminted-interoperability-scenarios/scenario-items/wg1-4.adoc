@@ -1,0 +1,21 @@
+=== Scenario 4 - Provide comprehensive statistical metadata for resources
+
+==== What is the scenario:
+A user likes to make a detailed comparison of multiple versions of a language resource or a knowledge base. The user is interested in running a TDM experiment using a resource (e.g. Wikidata) and likes to evaluate the performance changes of the experiment with regards to using different versions of the same resource. To enable an analytical study, he requires detailed statistics related to revision changes (e.g. total number of concepts, total number of relations, number of added/updated/deleted concepts/relations). However, the problem is that this type of information is not typically shipped with resources.
+
+==== Why is the scenario relevant to the WG:
+Knowledge encoded in a resource often has a great impact on results of an experiment; hence, they affect the reproducibility of results. However, statistical information regarding a resource or different revisions of a resource usually are not either well documented or published with the resource itself. This makes it difficult to trace changes made to a resource and also makes it difficult for researchers to analyze their results or compare with previous results.
+
+==== Why is the scenario relevant to the other WGs:
+* *Language Resources (WG2)*: It is important to store as much as possible information about a language resource. This will lead to a more transparent usage of resources.
+* *IPR and licensing (WG3)*: Changes of usage license might be a rare event, but tracking these changes seems useful.
+* *Annotation Workflows (WG4)*: Some TDM workflows should be implemented to extract and generate the required metadata.
+
+==== Why is the scenario relevant to external experts:
+Providing detailed information about a resource makes it more transparent and easier to be adopted by the community. It also makes it easier to compare multiple resources prior to using them.
+
+==== How could OpenMinTeD / the WGs address it:
+Through designing metadata placeholder for statistical metadata of resources and implementing mechanism to calculate data that is not inherently announced with the resource.
+
+==== What kind of feedback could we expect from other WGs / external experts for that scenario:
+It is required to identify which metadata types are suited for describing each resource. The other requirement is to create components to generate statistical metadata information for each resource.
