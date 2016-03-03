@@ -1,0 +1,12 @@
+// MaK: This file will in the future be mainly auto-generated from category tags in the requirements
+// files.
+
+== WG2 - Knowledge bases interoperability scenarios
+
+// include all scenario items in this document
+// include::{include-dir}scenario-items/XXX.adoc[]
+include::{include-dir}scenario-items/wg2-1.adoc[]
+
+include::{include-dir}scenario-items/wg2-2.adoc[]
+
+include::{include-dir}scenario-items/wg2-3.adoc[]

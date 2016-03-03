@@ -1,28 +1,28 @@
 === Scenario 5 -Domain specific researcher using a text mining tool or service to promote their research or use applied research results within their setting.
 
-==== What is the scenario:
+==== What is the scenario
 A novice researcher, who may be in a research organization setting, an SME, or a different type of organization like a museum or a ministry that does not have access to a library subscription, wants to get some insights on his/her topic of interest.
 For example, an archaeologist in the Acropolis Museum trying to find scientific evidence on how to use storytelling mechanisms in a museum setting. This is a very trendy and state of the art technology and she would like specifically to know about which museums have applied the specific technologies on what types of settings, and moreover retrieve  the ones that have somehow led to products.  She will use this output within a research project which will ultimately help facilitate an  iphone/android app for mobiles or tablets, which will be owned by the Museum and will be available for free download from the Apple/GPlay stores.
 The researcher does not know where to look and has no knowledge of the text mining algorithms or tools. She is acquainted to newer technologies as she has a MS. in cultural heritage digital technologies.
 
-==== Why is the scenario relevant to the WG:
+==== Why is the scenario relevant to the WG
 Explore which content to search into, which probably should include different content types: scientific publications, technical and project reports. She needs an easy way to discover what is around and make the appropriate choices.
 The researcher needs to find the TDM services (not tools, because they must be easy to use and the researcher has no own computing resources) that will do the job for her. She needs to identify them in a straightforward manner and an easy way to point to the content to be mined. It is also important to have the results in a human readable way. All content and services need to be run in the cloud as the museum doesn’t have any supporting digital infrastructure.
 Authentication/authorization is also an important aspect that needs to be taken into consideration.
 
-==== Why is the scenario relevant to the other WGs:
+==== Why is the scenario relevant to the other WGs
 * *WG2* – Information probably exists in different collections around Europe (national projects) and language is an important facet. Entity resolution for museums/locations probably requires special vocabularies.
 * *WG3* – As the researcher’s institution has only access to OA content (no library subscription), we need to see what type of content is accessible. Also, as the services will be used to advance research towards a commercial project (non-profit organization?) the researcher needs advice on how to go about it.
 * *WG4* – basic interoperability between data and tools is necessary. Services may need to be combined in a workflow. The researcher needs the results, i.e. the annotated content, in a human readable format.
 
 
-==== Why is the scenario relevant to external experts:
+==== Why is the scenario relevant to external experts
 External experts will want to know how the specific content to be mined can be assembled into a virtual collection from different content types, and how text mining tools/workflows can be discovered.
 
-==== How could OpenMinTeD / the WGs address it:
+==== How could OpenMinTeD / the WGs address it
 * creating the appropriate metadata infrastructure and enabling structured and unstructured data search
 * adopting clear data licensing and services terms of use
 * indicating which services can usefully operate on which types of content
 
-==== What kind of feedback could we expect from other WGs / external experts for that scenario:
+==== What kind of feedback could we expect from other WGs / external experts for that scenario
 How are fairly advanced applications (e.g. storytelling) technologies formally described or potentially composed so that they are discoverable by non-expert users?

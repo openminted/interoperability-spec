@@ -1,0 +1,46 @@
+=== Scenario 2 - Including Custom Knowledge
+
+==== What is the scenario:
+
+A user wants to analyze mentions of pharmaceutical products based on the main agents used in these products. The user
+uses a publicly accessible dataset of products and their agents, but the dataset is incomplete, e.g. does not include
+products still in testing stage. The user wants to provide additional (confidential/unlicensed/proprietary) data about
+product/agents that should be taken into account for the analysis.
+
+WG2 specific tasks:
+* KB content harmonization including semantic mapping
+* harmonization of I/O specifications for TDM workflows
+* harmonization of output format
+
+==== Why is the scenario relevant to the WG:
+
+Use-case involves a public and a custom/private knowledge source
+
+==== Why is the scenario relevant to the other WGs:
+
+* WG1: Not particularly relevant
+* WG3: because the custom knowledge source may be confidential
+* WG4: because the custom knowledge source may not be accessible
+
+==== Why is the scenario relevant to external experts:
+
+Including custom content and/or confidential data is a common problem in infrastructures
+
+==== How could OpenMinTeD / the WGs address it:
+
+* WG 2
+** indicate if this is a real world problem
+** suggest how knowledge can be managed/packaged/harmonized.
+* WG 3
+** indicate if there are legal/contractual devices to cater for confidentiality and/or use of an unlicensed resource transiently during processing (assuming that the user trusts the platform in the first place)
+** safe-harbor provisions?
+* WG 4
+** allow deployment of TDM analytics in an environment trusted by the user
+** allow the TDM platform to access resources provided by a user
+** allow user to include excerpts (potentially anonymized, e.g. product/agent names replaces with IDs) of resources along with input data for TDM
+
+==== What kind of feedback could we expect from other WGs / external experts for that scenario:
+
+* indicate if this is a real world problem
+* suggest how knowledge can be managed/packaged
+* report how such problems have been addressed (if at all)

@@ -1,0 +1,63 @@
+=== Scenario 3 - The relation between documents and knowledge bases through keywords
+
+==== What is the scenario:
+
+The general idea is to treat keywords attached to a publication as a "mini lexicon" representing its topic and
+expand/enrich this lexicon by combining it with lexical/conceptual resources such as domain lexica, glossaries and
+ontologies. Possible applications of this idea:
+
+* A user wants to find publications on a specific research topic. The query terms can be mapped to a resource consisting
+of keywords & their synonyms/hypernyms/semantically linked words/phrases as encoded in other lexical resources.
+* The use of multilingual lexica in this scenario can also lead to the identification of publications on the same
+research topic in various languages; especially important when keywords in all these publications are not direct
+translation equivalents of each other, but linked through other semantically similar words/phrases/concepts
+* Document clustering based on keywords can also be enhanced through the expansion of keywords with semantically
+related words from lexical resources and ontologies.
+
+WG2 specific tasks: KB content harmonization including semantic mapping and multilingual keyword expansion.
+
+==== Why is the scenario relevant to the WG:
+
+It involves the interoperability between various language resources (publications, lexical resources, ontologies etc.).
+
+==== Why is the scenario relevant to the other WGs:
+
+* WG1: identifying resources of different types on the same topic / of the same domain
+* WG3: ensuring that the automatic access to the various resources is allowed; the combined use of resources makes the
+scenario more complicated as one needs to ensure that all resources allow their exploitation
+* WG4: creating workflows for the use cases, taking care of the fact that different types of resources can be used at
+various stages of the process and thus need to be interoperable (ensuring appropriate input and output)
+
+==== Why is the scenario relevant to external experts:
+
+Interoperability issues between resources of the same or different type (e.g. lexica, keywords, term banks) is a central
+topic. Combining this with document search extends resource coverage
+
+==== How could OpenMinTeD / the WGs address it:
+
+* WG1 & WG2 (each WG focusing on their area but interacting for similar/linked features):
+** annotating sections with relevant information inside the document/publication
+** relevant metadata included in the resource description (e.g. domain, keywords, …)
+** exploiting existing and finding appropriate ways of linking and mapping concepts as represented in publications,
+lexica, ontologies etc.
+* WG3:
+** representing terms of use in a machine readable format
+** ensuring that interaction between multiple resources is allowed when required only if there are no conflicts between
+the terms of use
+* WG4:
+** indicating appropriate input & output formats for resources involved in the workflow;
+** discussing the architecture of appropriate processes and workflows (e.g. how and when the various resources should
+be accessed)
+
+
+==== What kind of feedback could we expect from other WGs / external experts for that scenario:
+
+* Ascertain that indeed it is worth exploiting
+* Discuss interoperability issues between the various types of resources (texts, lexica, ontologies etc.), especially
+with regard to the architecture of relevant workflows, and suggest appropriate ways of tackling them.
+
+==== Possible requirements/interoperability recommendations
+
+Keywords should be in some way qualified with the source of the keyword if it belongs to a controlled vocabulary. E.g.
+a keyword could be a URI or there could be an additional metadata field indicating where keywords come from
+(latter related to WG1).

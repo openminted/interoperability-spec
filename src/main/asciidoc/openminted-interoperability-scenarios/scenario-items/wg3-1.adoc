@@ -1,0 +1,49 @@
+=== Scenario 1 - Legal status of aggregations: focus on content
+
+==== What is the scenario
+
+Researcher A is conducting research on a variety of sources. He needs to extract statistical information from 3 DB: X,
+Y and Z. He runs a TDM instance on the 3 databases and obtains insightful results. He wants to know how, if at all, he
+can use the resulting output. Database X is made publicly available on the Internet by the right holder but is not
+released under any specifically identified licence, term of use or any other policy. DB X is constituted by a corpora
+of linguistic resources (i.e. the individual elements constituting the database are not individually copyrightable).
+Database Y is available online under a CC-BY-SA 4.0 license and is constituted by a DB of academic articles (i.e. the
+elements constituting the database are individually copyrightable). Database Z is a “closed” database to which the
+researcher has access thanks to the “academic subscription” of its institution which allows to TDM the database but only
+for “academic and research activities and for non commercial purposes” and forbids the distribution or communication of
+results for any purpose. All these activities are performed using tools and or services belonging to the researcher
+(i.e. no licence or terms of use on tools and or services are relevant in this scenario).
+
+==== Why is the scenario relevant to the WG
+
+The scenario identifies the main elements of legal interoperability: absence of clear license or right statement, OA
+publishing, closed databases, Exceptions and Limitations to Copright. The scenario also considers the type of results
+that TDM activities lead to (whether there is a redistribution of at least part of the original data).
+
+==== Why is the scenario relevant to the other WGs
+
+* WG 1 - Are the licences or rights statements expressed in (machine-readable/processable) metadata?
+* WG 2 - N/A
+* WG 4 - License information and provenance information must be preserved throughout the workflow.
+
+==== Why is the scenario relevant to external experts
+
+External experts combine expertise in the legal and technical field. The combination of the three identified DB legal
+conditions is the starting point to determine legal interoperability.
+
+==== How could OpenMinTeD / the WGs address it
+
+* Correct labeling of the resources with information about the licence, and with relevant licence metadata. With proper
+labeling, through the correct application of the licence and licence metadata, a first set of problems can be solved.
+* Correct use of licences. The convergence towards a de facto standard (e.g. CCPL) will reduce incompatibility issues
+and transaction costs.
+* Exceptions and Limitations to Copyright: proper exception to copyright and related rights (e.g. UK to some extent)
+can contribute to fix additional access and reuse issues.==== What kind of feedback could we expect from other WGs /
+external experts for that scenario
+
+==== What kind of feedback could we expect from other WGs / external experts for that scenario?
+
+Their specific experience in this and related areas. Many experts (internal and external) have already faced some of
+the identified issues.
+
+//TODO: add examples of terms and additional resources

@@ -1,25 +1,53 @@
 === Scenario 2 - SME running research analytics for funders within the European Research Area
 
-==== What is the scenario:
-The EC and other funders are looking into ways to discover correlations and trends in funded research in Europe. They want to go beyond the obvious relationships (project-publication-data-patents-software) and the related statistics (i.e., who produces what and co-funds). They need to identify the hidden relationships brought out via concepts and topics as these are discovered through advanced NLP and probabilistic algorithms. They need to find various side effects, e.g. structural effects stemming from collaboration from different institutions, countries and domains (cross-discipline)
+==== What is the scenario
+
+The EC and other funders are looking into ways to discover correlations and trends in funded research in Europe.
+They want to go beyond the obvious relationships (project-publication-data-patents-software) and the related statistics
+(i.e., who produces what and co-funds). They need to identify the hidden relationships brought out via concepts and
+topics as these are discovered through advanced NLP and probabilistic algorithms. They need to find various side
+effects, e.g. structural effects stemming from collaboration from different institutions, countries and domains
+(cross-discipline)
+
 As an addition, EC wants to compare their programmes with the ones in the US (NSF, NIH).
 
-==== Why is the scenario relevant to the WG:
+==== Why is the scenario relevant to the WG
+
 To get some meaningful results the following tasks need to be completed:
-* Discover all publications related (or not) to funding programmes from as many funders in Europe (and beyond). These publications may be OA or may be private/proprietary and can reside in institutional/thematic repositories, or be behind closed doors in publisher sites.
-* Discover downloadable software tools (not content/data processing web services) that are interoperable when configured appropriately and combined together they will build a system/application. The IT people in the SME need to find the most appropriate tools (reliable, good performance, correct licences, …).
 
-==== Why is the scenario relevant to the other WGs:
+* Discover all publications related (or not) to funding programmes from as many funders in Europe (and beyond).
+These publications may be OA or may be private/proprietary and can reside in institutional/thematic repositories, or
+be behind closed doors in publisher sites.
+* Discover downloadable software tools (not content/data processing web services) that are interoperable when
+configured appropriately and combined together they will build a system/application. The IT people in the SME need to
+find the most appropriate tools (reliable, good performance, correct licences, …).
+
+==== Why is the scenario relevant to the other WGs
+
 * *WG2* – Classification vocabularies like Eurovoc, MESH, DDC must be used.
-* *WG3* – This is an SME building on OA and non-OA content using tools from various research labs, and they will build a profitable service. The SME does not own the scientific content but the funder has already paid subscription to metadata dbs (Scopus, Thomson Reuters). Still there is no access to the content itself (pdfs, xmls). The SME will use the tools as components of a system, and it’s important to see how the different tools are legally interoperable.
-* *WG4* – The SME will probably be using components/tools from various providers (research labs) and needs to form workflows. Will also need to get results in a given format that will not be changing over time, or over different components. Operations may be run on a national data center or on dedicated servers on the EC/funder site (or on a paid cloud service like amazon).
+* *WG3* – This is an SME building on OA and non-OA content using tools from various research labs, and they will build
+a profitable service. The SME does not own the scientific content but the funder has already paid subscription to
+metadata dbs (Scopus, Thomson Reuters). Still there is no access to the content itself (pdfs, xmls). The SME will use
+the tools as components of a system, and it’s important to see how the different tools are legally interoperable.
+* *WG4* – The SME will probably be using components/tools from various providers (research labs) and needs to form
+workflows. Will also need to get results in a given format that will not be changing over time, or over different
+components. Operations may be run on a national data center or on dedicated servers on the EC/funder site (or on a
+paid cloud service like amazon).
 
-==== Why is the scenario relevant to external experts:
-Relevant to our research analytics experts. Also practitioners that will deal more with structured data and face semantic interoperability problems with different semantic classification schemes.
-Discovery of software solutions with appropriate software versioning and dependencies is a common problem to many TDM users (and developers alike!).
+==== Why is the scenario relevant to external experts
 
-==== How could OpenMinTeD / the WGs address it:
-Promotion of standard metadata-based descriptions of software, standard (or standardisation of) vocabularies/authority lists and semantic interoperability of classification schemes & promotion (or standardisation) of licensing schemes for ensuring are among the main objectives.
+Relevant to our research analytics experts. Also practitioners that will deal more with structured data and face
+semantic interoperability problems with different semantic classification schemes.
 
-==== What kind of feedback could we expect from other WGs / external experts for that scenario:
+Discovery of software solutions with appropriate software versioning and dependencies is a common problem to many
+TDM users (and developers alike!).
+
+==== How could OpenMinTeD / the WGs address it
+
+Promotion of standard metadata-based descriptions of software, standard (or standardisation of) vocabularies/authority
+lists and semantic interoperability of classification schemes & promotion (or standardisation) of licensing schemes for
+ensuring are among the main objectives.
+
+==== What kind of feedback could we expect from other WGs / external experts for that scenario
+
 Systems/methods/schemes used for metadata-based discovery. Vocabularies used.

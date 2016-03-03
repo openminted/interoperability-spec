@@ -1,27 +1,46 @@
 === Scenario 3 – A content provider using text mining tools to enrich their content
 
-==== What is the scenario:
-An open access journal or a repository wants to enrich the metadata of its content. Europe and national data services are funding infrastructures/aggregators like OpenAIRE and CORE to act as such information hubs/brokers. To be more specific, OpenAIRE operates a set of TDM tools on the aggregated content from 15mi publications and related data. These tools (either operated on the metadata+abstract or the full text) are able to extract all research related information (grants, authors and their affiliations, data/software/patent citations, classifications, topics, etc.) and clean/enrich the harvested metadata records. In addition, via de-duplication and disambiguation mechanisms OpenAIRE is able to link all results, organizations, authors, funders and data into an integrated research information system.
-This scenario can be used in the following ways:
-* OpenAIRE or any other service provider shares these tools (or services) with all participating (or not) content providers via OpenMinTeD. In this case, when a researcher self deposits a publication, a standard plugin installed at the journal or repository platform accesses such research information extraction services and applies them on the deposited publication to automatically extract all metadata. The researcher has only to verify the quality of metadata.
-* When a content provider joins an e-Infrastructure or aggregator, they need to provide their full text/full data content to be mined at a central point. They need to describe the metadata and the push/pull protocols that will be used to access the full text.
+==== What is the scenario
 
-==== Why is the scenario relevant to the WG:
+An open access journal or a repository wants to enrich the metadata of its content. Europe and national data services
+are funding infrastructures/aggregators like OpenAIRE and CORE to act as such information hubs/brokers. To be more
+specific, OpenAIRE operates a set of TDM tools on the aggregated content from 15mi publications and related data.
+These tools (either operated on the metadata+abstract or the full text) are able to extract all research related
+information (grants, authors and their affiliations, data/software/patent citations, classifications, topics, etc.)
+and clean/enrich the harvested metadata records. In addition, via de-duplication and disambiguation mechanisms OpenAIRE
+is able to link all results, organizations, authors, funders and data into an integrated research information system.
+
+This scenario can be used in the following ways:
+
+* OpenAIRE or any other service provider shares these tools (or services) with all participating (or not) content
+providers via OpenMinTeD. In this case, when a researcher self deposits a publication, a standard plugin installed at
+the journal or repository platform accesses such research information extraction services and applies them on the
+deposited publication to automatically extract all metadata. The researcher has only to verify the quality of metadata.
+* When a content provider joins an e-Infrastructure or aggregator, they need to provide their full text/full data
+content to be mined at a central point. They need to describe the metadata and the push/pull protocols that will be
+used to access the full text.
+
+==== Why is the scenario relevant to the WG
+
 * Content providers need to register their content for TDM purposes. They need to describe the metadata using an appropriate schema, including formal licensing metadata.
 * Plugin builders need to be aware of specific service descriptions.
 In the first sub case we need to return results in a standard format (annotated texts and extracted metadata information), usually via a repository platform plugin. It is important to include metadata related to the TDM operation (e.g., confidence level, performance, service version).
 
-==== Why is the scenario relevant to the other WGs:
+==== Why is the scenario relevant to the other WGs
+
 * *WG2* – All these text mining tools use a variety of ontologies.
 * *WG3* – We need to fully describe the license of the content provided by the repository/journal, and the licences of the used services. Not sure about the licenses of the returned annotations (as the cleaning and enriching comes from the combination of content from different sources)
 * *WG4* – Format and protocols for returned annotations.
 
 
-==== Why is the scenario relevant to external experts:
+==== Why is the scenario relevant to external experts
+
 Automatic metadata extraction of content is a common requirement in many repositories. Mechanisms for documenting particular mining services discoverable and integratable/callable from within such e-infrastructures are required.
 
-==== How could OpenMinTeD / the WGs address it:
+==== How could OpenMinTeD / the WGs address it
+
 Through promoting guidelines and schema(s) for formal metadata-based documentation and providing mechanisms for integrating mining services.
 
-==== What kind of feedback could we expect from other WGs / external experts for that scenario:
+==== What kind of feedback could we expect from other WGs / external experts for that scenario
+
 What schemas do experts and practitioners use? Level of detail and completeness of metadata elements. Use of predefined vocabularies and value sets. Protocols for harvesting and exchanging research information.

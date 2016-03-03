@@ -1,0 +1,56 @@
+=== Scenario 1 - Combining heterogeneous resources for information extraction
+
+==== What is the scenario
+
+The user wants to build a knowledge base on animal diseases using information extracted from scientific or technical documents.
+The domain model is represented in an ontology describing relations between animals (hosts), diseases and pathogens (vectors).
+The lexical elements to identify the different objects are spread in disconnected resources
+(e.g. http://www.fao.org/faobib/kwocinana.html[list of “livestock”] from Agrovoc, “diseases” from a custom lightly
+hierarchical vocabulary and “pathogens” from the http://www.uniprot.org/[Uniprot taxonomy]). Those resources provide information for scientific and common names,
+abbreviations, etc. There can be several relevant for a same type of object.
+
+WG2 specific tasks:
+
+* KB content harmonization including semantic mapping
+* harmonization of I/O specifications for TDM workflows
+* serialization of output annotations in OWL/RDF format
+
+==== Why is the scenario relevant to the WG
+
+This scenario requires uniform access to content from heterogeneous resources.
+In order to operationalise these resources, we need interoperability of their content enabling uniform access.
+
+The user has to deal with vocabularies presenting different schemas and levels of information. This requires schema mapping.
+The vocabulary elements of these resources can be of many forms, e.g.
+
+* resource specific
+* conforming to standard schemas such as TBX, LMF, SKOS; and formats e.g. OWL, RDF
+
+Detecting these elements in text may require different strategies or tools as they contain Named Entities (form and
+case sensitivity) or terms (fuzzy recognition, case insensitivity, etc.).
+
+==== Why is the scenario relevant to the other WGs
+
+* WG1: discovery and technical metadata allow the user to identify relevant candidate vocabularies
+* WG3: this scenario is an example of the combination of several vocabularies, and raises issues with respect to legal
+aspects of 1) resource access 2) the combination of resources with different licenses and 3) the publication of the
+annotated corpus.
+* WG4: flexible insertion of resources into workflows based on interoperable content specification.
+modes of mapping vocabulary items onto text: consider the extraction strategy (e.g. strict, fuzzy, lemma to wordform).
+* WG1/4: keep trace of the source and method used for producing annotation.
+
+==== Why is the scenario relevant to external experts
+
+Are vocabularies really reusable and combinable... and if yes, to what extent?
+
+==== How could OpenMinTeD / the WGs address it
+
+* Provide easy access to resources and the possibility to test them by easy lookup on a corpus
+* Allow the traceability of resource elements through metadata and identifiers
+* Provide interfaces/ways to integrate vocabulary elements or subparts
+* Clarify the legal status of extraction results with respect to the original vocabularies/resources used.
+
+
+==== What kind of feedback could we expect from other WGs / external experts for that scenario
+
+with defining prefered strategy.Identifications of problems and bottlenecks; discussion of possible solutions; help
