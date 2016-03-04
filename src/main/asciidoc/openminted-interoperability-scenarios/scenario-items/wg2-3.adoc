@@ -1,4 +1,4 @@
-=== Scenario 3 - The relation between documents and knowledge bases through keywords
+=== Scenario 3 -- The relation between documents and knowledge bases through keywords
 
 ==== What is the scenario:
 

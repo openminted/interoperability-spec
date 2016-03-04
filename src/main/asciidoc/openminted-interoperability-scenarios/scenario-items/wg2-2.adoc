@@ -1,4 +1,4 @@
-=== Scenario 2 - Including Custom Knowledge
+=== Scenario 2 -- Including Custom Knowledge
 
 ==== What is the scenario:
 

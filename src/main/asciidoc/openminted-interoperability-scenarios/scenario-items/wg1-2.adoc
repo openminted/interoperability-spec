@@ -1,4 +1,4 @@
-=== Scenario 2 - SME running research analytics for funders within the European Research Area
+=== Scenario 2 -- SME running research analytics for funders within the European Research Area
 
 ==== What is the scenario
 

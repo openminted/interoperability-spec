@@ -1,0 +1,46 @@
+=== Scenario 4 -- Reproducibility of TDM-related research
+
+==== What is the scenario
+
+I want to give readers of my paper the possibility to re-run my experiments involving text processing with modified
+settings or data and check the results. Unfortunately, contrary to statistical data analysis, it is not enough to
+provide the input files and program script -- instead, the reader would have to install all the tools I used in the
+project in his computing environment, configure them, take care for data format conversion, etc. As he is very unlikely
+to be able to do it, my results are virtually irreproducible.
+
+==== Why is the scenario relevant to the WG
+
+The problem in this scenario is that although an interested paper reader may be a TDM expert, he/she probably uses
+different workflow and environment. To make him able to analyse a given data set, we need the possibility to run a
+given program without the user manually installing and configuring all the tools on a target environment (e.g. a local
+PC, a local server, a cloud server, etc…). The user may either choose to re-run the experiment with slightly different
+parameters or input data, or he may edit the workflow (e.g. replace some of the components) and check whether the
+conclusions remain valid. That clearly requires a lot of work in the area of annotations and workflows interoperability.
+
+==== Why is the scenario relevant to the other WGs
+
+* Resource MetaData (WG1):  In order to reproduce the experiment, detailed information about the resources used, their
+dependencies, their provenance, and particularly their versions is required. This entails a method of transitively
+resolving references from one resource to another (e.g. in a  dependency or provenance graph).
+* Language Resources (WG2): The ability to refer to stable versions of language resources which may be problematic e.g.
+for knowledge resources only available through web services.
+* IPR and licensing (WG3): This problem applies to the researcher sharing his input data: he needs to have necessary
+knowledge about licensing to ensure that he is not violating any laws by doing so.
+
+==== Why is the scenario relevant to external experts
+
+Here, experts with experiences in TDM would be very helpful, because they know what prevents them from sharing all
+their input data and procedures or replicating workflows of others.
+
+==== How could OpenMinTeD / the WGs address it
+
+OpenMinTeD could build (or at least help to build by providing interoperability standards) a single, easy to use
+interface that would let curious readers repeat the experiments without cost and time needed to fully install the
+whole environment. In case it is not possible, OpenMinTed could alternatively provide standards, best practices, and
+tooling to facilitate the installation of the environment. The latter is also an important step towards dynamically
+deploying TDM workflows to computing resources in the age of scalable cloud computing.
+
+==== What kind of feedback could we expect from other WGs / external experts for that scenario
+
+They could share knowledge about what prevents them from sharing input and procedures of their research projects. Is it
+licensing? Or maybe amount of work necessary to fully describe the computing environment?

@@ -1,4 +1,4 @@
-=== Scenario 1 - Discover resources of various types at various locations
+=== Scenario 1 -- Discover resources of various types at various locations
 
 ==== What is the scenario
 

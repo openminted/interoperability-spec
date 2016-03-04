@@ -31,11 +31,11 @@ include::{include-dir}WG2.adoc[]
 
 <<<
 
-include::{include-dir}wg3.adoc[]
+include::{include-dir}WG3.adoc[]
 
 <<<
 
-//include::{include-dir}wg4.adoc[]
+include::{include-dir}WG4.adoc[]
 
 //TODO: add highlighted text to all scenario items
 //TODO: add figures to WG2 scenarios

@@ -1,4 +1,4 @@
-=== Scenario 2 - Focus on TDM tools and TDM services
+=== Scenario 2 -- Focus on TDM tools and TDM services
 
 ==== What is the scenario
 

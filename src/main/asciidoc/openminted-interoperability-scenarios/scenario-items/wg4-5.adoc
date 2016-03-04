@@ -1,0 +1,48 @@
+=== Scenario 5 -- Integration of a TDM workflow in a service/embedding in an application
+
+==== What is the scenario
+
+I, project manager, need a TDM workflow in order to provide TM/NLP functionality to the service we are developing.
+Examples:
+
+* A smart search function to a web site.
+* The recommendation system of a vendor makes use of product descriptions and user reviews.
+* A bioinformatics workflow for the annotation of a large genome includes the extraction of information from relevant papers.
+
+==== Why is the scenario relevant to the WG
+
+The developers need to know how to invoke the workflow when new input is provided and how to fetch the result of the
+TDM analysis. They might require continuous processing of incoming text.
+
+They will also require some level of robustness, the TDM should then be able to provide failure/recovery information.
+Also they might want to get as many results as possible as soon as possible even if the whole workflow has not finished.
+
+From the workflow design PoV, we assume in this scenario that the team includes one TDM professional. However they
+might want to optimize the components according to specific criteria (storage, CPU usage, robustness, scalability).
+
+==== Why is the scenario relevant to the other WGs
+
+* Resource MetaData (WG1): provenance, versioning, and licensing information might be critical in this scenario.
+* Language Resources (WG2): low relevance.
+* IPR and licensing (WG3): in this scenario the TDM workflow is part of a service that gives important context for WG3.
+
+==== Why is the scenario relevant to external experts
+
+Experience of deploying enterprise or end-user services that includes some level of TDM would be welcome.
+
+==== How could OpenMinTeD / the WGs address it
+
+OpenMinTeD could specifiy a standard API to access worklows (parameters, LR), output (annotations, clusters,
+classifiers), and status (running, fail).
+
+==== What kind of feedback could we expect from other WGs / external experts for that scenario
+
+From experts:
+
+* What kind of services are known to use TDM analyses?
+* Which issues arise when deploying a workflow, what hinders the use and adoption of a workflow engine?
+
+From WGs:
+
+* From WG1: formal description of provenance, versioning, and licensing.
+* From WG3: IPR issues in distributing or linking a workflow, and in distributing data processed by the workflow.

@@ -1,0 +1,25 @@
+// MaK: This file will in the future be mainly auto-generated from category tags in the requirements
+// files.
+
+== WG4 -- Text Annotations and Workflows
+
+=== Type of scenarios
+
+//TODO: clean/improve this
+* Typical problems that may occur during the process of building  workflow (Scenario 1, ...)
+* Typical usage of workflows (Scenario 2, 4)
+* Typical usage of text annotations (Scenario 3, ...)
+
+// include all scenario items in this document
+// include::{include-dir}scenario-items/XXX.adoc[]
+include::{include-dir}scenario-items/wg4-1.adoc[]
+
+include::{include-dir}scenario-items/wg4-2.adoc[]
+
+include::{include-dir}scenario-items/wg4-3.adoc[]
+
+include::{include-dir}scenario-items/wg4-4.adoc[]
+
+include::{include-dir}scenario-items/wg4-5.adoc[]
+
+include::{include-dir}scenario-items/wg4-6.adoc[]

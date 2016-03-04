@@ -1,0 +1,46 @@
+=== Scenario 1 -- Transferability of components between ecosystems
+
+==== What is the scenario
+
+I am building a text mining workflow in a specific workflow editor (e.g. Argo).
+There is a really useful component, but it is in a repository for a different workflow editor (say GATE).
+I cannot use this really useful Gate workflow (which may be made of one or more modules) in my Argo workflow.
+I must either reimplement the really useful component in Argo or convert the work I have already done into Gate.
+
+==== Why is the scenario relevant to the WG
+
+This scenario exposes the core issue in workflow interoperability. Because different workflow editors use differing
+annotation schema, a component written for one workflow ties the user into that specific ecosystem.  This has a direct
+negative impact on the scientific goals of openness and reproducibility.
+
+==== Why is the scenario relevant to the other WGs
+
+* Resource MetaData (WG1): A key form of metadata is the input and output of each tool. Standardisation of this metadata
+would lead to greater interoperability between tools.
+* Language Resources (WG2): Annotations produced by a specific component may be inaccessible to alternate components due
+to the annotation scheme in use. Also, workflows which are built in a specific workflow editor will not be usable within
+other workflow editors.
+* IPR and licensing (WG3): Less relevant. Licensing issues may affect which services can be combined. May also affect the
+usage of the workflow’s results if an incorporated component has a stricter licensing policy.
+
+
+==== Why is the scenario relevant to external experts
+
+External experts will want a smooth experience when using a TDM framework. Having to reimplement components is
+frustrating and costs time and money.
+
+==== How could OpenMinTeD / the WGs address it
+
+* Common annotation formats and annotation schemes between components.
+* Workflows as web services with the ability to incorporate web services into workflows.
+* Building a grand unified text annotation workflow editor (and getting everybody to use it) or facilitating the
+embedding of components from one ecosystem in the workflow of another one, cf. GATE-UIMA bridge such that users of
+ecosystems that already exist for the respective frameworks can continue to work in their known environment while still
+profiting from components previously out of reach.
+
+==== What kind of feedback could we expect from other WGs / external experts for that scenario
+
+* Experiences of being constrained to a specific ecosystem
+* Requirements for the integration of a set of incompatible components.
+* Estimation of the cost to their business of having to reimplement a component / workflow.
+* Experiences of actual benefits of reimplementing a component / workflow.

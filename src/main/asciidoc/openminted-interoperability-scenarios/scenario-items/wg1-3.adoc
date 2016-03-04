@@ -1,4 +1,4 @@
-=== Scenario 3 – A content provider using text mining tools to enrich their content
+=== Scenario 3 –- A content provider using text mining tools to enrich their content
 
 ==== What is the scenario
 

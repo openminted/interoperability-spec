@@ -1,0 +1,46 @@
+=== Scenario 2 -- Comparison of competing components or parameters
+
+==== What is the scenario
+
+I want to compare competing components for TDM (e.g. which is the best parser/tokeniser/event extraction component for
+my text?).
+I have a workflow which is made up of several components (e.g. A tokeniser, A POS tagger and an event extractor).
+I have several options for each component.
+I would like to know if changing the tokenizer / POS tagger / event extractor will improve or degrade my results.
+I would like to know if changing a parameter of the tokenizer / POS tagger, etc. (e.g. which model to use, which kinds
+of abbreviation lists to use, etc.) affects the results.
+I would like to know if a specific version of a component which I use will improve my results. This not only be the
+version “1.2.3” but be the “latest”, or “latest stable”, or “latest snapshot” and the respective version is
+automatically looked up in a repository.
+
+==== Why is the scenario relevant to the WG
+
+Workflows provide a seamless way to replace components with similar functionality. In the easiest case, competing
+components will have exactly the same inputs and outputs as each other and the user will be able to directly replace one
+component with another. In a more complicated scenario components may require extra resources or annotations. These can
+still be incorporated, as long as the prerequisite components are also available.
+
+==== Why is the scenario relevant to the other WGs
+
+* Resource MetaData (WG1): Less relevant. Competing components can only be discovered if they are stored with appropriate
+metadata.
+* Language Resources (WG2): Almost directly correspondent. WG2 are interested in both LR and annotation interoperability,
+which are very important for this scenario.
+* IPR and licensing (WG3): Less relevant. Competing components should be available for testing.
+
+==== Why is the scenario relevant to external experts
+
+External experts will be interested to know which option from many components is the best for their specific task. If
+it is difficult to interface components (say, a wrapper must be written for each new component), then the expert is
+likely to only evaluate one or two components. The more components they can compare for a specific sub-task, the
+likelier it becomes that they will find the correct component for their purposes.
+
+==== How could OpenMinTeD / the WGs address it
+
+By creating specification for interoperable components, OpenMinTeD will provide a framework for the easy comparison of
+components within a workflow setting.
+
+==== What kind of feedback could we expect from other WGs / external experts for that scenario
+
+Types of components where they would like to compare competing workflows.
+Experiences of building workflows, but not knowing which tagger / tokenizer / etc. to use or how to parametrize it.

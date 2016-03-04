@@ -1,4 +1,4 @@
-=== Scenario 1 - Combining heterogeneous resources for information extraction
+=== Scenario 1 -- Combining heterogeneous resources for information extraction
 
 ==== What is the scenario
 

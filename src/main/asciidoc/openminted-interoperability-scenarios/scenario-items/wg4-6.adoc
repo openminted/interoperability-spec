@@ -1,0 +1,44 @@
+=== Scenario 6 -- Development of TDM resources
+
+==== What is the scenario
+
+A TDM specialist or a domain expert is building a linguistic/semantic resource, it could be:
+
+* an annotated corpus for training NER or IE components;
+* a trained classifier
+* a terminology or a lexicalized ontology;
+* hand crafted rules.
+
+These resources are typically used in other workflows. However the development of resources itself requires a TDM
+workflow. On one hand it could feed the user with suggestions (pre-annotation for corpus annotation, IE or term
+extraction for terminology design). On the other hand the evaluation of the resource can be partially achieved through
+a TDM workflow (inter-annotator agreement, testing with the resource).
+
+==== Why is the scenario relevant to the WG
+
+The TDM workflow could have protocols compatible with the main annotation and ontology editors on the market.
+
+Moreover the manual intervention in the middle of the workflow poses a challenge because it cannot be designed
+exclusively as a batch process. The pace of human produced output is at the same time slower and more valuable than
+the result of fully automated output. The TDM workflow could proceed either continuously as the experts modify the
+resource, or with partial input.
+
+==== Why is the scenario relevant to the other WGs
+
+* Resource MetaData (WG1): in this scenario the resource is one of the outputs of the workflow, they should conform to
+the standards provided by WG1.
+* Language Resources (WG2): They need to be enabled to precisely define the information types they want as output from
+the customized workflows. These information types should correlate with WG2 data interoperability.
+* IPR and licensing (WG3): IP status of derived products, IP status of collaborative artefacts.
+
+==== Why is the scenario relevant to external experts
+
+Experience and insights on not strictly batch workflows.
+
+==== How could OpenMinTeD / the WGs address it
+
+Allow interactive steps within the TDM workflow. Propose solutions compatible with editors.
+
+==== What kind of feedback could we expect from other WGs / external experts for that scenario
+
+Knowledge about how they have been solving the problem so far and how could OpenMinTeD improve the process.

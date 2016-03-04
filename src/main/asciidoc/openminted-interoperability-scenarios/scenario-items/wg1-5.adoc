@@ -1,4 +1,4 @@
-=== Scenario 5 -Domain specific researcher using a text mining tool or service to promote their research or use applied research results within their setting.
+=== Scenario 5 -- Domain specific researcher using a text mining tool or service to promote their research or use applied research results within their setting.
 
 ==== What is the scenario
 A novice researcher, who may be in a research organization setting, an SME, or a different type of organization like a museum or a ministry that does not have access to a library subscription, wants to get some insights on his/her topic of interest.

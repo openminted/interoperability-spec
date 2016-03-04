@@ -1,4 +1,4 @@
-=== Scenario 4 - Provide comprehensive statistical metadata for resources
+=== Scenario 4 -- Provide comprehensive statistical metadata for resources
 
 ==== What is the scenario
 A user likes to make a detailed comparison of multiple versions of a language resource or a knowledge base. The user is interested in running a TDM experiment using a resource (e.g. Wikidata) and likes to evaluate the performance changes of the experiment with regards to using different versions of the same resource. To enable an analytical study, he requires detailed statistics related to revision changes (e.g. total number of concepts, total number of relations, number of added/updated/deleted concepts/relations). However, the problem is that this type of information is not typically shipped with resources.
