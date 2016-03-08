@@ -39,4 +39,3 @@ include::{include-dir}WG4.adoc[]
 
 //TODO: add highlighted text to all scenario items
 //TODO: add figures to WG2 scenarios
-//TODO: add additional missing subsections (cf. WG1 google doc)
