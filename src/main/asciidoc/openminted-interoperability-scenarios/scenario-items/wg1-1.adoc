@@ -3,7 +3,7 @@
 ==== What is the scenario
 
 A researcher is doing research on a certain topic, e.g. sentiment extraction in the domain of political conflicts.
-She wants to #find# all relevant literature and datasets that she could use for her research and/or construction of
+She wants to find all relevant literature and datasets that she could use for her research and/or construction of
 an application. Publications that might be of interest to her are stored at various points, e.g. OpenAire but also
 institutional/university repositories, various publishers' sites (to which she may have access through academic
 subscriptions but not necessarily), research repositories etc. Datasets, i.e. corpora (raw & annotated) as well as

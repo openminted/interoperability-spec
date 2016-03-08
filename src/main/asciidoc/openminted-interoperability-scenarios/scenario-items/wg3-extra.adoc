@@ -1,0 +1,24 @@
+=== Reqiuirements for WG3 from other WGs' scenarios
+
+==== From WG1
+
+* Interoperability of different tools (scenario 1)
+* Conditions of access to different resources (scenario 1)
+* Discovery of legally interoperable tools on the basis of licences (scenario 2)
+* Standardisation of licensing schemes at the metadata level (scenario 2)
+* Combination of licences from repository/journals and licences (aka terms of use) of services used and how these impact the returned annotations (scenario 3)
+
+==== From WG2
+
+* combination of several vocabularies: resource access; combination of resources with different licences; publication of annotated corpus (scenario 1)
+* Issue of confidential information such as NDAs (scenario 2)
+* Use of non licensed resources (scenario 2)
+* Safe harbour provisions? (scenario 2)
+* Conditions for access to resources and need to represent those conditions in machine readable format (scenario 3)
+
+==== From WG4
+
+* Licensing issues (ToS) which may affect which services can be combined (scenario 1)
+* Use of TDM for internal uses only, without redistribution or licensing (scenario 3)
+* Legal status and licence conditions of input data (scenario 4)
+* Possibility and risks associated with distributing or linking a workflow, and in distributing data processed by the workflow (scenario 5)

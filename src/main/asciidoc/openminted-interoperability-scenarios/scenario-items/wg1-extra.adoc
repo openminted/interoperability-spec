@@ -1,0 +1,91 @@
+=== Reqiuirements for WG1 from other WGs' scenarios
+
+==== From WG1
+
+* discovery of various resource types (publications, datasets, tools/services)
+* search at multiple places (repositories, archives, portals)
+* licensing information per resource type
+* specific formats for the output of queries/web services/workflows (e.g. statistical data, annotated corpora etc.)
+
+
+==== From WG2
+
+* mapping classification metadata on different resource types / from different sources (e.g. keywords, thesauri,
+technical vocabularies etc.) ⇒ interoperability between metadata elements
+* resource discovery through classification metadata (e.g. that use different vocabularies for the same or similar
+elements) ⇒ interoperability between metadata elements & metadata values!
+* resource access modes and points to be entered as metadata elements (e.g. through SPARQL endpoints) - cf. scenario 4
+
+
+==== From WG3
+
+* correct/proper labeling licence on source resource
+* machine-processable metadata for licences
+* identification of licences for services
+* provenance information across TDM workflows
+* Can legal interoperability be determined/facilitated through metadata?
+* “derivatives” of TDM services based on analysis of source resources but not reproducing the source resource - ??
+* metadata for resource parts, e.g. keywords ⇒ classification metadata required
+
+==== From WG4
+
+* standardisation of metadata as regards input & output of tools/services (mainly refers to format but also annotation
+schemes)
+* standardisation of metadata as regards the description of components/modules of workflows
+* metadata for versioning of components/modules
+* metadata for annotated corpora and annotations
+* for re-running experiments: detailed information about the resources used, their dependencies, their provenance, and
+particularly their versions is required. This entails a method of transitively resolving references from one resource
+to another (e.g. in a  dependency or provenance graph)
+* The ability to refer to stable versions of language resources which may be problematic e.g. for knowledge resources
+only available through web services. ⇒ same problem with virtual collections
+* provenance, versioning, and licensing information
+* automatic assignment of metadata for output of workflow
+* metadata for user profiling, incl. skill of user
+
+==== user authentication/authorisation
+
+* funding information on metadata or extracted from contents of resources
+* classification information regarding resources
+* description & discovery of web services for extracting metadata information
+* description of contents of resources & differences between versions
+* description of structure of resources (in order to extract information)
+
+=== General requirements
+
+* metadata for
+** repositories/archives/portals/…
+** content resources/datasets
+** language/knowledge resources/databases (i.e. corpora, lexical/conceptual resources, language models etc.) ⇒ used as
+input but also used by text processing tools & services
+** publications
+** s/w tools & web services
+** workflows
+** users
+* metadata for repositories/archives regarding
+** description, identification
+** licensing
+** access points
+** protocols & metadata schemas used for the resources
+* metadata for content resources regarding
+** description, identification (can be different per resource type)
+** licensing (licence & conditions of use in a machine processable form)
+** access points
+** classification
+** funding
+** description of contents (e.g. size of entries, size and types of linguistic information encoded etc.)
+* metadata for s/w tools & web services regarding
+** description, identification
+** access points
+** licensing (of the tool/service itself, but also of the input & output resources)
+** input resources: format, contents, classification, size?
+** output resources: format
+* metadata for workflows regarding
+** description, identification
+** access points
+** licensing (of the workflow itself, but also of the input & output resources)
+** description & identification of components (cf. web services)
+** provenance
+* metadata for users regarding
+** identification & authentication
+** level of expertise

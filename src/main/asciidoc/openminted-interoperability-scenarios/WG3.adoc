@@ -10,3 +10,5 @@ include::{include-dir}scenario-items/wg3-1.adoc[]
 include::{include-dir}scenario-items/wg3-2.adoc[]
 
 include::{include-dir}scenario-items/wg3-3.adoc[]
+
+include::{include-dir}scenario-items/wg3-extra.adoc[]
