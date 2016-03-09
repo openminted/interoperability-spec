@@ -1,19 +1,19 @@
 === Scenario 1 -- Transferability of components between ecosystems
 
-==== What is the scenario
+==== Description
 
 I am building a text mining workflow in a specific workflow editor (e.g. Argo).
 There is a really useful component, but it is in a repository for a different workflow editor (say GATE).
 I cannot use this really useful Gate workflow (which may be made of one or more modules) in my Argo workflow.
 I must either reimplement the really useful component in Argo or convert the work I have already done into Gate.
 
-==== Why is the scenario relevant to the WG
+==== Relevance to the WG
 
 This scenario exposes the core issue in workflow interoperability. Because different workflow editors use differing
 annotation schema, a component written for one workflow ties the user into that specific ecosystem.  This has a direct
 negative impact on the scientific goals of openness and reproducibility.
 
-==== Why is the scenario relevant to the other WGs
+==== Relevance to other WGs
 
 * Resource MetaData (WG1): A key form of metadata is the input and output of each tool. Standardisation of this metadata
 would lead to greater interoperability between tools.
@@ -24,12 +24,12 @@ other workflow editors.
 usage of the workflow’s results if an incorporated component has a stricter licensing policy.
 
 
-==== Why is the scenario relevant to external experts
+==== Relevance in general
 
 External experts will want a smooth experience when using a TDM framework. Having to reimplement components is
 frustrating and costs time and money.
 
-==== How could OpenMinTeD / the WGs address it
+==== Approaches
 
 * Common annotation formats and annotation schemes between components.
 * Workflows as web services with the ability to incorporate web services into workflows.
@@ -38,7 +38,7 @@ embedding of components from one ecosystem in the workflow of another one, cf. G
 ecosystems that already exist for the respective frameworks can continue to work in their known environment while still
 profiting from components previously out of reach.
 
-==== What kind of feedback could we expect from other WGs / external experts for that scenario
+==== Open questions
 
 * Experiences of being constrained to a specific ecosystem
 * Requirements for the integration of a set of incompatible components.

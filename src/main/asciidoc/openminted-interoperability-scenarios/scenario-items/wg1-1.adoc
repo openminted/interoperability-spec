@@ -1,6 +1,6 @@
 === Scenario 1 -- Discover resources of various types at various locations
 
-==== What is the scenario
+==== Description
 
 A researcher is doing research on a certain topic, e.g. sentiment extraction in the domain of political conflicts.
 She wants to find all relevant literature and datasets that she could use for her research and/or construction of
@@ -12,13 +12,13 @@ lexica, vocabularies, ontologies etc., are also scattered at various repos & por
  and get a list of all resources of relevance, a common description and a quick gist of the contents of the resource
  (e.g. abstract of the publication, sample of the dataset).
 
-==== Why is the scenario relevant to the WG
+==== Relevance to the WG
 
 It focuses on the core issue of the WG's interests, i.e. resource discovery & interoperability problems between
 different resource types and different metadata schemas used to describe them. Authentication/authorization depending
 on the user profile is also required.
 
-==== Why is the scenario relevant to the other WGs
+==== Relevance to other WGs
 
 * *Knowledge bases (WG2)*: Description of the contents and technical details of datasets, incl. lexical/conceptual
 resources is in order. Moreover, controlled vocabularies used as values for metadata elements (esp. for classification)
@@ -29,17 +29,17 @@ the resource itself and the user. The licensing conditions on each resource must
 and trigger a mechanism that allows direct full access to the resource (if it's allowed) or a partial access to parts of it.
 * *Annotation Workflows (WG4)*: Not as relevant
 
-==== Why is the scenario relevant to external experts
+==== Relevance in general
 
 They have come across similar situations and know how important description is important for resource discovery,
 especially when it involves different resource types.
 
-==== How could OpenMinTeD / the WGs address it
+==== Approaches
 
 By standardizing metadata schemas and mappings between the most popular ones, at least; addressing the way similar
 information (e.g. classification) is encoded in different resource types and communities is of great importance.
 
-==== What kind of feedback could we expect from other WGs / external experts for that scenario
+==== Open questions
 
 External experts in this WG work in various areas where resources of different types are described with various
 metadata schemas. Their expertise will be of value for finding a "common/standard language" between them.

@@ -1,20 +1,20 @@
 === Scenario title goes here
 
-==== What is the scenario
+==== Description
 text
 
-==== Why is the scenario relevant to the WG
+==== Relevance to the WG
 text
 
-==== Why is the scenario relevant to the other WGs
+==== Relevance to other WGs
 * make a bullet-point list
 * make a bullet-point list
 
-==== Why is the scenario relevant to external experts
+==== Relevance in general
 text
 
-==== How could OpenMinTeD / the WGs address it
+==== Approaches
 text
 
-==== What kind of feedback could we expect from other WGs / external experts for that scenario
+==== Open questions
 text

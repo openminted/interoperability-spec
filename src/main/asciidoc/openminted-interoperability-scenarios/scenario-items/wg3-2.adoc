@@ -1,6 +1,6 @@
 === Scenario 2 -- Focus on TDM tools and TDM services
 
-==== What is the scenario
+==== Description
 
 The same scenario as scenario 1 above applies, however database (Y) is not directly accessible. On the contrary, the
 database owner allows the user (on the basis of the academic subscription) to run the rights holder dedicated TDM web
@@ -19,23 +19,23 @@ insubstantial parts of the original DB, or on the contrary that those results do
 DB (for example the statistical recurrence of a given word in the DBs, but not the word itself) make a difference in
 the result?
 
-==== Why is the scenario relevant to the WG
+==== Relevance to the WG
 
 The scenario adds a main element of complexity: some TDM services restrict the use that you can do with the results
 obtained from their services. In this case researchers are not directly accessing a database but they are using a service offered by the data provider to analyse its own DB. Of particular relevance when the DB is not protected by copyright or sui generis database rights (SGDR ) and therefore the SLA (service level agreement) is the only basis to restrict use of the results (not backed-up by property rights).
 
-==== Why is the scenario relevant to the other WGs
+==== Relevance to other WGs
 
 * WG 1 - Are the licences or rights statement expressed in DB metadata? How to identify this licences in case of services?
 * WG 2 - N/A
 * WG 4 - License information and provenance information must be preserved throughout the workflow.
 
-==== Why is the scenario relevant to external experts
+==== Relevance in general
 
 External experts combine expertise in the legal and technical field. The combination of the DB legal conditions and the
 add-on of the service element an additional step toward the determination of legal interoperability.
 
-==== How could OpenMinTeD / the WGs address it
+==== Approaches
 
 * Correct labeling of the resources with information about the licence, and with relevant licence metadata. With proper
 labeling, through the correct application of the licence and licence metadata, a first set of problems can be solved.
@@ -44,7 +44,7 @@ issues and transaction costs.
 * ELC: proper exception to copyright and related rights (e.g. UK to some extent) can contribute to fix additional access
 and reuse issues.
 
-==== What kind of feedback could we expect from other WGs / external experts for that scenario
+==== Open questions
 
 Their specific experience in this and related areas. Many experts (internal and external) already faced some of the
 identified issues.

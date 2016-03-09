@@ -1,6 +1,6 @@
 === Scenario 2 -- SME running research analytics for funders within the European Research Area
 
-==== What is the scenario
+==== Description
 
 The EC and other funders are looking into ways to discover correlations and trends in funded research in Europe.
 They want to go beyond the obvious relationships (project-publication-data-patents-software) and the related statistics
@@ -11,7 +11,7 @@ effects, e.g. structural effects stemming from collaboration from different inst
 
 As an addition, EC wants to compare their programmes with the ones in the US (NSF, NIH).
 
-==== Why is the scenario relevant to the WG
+==== Relevance to the WG
 
 To get some meaningful results the following tasks need to be completed:
 
@@ -22,7 +22,7 @@ be behind closed doors in publisher sites.
 configured appropriately and combined together they will build a system/application. The IT people in the SME need to
 find the most appropriate tools (reliable, good performance, correct licences, …).
 
-==== Why is the scenario relevant to the other WGs
+==== Relevance to other WGs
 
 * *WG2* – Classification vocabularies like Eurovoc, MESH, DDC must be used.
 * *WG3* – This is an SME building on OA and non-OA content using tools from various research labs, and they will build
@@ -34,7 +34,7 @@ workflows. Will also need to get results in a given format that will not be chan
 components. Operations may be run on a national data center or on dedicated servers on the EC/funder site (or on a
 paid cloud service like amazon).
 
-==== Why is the scenario relevant to external experts
+==== Relevance in general
 
 Relevant to our research analytics experts. Also practitioners that will deal more with structured data and face
 semantic interoperability problems with different semantic classification schemes.
@@ -42,12 +42,12 @@ semantic interoperability problems with different semantic classification scheme
 Discovery of software solutions with appropriate software versioning and dependencies is a common problem to many
 TDM users (and developers alike!).
 
-==== How could OpenMinTeD / the WGs address it
+==== Approaches
 
 Promotion of standard metadata-based descriptions of software, standard (or standardisation of) vocabularies/authority
 lists and semantic interoperability of classification schemes & promotion (or standardisation) of licensing schemes for
 ensuring are among the main objectives.
 
-==== What kind of feedback could we expect from other WGs / external experts for that scenario
+==== Open questions
 
 Systems/methods/schemes used for metadata-based discovery. Vocabularies used.

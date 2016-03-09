@@ -1,6 +1,6 @@
 === Scenario 5 -- Integration of a TDM workflow in a service/embedding in an application
 
-==== What is the scenario
+==== Description
 
 I, project manager, need a TDM workflow in order to provide TM/NLP functionality to the service we are developing.
 Examples:
@@ -9,7 +9,7 @@ Examples:
 * The recommendation system of a vendor makes use of product descriptions and user reviews.
 * A bioinformatics workflow for the annotation of a large genome includes the extraction of information from relevant papers.
 
-==== Why is the scenario relevant to the WG
+==== Relevance to the WG
 
 The developers need to know how to invoke the workflow when new input is provided and how to fetch the result of the
 TDM analysis. They might require continuous processing of incoming text.
@@ -20,22 +20,22 @@ Also they might want to get as many results as possible as soon as possible even
 From the workflow design PoV, we assume in this scenario that the team includes one TDM professional. However they
 might want to optimize the components according to specific criteria (storage, CPU usage, robustness, scalability).
 
-==== Why is the scenario relevant to the other WGs
+==== Relevance to other WGs
 
 * Resource MetaData (WG1): provenance, versioning, and licensing information might be critical in this scenario.
 * Language Resources (WG2): low relevance.
 * IPR and licensing (WG3): in this scenario the TDM workflow is part of a service that gives important context for WG3.
 
-==== Why is the scenario relevant to external experts
+==== Relevance in general
 
 Experience of deploying enterprise or end-user services that includes some level of TDM would be welcome.
 
-==== How could OpenMinTeD / the WGs address it
+==== Approaches
 
 OpenMinTeD could specifiy a standard API to access worklows (parameters, LR), output (annotations, clusters,
 classifiers), and status (running, fail).
 
-==== What kind of feedback could we expect from other WGs / external experts for that scenario
+==== Open questions
 
 From experts:
 

@@ -1,6 +1,6 @@
 === Scenario 2 -- Including Custom Knowledge
 
-==== What is the scenario:
+==== Description:
 
 A user wants to analyze mentions of pharmaceutical products based on the main agents used in these products. The user
 uses a publicly accessible dataset of products and their agents, but the dataset is incomplete, e.g. does not include
@@ -12,21 +12,21 @@ WG2 specific tasks:
 * harmonization of I/O specifications for TDM workflows
 * harmonization of output format
 
-==== Why is the scenario relevant to the WG:
+==== Relevance to the WG:
 
 Use-case involves a public and a custom/private knowledge source
 
-==== Why is the scenario relevant to the other WGs:
+==== Relevance to other WGs:
 
 * WG1: Not particularly relevant
 * WG3: because the custom knowledge source may be confidential
 * WG4: because the custom knowledge source may not be accessible
 
-==== Why is the scenario relevant to external experts:
+==== Relevance in general:
 
 Including custom content and/or confidential data is a common problem in infrastructures
 
-==== How could OpenMinTeD / the WGs address it:
+==== Approaches:
 
 * WG 2
 ** indicate if this is a real world problem
@@ -39,7 +39,7 @@ Including custom content and/or confidential data is a common problem in infrast
 ** allow the TDM platform to access resources provided by a user
 ** allow user to include excerpts (potentially anonymized, e.g. product/agent names replaces with IDs) of resources along with input data for TDM
 
-==== What kind of feedback could we expect from other WGs / external experts for that scenario:
+==== Open questions:
 
 * indicate if this is a real world problem
 * suggest how knowledge can be managed/packaged
