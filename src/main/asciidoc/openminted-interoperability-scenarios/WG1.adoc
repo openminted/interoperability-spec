@@ -1,7 +1,7 @@
 // MaK: This file will in the future be mainly auto-generated from category tags in the requirements
 // files.
 
-== WG1 -- Resource metadata interoperability scenarios
+== WG1 -- Resource Metadata
 
 // include all scenario items in this document
 // include::{include-dir}scenario-items/XXX.adoc[]

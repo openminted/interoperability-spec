@@ -1,7 +1,7 @@
 // MaK: This file will in the future be mainly auto-generated from category tags in the requirements
 // files.
 
-== WG4 -- Text Annotations and Workflows
+== WG4 -- Annotations and Workflows
 
 === Type of scenarios
 
