@@ -1,6 +1,3 @@
-// MaK: This file will in the future be mainly auto-generated from category tags in the requirements
-// files.
-
 == WG3 -- IPR and Licensing
 
 // include all scenario items in this document
