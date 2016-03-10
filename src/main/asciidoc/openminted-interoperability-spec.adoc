@@ -108,6 +108,35 @@ component, format, etc. with the interoperability requirements.
 NOTE: The format and schema of this file is still to be determined. YAML may be a good format
       candidate. 
 
+== Recording requirements
+
+=== Files and IDs
+
+Requirements are maintained in the folder `req`, one requirement per file, and files are numbered
+starting at 1. The number corresponds to the ID of the requirement.
+
+NOTE: Presently, the ID is not present inside the requirements file nor is it visible in the this
+      document. We will add an post-processing step to automatically add the ID to the rendered
+      document. See also link:https://github.com/openminted/interoperability-spec/issues/2
+
+=== Template
+
+This is the template we presently use for recording the requirements. It contains the requirement
+metadata as described above and a description. Links to other requirements can be embedded in the
+description.
+
+[source,asciidoc]
+----
+include::{include-dir}req/TEMPLATE.adoc[]
+----
+
+And this is how the requirement is rendered in this document (except the heading which doesn't work
+in this particular example).
+
+====
+include::{include-dir}req/TEMPLATE.adoc[]
+====
+
 = Requirements
 
 include::{include-dir}WG1.adoc[]
