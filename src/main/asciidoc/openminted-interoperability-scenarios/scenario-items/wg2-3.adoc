@@ -1,6 +1,6 @@
 === Scenario 3 -- The relation between documents and knowledge bases through keywords
 
-==== What is the scenario:
+==== Description:
 
 The general idea is to treat keywords attached to a publication as a "mini lexicon" representing its topic and
 expand/enrich this lexicon by combining it with lexical/conceptual resources such as domain lexica, glossaries and
@@ -16,11 +16,11 @@ related words from lexical resources and ontologies.
 
 WG2 specific tasks: KB content harmonization including semantic mapping and multilingual keyword expansion.
 
-==== Why is the scenario relevant to the WG:
+==== Relevance to the WG:
 
 It involves the interoperability between various language resources (publications, lexical resources, ontologies etc.).
 
-==== Why is the scenario relevant to the other WGs:
+==== Relevance to other WGs:
 
 * WG1: identifying resources of different types on the same topic / of the same domain
 * WG3: ensuring that the automatic access to the various resources is allowed; the combined use of resources makes the
@@ -28,12 +28,12 @@ scenario more complicated as one needs to ensure that all resources allow their 
 * WG4: creating workflows for the use cases, taking care of the fact that different types of resources can be used at
 various stages of the process and thus need to be interoperable (ensuring appropriate input and output)
 
-==== Why is the scenario relevant to external experts:
+==== Relevance in general:
 
 Interoperability issues between resources of the same or different type (e.g. lexica, keywords, term banks) is a central
 topic. Combining this with document search extends resource coverage
 
-==== How could OpenMinTeD / the WGs address it:
+==== Approaches:
 
 * WG1 & WG2 (each WG focusing on their area but interacting for similar/linked features):
 ** annotating sections with relevant information inside the document/publication
@@ -50,7 +50,7 @@ the terms of use
 be accessed)
 
 
-==== What kind of feedback could we expect from other WGs / external experts for that scenario:
+==== Open questions:
 
 * Ascertain that indeed it is worth exploiting
 * Discuss interoperability issues between the various types of resources (texts, lexica, ontologies etc.), especially

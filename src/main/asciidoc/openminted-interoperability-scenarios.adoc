@@ -2,24 +2,25 @@
 :Author: TBD
 :toc-title: Contents
 
-This document will host the interoperability scenarios for the OpenMinTeD platform generated as part of working package (WP) 5 deliverables.
-
 = Introduction
 
-The task was aimed to produce interoperability scenarios relevant to each working group (WG).
+The scenarios in this document aim to highlight TDM/NLP interoperabiliy aspects within particular
+use-cases. They approach the topic from the point of view of four different areas corresponding 
+to interoperability working groups in the OpenMinTeD project:
 
-== Scenario definition
+* WG1 - Resource metadata
+* WG2 - Language resources
+* WG3 - IPR and licensing
+* WG4 - Annotation and workflows
 
-a concrete interoperability scenario is defined and their issues should be made explicit. These scenarios should be based on practical experience or obvious constellations motivated through the constellation of the WG participants. This happens mainly during and shortly after the F2F workshops. It is expected that more scenarios will be generated than can be work upon within the first year in which the regular F2F meetings take place. Additionally, it is expected that scenarios and interoperability specifications they generate will require refinement. These extra scenarios and refinement should drive the work of the working groups throughout the remainder of the project.
+The scenario descriptions are structured as follows:
 
-=== Questions to consider
-
-* What is the scenario?
-* Why is the scenario relevant to the WG?
-* Why is the scenario relevant to the other WGs?
-* Why is the scenario relevant to external experts?
-* How could OpenMinTeD / the WGs address it?
-* What kind of feedback could we expect from other WGs / external experts for that scenario?
+* Description
+* Relevance to the WG
+* Relevance other WGs
+* Relevance in general
+* Approaches
+* Open questions
 
 = Interoperability scenarios
 

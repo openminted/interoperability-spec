@@ -1,19 +1,19 @@
 === Scenario 3 -- Non-expert provider of TDM resource
 
-==== What is the scenario
+==== Description
 
 I want to use text mining techniques to analyse literature in an area that has not previously been examined with TDM
 (e.g. paleontology). Unfortunately, although I am an expert in the subject area, I know very little about language
 processing or TDM. I want to start with annotating a set of documents. How do I retrieve the articles? Where do I find
 the necessary tools? Do I need dedicated hardware or infrastructure? Where should I start?
 
-==== Why is the scenario relevant to the WG
+==== Relevance to the WG
 
 This scenario, taking a non-expert perspective, shows how hard it is to start TDM research, even by building the
 simplest workflow. Most of them require a user to prepare infrastructure, install and configure the tools, and convert
 the data into a specified format. Only a small fraction of TDM tools is available as simple-to-use web tools.
 
-==== Why is the scenario relevant to the other WGs
+==== Relevance to other WGs
 
 * Resource MetaData (WG1): In the scenario the initial annotated corpus is created by an expert from different field.
 A clear metadata standard is necessary to describe it and ensure that others (probably TDM experts) could access and
@@ -25,19 +25,19 @@ law. He needs to be provided a basic information about relevant licensing scheme
 want to publish or license the data, but rather apply TDM only for internal use, potentially without the data leaving
 the house at all.
 
-==== Why is the scenario relevant to external experts
+==== Relevance in general
 
 External experts frequently have little knowledge about TDM but possess domain expertise necessary to create annotated
 resources. They know how the TDM field looks “from the outside”.
 
-==== How could OpenMinTeD / the WGs address it
+==== Approaches
 
 OpenMinTeD could build (or at least help to build by providing interoperability standards) a single, easy to use
 interface that would let inexperienced users to employ different tools in their work, regardless of their data formats
 and infrastructure requirements. What is more, OpenMinTeD could provide a simple guide that will help them to choose
 the right text representation standard, metadata format and license.
 
-==== What kind of feedback could we expect from other WGs / external experts for that scenario
+==== Open questions
 
 Experiences of trying to build resources without expertise in the field: which was the hardest step? What kind of
 information they needed?

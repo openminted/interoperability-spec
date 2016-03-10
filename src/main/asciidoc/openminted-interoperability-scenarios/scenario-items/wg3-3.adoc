@@ -1,6 +1,6 @@
 === Scenario 3 -- The type and nature of TDM results (or How far do copyright and SGDR reach)?
 
-==== What is the scenario
+==== Description
 
 The same scenario as scenario 1 above applies. Would it make any difference if the resulting DB, although being based
 on the data of the original databases, does not reproduce any substantial or insubstantial parts of those databases?
@@ -8,13 +8,13 @@ In other words, the results of TDM are directly based on the analysis of the ori
 reproduce any part of them? For example the results of the TDM activity is “in the analysed corpora the word “and”
 occurs 235 times”.
 
-==== Why is the scenario relevant to the WG
+==== Relevance to the WG
 
 The scenario looks into the scope of copyright and SGDR protection. To what extent a DB that “derives” from another
 one, without however reproducing it, can be considered a derivative of the originals, under both copyright rules and
 SGDR rules?
 
-==== Why is the scenario relevant to the other WGs
+==== Relevance to other WGs
 
 * WG 1 - This is fundamental aspect of TDM that should be relevant for all WG.
 * WG 2 - N/A
@@ -24,12 +24,12 @@ that were never explicitly mentioned anywhere in any of the original data, i.e.,
 unknown by anyone. That knowledge is derived, it could not have been found without the original data, but does it
 constitute a derivative work?
 
-==== Why is the scenario relevant to external experts
+==== Relevance in general
 
 External experts combine expertise in the legal and technical field. Try to identify the limits in the scope of the
 applicable legal tools is a fundamental element.
 
-==== How could OpenMinTeD / the WGs address it
+==== Approaches
 
 * Correct labeling of the resources. With proper labeling, through the correct application of the licence and licence
 metadata, a first set of problems can be solved.
@@ -38,7 +38,7 @@ issues and transaction costs.
 * ELC: proper exception to copyright and related rights (e.g. UK to some extent) can contribute to fix additional
 access and reuse issues.
 
-==== What kind of feedback could we expect from other WGs / external experts for that scenario
+==== Open questions
 
 Their specific experience in this and related areas. Many experts (internal and external) already faced some of the
 identified issues.
