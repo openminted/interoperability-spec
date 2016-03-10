@@ -108,7 +108,7 @@ component, format, etc. with the interoperability requirements.
 NOTE: The format and schema of this file is still to be determined. YAML may be a good format
       candidate. 
 
-== Recording requirements
+== Adding new requirements
 
 === Files and IDs
 
@@ -117,7 +117,10 @@ starting at 1. The number corresponds to the ID of the requirement.
 
 NOTE: Presently, the ID is not present inside the requirements file nor is it visible in the this
       document. We will add an post-processing step to automatically add the ID to the rendered
-      document. See also link:https://github.com/openminted/interoperability-spec/issues/2
+      document. See also link:https://github.com/openminted/interoperability-spec/issues/2[this issue].
+
+NOTE: Presently, links to new requirements have to be added manually to the `WG1.adoc` - `WG4.adoc`
+      files. This will also be automatically done soon. See also link:https://github.com/openminted/interoperability-spec/issues/3[this issue].
 
 === Template
 
