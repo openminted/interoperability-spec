@@ -1,0 +1,39 @@
+=== Components should detail all their environmental requirements for execution
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __mandatory__#
+[small]#*_Category:_* __WG4__#
+[small]#*_Status:_* __draft__#
+
+Text and Data Mining (TDM) components are not always self-contained entities; for example, a component maybe a wrapper to another library developed in a language not supported by the TDM framework.  This library may have additional system dependencies that must be available at runtime - think of a Java TDM component wrapping a python library; the python library will require Python and potentially other Python libraries.  Knowing the environmental requirements allows a workflow execution system to ensure that they are met before the component is initialised.
+
+[cols="2,1,4,1"]
+|====
+|Product|Compliant|Justification|Status
+
+| Alvis
+| unknown
+| ...
+| draft
+
+| ARGO/U-Compare
+| unknown
+| ...
+| draft
+
+| DKPro Core
+| unknown
+| ...
+| draft
+
+| GATE
+| unknown
+| ...
+| draft
+
+| ILSP
+| unknown
+| ...
+| draft
+|====
