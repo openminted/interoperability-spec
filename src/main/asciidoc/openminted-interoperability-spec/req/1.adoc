@@ -12,29 +12,32 @@ metadata by which they describe themselves.
 
 // Below is an example of how a compliance evaluation table could look. This is presently optional
 // and may be moved to a more structured/principled format later maintained in separate files.
-////
-[cols="2,1,4"]
+[cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification
+|Product|Compliant|Justification|Status
 
 | Alvis
 | full
 | Alvis component descriptors
+| draft
 
 | ARGO/U-Compare
 | full
 | UIMA Analysis Engine descriptors
+| draft
 
 | DKPro Core
 | full
 | UIMA Analysis Engine descriptors
+| draft
 
 | GATE
 | full
 | CREOLE descriptors
+| draft
 
 | ILSP
 | full
 | UIMA Analysis Engine descriptors
+| draft
 |====
-////

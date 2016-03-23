@@ -12,29 +12,32 @@ the implementation (cf. <<uimafit>>).
 
 // Below is an example of how a compliance evaluation table could look. This is presently optional
 // and may be moved to a more structured/principled format later maintained in separate files.
-////
-[cols="2,1,4"]
+[cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification
+|Product|Compliant|Justification|Status
 
 | Alvis
 | not
 | Alvis XML descriptors manually maintained
+| draft
 
 | ARGO/U-Compare
 | not (I believe)
 | UIMA XML descriptors manually maintained
+| draft
 
 | DKPro Core
 | full
 | using uimaFIT Java annotations to automatically generate UIMA XML descriptors
+| draft
 
 | GATE
 | partial
 | using CREOLE Java annotations, but not yet in all components
+| draft
 
 | ILSP
 | unknown
 | unknown
+| draft
 |====
-////

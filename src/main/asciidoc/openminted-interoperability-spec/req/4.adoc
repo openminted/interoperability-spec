@@ -10,3 +10,35 @@ The URL of the actual content, e.g. a text file, PDF file, or other common data 
 derivable from readily discoverable data. It must either be included in the metadata or it must
 be reliably constructable from the metadata URL, e.g. by appending or changing a suffix. Derivation
 rules must be clearly documented.
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,4,1"]
+|====
+|Product|Compliant|Justification|Status
+
+| Alvis
+| unknown
+| ...
+| draft
+
+| ARGO/U-Compare
+| unknown
+| ...
+| draft
+
+| DKPro Core
+| unknown
+| ...
+| draft
+
+| GATE
+| unknown
+| ...
+| draft
+
+| ILSP
+| unknown
+| ...
+| draft
+|====

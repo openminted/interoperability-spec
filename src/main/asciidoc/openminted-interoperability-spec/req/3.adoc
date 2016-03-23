@@ -16,32 +16,35 @@ be at a well-known location within the component artifact.
 
 // Below is an example of how a compliance evaluation table could look. This is presently optional
 // and may be moved to a more structured/principled format later maintained in separate files.
-////
-[cols="2,1,4"]
+[cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification
+|Product|Compliant|Justification|Status
 
 | Alvis
 | full or partial
 | Alvis XML exist separately from the code - FIXME: unknown how Alvis components are packaged and if
 the metadata file is in a well-known location.
+| draft
 
 | ARGO/U-Compare
 | partial
 | UIMA XML descriptors manually maintained
+| draft
 
 | DKPro Core
 | full
 | using uimaFIT to automatically generate UIMA XML descriptors. XML descriptors as always next to
 the respective component classes. Pointers to all XML descriptors as stored in at
 `META-INF/org.apache.uima.fit/components.txt` within the respective JAR files.
+| draft
 
 | GATE
 | partial
 | only for those components that still use CREOLE descriptors and do *not* use CREOLE Java annotations. It is, however, trivial to produce separate versions as GATE contains an ANT task to write CREOLE descriptors to disk from the Java annotations and it would be trivial to add this to the build process of each plugin.
+| draft
 
 | ILSP
 | unknown
 | unknown
+| draft
 |====
-////
