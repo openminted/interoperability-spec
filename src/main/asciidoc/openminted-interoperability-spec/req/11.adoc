@@ -1,0 +1,39 @@
+=== Components should declare whether they can be scaled within a workflow
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __mandatory__#
+[small]#*_Category:_* __WG4__#
+[small]#*_Status:_* __draft__#
+
+To accommodate scaling of a workflow, it is imperative to understand which components can be deployed multiple times.  This is something that the developer will have to specify manually and components that cannot be scaled should be exception rather than the rule.
+
+[cols="2,1,4,1"]
+|====
+|Product|Compliant|Justification|Status
+
+| Alvis
+| unknown
+| ...
+| draft
+
+| ARGO/U-Compare
+| unknown
+| ...
+| draft
+
+| DKPro Core
+| unknown
+| ...
+| draft
+
+| GATE
+| unknown
+| ...
+| draft
+
+| ILSP
+| unknown
+| ...
+| draft
+|====
