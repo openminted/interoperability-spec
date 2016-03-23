@@ -1,0 +1,39 @@
+=== Components should be uniquely identified using a string that follows the Java fully-qualified class naming convention
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_* __mandatory__#
+[small]#*_Category:_* __WG4__#
+[small]#*_Status:_* __draft__#
+
+Using such a widely adopted naming convention assists component developers through familiarity and helps avoid naming collisions due to the use of use domain names, under the control of the developers, as part of the identifier.  It is also the recommended method of identifying components in existing text mining systems such as Argo and GATE. 
+
+[cols="2,1,4,1"]
+|====
+|Product|Compliant|Justification|Status
+
+| Alvis
+| unknown
+| ...
+| draft
+
+| ARGO/U-Compare
+| unknown
+| ...
+| draft
+
+| DKPro Core
+| unknown
+| ...
+| draft
+
+| GATE
+| unknown
+| ...
+| draft
+
+| ILSP
+| unknown
+| ...
+| draft
+|====
