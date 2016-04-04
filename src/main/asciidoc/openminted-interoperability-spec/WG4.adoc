@@ -3,14 +3,6 @@
 
 == Text Annotation and workflows
 
-include::{include-dir}req/7.adoc[]
-include::{include-dir}req/10.adoc[]
-include::{include-dir}req/12.adoc[]
-include::{include-dir}req/9.adoc[]
-include::{include-dir}req/2.adoc[]
 include::{include-dir}req/1.adoc[]
+include::{include-dir}req/2.adoc[]
 include::{include-dir}req/3.adoc[]
-include::{include-dir}req/11.adoc[]
-include::{include-dir}req/8.adoc[]
-include::{include-dir}req/5.adoc[]
-include::{include-dir}req/6.adoc[]
