@@ -1,15 +1,15 @@
 == WG1 -- Resource Metadata
 
 // include all scenario items in this document
-// include::{include-dir}scenario-items/XXX.adoc[]
-include::{include-dir}scenario-items/wg1-1.adoc[]
+// include::{include-dir-scenario}scenario-items/XXX.adoc[]
+include::{include-dir-scenario}scenario-items/wg1-1.adoc[]
 
-include::{include-dir}scenario-items/wg1-2.adoc[]
+include::{include-dir-scenario}scenario-items/wg1-2.adoc[]
 
-include::{include-dir}scenario-items/wg1-3.adoc[]
+include::{include-dir-scenario}scenario-items/wg1-3.adoc[]
 
-include::{include-dir}scenario-items/wg1-4.adoc[]
+include::{include-dir-scenario}scenario-items/wg1-4.adoc[]
 
-include::{include-dir}scenario-items/wg1-5.adoc[]
+include::{include-dir-scenario}scenario-items/wg1-5.adoc[]
 
-include::{include-dir}scenario-items/wg1-extra.adoc[]
+include::{include-dir-scenario}scenario-items/wg1-extra.adoc[]

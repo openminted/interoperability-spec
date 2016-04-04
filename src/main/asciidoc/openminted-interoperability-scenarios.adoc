@@ -24,19 +24,19 @@ The scenario descriptions are structured as follows:
 
 = Interoperability scenarios
 
-include::{include-dir}WG1.adoc[]
+include::{include-dir-scenario}WG1.adoc[]
 
 <<<
 
-include::{include-dir}WG2.adoc[]
+include::{include-dir-scenario}WG2.adoc[]
 
 <<<
 
-include::{include-dir}WG3.adoc[]
+include::{include-dir-scenario}WG3.adoc[]
 
 <<<
 
-include::{include-dir}WG4.adoc[]
+include::{include-dir-scenario}WG4.adoc[]
 
 //TODO: add highlighted text to all scenario items
 //TODO: add figures to WG2 scenarios
