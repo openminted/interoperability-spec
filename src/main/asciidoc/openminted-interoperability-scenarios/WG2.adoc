@@ -1,9 +1,9 @@
 == WG2 -- Language Resources
 
 // include all scenario items in this document
-// include::{include-dir}scenario-items/XXX.adoc[]
-include::{include-dir}scenario-items/wg2-1.adoc[]
+// include::{include-dir-scenario}scenario-items/XXX.adoc[]
+include::{include-dir-scenario}scenario-items/wg2-1.adoc[]
 
-include::{include-dir}scenario-items/wg2-2.adoc[]
+include::{include-dir-scenario}scenario-items/wg2-2.adoc[]
 
-include::{include-dir}scenario-items/wg2-3.adoc[]
+include::{include-dir-scenario}scenario-items/wg2-3.adoc[]

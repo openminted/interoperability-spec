@@ -3,4 +3,4 @@
 
 == IPR and licensing
 
-// include::{include-dir}req/XXX.adoc[]
+// include::{include-dir-spec}req/XXX.adoc[]

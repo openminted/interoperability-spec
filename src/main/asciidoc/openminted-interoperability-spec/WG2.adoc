@@ -3,4 +3,4 @@
 
 == Language and knowledge resources
 
-// include::{include-dir}req/XXX.adoc[]
+// include::{include-dir-spec}req/XXX.adoc[]
