@@ -18,8 +18,8 @@ rules must be clearly documented.
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Not
+| Alvis does not that aspect
 | draft
 
 | ARGO/U-Compare
