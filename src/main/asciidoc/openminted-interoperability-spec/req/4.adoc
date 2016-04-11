@@ -19,7 +19,7 @@ rules must be clearly documented.
 
 | Alvis
 | Not
-| Alvis does not that aspect
+| Alvis does not support that aspect.
 | draft
 
 | ARGO/U-Compare
