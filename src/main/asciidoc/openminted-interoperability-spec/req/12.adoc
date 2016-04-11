@@ -13,8 +13,8 @@ Having some form of description assists text and data miners in choosing the mos
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Partial
+| The description are free texts.
 | draft
 
 | ARGO/U-Compare
