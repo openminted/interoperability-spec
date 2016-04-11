@@ -13,8 +13,8 @@ A workflow execution system will need to know which annotation schemas to load w
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Not
+| Work in progess.
 | draft
 
 | ARGO/U-Compare
