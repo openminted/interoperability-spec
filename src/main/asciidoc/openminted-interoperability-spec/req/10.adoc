@@ -13,8 +13,8 @@ To assist in the creation of workflows, it would be helpful to know what types o
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Partial
+| The type system is shared by all the components.
 | draft
 
 | ARGO/U-Compare
