@@ -23,12 +23,12 @@ metadata by which they describe themselves.
 
 | ARGO/U-Compare
 | full
-| UIMA Analysis Engine descriptors
+| UIMA component descriptors
 | draft
 
 | DKPro Core
 | full
-| UIMA Analysis Engine descriptors
+| UIMA component descriptors, Maven project descriptors
 | draft
 
 | GATE
@@ -38,6 +38,6 @@ metadata by which they describe themselves.
 
 | ILSP
 | full
-| UIMA Analysis Engine descriptors
+| UIMA component descriptors
 | draft
 |====
