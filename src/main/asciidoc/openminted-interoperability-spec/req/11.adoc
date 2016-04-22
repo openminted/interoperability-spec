@@ -23,8 +23,8 @@ To accommodate scaling of a workflow, it is imperative to understand which compo
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| Full
+| Components use the UIMA flag `multipleDeploymentAllowed` to indicate if they can be scaled out or not. This flag is used mostly by writer components.
 | draft
 
 | GATE
