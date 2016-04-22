@@ -42,3 +42,5 @@ rules must be clearly documented.
 | ...
 | draft
 |====
+
+NOTE: (REC) Since none of the frameworks (UIMA/GATE/Alvis) actually provides content, having them in the compliance table here doesn't seem to make much sense. Probably we should list repositories here like CORE?
