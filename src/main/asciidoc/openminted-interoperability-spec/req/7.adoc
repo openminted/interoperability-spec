@@ -23,8 +23,8 @@ Using such a widely adopted naming convention assists component developers throu
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| full
+| Components are identified by a Java class name. Per Java/Maven conventions, this classname is unique within DKPro Core. There is also a version associated with each class corresponding to the version of the enclosing Maven project/JAR.
 | draft
 
 | GATE
