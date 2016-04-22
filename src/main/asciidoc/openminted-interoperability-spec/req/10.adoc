@@ -23,8 +23,8 @@ To assist in the creation of workflows, it would be helpful to know what types o
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| Full
+| Most components declare the input and output types using UIMA *capabilities*. For some components, the types they operate on are configured through parameters.
 | draft
 
 | GATE
