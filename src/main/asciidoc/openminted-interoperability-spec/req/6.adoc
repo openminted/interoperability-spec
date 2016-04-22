@@ -6,7 +6,7 @@
 [small]#*_Category:_* __WG4__#
 [small]#*_Status:_* __draft__#
 
-Components should contain an identifier by which they can be distinguished from each other within a workflow, in addition to their version.  A component registry would then be able to use the combination of the identifier and version number to produce resolvable URLs from which components can be retrieved.
+Components should contain an identifier by which they can be distinguished from each other, in addition to their version.  A component registry would then be able to use the combination of the identifier and version number to produce resolvable URLs from which components can be retrieved.
 
 [cols="2,1,4,1"]
 |====
@@ -23,8 +23,8 @@ Components should contain an identifier by which they can be distinguished from 
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| partial
+| Each component has a unique name under the `de.tudarmstadt.ukp.dkpro` namespace (basically a Java class name) and a version. The version of a component corresponds to the version of the JAR that contains the version. Each component is contained in a JAR which has a unique Maven GAVC coordinate (e.g. `de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.opennlp-asl:1.8.0:jar`).
 | draft
 
 | GATE
