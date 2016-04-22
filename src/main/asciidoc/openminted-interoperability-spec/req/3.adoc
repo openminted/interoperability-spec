@@ -35,7 +35,8 @@ the metadata file is in a well-known location.
 | full
 | using uimaFIT to automatically generate UIMA XML descriptors. XML descriptors as always next to
 the respective component classes. Pointers to all XML descriptors as stored in at
-`META-INF/org.apache.uima.fit/components.txt` within the respective JAR files.
+`META-INF/org.apache.uima.fit/components.txt` within the respective JAR files. Maven POM
+files are also embedded in the JARs under `META-INF/maven/.../pom.xml`.
 | draft
 
 | GATE
