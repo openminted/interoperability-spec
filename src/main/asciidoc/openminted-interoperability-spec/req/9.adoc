@@ -23,8 +23,8 @@ A workflow execution system will need to know which annotation schemas to load w
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| Partial
+| Components live within Maven artifacts. These declare dependencies on other Maven artifacts which contain the type system definitions. Most component declare input and output types. Thus, the XML type system descriptors for a component can be obtained by scanning the Maven dependencies for XML type descriptors that declare types which are used as input/output types by a given component.
 | draft
 
 | GATE
