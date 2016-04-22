@@ -25,8 +25,8 @@ To be moved to FR in WP6
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| No
+| DKPro Core components try to follow a naming scheme, e.g. `XxxReader`, `XxxWriter`, `XxxSegmenter`, `XxxPosTagger`, etc. Categories can be derived off these names in many cases. In some cases, components fulfill multiple purposes, e.g. TreeTagger does lemmatization and POS tagging. A second source off which category information could be derived are the input/output types declared by the components, e.g. `Sentence`, `Token`, etc. There is no direct associated with any (external) categorization system.
 | draft
 
 | GATE
