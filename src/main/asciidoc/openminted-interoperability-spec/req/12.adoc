@@ -23,8 +23,8 @@ Having some form of description assists text and data miners in choosing the mos
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| Full
+| Most components have some kind of JavaDoc-based description. This is carried over into UIMA descriptors and Java annotations using the uimafit-maven-plugin during build time. This makes the descriptions available through Java reflection as well as in the UIMA XML descriptors. We use these descriptors as part of auto-generating the DKPro Core reference documentation. The quality of the documentation varies.
 | draft
 
 | GATE
