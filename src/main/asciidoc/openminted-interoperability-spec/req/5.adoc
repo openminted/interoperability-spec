@@ -23,8 +23,8 @@ Text and Data Mining (TDM) components are not always self-contained entities; fo
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| partial
+| All components are in Java, some require platform-specific binaries which are provided usually for Linux, Windows, and OS X in a pre-compiled form. There is no metadata explaining which components rely on binaries or about the supported platforms and OS versions. E.g. some binaries don't work on modern Linuxes (hunpos) others do not work on old versions. The required Java version is available through a property defined in the POM.
 | draft
 
 | GATE
