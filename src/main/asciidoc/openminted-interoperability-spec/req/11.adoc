@@ -13,8 +13,8 @@ To accommodate scaling of a workflow, it is imperative to understand which compo
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Not
+| We do not deal with this aspect.
 | draft
 
 | ARGO/U-Compare

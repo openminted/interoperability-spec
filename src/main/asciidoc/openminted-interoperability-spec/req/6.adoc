@@ -13,8 +13,8 @@ Components should contain an identifier by which they can be distinguished from 
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Partial
+| Components (instances of components) are well identified in a workflow but component versioning is not maintained in Alvis.
 | draft
 
 | ARGO/U-Compare

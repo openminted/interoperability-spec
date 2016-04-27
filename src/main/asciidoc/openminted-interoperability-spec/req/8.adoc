@@ -15,8 +15,8 @@ To be moved to FR in WP6
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Partial
+| Alvis does not categorize the components but will follow a categorization schema.
 | draft
 
 | ARGO/U-Compare

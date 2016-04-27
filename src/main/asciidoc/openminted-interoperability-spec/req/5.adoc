@@ -13,8 +13,8 @@ Text and Data Mining (TDM) components are not always self-contained entities; fo
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Partial
+| Some components may need external libraries or resources. Alvis works better in a lunix environment.
 | draft
 
 | ARGO/U-Compare
