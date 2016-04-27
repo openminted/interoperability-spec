@@ -18,8 +18,8 @@ Components should contain an identifier by which they can be distinguished from 
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| partial
+| Each component has a unique id under the `uk.ac.nactem.uima` namespace (derived from the path of the UIMA descriptor file within the component's UIMA PEAR file) and a version number specified within the component's UIMA descriptor file.  Argo doesn't currently support the concept of component versions; it only uses whichever version of the component that was installed last.
 | draft
 
 | DKPro Core
