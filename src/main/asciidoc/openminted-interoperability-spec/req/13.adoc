@@ -20,8 +20,8 @@ It is important that citable publications for each component can be obtained fro
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| no
+| No citable publication information available.
 | draft
 
 | DKPro Core
