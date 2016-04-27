@@ -18,8 +18,8 @@ A workflow execution system will need to know which annotation schemas to load w
 | draft
 
 | ARGO/U-Compare
-| partial
-| Argo components must declare the type systems they depend upon within their UIMA descriptor file.  It is also recommended that the individual types used for input and output are also declared, however these are quite often not declared.
+| full
+| Argo components must declare the type systems they depend upon within their UIMA descriptor file. 
 | draft
 
 | DKPro Core
