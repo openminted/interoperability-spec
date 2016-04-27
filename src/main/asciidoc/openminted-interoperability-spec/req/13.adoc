@@ -36,6 +36,6 @@ It is important that citable publications for each component can be obtained fro
 
 | ILSP
 | unknown
-| ...
+| Available for some components but not always applicable or used.
 | draft
 |====
