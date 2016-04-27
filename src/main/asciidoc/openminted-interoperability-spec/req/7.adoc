@@ -33,7 +33,7 @@ Using such a widely adopted naming convention assists component developers throu
 | draft
 
 | ILSP
-| unknown
-| ...
+| full
+| Components are identified by a Java class name. They are by convention unique within nlp.ilsp.gr. 
 | draft
 |====
