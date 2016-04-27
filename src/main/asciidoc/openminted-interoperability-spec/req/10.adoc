@@ -18,8 +18,8 @@ To assist in the creation of workflows, it would be helpful to know what types o
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| partial
+| Some components declare the types that they input and output, within the component's UIMA descriptor, however this is not always the case and is not required by Argo.
 | draft
 
 | DKPro Core
