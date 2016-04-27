@@ -33,7 +33,7 @@ To assist in the creation of workflows, it would be helpful to know what types o
 | draft
 
 | ILSP
-| unknown
-| ...
+| Partial
+| Components declare the input and output types using UIMA capabilities.
 | draft
 |====
