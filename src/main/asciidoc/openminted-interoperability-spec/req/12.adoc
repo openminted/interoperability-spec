@@ -18,8 +18,8 @@ Having some form of description assists text and data miners in choosing the mos
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| partial
+| Components can declare a textual description using the `description` element within its associated UIMA descriptor file, however Argo doesn't enforce its existence. 
 | draft
 
 | DKPro Core
