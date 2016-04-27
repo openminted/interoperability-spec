@@ -33,7 +33,7 @@ Text and Data Mining (TDM) components are not always self-contained entities; fo
 | draft
 
 | ILSP
-| unknown
-| ...
+| full
+| All components are in Java. The required Java version is available through a property defined in the POM.
 | draft
 |====
