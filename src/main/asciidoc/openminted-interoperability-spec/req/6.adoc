@@ -33,7 +33,7 @@ Components should contain an identifier by which they can be distinguished from 
 | draft
 
 | ILSP
-| unknown
-| ...
+| partial
+| Each component has a unique name under the `gr.ilsp.nlp` namespace (basically a Java class name) and a version. The version of a component corresponds to the version of the JAR that contains the version. Each component is contained in a JAR which has a unique Maven GAVC coordinate (e.g. `gr.ilsp.nlp:ilsp-nlp-lemmatizer:1.2.1-SNAPSHOT.jar`). We try to use some type of semantic versioning (http://semver.org/) for the components, but for some of them this is not so strictly followed.
 | draft
 |====
