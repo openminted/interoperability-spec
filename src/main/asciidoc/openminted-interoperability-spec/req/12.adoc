@@ -33,7 +33,7 @@ Having some form of description assists text and data miners in choosing the mos
 | draft
 
 | ILSP
-| unknown
-| ...
+| partial
+| Most components have a minimal textual description in the UIMA descriptor file, which is often replicated in the Maven POM. If applicable, a reference to a scientific article is also included. 
 | draft
 |====
