@@ -18,8 +18,8 @@ Using such a widely adopted naming convention assists component developers throu
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| partial
+| All of our current components are identified by strings that follow the Java fully-qualified class naming convention, however as the component identifier within Argo is derived from a filepath it is entirely possible for this requirement to be broken by new components.  
 | draft
 
 | DKPro Core
