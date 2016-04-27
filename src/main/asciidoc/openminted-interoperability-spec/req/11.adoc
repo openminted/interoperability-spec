@@ -18,8 +18,8 @@ To accommodate scaling of a workflow, it is imperative to understand which compo
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| Full
+| Components use the UIMA flag `multipleDeploymentAllowed` to indicate if they can be scaled out or not.  Argo also currently doesn't scale reader, writer, remote (e.g. component development sdk) and interactive (e.g. annotation editor) components.
 | draft
 
 | DKPro Core
