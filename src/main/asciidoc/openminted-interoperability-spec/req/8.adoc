@@ -20,8 +20,8 @@ To be moved to FR in WP6
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| Partial
+| Currently Argo puts components into 4 categories (reader, writer, analytics, web service), however the bulk of the components reside within the analytics category, and the only method for users to find a relevant component is to search through the entire list within the UI.
 | draft
 
 | DKPro Core
