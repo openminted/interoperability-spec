@@ -28,8 +28,8 @@ Text and Data Mining (TDM) components are not always self-contained entities; fo
 | draft
 
 | GATE
-| unknown
-| ...
+| partial
+| All components are written in Java althougbh some may make use of external platform-specific binaries. Where this is the case either the binaries are provided as part of the plugin, or documentation is provided explainnig how to obtain and install the appropriate components. There is no metadata to highlight the need for external components, although the metadata can (and usually does) provide a URL to the documentation where it would be discussed in detail.
 | draft
 
 | ILSP
