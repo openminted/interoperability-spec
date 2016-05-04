@@ -30,8 +30,8 @@ It is important that citable publications for each component can be obtained fro
 | draft
 
 | GATE
-| unknown
-| ...
+| No
+| GATE does not support this, although it's likely that the URL to the documentation may well lead to a publication or documentation that references one.
 | draft
 
 | ILSP
