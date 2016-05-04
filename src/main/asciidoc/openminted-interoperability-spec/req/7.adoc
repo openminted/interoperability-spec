@@ -28,8 +28,8 @@ Using such a widely adopted naming convention assists component developers throu
 | draft
 
 | GATE
-| unknown
-| ...
+| full
+| All GATE components are implemented as Java Beans and as such fulfil this requirement.
 | draft
 
 | ILSP
