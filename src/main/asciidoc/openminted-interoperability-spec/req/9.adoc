@@ -28,8 +28,8 @@ A workflow execution system will need to know which annotation schemas to load w
 | draft
 
 | GATE
-| unknown
-| ...
+| Partial
+| GATE does not enforce any type system and as such does not require components to declare in any way their input/output types. That being said it does support XML schemas for defining annotations (and their features) and so it would be possible to bundle a set of schemas with a component (i.e. within the JAR file) that defined the expected input/output annotations. For example, the ANNIE plugin already comes with schemas which define the main NE annotations produced by the application (GATE's terminology for a workflow). We also have a component, the Schema Enforcer, that can be used to ensure that the output of an application strictly conforms to a given set of schemas removing any annotations or features not defined by the schemas. The manual annotation aspects of GATE Developer can also be configured to only allow annotations/features defined by XML schemas to be created.
 | draft
 
 | ILSP
