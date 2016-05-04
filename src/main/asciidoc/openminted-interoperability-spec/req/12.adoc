@@ -28,8 +28,8 @@ Having some form of description assists text and data miners in choosing the mos
 | draft
 
 | GATE
-| unknown
-| ...
+| Full
+| The CREOLE metadata that describes a component includes the name and a brief description as well as a URL to the full documentation of the component. None of these are, however, mandatory and documentation varies across components (i.e. we have no control of the documentation of components developed by 3rd parties)
 | draft
 
 | ILSP
