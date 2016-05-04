@@ -28,8 +28,8 @@ Components should contain an identifier by which they can be distinguished from 
 | draft
 
 | GATE
-| unknown
-| ...
+| partial
+| Each component is a Java class and as such has a unique name. Currently, however, there is no requirement for a GATE plugin or component to have a version number. In most cases we distribute GATE with a large set of plugins which are assumed to share the same version number as the framework itself. Plugins (which may contain multiple components) distributed via an update site must include a version number and all components inside that plugin share that. Experiance has shown that this is far from ideal and our future plans for GATE include moving to using Maven to distribute plugins in which case each plugin will be uniquely identified by a set of Maven coordinates, although support for loading legacy plugins without a version number will remain for the foreseeable future.
 | draft
 
 | ILSP
