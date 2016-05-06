@@ -1,5 +1,7 @@
 package eu.openminted.interop.controller
 import static groovy.io.FileType.FILES
+
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.asciidoctor.AsciiDocDirectoryWalker
 import org.asciidoctor.Asciidoctor
@@ -12,7 +14,9 @@ class GenerateWGSpec {
 	static Map<String, String> wgSpecMapping = [:];
 	static def stringPattern ="_Category:_" ;
 	static def includeString = "include::{include-dir-spec}req";
-	static def baseDir = "src/main/asciidoc/openminted-interoperability-spec/";
+	static def baseDirSpec = baseDirTarget + "openminted-interoperability-spec/";
+	static def baseDirTarget = "target/generated-adocs/";
+	static def baseDir = "src/main/asciidoc/";
 
 	static def updateWGspecMapping(File aDescriptor){
 		def text = aDescriptor.getText();
@@ -24,7 +28,7 @@ class GenerateWGSpec {
 		}
 	}
 	static def addEntry(String req , String spec ) {
-		def specFile = new File(baseDir +spec +".adoc");
+		def specFile = new File(baseDirSpec +spec +".adoc");
 		println specFile
 		specFile << includeString + "/" + req  +"[]" +"\n"
 	}
@@ -64,17 +68,20 @@ class GenerateWGSpec {
 	}
 	static main(args) {
 
+
+		FileUtils.copyDirectory(new File(baseDir),new File(baseDirTarget));
+
 		//read spec file and add them to map
 		//remove all lines in WG's containing include string
 		//add include string line in the WG files with spec mapping
-		new File(baseDir+"req").eachFileRecurse(FILES) {
+		new File(baseDirSpec+"req").eachFileRecurse(FILES) {
 			if (it.name.endsWith('.adoc') && !it.name.find("TEMPLATE")) {
 				updateWGspecMapping(it);
 			}
 		}
-		new File(baseDir).eachFileRecurse(FILES) {
+		new File(baseDirSpec).eachFileRecurse(FILES) {
 			if (it.name.endsWith('.adoc') && it.name.startsWith("WG")){
-				def temp = new File(baseDir+"/temp_"+it.name);
+				def temp = new File(baseDirSpec+"/temp_"+it.name);
 				temp.createNewFile();
 				it.getText().eachLine {tf ->
 
@@ -86,29 +93,53 @@ class GenerateWGSpec {
 				def name = it.getName();
 				println name;
 				it.delete();
-				temp.renameTo(baseDir+name);
+				temp.renameTo(baseDirSpec+name);
 
 			}
 		}
 		for (var in wgSpecMapping) {
 			addEntry(var.key,var.value);
 		}
+		// Adding edit options in the spec files
+		println "Applying templates..."
+		File adocTargetFolder = new File("target/generated-adocs/openminted-interoperability-spec/req");
+
+		def te = new groovy.text.SimpleTemplateEngine(GenerateWGSpec.class.classLoader);
+		new File("target/generated-adocs/openminted-interoperability-spec/req").eachFile(FILES) { tf ->
+			if (!tf.name.endsWith(".adoc") || tf.name.equals("TEMPLATE.adoc")) {
+				return;
+			}
+			println "Processing template ${tf.name}...";
+			def spec =[:];
+			spec["source"]="https://github.com/openminted/interoperability-spec/blob/master/src/main/asciidoc/openminted-interoperability-spec/req/" + tf.name;
+			spec["name"] = tf.name;
+			try {
+				def template = te.createTemplate(tf.getText("UTF-8"));
+				def result = template.make([
+					spec: spec]);
+				def output = new File(adocTargetFolder, "${tf.name}");
+				output.parentFile.mkdirs();
+				output.setText(result.toString(), 'UTF-8');
+			}
+			catch (Exception e) {
+				te.setVerbose(true);
+				te.createTemplate(tf.getText("UTF-8"));
+				throw e;
+			}
+		}
+
+		
+
 		Asciidoctor asciidoctor = Asciidoctor.Factory.create();
 
-		render(true, "spec", "src/main/asciidoc/openminted-interoperability-spec",
-				"target/generated-docs/spec", "include-dir-spec", asciidoctor);
-
-		render(true, "scenario", "src/main/asciidoc/openminted-interoperability-scenarios",
-				"target/generated-docs/scenarios", "include-dir-scenario", asciidoctor);
-
-		render(false, "main", "src/main/asciidoc/main",
+		render(false, "main", "target/generated-adocs/main",
 				"target/generated-docs/", "include-dir-scenario", asciidoctor);
 
-		render(false, "spec-main", "src/main/asciidoc/openminted-interoperability-spec",
+		render(false, "spec-main", "target/generated-adocs/openminted-interoperability-spec",
 				"target/generated-docs/", "include-dir-spec", asciidoctor);
 
-		render(false, "scenario-main", "src/main/asciidoc/openminted-interoperability-scenarios",
-				"target/generated-docs/", "include-dir-scenario", asciidoctor);		
+		render(false, "scenario-main", "target/generated-adocs/openminted-interoperability-scenarios",
+				"target/generated-docs/", "include-dir-scenario", asciidoctor);
 
 	}
 
