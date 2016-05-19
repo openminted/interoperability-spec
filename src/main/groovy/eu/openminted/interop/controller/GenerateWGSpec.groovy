@@ -66,10 +66,46 @@ class GenerateWGSpec {
 		}
 		println "Done!"
 	}
+	static def addLinkWithIdInSpecification(File baseDir, File targetDir, String linkScript, String linkCall){
+		baseDir.createTempDir()
+		baseDir.eachFile {
+			String name = it.getName();
+			if(!name.startsWith("TEMPLATE")){
+				File temp = new File(targetDir.absolutePath+ "/"+ name);
+				if(temp.exists())
+					temp.delete();
+				temp.createNewFile();
+				it.readLines().eachWithIndex {line, idx ->
+					if(idx==0){
+						temp << linkScript+"\n";
+						line = line.replace("===","=== " + name.replace("adoc",""));
+						temp << line +"\n";
+						temp << linkCall;
+					}else{
+						temp << line + "\n";
+					}
+				}
+			}else{
+				File temp = new File(targetDir.absolutePath + "/"+ name);
+				temp.createNewFile();
+				temp << it;
+			}
+		}
+	}
 	static main(args) {
 
-
 		FileUtils.copyDirectory(new File(baseDir),new File(baseDirTarget));
+		String linkScript = '''<%
+		def links()
+		{
+			def html = '++++\\n<div style="float:right">\\n';
+			html += "<a href=\\"${spec.source}\\" target=\\"_blank\\" >Edit ${spec.name}</a><br/>\\n";
+			html += '</div>\\n++++\\n';
+			return html;
+		}\n%>''';
+		String linkCall = '''${links()}''';
+
+		addLinkWithIdInSpecification(new File(baseDir+"openminted-interoperability-spec/req/"),new File(baseDirTarget+"openminted-interoperability-spec/req/"), linkScript, linkCall);
 
 		//read spec file and add them to map
 		//remove all lines in WG's containing include string
@@ -128,7 +164,7 @@ class GenerateWGSpec {
 			}
 		}
 
-		
+
 
 		Asciidoctor asciidoctor = Asciidoctor.Factory.create();
 

@@ -1,14 +1,5 @@
-<%
-def links()
-{
-    def html = '++++\n<div style="float:right">\n';
-    html += "<a href=\"${spec.source}\" target=\"_blank\" >Edit ${spec.name}</a><br/>\n";
-    html += '</div>\n++++\n';
-    return html;
-}
-%>
 === URL to actual content must be discoverable
-${links()}
+
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __mandatory__#
