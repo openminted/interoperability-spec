@@ -1,0 +1,40 @@
+=== Components must maintain License information
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG4__#
+[small]#*_Status:_*       __draft__#
+
+It is important that not only is a license strongly assigned to components and resources but that this information is passed upwards through workflows etc. so that a license can be assigned to an agregate or to newly created resources that result.
+To this end storing license information within component metadata seems the most sensible way forward.
+
+[cols="2,1,4,1"]
+|====
+|Product|Compliant|Justification|Status
+
+| Alvis
+| unknown
+| ...
+| draft
+
+| ARGO/U-Compare
+| unknown
+| ...
+| draft
+
+| DKPro Core
+| unknown
+| ...
+| draft
+
+| GATE
+| not (currently) supported
+| Currently GATE components do not have a license assigned as part of the metadata. THe next version of GATE will use maven for plugin/component distribution and will have access to license information documented in the pom.xml for a plugin.
+| draft
+
+| ILSP
+| unknown
+| ...
+| draft
+|====
