@@ -1,10 +1,10 @@
 === components that use external knowledge resources should delegate access to a resource adapter instead of handling it themselves
 
 [%hardbreaks]
-[small]#*_Concreteness:_* __(abstract)__#
-[small]#*_Strength:_*     __(optional)__#
-[small]#*_Category:_*     __(|WG2|WG4)__#
-[small]#*_Status:_*       __(draft)__#
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __optional__#
+[small]#*_Category:_*     __WG2__ (WG4)#
+[small]#*_Status:_*       __draft__#
 
 
 

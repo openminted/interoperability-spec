@@ -1,10 +1,10 @@
 ===  incorporation of multiple resources in parallel
 
 [%hardbreaks]
-[small]#*_Concreteness:_* __(abstract)__#
-[small]#*_Strength:_*     __(recommended)__#
-[small]#*_Category:_*     __(WG4)__#
-[small]#*_Status:_*       __(final)__#
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG4__#
+[small]#*_Status:_*       __final__#
 
 
 

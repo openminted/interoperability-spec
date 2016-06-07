@@ -1,10 +1,10 @@
 === processing components should be downloadable
 
 [%hardbreaks]
-[small]#*_Concreteness:_* __(abstract)__#
-[small]#*_Strength:_*     __(recommended)__#
-[small]#*_Category:_*     __(WG4)__#
-[small]#*_Status:_*       __(final)__#
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG4__#
+[small]#*_Status:_*       __final__#
 
 Processing components should be downloadable. The user should be able to choose on which infrastructure to run them, e.g. to ensure that the processed data does not leave a particular institution. Components that are not downloadable should clearly indicate that (e.g. using a "I am a service" flag).
 

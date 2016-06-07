@@ -3,7 +3,7 @@
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_*     __recommended__#
-[small]#*_Category:_*     __WG1/WG4__#
+[small]#*_Category:_*     __WG1__ (WG4)#
 [small]#*_Status:_*       __draft__#
 
 It is important that citable publications for each component can be obtained from the component metadata.

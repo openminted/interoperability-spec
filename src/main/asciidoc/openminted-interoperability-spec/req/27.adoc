@@ -1,10 +1,10 @@
 === Components should handle failures gracefully
 
 [%hardbreaks]
-[small]#*_Concreteness:_* __(abstract)__#
-[small]#*_Strength:_*     __(recommended)__#
-[small]#*_Category:_*     __(WG4)__#
-[small]#*_Status:_*       __(final)__#
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG4__#
+[small]#*_Status:_*       __final__#
 
 In the event that a component fails (e.g. due to a loss in network connectivity when writing to a database), then the component should ensure that there are no side-effects (e.g. database in an inconsistent state) which prevent the component from being re-ran at a later date, from the same point as which it failed.  This would be required if the execution platform were to offer checkpointing.
 
