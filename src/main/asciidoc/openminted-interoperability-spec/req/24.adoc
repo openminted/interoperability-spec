@@ -1,0 +1,47 @@
+=== using/treating workflows as components 
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __(abstract)__#
+[small]#*_Strength:_*     __(mandatory)__#
+[small]#*_Category:_*     __(WG4)__#
+[small]#*_Status:_*       __(final)__#
+
+
+
+In order to incorporate an entire workflow (not only a single component) which may potentially be using a specific workflow engine/implementation or flow configuration that cannot be imported into my workflow editor of choice, it must be possible to treat the whole workflow as a component applying encapsulation and information hiding. However, it includes the ability to configure individual components in the workflow, e.g. by exposing these parameters as workflow parameters.
+
+Note: Relevant approaches are e.g. the UIMA Aggregate Analysis Engines or GATE Applications.
+
+Source: WG 4 Scenario 1 — Transferability of components between ecosystems
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,4,1"]
+|====
+|Product|Compliant|Justification|Status
+
+| Alvis
+| unknown
+| ...
+| draft
+
+| ARGO/U-Compare
+| unknown
+| ...
+| draft
+
+| DKPro Core
+| unknown
+| ...
+| draft
+
+| GATE
+| unknown
+| ...
+| draft
+
+| ILSP
+| unknown
+| ...
+| draft
+|====
