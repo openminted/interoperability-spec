@@ -1,0 +1,51 @@
+=== components that use external knowledge resources should delegate access to a resource adapter instead of handling it themselves
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __(abstract)__#
+[small]#*_Strength:_*     __(optional)__#
+[small]#*_Category:_*     __(|WG2|WG4)__#
+[small]#*_Status:_*       __(draft)__#
+
+
+
+A component that uses an external knowledge resources, e.g. a dictionary, should access that resource through an adapter instead of accessing it directly. E.g. a Gazeteer component could be configured with a WordListFileResourceAdapter that looks up words from a simple word list file or using some SparqlQueryAdapter that would perform the lookup via Sparql. Thus, providing access to different knowledge sources should not require changes to the component implementation itself, but rather require only the implementation of lightweight adapters. It is not important that all implementations use the same adapters, but rather that this abstraction exists in the first place. E.g. a GATE component may use a GATE-specific adapter implementation and a UIMA component may use an UIMA-specific implementation.
+
+Note: UIMA External Resources could be used for this and I am pretty sure GATE also has one or more abstraction for such things.
+
+Source: WG 2 Scenario 3 — The relation between documents and knowledge bases through keywords
+
+Required actions: While UIMA has the general abstraction, there are no common implementations for different types of knowledge resources. I think GATE has some typical/common abstractions like a gazetter and probably others. These should be inspected and additional recommendations for specific resource types may be given in future requirements. Mind that even if GATE/UIMA have such abstractions, it does not mean that they are consistently used or used at all. This should be brought to the attention of the component collection providers.
+
+Note: This requirement may not be necessary in small-scale resource lookup.
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,4,1"]
+|====
+|Product|Compliant|Justification|Status
+
+| Alvis
+| unknown
+| ...
+| draft
+
+| ARGO/U-Compare
+| unknown
+| ...
+| draft
+
+| DKPro Core
+| unknown
+| ...
+| draft
+
+| GATE
+| unknown
+| ...
+| draft
+
+| ILSP
+| unknown
+| ...
+| draft
+|====
