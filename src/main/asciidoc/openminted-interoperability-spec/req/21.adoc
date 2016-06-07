@@ -1,0 +1,42 @@
+=== The configuration and parametrable options of the components should be identified and documented.
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __(abstract)__#
+[small]#*_Strength:_*     __(recommended)__#
+[small]#*_Category:_*     __(WG4)__#
+[small]#*_Status:_*       __(final)__#
+
+
+Components in systems such as alvis offer several parameters used to configure the behavior of the component execution. In order to help users understand a specific parameter and its role, the parameters should be well identified and described. The descriptions should contain information to help users understand how and in what context a parameter is used, and also provide the data types (e.g., boolean, integer, string) accepted by a parameter.
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,4,1"]
+|====
+|Product|Compliant|Justification|Status
+
+| Alvis
+| unknown
+| ...
+| draft
+
+| ARGO/U-Compare
+| unknown
+| ...
+| draft
+
+| DKPro Core
+| unknown
+| ...
+| draft
+
+| GATE
+| unknown
+| ...
+| draft
+
+| ILSP
+| unknown
+| ...
+| draft
+|====
