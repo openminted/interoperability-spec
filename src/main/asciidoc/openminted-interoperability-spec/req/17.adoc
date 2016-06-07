@@ -1,0 +1,45 @@
+===  Components should be stateless
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __(concrete)__#
+[small]#*_Strength:_*     __(recommended)__#
+[small]#*_Category:_*     __(WG4)__#
+[small]#*_Status:_*       __(final)__#
+
+
+
+To enable scaling of components, using networked machines, it should be recommended that a component avoids any form of local state with regards to the processing of a document.  
+
+Note: If a component is required to be stateful, it would make sense for the platform to offer a solution to allow scaling of stateful components.
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,4,1"]
+|====
+|Product|Compliant|Justification|Status
+
+| Alvis
+| unknown
+| ...
+| draft
+
+| ARGO/U-Compare
+| unknown
+| ...
+| draft
+
+| DKPro Core
+| unknown
+| ...
+| draft
+
+| GATE
+| unknown
+| ...
+| draft
+
+| ILSP
+| unknown
+| ...
+| draft
+|====
