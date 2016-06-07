@@ -3,7 +3,7 @@
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __recommended__#
-[small]#*_Status:_* __draft__#
+[small]#*_Status:_* __final__#
 [small]#*_Category:_* __WG4__#
 
 To avoid implementation and metadata getting out-of-sync, the metadata should be closely integrated

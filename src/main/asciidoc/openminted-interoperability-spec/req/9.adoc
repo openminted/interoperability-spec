@@ -4,7 +4,7 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __mandatory__#
 [small]#*_Category:_* __WG4__#
-[small]#*_Status:_* __draft__#
+[small]#*_Status:_* __final__#
 
 A workflow execution system will need to know which annotation schemas to load when running a component within a workflow.  Not having this information would result in the system having to load all of the annotation schemas it knows about at runtime for each component or force the workflow creators to manually specify them, both highly inefficient options.  This information also forms part of the components documentation, assisting workflow creators.
 

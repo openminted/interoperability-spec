@@ -4,9 +4,9 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __recommended__#
 [small]#*_Category:_* __WG4__#
-[small]#*_Status:_* __draft__#
+[small]#*_Status:_* __final__#
 
-Having some form of description assists text and data miners in choosing the most appropriate components for their workflows and potentially boosts productivity, as it possibly reduces the need for experimentation if a component has configuration parameters. 
+Having some form of free-text description assists text and data miners in choosing the most appropriate components for their workflows and potentially boosts productivity, as it possibly reduces the need for experimentation if a component has configuration parameters. 
 
 [cols="2,1,4,1"]
 |====

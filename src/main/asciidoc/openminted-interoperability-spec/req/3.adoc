@@ -3,7 +3,7 @@
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __mandatory__#
-[small]#*_Status:_* __draft__#
+[small]#*_Status:_* __final__#
 [small]#*_Category:_* __WG4__#
 
 The component metadata should be provided in such a way that it is separable from the component.

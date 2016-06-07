@@ -4,7 +4,7 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __mandatory__#
 [small]#*_Category:_* __WG4__#
-[small]#*_Status:_* __draft__#
+[small]#*_Status:_* __final__#
 
 With a large number of components, it can be difficult for workflow creators to find the most appropriate components if they can only search for components by name or by reading each component's documentation.  Having components associated with categories would enable workflow creators to easily search for a particular type of component (e.g. part-of-speech tagger) as well as allowing associated UI tooling an additional way of ordering lists of components on-screen.
 
