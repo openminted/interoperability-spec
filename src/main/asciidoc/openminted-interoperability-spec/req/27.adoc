@@ -30,8 +30,8 @@ In the event that a component fails (e.g. due to a loss in network connectivity 
 | draft
 
 | GATE
-| unknown
-| ...
+| no
+| currently if a component fails (in a way not expected by the developer) than the exception will propogate back up to the workflow and halt execution.
 | draft
 
 | ILSP
