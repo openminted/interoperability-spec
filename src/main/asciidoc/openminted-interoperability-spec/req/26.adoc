@@ -1,0 +1,49 @@
+=== ability to determine source of an annotation/assigned category
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __(abstract)__#
+[small]#*_Strength:_*     __(recommended)__#
+[small]#*_Category:_*     __(WG4)__#
+[small]#*_Status:_*       __(final)__#
+
+
+
+It should be possible to trace back which component produced an annotation element or assigned a category and which knowledge resources may have been involved in the process. This does not entail that every annotation element must have explicit provenance metadata. The requirement could also be solved by assuming that all annotations of a certain type or within a certain view were created by one component and providing just provenance at the level of the type or view.
+
+The ability to trace back could e.g. be relevant in order to perform a post-hoc linking/disambiguation of categories obtained from different knowledge resources or to adjust/harmonize relevance/confidence scores based on different scales.
+
+Note: DKPro Core includes tagset information into the annotated document (in most cases even for tags that were not seen, but present in the model). U-Compare had strong support for provenance. Some annotation schemes have support for relevance/confidence scores, but others do not.
+
+Source: WG 2 Scenario 3 — The relation between documents and knowledge bases through keywords
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,4,1"]
+|====
+|Product|Compliant|Justification|Status
+
+| Alvis
+| unknown
+| ...
+| draft
+
+| ARGO/U-Compare
+| unknown
+| ...
+| draft
+
+| DKPro Core
+| unknown
+| ...
+| draft
+
+| GATE
+| unknown
+| ...
+| draft
+
+| ILSP
+| unknown
+| ...
+| draft
+|====
