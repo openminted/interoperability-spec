@@ -36,8 +36,8 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | draft
 
 | GATE
-| unknown
-| ...
+| full
+| In GATE every application is also a component allowing arbritary nesting of applications.
 | draft
 
 | ILSP
