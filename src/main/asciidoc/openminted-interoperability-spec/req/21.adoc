@@ -31,8 +31,8 @@ Components in systems such as alvis offer several parameters used to configure t
 | draft
 
 | GATE
-| unknown
-| ...
+| full
+| Each parameter is typed and has a name and an optional description (most have a description but it is currently optional)
 | draft
 
 | ILSP
