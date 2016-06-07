@@ -32,8 +32,8 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within
 | draft
 
 | GATE
-| unknown
-| ...
+| full
+| components are created by loading a plugin from a given URL. This results in the jar files being downloaded to the local machine in some way (dependent on a number of factors) and then added to the JVM. This means all processing occurs where the framework is being run and data does not have to leave the local machine.
 | draft
 
 | ILSP
