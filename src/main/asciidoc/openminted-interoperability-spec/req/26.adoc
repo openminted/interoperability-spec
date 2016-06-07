@@ -38,8 +38,8 @@ Source: WG 2 Scenario 3 — The relation between documents and knowledge bas
 | draft
 
 | GATE
-| unknown
-| ...
+| partial
+| Some existing components (specifically the JAPE transducer) add information to annotations about what created them, but currently this isn't standard across all components, although I think I can see a way of doing so.
 | draft
 
 | ILSP
