@@ -1,0 +1,47 @@
+=== models/resources should be useable across different component collections/platforms
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __(abstract)__#
+[small]#*_Strength:_*     __(recommended)__#
+[small]#*_Category:_*     __(WG4)__#
+[small]#*_Status:_*       __(final)__#
+
+
+
+Different platforms/component collections that wrap the same tools should be able to be configured in similar or uniform ways to use models/resources. E.g. all wrappers should permit loading models from an arbitrary location (on disk, JAR, URL), and not require that they be packaged with the component. Support for a common repository infrastructure from which to obtain models/resources automatically would be beneficial.
+
+Note: Maven is sometimes used today to store models/resources. Although Maven is largely popular in the Java world, there is e.g. also a client implementation for Python which would allow e.g. NLTK to use models stored on Maven repositories (jip).
+
+Source: WG 4 Scenario 1 — Transferability of components between ecosystems
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,4,1"]
+|====
+|Product|Compliant|Justification|Status
+
+| Alvis
+| unknown
+| ...
+| draft
+
+| ARGO/U-Compare
+| unknown
+| ...
+| draft
+
+| DKPro Core
+| unknown
+| ...
+| draft
+
+| GATE
+| unknown
+| ...
+| draft
+
+| ILSP
+| unknown
+| ...
+| draft
+|====
