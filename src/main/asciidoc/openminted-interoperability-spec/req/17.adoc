@@ -34,8 +34,8 @@ Note: If a component is required to be stateful, it would make sense for the pla
 | draft
 
 | GATE
-| unknown
-| ...
+| *never*
+| GATE components are all Java beans. This means that the document to process is provided to the component via a set method making it part of the state of the component. Multiple instances of a component can of course be created to enable processing of multiple documents in parallel. Naively creating multiple instances should, however, be avoided as this is wasteful in terms of memory as it reequires multiple copies of internal state that can be shared. The framework supports inteligent duplication of components and applications to share appropriate state across threads.
 | draft
 
 | ILSP
