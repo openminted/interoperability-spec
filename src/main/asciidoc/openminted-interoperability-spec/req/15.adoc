@@ -30,8 +30,8 @@ Capturing, computing and presenting simplified information (e.g., availability, 
 | draft
 
 | GATE
-| unknown
-| ...
+| full
+| Each component has a human readable name and description as part of the metadata
 | draft
 
 | ILSP
