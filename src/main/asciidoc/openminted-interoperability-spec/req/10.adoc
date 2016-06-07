@@ -3,7 +3,7 @@
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __mandatory__#
-[small]#*_Category:_* __WG4__ (WG2)#
+[small]#*_Category:_* __WG4__,__WG2__#
 [small]#*_Status:_* __draft__#
 
 To assist in the creation of workflows, it would be helpful to know what types of annotations are required and produced by components so that UI tooling can display appropriate warnings when a component is added in an invalid position within a workflow or to help diagnose runtime exceptions whilst running a workflow.

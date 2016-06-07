@@ -22,12 +22,15 @@ class GenerateWGSpec {
 		def text = aDescriptor.getText();
 		text.eachLine {
 			if(it =~ stringPattern) {
-				def p =it.split("__");
-				wgSpecMapping.put(aDescriptor.name, p[1]);
+				def p =it.substring(it.indexOf("__"),it.length()-1);
+				p=p.replaceAll("__","");
+				wgSpecMapping.put(aDescriptor.name, p);
 			}
 		}
 	}
 	static def addEntry(String req , String spec ) {
+		def specArr = spec.split(",")
+		spec = specArr[0]
 		def specFile = new File(baseDirSpec +spec +".adoc");
 		println specFile
 		specFile << includeString + "/" + req  +"[]" +"\n"
@@ -82,7 +85,19 @@ class GenerateWGSpec {
 						temp << line +"\n";
 						temp << linkCall;
 					}else{
-						temp << line + "\n";
+						if(line.contains(stringPattern)) {
+							def wgFileStr = line.substring(line.indexOf("__"),line.length()-1);
+							wgFileStr = wgFileStr.replaceAll("__","");
+							def wgListArr = wgFileStr.split(",")
+							wgListArr.eachWithIndex{wg,id->
+								if(id!=0){
+									line = line.replaceAll(wg,"<<"+wg+","+wg+">>");
+								}
+							}
+							temp << line + "\n";
+						}else{
+							temp << line + "\n";
+						}
 					}
 				}
 			}else{

@@ -3,7 +3,7 @@
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_*     __recommended__#
-[small]#*_Category:_*     __WG1__ (WG4)#
+[small]#*_Category:_*     __WG1__,__WG4__#
 [small]#*_Status:_*       __final__#
 
 

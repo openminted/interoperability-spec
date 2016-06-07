@@ -3,7 +3,7 @@
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_*     __recommended__#
-[small]#*_Category:_*     __WG3__ (WG4)#
+[small]#*_Category:_*     __WG3__,__WG4__#
 [small]#*_Status:_*       __final__#
 
 A workflow must aggregate all licences either from the components which is composed of, or from the language resources/knowledge bases that are used withing it and inform the user about them.

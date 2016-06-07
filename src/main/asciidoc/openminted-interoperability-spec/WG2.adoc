@@ -1,6 +1,6 @@
 // REC: This file will in the future be mainly auto-generated from category tags in the requirements
 // files.
-
+[[WG2]]
 == Language and knowledge resources
 
 // include::{include-dir-spec}req/XXX.adoc[]

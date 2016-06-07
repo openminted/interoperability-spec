@@ -1,6 +1,6 @@
 // REC: This file will in the future be mainly auto-generated from category tags in the requirements
 // files.
-
+[[WG3]]
 == IPR and licensing
 
 // include::{include-dir-spec}req/XXX.adoc[]

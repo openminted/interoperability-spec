@@ -3,7 +3,7 @@
 [%hardbreaks]
 [small]#*_Concreteness:_* __concrete__#
 [small]#*_Strength:_*     __recommended__#
-[small]#*_Category:_*     __WG2__ (WG4)#
+[small]#*_Category:_*     __WG2__,__WG4__#
 [small]#*_Status:_*       __final__#
 
 When assembling a workflow and running it, the workflow engine should not require that all data be transferred between the components by passing it through the engine. In the best case, this would only incur a performance overhead. In the worst case, it would require potentially sensitive or proprietary data to leave its source infrastructure, even if the actual analysis components deployed would be deployed on the same infrastructure (that is assuming that the workflow engine does not also run on the same infrastructure). This could e.g. be solved by processing components talking directly to each other.
