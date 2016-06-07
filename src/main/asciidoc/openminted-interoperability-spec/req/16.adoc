@@ -36,8 +36,8 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | draft
 
 | GATE
-| unknown
-| ...
+| full
+| GATE components that are configured through models/resources etc. simply require a URL to the resources. This could be a file or jar URL as well as anormal http URL. Resources may be bundled inside jar files for distribution but these are simply the default files and can always be replaced.
 | draft
 
 | ILSP
