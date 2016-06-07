@@ -1,0 +1,43 @@
+=== workflow engine should not require to see data
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __(concrete)__#
+[small]#*_Strength:_*     __(recommended)__#
+[small]#*_Category:_*     __(WG2|WG4)__#
+[small]#*_Status:_*       __(final)__#
+
+When assembling a workflow and running it, the workflow engine should not require that all data be transferred between the components by passing it through the engine. In the best case, this would only incur a performance overhead. In the worst case, it would require potentially sensitive or proprietary data to leave its source infrastructure, even if the actual analysis components would be deployed would be deployed on the same infrastructure (that is assuming that the workflow engine does not also run on the same infrastructure). This could e.g. be solved by processing components talking directly to each other.
+
+Source: WG1 Scenario 2 — SME running research analytics for funders within the European Research Area
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,4,1"]
+|====
+|Product|Compliant|Justification|Status
+
+| Alvis
+| unknown
+| ...
+| draft
+
+| ARGO/U-Compare
+| unknown
+| ...
+| draft
+
+| DKPro Core
+| unknown
+| ...
+| draft
+
+| GATE
+| unknown
+| ...
+| draft
+
+| ILSP
+| unknown
+| ...
+| draft
+|====
