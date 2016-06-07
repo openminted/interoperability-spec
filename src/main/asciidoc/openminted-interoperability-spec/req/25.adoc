@@ -46,7 +46,7 @@ Source: WG 2 Scenario 3 — The relation between documents and knowledge bas
 
 | GATE
 | unknown
-| ...
+| you could write a GATE component in this way, but it isn't supported directly by the framework and I know of none that do this
 | draft
 
 | ILSP
