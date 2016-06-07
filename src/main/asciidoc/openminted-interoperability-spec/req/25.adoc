@@ -1,0 +1,56 @@
+===  incorporation of multiple resources in parallel
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __(abstract)__#
+[small]#*_Strength:_*     __(recommended)__#
+[small]#*_Category:_*     __(WG4)__#
+[small]#*_Status:_*       __(final)__#
+
+
+
+Whenever possible, components should allow to incorporate multiple resources in parallel, e.g. looking up a word from multiple sources or using multiple classification models in parallel. Exampes:
+
+    Stanford CoreNLP named entity recognizer can load multiple NER models in parallel
+    a Gazeteer should be able to access not only a single knowledge resources, but be able to access e.g. multiple SparQL endpoints
+
+Components may choose or have to disambiguate results if there are multiple hits, e.g. using a relevance or confidence score, in particular if the annotation scheme being used does not allow for multiple categories to be assigned to a single element (e.g. a Named Entity) or does not allow multiple elements to exist at the same location.
+
+Another alternative would be to add the same component multiple times to a workflow, each time using a different resources - this would require that at least temporarily multiple categories/annotation elements would be allowed. A subsequent component could be used to select the most relevant one(s).
+
+Caveat: Having relevance/confidence scores from different sources bears a great risk of the scores being on different scales and not comparable.
+
+Note: parallel access to resources could be externalized into a resource adapter, such that the component itself would not have to deal explicitly with handling multiple adapters in parallel. 
+
+Source: WG 2 Scenario 3 — The relation between documents and knowledge bases through keywords
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,4,1"]
+|====
+|Product|Compliant|Justification|Status
+
+| Alvis
+| unknown
+| ...
+| draft
+
+| ARGO/U-Compare
+| unknown
+| ...
+| draft
+
+| DKPro Core
+| unknown
+| ...
+| draft
+
+| GATE
+| unknown
+| ...
+| draft
+
+| ILSP
+| unknown
+| ...
+| draft
+|====
