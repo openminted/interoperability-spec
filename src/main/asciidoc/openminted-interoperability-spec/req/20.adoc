@@ -6,7 +6,7 @@
 [small]#*_Category:_*     __WG2__ (WG4)#
 [small]#*_Status:_*       __final__#
 
-When assembling a workflow and running it, the workflow engine should not require that all data be transferred between the components by passing it through the engine. In the best case, this would only incur a performance overhead. In the worst case, it would require potentially sensitive or proprietary data to leave its source infrastructure, even if the actual analysis components would be deployed would be deployed on the same infrastructure (that is assuming that the workflow engine does not also run on the same infrastructure). This could e.g. be solved by processing components talking directly to each other.
+When assembling a workflow and running it, the workflow engine should not require that all data be transferred between the components by passing it through the engine. In the best case, this would only incur a performance overhead. In the worst case, it would require potentially sensitive or proprietary data to leave its source infrastructure, even if the actual analysis components deployed would be deployed on the same infrastructure (that is assuming that the workflow engine does not also run on the same infrastructure). This could e.g. be solved by processing components talking directly to each other.
 
 Source: WG1 Scenario 2 — SME running research analytics for funders within the European Research Area
 
@@ -32,8 +32,8 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within the
 | draft
 
 | GATE
-| unknown
-| ...
+| partial
+| GATE components don't talk to each other, passing data is the job of a pipeline (which is akin to a workflow). However, if within an OpenMinTeD workflow there were a sequence of GATE components then these could be aggregated into a GATE pipeline and deployed as a single unit meaning that data would be kept within the pipeline.
 | draft
 
 | ILSP
