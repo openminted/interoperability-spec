@@ -1,0 +1,45 @@
+=== The workflows should be described using an uniform language.
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __(abstract)__#
+[small]#*_Strength:_*     __(recommended)__#
+[small]#*_Category:_*     __(WG4)__#
+[small]#*_Status:_*       __(draft)__#
+
+
+
+A workflow represents an experiment that users describe, visualize, execute, modifify and shared. To facilitate the lifecycle, the workflows should be described in a uniform way so that the instantiated components, parameters and data flow to be understandable by users as well as by the engines.
+
+Note - we may wish to be more specific with this requirement
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,4,1"]
+|====
+|Product|Compliant|Justification|Status
+
+| Alvis
+| unknown
+| ...
+| draft
+
+| ARGO/U-Compare
+| unknown
+| ...
+| draft
+
+| DKPro Core
+| unknown
+| ...
+| draft
+
+| GATE
+| unknown
+| ...
+| draft
+
+| ILSP
+| unknown
+| ...
+| draft
+|====
