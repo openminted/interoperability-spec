@@ -1,10 +1,10 @@
 === Here goes the requirement title
 
 [%hardbreaks]
-[small]#*_Concreteness:_* __(abstract|concrete)__#
-[small]#*_Strength:_*     __(mandatory|recommended|optional)__#
-[small]#*_Category:_*     __(WG1|WG2|WG3|WG4)__#
-[small]#*_Status:_*       __(draft|final|deprecated)__#
+[small]#*_Concreteness:_* __abstract|concrete__#
+[small]#*_Strength:_*     __mandatory|recommended|optional__#
+[small]#*_Category:_*     __WG1__,__WG2__,__WG3__,__WG4__#
+[small]#*_Status:_*       __draft|final|deprecated__#
 
 This is where the description of the requirement goes. If you wish to reference another requirement from here, you can do it like link:{include-dir}req/1.adoc[this].
 
