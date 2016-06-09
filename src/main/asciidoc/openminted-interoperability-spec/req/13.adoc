@@ -15,8 +15,8 @@ It is important that citable publications for each component can be obtained fro
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| No
+| No citation information in general, the documentation of the modules may sometimes contain citation information
 | draft
 
 | ARGO/U-Compare
