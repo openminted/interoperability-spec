@@ -53,4 +53,6 @@ Are vocabularies really reusable and combinable... and if yes, to what extent?
 
 ==== Open questions
 
-with defining prefered strategy.Identifications of problems and bottlenecks; discussion of possible solutions; help
+* Identifications of problems and bottlenecks
+* Discussion of possible solutions
+* Help with defining preferred strategy
