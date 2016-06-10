@@ -8,6 +8,7 @@ products still in testing stage. The user wants to provide additional (confident
 product/agents that should be taken into account for the analysis.
 
 WG2 specific tasks:
+
 * KB content harmonization including semantic mapping
 * harmonization of I/O specifications for TDM workflows
 * harmonization of output format
