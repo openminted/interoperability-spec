@@ -29,8 +29,8 @@ Note: If a component is required to be stateful, it would make sense for the pla
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| Partial
+| Most DKPro Core components are stateless in the described sense: no information needs to be shared between multiple instances of the same component. There is the case of sharing models between multiple instances and this is experimentally supported by DKPro Core but can only be used if the models themselves are threadsafe/stateless. Note that components are *not* threadsafe! A single component instance cannot be safely invoked from multiple threads! A notable exception to statelessness are writer components which are able to aggregate information, e.g. writing all pipeline output to a single file. Such components cannot be sensibly scaled out. They are marked with the UIMA operational property *multipleDeploymentAllowed = false*.
 | draft
 
 | GATE
