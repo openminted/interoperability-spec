@@ -1,4 +1,4 @@
-=== processing components should be downloadable
+=== Processing components should be downloadable
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
@@ -27,8 +27,8 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| full
+| All released DKPro Core components come as downloadable Maven artifacts and are distributed via Maven Central.
 | draft
 
 | GATE
