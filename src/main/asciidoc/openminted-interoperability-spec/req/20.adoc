@@ -1,4 +1,4 @@
-=== workflow engine should not require to see data
+=== Workflow engines should not require to see data
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __concrete__#
@@ -27,8 +27,8 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within the
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| not applicable
+| DKPro Core itself does not provide workflow functionality. It's components can in principle be used in a workflow setup where data is passed directly between components, i.e. without going through a central workflow manager. But providing such a manager is beyond the scope of DKPro Core.
 | draft
 
 | GATE
