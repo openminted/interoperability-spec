@@ -26,8 +26,8 @@ A workflow must aggregate all licences either from the components which is compo
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| No
+| Presently, DKPro Core does not record license information in processed documents.
 | draft
 
 | GATE
