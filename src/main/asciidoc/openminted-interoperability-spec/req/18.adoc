@@ -30,7 +30,7 @@ Note - we may wish to be more specific with this requirement
 
 | DKPro Core
 | unknown
-| ...
+| DKPro Core is build on UIMA and can be invoked through UIMA by any workflow manager or execution environment that supports UIMA. We do not really care whatever language that environment is using to describe their workflows. Many users like using DKPro Core components with uimaFIT (often either using SimplePipeline or CpeBuilder) - DKPro Core provides examples for this in various languages (Java, Groovy, Jython). LAPPS Grid integrates serives based on DKPro Core components with their Galaxy workflow engine. 
 | draft
 
 | GATE
