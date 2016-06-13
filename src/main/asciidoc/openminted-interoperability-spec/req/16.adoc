@@ -1,4 +1,4 @@
-=== models/resources should be useable across different component collections/platforms
+=== Models/resources should be useable across different component collections/platforms
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
@@ -31,8 +31,8 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| Full
+| DKPro Core components that use resources can typically be configured through two mechanisms: 1) via the *language/variant* coordinates which internally translate to a classpath lookup, and may make use of the built-in auto-download mechanism for models. 2) via the *PARAM_MODEL_LOCATION* which supports locally available resources (file system, classpath, ZIP/JAR files, but not arbitrary remote URLs).
 | draft
 
 | GATE
