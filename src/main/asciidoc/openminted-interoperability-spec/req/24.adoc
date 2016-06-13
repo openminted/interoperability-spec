@@ -30,9 +30,14 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | ...
 | draft
 
+| UIMA
+| Full
+| UIMA supports the concept of *aggregate analysis engines* whose delegates can be either primitive analysis engines or further aggregate engines. Aggegate engines may declare parameters whose values can be forwarded to delegates.
+| draft
+
 | DKPro Core
-| unknown
-| ...
+| N/A
+| This is out of the scope of DKPro Core. See UIMA.
 | draft
 
 | GATE
