@@ -14,8 +14,8 @@ To this end storing license information within component metadata seems the most
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| No
+| The licence information are currently provided as free texts in the tool documentation.
 | draft
 
 | ARGO/U-Compare
