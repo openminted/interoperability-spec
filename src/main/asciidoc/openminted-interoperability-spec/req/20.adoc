@@ -17,8 +17,8 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within the
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| No
+| Alvis uses a shared data structure, the workflow engine is required to manage the data and the modules during the execution steps.
 | draft
 
 | ARGO/U-Compare
