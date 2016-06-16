@@ -16,8 +16,8 @@ Components in systems such as Alvis offer several parameters used to configure t
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Full
+| The parameters are well-typed in Alvis, they may be simple (e.g., integer, String, boolean) or complex (e.g., list, map). A description is planned for each parameter even if some parameters currently lack descriptions.
 | draft
 
 | ARGO/U-Compare
