@@ -18,7 +18,7 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within the
 
 | Alvis
 | Partial
-| Alvis uses a shared data structure, the workflow engine is required to manage the data and the modules during the execution steps. However each module can be encapsulated with the Alvis engine.
+| Alvis uses a shared data structure, the workflow engine is required to manage the data and the modules during the execution steps. However the Alvis modules can be encapsulated with the Alvis engine in a OpenMinTeD workflow.
 | draft
 
 | ARGO/U-Compare
