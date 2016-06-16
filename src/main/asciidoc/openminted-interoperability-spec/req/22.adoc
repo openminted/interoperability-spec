@@ -19,8 +19,8 @@ For reproducibility reasons extract and save/export (?) the exact experimental c
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Partial
+| Alvis allows this through its workflow expression.
 | draft
 
 | ARGO/U-Compare
