@@ -20,7 +20,7 @@ Note - we may wish to be more specific with this requirement
 
 | Alvis
 | unknown
-| ...
+| Alvis has a workflow representation that only accepts sequence of modules and parameter configuration on the individual modules. The workflows are expressed using XML constructs that the Alvis engine can interpret.
 | draft
 
 | ARGO/U-Compare
