@@ -30,8 +30,8 @@ Source: WG 2 Scenario 3 — The relation between documents and knowledge bas
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| No
+| Not supported
 | draft
 
 | ARGO/U-Compare
