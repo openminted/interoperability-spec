@@ -199,7 +199,7 @@ class GenerateWGSpec {
 			//adding link to spec file
 			def temp = new File(baseDirSpec+"req/temp_"+tf.name);
 			temp.createNewFile();					
-			temp <<  "[[" + reqSpecMapping.get(Integer.parseInt(tf.name.replace(".adoc",""))).replaceAll(' ','_').replaceAll('[+]','-') +"]]"
+			temp <<  "[[" + reqSpecMapping.get(Integer.parseInt(tf.name.replace(".adoc",""))).replaceAll(' ','_').replaceAll('[+]','-').replaceAll("/","_") +"]]"
 			temp.append(tf.getText());
 			def name = tf.name;
 			tf.delete();

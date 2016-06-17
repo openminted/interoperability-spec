@@ -11,7 +11,7 @@ if(sortedWG.size()>0)
 {
 	println '|*ID*|*Requirement*|*WG\'s*'
 	sortedWG.each{it ->
-	def str = reqSpecMapping.get(it.key).replaceAll(' ','_').replaceAll('[+]','-');
+	def str = reqSpecMapping.get(it.key).replaceAll(' ','_').replaceAll('[+]','-').replaceAll("/","_");
 	println "|${it.key}|<<${str},${reqSpecMapping.get(it.key)}>>|${it.value}"
 	
 	}
