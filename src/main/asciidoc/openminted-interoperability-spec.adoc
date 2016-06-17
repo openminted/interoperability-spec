@@ -147,4 +147,5 @@ include::{include-dir-spec}WG2.adoc[]
 include::{include-dir-spec}WG3.adoc[]
 include::{include-dir-spec}WG4.adoc[]
 
+include::{include-dir-spec}Details.adoc[]
 include::{include-dir-spec}bibliography.adoc[]

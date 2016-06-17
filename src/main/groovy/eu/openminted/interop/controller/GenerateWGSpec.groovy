@@ -11,29 +11,33 @@ import org.asciidoctor.SafeMode
 import org.yaml.snakeyaml.Yaml;
 class GenerateWGSpec {
 
-	static Map<String, String> wgSpecMapping = [:];
-	static def stringPattern ="_Category:_" ;
+	static Map<Integer, String> wgSpecMapping = [:];
+	static Map<Integer,String> reqSpecMapping = [:];
+	static def stringPatternCategory ="_Category:_" ;
+	static def stringPatternHeading = "===";
 	static def includeString = "include::{include-dir-spec}req";
 	static def baseDirSpec = baseDirTarget + "openminted-interoperability-spec/";
 	static def baseDirTarget = "target/generated-adocs/";
 	static def baseDir = "src/main/asciidoc/";
 
-	static def updateWGspecMapping(File aDescriptor){
+	static def updateWGspecAndReqMapping(File aDescriptor){
 		def text = aDescriptor.getText();
 		text.eachLine {
-			if(it =~ stringPattern) {
+			if(it =~ stringPatternCategory) {
 				def p =it.substring(it.indexOf("__"),it.length()-1);
 				p=p.replaceAll("__","");
-				wgSpecMapping.put(aDescriptor.name, p);
+				wgSpecMapping.put(aDescriptor.name.replace(".adoc","").toInteger(), p);
+			}
+			if(it.startsWith(stringPatternHeading)){
+				def reqNo = aDescriptor.name.replace(".adoc","");
+				def p = it.substring(it.indexOf(reqNo) + reqNo.length()+1,it.length()).replaceFirst("^ *","");											
+				reqSpecMapping.put(aDescriptor.name.replace(".adoc","").toInteger(),p);
 			}
 		}
 	}
 	static def addEntry(String req , String spec ) {
-		def specArr = spec.split(",")
-		spec = specArr[0]
-		def specFile = new File(baseDirSpec +spec +".adoc");
-		println specFile
-		specFile << includeString + "/" + req  +"[]" +"\n"
+		def detailFile = new File(baseDirSpec + "Details.adoc");
+		detailFile << "\n" + includeString + "/" + req+".adoc"  +"[]";
 	}
 
 	static def render(Boolean isDirectory, String model, String sourceAdoc, String targetDoc, String replaceStr,
@@ -85,7 +89,7 @@ class GenerateWGSpec {
 						temp << line +"\n";
 						temp << linkCall;
 					}else{
-						if(line.contains(stringPattern)) {
+						if(line.contains(stringPatternCategory)) {
 							def wgFileStr = line.substring(line.indexOf("__"),line.length()-1);
 							wgFileStr = wgFileStr.replaceAll("__","");
 							def wgListArr = wgFileStr.split(",")
@@ -127,7 +131,7 @@ class GenerateWGSpec {
 		//add include string line in the WG files with spec mapping
 		new File(baseDirSpec+"req").eachFileRecurse(FILES) {
 			if (it.name.endsWith('.adoc') && !it.name.find("TEMPLATE")) {
-				updateWGspecMapping(it);
+				updateWGspecAndReqMapping(it);
 			}
 		}
 		new File(baseDirSpec).eachFileRecurse(FILES) {
@@ -148,18 +152,60 @@ class GenerateWGSpec {
 
 			}
 		}
+		wgSpecMapping = wgSpecMapping.sort{ a,b -> a.key <=> b.key };
 		for (var in wgSpecMapping) {
-			addEntry(var.key,var.value);
+			addEntry(var.key.toString(),var.value);
 		}
+		reqSpecMapping = reqSpecMapping.sort{a,b -> a.key <=> b.key};
 		// Adding edit options in the spec files
-		println "Applying templates..."
-		File adocTargetFolder = new File("target/generated-adocs/openminted-interoperability-spec/req");
-
+		println "Applying templates for WG..."
+		
+		File adocTargetFolderWG = new File("target/generated-adocs/openminted-interoperability-spec")
 		def te = new groovy.text.SimpleTemplateEngine(GenerateWGSpec.class.classLoader);
+		
+		
+		//processing WG template
+		new File("target/generated-adocs/openminted-interoperability-spec").eachFile(FILES){tf->
+			if(!tf.name.endsWith(".adoc") || !tf.name.startsWith("WG")){
+				return;
+			}
+			println "Processing template ${tf.name}...";
+			def spec =[:];
+			spec["source"]="https://github.com/openminted/interoperability-spec/blob/master/src/main/asciidoc/openminted-interoperability-spec/req/";
+			spec["name"] = tf.name;			
+			try {
+				def template = te.createTemplate(tf.getText("UTF-8"));
+				def result = template.make([
+					spec: spec,wgSpecMapping:wgSpecMapping ,reqSpecMapping:reqSpecMapping]);
+				
+				def output = new File(adocTargetFolderWG, "${tf.name}");
+				output.parentFile.mkdirs();
+				output.setText(result.toString(), 'UTF-8');
+			}
+			catch (Exception e) {
+				te.setVerbose(true);
+				te.createTemplate(tf.getText("UTF-8"));
+				throw e;
+			}
+		}
+		
+		//processing requirement template
+		println "Applying templates for requirement..."
+		File adocTargetFolder = new File("target/generated-adocs/openminted-interoperability-spec/req");
 		new File("target/generated-adocs/openminted-interoperability-spec/req").eachFile(FILES) { tf ->
 			if (!tf.name.endsWith(".adoc") || tf.name.equals("TEMPLATE.adoc")) {
 				return;
 			}
+			//adding link to spec file
+			def temp = new File(baseDirSpec+"req/temp_"+tf.name);
+			temp.createNewFile();					
+			temp <<  "[[" + reqSpecMapping.get(Integer.parseInt(tf.name.replace(".adoc",""))).replaceAll(' ','_').replaceAll('[+]','-') +"]]"
+			temp.append(tf.getText());
+			def name = tf.name;
+			tf.delete();
+			temp.renameTo(baseDirSpec+"/req/"+name);
+//			
+			//processing template
 			println "Processing template ${tf.name}...";
 			def spec =[:];
 			spec["source"]="https://github.com/openminted/interoperability-spec/blob/master/src/main/asciidoc/openminted-interoperability-spec/req/" + tf.name;
@@ -178,8 +224,8 @@ class GenerateWGSpec {
 				throw e;
 			}
 		}
-
-
+		
+		
 
 		Asciidoctor asciidoctor = Asciidoctor.Factory.create();
 

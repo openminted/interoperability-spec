@@ -3,5 +3,18 @@
 [[WG1]]
 == Resource metadata
 
-// include::{include-dir-spec}req/XXX.adoc[]
-include::{include-dir-spec}req/4.adoc[]
+[cols="10%,80%,10%"]
+|====
+<%
+def sortedWG = wgSpecMapping.grep{it.value.contains(spec.name.replace(".adoc",""))}		
+if(sortedWG.size()>0)
+{
+	println '|*ID*|*Requirement*|*WG\'s*'
+	sortedWG.each{it ->
+	def str = reqSpecMapping.get(it.key).replaceAll(' ','_').replaceAll('[+]','-');
+	println "|${it.key}|<<${str},${reqSpecMapping.get(it.key)}>>|${it.value}"
+	
+	}
+}
+%>
+|====
