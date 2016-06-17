@@ -20,8 +20,8 @@ Capturing, computing and presenting simplified information (e.g., availability, 
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| Full
+| Argo components have a human readable description.
 | draft
 
 | DKPro Core
