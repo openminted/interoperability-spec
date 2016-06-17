@@ -51,6 +51,6 @@ Source: WG 2 Scenario 3 — The relation between documents and knowledge bas
 
 | ILSP
 | unknown
-| ...
+| Components do not support this in a generic way. Certain components generate confidence scores at annotation levels like NE spans.
 | draft
 |====
