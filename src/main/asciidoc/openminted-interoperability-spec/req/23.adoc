@@ -36,7 +36,7 @@ A workflow must aggregate all licences either from the components which is compo
 | draft
 
 | ILSP
-| unknown
-| ...
+| No
+| Components do not add license information to processed documents.
 | draft
 |====
