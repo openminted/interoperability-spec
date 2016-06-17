@@ -40,6 +40,6 @@ Note - we may wish to be more specific with this requirement
 
 | ILSP
 | unknown
-| ...
+| ILSP components are combined in workflows using UIMA (AS) aggregate descriptors and/or using the workflow functionalities of processing infrastructures like CLARIN and METASHARE/QT21.
 | draft
 |====
