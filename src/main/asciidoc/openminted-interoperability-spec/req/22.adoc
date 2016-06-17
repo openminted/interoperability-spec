@@ -39,7 +39,7 @@ For reproducibility reasons extract and save/export (?) the exact experimental c
 | draft
 
 | ILSP
-| unknown
-| ...
+| No
+| Components only add annotations regarding original source (typically a text file on disk). 
 | draft
 |====
