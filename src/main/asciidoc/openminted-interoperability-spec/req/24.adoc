@@ -21,8 +21,8 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Full
+| The workflows are special components, they can be used in other workflows and Alvis offers means to handle the internal parameters.
 | draft
 
 | ARGO/U-Compare
