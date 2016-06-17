@@ -34,7 +34,7 @@ To this end storing license information within component metadata seems the most
 | draft
 
 | ILSP
-| unknown
-| ...
+| Partial
+| ILSP components do not have a license assigned as part of the metadata. ILSP components are provided free for research purposes via UIMA, SOAP and/or rest services. The license information for these services is declared via appropriate metadata as for example in https://goo.gl/yDynbu
 | draft
 |====
