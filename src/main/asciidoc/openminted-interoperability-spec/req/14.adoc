@@ -19,8 +19,8 @@ To this end storing license information within component metadata seems the most
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| Partial
+| Components can declare licensing information with the Argo Descriptor File, however the vast majority of components do not make use of this facility.
 | draft
 
 | DKPro Core
