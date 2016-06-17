@@ -24,8 +24,8 @@ Note: If a component is required to be stateful, it would make sense for the pla
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| Partial
+| Most Argo components are stateless.  It is possible to indicate that a component is stateful (which will result in only a single instance of that component being permitted within a distributed execution) by setting the multipleDeploymentAllowed value to false in the UIMA descriptor file.  Argo also automatically treats a subset of components as being stateful, which includes Reader, Writers and Interactive Components.
 | draft
 
 | DKPro Core
