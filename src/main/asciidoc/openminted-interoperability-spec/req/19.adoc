@@ -1,12 +1,10 @@
-=== components that use external knowledge resources should delegate access to a resource adapter instead of handling it themselves
+=== Components that use external knowledge resources should delegate access to a resource adapter instead of handling it themselves
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_*     __optional__#
 [small]#*_Category:_*     __WG2__,__WG4__#
 [small]#*_Status:_*       __draft__#
-
-
 
 A component that uses an external knowledge resources, e.g. a dictionary, should access that resource through an adapter instead of accessing it directly. E.g. a Gazeteer component could be configured with a WordListFileResourceAdapter that looks up words from a simple word list file or using some SparqlQueryAdapter that would perform the lookup via Sparql. Thus, providing access to different knowledge sources should not require changes to the component implementation itself, but rather require only the implementation of lightweight adapters. It is not important that all implementations use the same adapters, but rather that this abstraction exists in the first place. E.g. a GATE component may use a GATE-specific adapter implementation and a UIMA component may use an UIMA-specific implementation.
 
@@ -35,8 +33,8 @@ Note: This requirement may not be necessary in small-scale resource lookup.
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| partial
+| We experimented with such an approach e.g. in the SemanticFieldAnnotator where a resource abstract for semantic tagging resources exists. The idea was e.g. to read semantic tags either from a plain text file or alternatively from a Uby database. The ResourceObjectProvider abstraction internally used by DKPro Core to resolve and load models is also kind of related to this requirement. E.g. there is an experimental function to enable a behind-the-scene sharing of loaded models between multiple component resources. This works provided the models themselves are thread-safe.
 | draft
 
 | GATE
@@ -45,7 +43,7 @@ Note: This requirement may not be necessary in small-scale resource lookup.
 | draft
 
 | ILSP
-| unknown
-| ...
+| partial
+| Some of the classes that provide access to resource data for ILSP components implement the org.apache.uima.resource.SharedResourceObject interface. 
 | draft
 |====

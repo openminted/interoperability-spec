@@ -1,4 +1,4 @@
-=== models/resources should be useable across different component collections/platforms
+=== Models/resources should be useable across different component collections/platforms
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
@@ -21,8 +21,8 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Partial
+| Alvis has a stream manager that enables to caracterize models/resources to load or to store, it supports file system, web access, zip/jar,... and is extensible. 
 | draft
 
 | ARGO/U-Compare
@@ -31,8 +31,8 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| Full
+| DKPro Core components that use resources can typically be configured through two mechanisms: 1) via the *language/variant* coordinates which internally translate to a classpath lookup, and may make use of the built-in auto-download mechanism for models. 2) via the *PARAM_MODEL_LOCATION* which supports locally available resources (file system, classpath, ZIP/JAR files, but not arbitrary remote URLs).
 | draft
 
 | GATE
@@ -41,7 +41,7 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | draft
 
 | ILSP
-| unknown
-| ...
+| Partial
+| ILSP UIMA-based components are typically configured via uimafit ConfigurationParameter and/or ExternalResource annotations. As services, users can only configure parameters things like exporting format.
 | draft
 |====

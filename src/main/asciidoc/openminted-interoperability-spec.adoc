@@ -1,5 +1,5 @@
 = OpenMinTeD Interoperability Specification
-:Author: TBD
+:Author: OpenMinTeD Interoperability Team (T5.2)
 :toc-title: Contents
 
 This document will host the interoperability specification for the OpenMinTeD platform. Currently,

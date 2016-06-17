@@ -1,4 +1,4 @@
-=== processing components should be downloadable
+=== Processing components should be downloadable
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
@@ -17,8 +17,8 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| No
+| Not supported
 | draft
 
 | ARGO/U-Compare
@@ -27,8 +27,8 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| full
+| All released DKPro Core components come as downloadable Maven artifacts and are distributed via Maven Central.
 | draft
 
 | GATE
@@ -37,7 +37,7 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within
 | draft
 
 | ILSP
-| unknown
-| ...
+| No
+| Processing components are available only as services.
 | draft
 |====

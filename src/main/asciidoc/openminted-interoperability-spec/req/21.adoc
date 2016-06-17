@@ -1,4 +1,4 @@
-=== The configuration and parametrable options of the components should be identified and documented.
+=== The configuration and parametrizable options of the components should be identified and documented.
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
@@ -7,7 +7,7 @@
 [small]#*_Status:_*       __final__#
 
 
-Components in systems such as alvis offer several parameters used to configure the behavior of the component execution. In order to help users understand a specific parameter and its role, the parameters should be well identified and described. The descriptions should contain information to help users understand how and in what context a parameter is used, and also provide the data types (e.g., boolean, integer, string) accepted by a parameter.
+Components in systems such as Alvis offer several parameters used to configure the behavior of the component execution. In order to help users understand a specific parameter and its role, the parameters should be well identified and described. The descriptions should contain information to help users understand how and in what context a parameter is used, and also provide the data types (e.g., boolean, integer, string) accepted by a parameter.
 
 // Below is an example of how a compliance evaluation table could look. This is presently optional
 // and may be moved to a more structured/principled format later maintained in separate files.
@@ -16,8 +16,8 @@ Components in systems such as alvis offer several parameters used to configure t
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Full
+| The parameters are well-typed in Alvis, they may be simple (e.g., integer, String, boolean) or complex (e.g., list, map). A description is planned for each parameter even if some parameters currently lack descriptions.
 | draft
 
 | ARGO/U-Compare
@@ -26,8 +26,8 @@ Components in systems such as alvis offer several parameters used to configure t
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| Full
+| Parameters are implemented in DKPro Core through the uimaFIT `@ConfigurationParameter` annotation on class fields. These fields are typed and usually have documentation. They can have a default value and they can be marked as optional/mandatory. The annotation is retained for runtime such that parameter information can be dynamically obtained via uimaFIT. Additionally, UIMA XML descriptors are automatically generated for each component which also include the parameter declarations and default values. The parameter types supported are the standard UIMA-supported types (boolean, int, float, String). Additional types are supported via uimaFIT' automatic type-coercion mechanism. In this way, fields that are annotated as `@ConfigurationParameter` can e.g. be of the type `File` or `Pattern` or be different Java collection types or arrays.
 | draft
 
 | GATE

@@ -31,7 +31,7 @@ and trigger a mechanism that allows direct full access to the resource (if it's 
 
 ==== Relevance in general
 
-They have come across similar situations and know how important description is important for resource discovery,
+They have come across similar situations and know how important description is for resource discovery,
 especially when it involves different resource types.
 
 ==== Approaches

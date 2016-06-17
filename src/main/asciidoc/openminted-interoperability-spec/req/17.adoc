@@ -19,18 +19,18 @@ Note: If a component is required to be stateful, it would make sense for the pla
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Partial
+| In a general way, there is no local state for a component and determinism is guaranted. However, aspects such as resource availability and resource access may imply state issues that Alvis core engine has to manage.
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| Partial
+| Most Argo components are stateless.  It is possible to indicate that a component is stateful (which will result in only a single instance of that component being permitted within a distributed execution) by setting the multipleDeploymentAllowed value to false in the UIMA descriptor file.  Argo also automatically treats a subset of components as being stateful, which includes Reader, Writers and Interactive Components.
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| Partial
+| Most DKPro Core components are stateless in the described sense: no information needs to be shared between multiple instances of the same component. There is the case of sharing models between multiple instances and this is experimentally supported by DKPro Core but can only be used if the models themselves are threadsafe/stateless. Note that components are *not* threadsafe! A single component instance cannot be safely invoked from multiple threads! A notable exception to statelessness are writer components which are able to aggregate information, e.g. writing all pipeline output to a single file. Such components cannot be sensibly scaled out. They are marked with the UIMA operational property *multipleDeploymentAllowed = false*.
 | draft
 
 | GATE
@@ -39,7 +39,7 @@ Note: If a component is required to be stateful, it would make sense for the pla
 | draft
 
 | ILSP
-| unknown
-| ...
+| Yes
+| ILSP components deployed as services avoid any form of local state. Multiple instances of a service deployed on the same machine can share lexical resources and models.
 | draft
 |====

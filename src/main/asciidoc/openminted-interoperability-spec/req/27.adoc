@@ -15,8 +15,8 @@ In the event that a component fails (e.g. due to a loss in network connectivity 
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| No
+| Alvis however can re-run a component from a data dump. 
 | draft
 
 | ARGO/U-Compare
@@ -25,8 +25,8 @@ In the event that a component fails (e.g. due to a loss in network connectivity 
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| N/A
+| DKPro Core does not provide any workflow functionality. It relies on such functionality to be provided by a workflow engine. Components are usually implemented fail-fast: as soon as a problem occurs, an exception is thrown. How the workflow engine (or application embedding DKPro Core components) handles these is up to them.
 | draft
 
 | GATE
@@ -35,7 +35,7 @@ In the event that a component fails (e.g. due to a loss in network connectivity 
 | draft
 
 | ILSP
-| unknown
-| ...
+| No
+| Not supported.
 | draft
 |====

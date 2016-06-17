@@ -19,8 +19,8 @@ For reproducibility reasons extract and save/export (?) the exact experimental c
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Partial
+| Alvis allows this through its workflow expression.
 | draft
 
 | ARGO/U-Compare
@@ -29,8 +29,8 @@ For reproducibility reasons extract and save/export (?) the exact experimental c
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| partial
+| DKPro Core readers adds a DocumentMetaData annotation to each document which contains basic information from where the document was obtained and how it can be idenfified (usually a file URL). Minimal information about the components/models that were used is added as annotations to the documents as well. This is mainly used as supplementary information to the tagset descriptions that DKPro Core usually adds to the document (i.e. which component/model was used to generate the annotations in a given layer and which tagset was used). A comprehensive recording of components and parameters is left to the workflow engine (i.e. UIMA) and/or to the executing environment. E.g. for building experiements, we sometimes use DKPro Lab, which also keeps track of configuration information of individual components.
 | draft
 
 | GATE
@@ -39,7 +39,7 @@ For reproducibility reasons extract and save/export (?) the exact experimental c
 | draft
 
 | ILSP
-| unknown
-| ...
+| No
+| Components only add annotations regarding original source (typically a text file on disk). 
 | draft
 |====

@@ -16,8 +16,8 @@ A workflow must aggregate all licences either from the components which is compo
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| No
+| No licence information handled in workflows
 | draft
 
 | ARGO/U-Compare
@@ -26,8 +26,8 @@ A workflow must aggregate all licences either from the components which is compo
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| No
+| Presently, DKPro Core does not record license information in processed documents.
 | draft
 
 | GATE
@@ -36,7 +36,7 @@ A workflow must aggregate all licences either from the components which is compo
 | draft
 
 | ILSP
-| unknown
-| ...
+| No
+| Components do not add license information to processed documents.
 | draft
 |====

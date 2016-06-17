@@ -1,4 +1,4 @@
-=== workflow engine should not require to see data
+=== Workflow engines should not require to see data
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __concrete__#
@@ -17,8 +17,8 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within the
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Partial
+| Alvis uses a shared data structure, the workflow engine is required to manage the data and the modules during the execution steps. However the Alvis modules can be encapsulated with the Alvis engine in a OpenMinTeD workflow.
 | draft
 
 | ARGO/U-Compare
@@ -27,8 +27,8 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within the
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| N/A
+| DKPro Core itself does not provide workflow functionality. It's components can in principle be used in a workflow setup where data is passed directly between components, i.e. without going through a central workflow manager. But providing such a manager is beyond the scope of DKPro Core.
 | draft
 
 | GATE
@@ -37,7 +37,7 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within the
 | draft
 
 | ILSP
-| unknown
-| ...
+| partial
+| For ILSP components deployed as UIMA AS services, data to be transferred from, say, component A to component B that are remotely deployed on node X are not first passed through a message broker running on node Y
 | draft
 |====

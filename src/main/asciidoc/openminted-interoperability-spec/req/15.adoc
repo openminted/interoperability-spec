@@ -1,4 +1,4 @@
-=== Human readable information should be provided by each resource.
+=== Human readable information should be provided by each resource
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
@@ -15,27 +15,27 @@ Capturing, computing and presenting simplified information (e.g., availability, 
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| Partial
+| Available for the common features (e.g., name, description, provider,...)
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| Full
+| Argo components have a human readable description.
 | draft
 
 | DKPro Core
-| unknown
-| ...
+| Full
+| Components should come with a description (primarily obtained from the JavaDoc of the component). That information may not be particularly comprehensive though. Availability, reliability, and the other example information given above are not releavant for DKPro Core as it is not service-based. 
 | draft
 
 | GATE
-| full
+| Full
 | Each component has a human readable name and description as part of the metadata
 | draft
 
 | ILSP
-| unknown
-| ...
+| No
+| No availability or QoS information is provided for components available as web services. Readable names, descriptions, Terms Of Service, provider etc. are provided as metadata for these services.
 | draft
 |====
