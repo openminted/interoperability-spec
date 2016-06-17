@@ -15,8 +15,8 @@ In the event that a component fails (e.g. due to a loss in network connectivity 
 |Product|Compliant|Justification|Status
 
 | Alvis
-| unknown
-| ...
+| No
+| Alvis however can re-run a component from a data dump. 
 | draft
 
 | ARGO/U-Compare
