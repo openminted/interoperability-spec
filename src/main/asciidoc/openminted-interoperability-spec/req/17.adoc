@@ -40,6 +40,6 @@ Note: If a component is required to be stateful, it would make sense for the pla
 
 | ILSP
 | Yes
-| ILSP components deployed as UIMA AS services avoid any form of local state. Multiple instances of a service deployed on the same machine can share lexical resources and models.
+| ILSP components deployed as services avoid any form of local state. Multiple instances of a service deployed on the same machine can share lexical resources and models.
 | draft
 |====
