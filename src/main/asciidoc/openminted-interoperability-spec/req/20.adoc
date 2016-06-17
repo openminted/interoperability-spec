@@ -37,7 +37,7 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within the
 | draft
 
 | ILSP
-| unknown
-| ...
+| partial
+| For ILSP components deployed as UIMA AS services, data to be transferred from, say, component A to component B that are remotely deployed on node X are not first passed through a message broker running on node Y
 | draft
 |====
