@@ -24,8 +24,8 @@ Note - we may wish to be more specific with this requirement
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| Partial
+| Possibily misinterpreting this requirement, but Argo contains a visual web-based workflow editor which allows a user to easily compose a workflow using components, which is then translated into a format understood by the execution engine within Argo.  Argo is only partially compliant as the workflows it produces cannot currently be shared outside of the Argo platform.
 | draft
 
 | DKPro Core
