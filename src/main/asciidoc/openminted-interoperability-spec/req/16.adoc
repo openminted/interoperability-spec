@@ -41,7 +41,7 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | draft
 
 | ILSP
-| unknown
-| ...
+| Partial
+| ILSP UIMA-based components are typically configured via uimafit ConfigurationParameter and/or ExternalResource annotations. As services, users can only configure parameters things like exporting format.
 | draft
 |====
