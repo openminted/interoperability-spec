@@ -22,8 +22,8 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within the
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| Partial
+| On certain infrastructures with shared storage, it is possible for data to bypass the workflow engine.  The Argo development roadmap does contain a plan to allow components to be speak directly to one another.
 | draft
 
 | DKPro Core
