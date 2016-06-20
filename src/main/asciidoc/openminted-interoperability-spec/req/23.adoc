@@ -21,8 +21,8 @@ A workflow must aggregate all licences either from the components which is compo
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| Full
+| A user will be shown a full list of licenses for a workflow when attempting to run it for the first time after any component changes are made to the workflow, to which they must agree before the workflow can be executed.
 | draft
 
 | DKPro Core
