@@ -26,8 +26,8 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| Partial
+| Argo components that offer configurable models/resources make use of standard UIMA configuration parameters.
 | draft
 
 | DKPro Core
