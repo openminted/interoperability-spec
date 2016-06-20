@@ -28,8 +28,8 @@ Source: WG 2 Scenario 3 — The relation between documents and knowledge bas
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| No
+| There is no information output from an execution that identifies which components produced individual annotations.
 | draft
 
 | DKPro Core
