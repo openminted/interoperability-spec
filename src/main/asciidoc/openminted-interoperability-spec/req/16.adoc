@@ -27,7 +27,7 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 
 | ARGO/U-Compare
 | Partial
-| Argo components that offer configurable models/resources make use of standard UIMA configuration parameters.
+| Argo components that offer configurable models/resources make use of standard UIMA configuration parameters.  The majority of these configuration parameters accept a local file path, which relates to a user's file store within the Argo ecosystem.
 | draft
 
 | DKPro Core
