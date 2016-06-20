@@ -35,8 +35,8 @@ Source: WG 2 Scenario 3 — The relation between documents and knowledge bas
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| No
+| It is possible to model the alternative suggestion using Argo (i.e. using multiple instances of the same component but applying different resources to each one) however there is no subsequent component to determine the most relevant output.  Not sure how this would be implemented at a framework level; seems very use-case specific.
 | draft
 
 | DKPro Core
