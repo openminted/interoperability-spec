@@ -22,8 +22,8 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within
 | draft
 
 | ARGO/U-Compare
-| unknown
-| ...
+| No
+| Currently workflows and components only exist within the Argo platform. 
 | draft
 
 | DKPro Core
