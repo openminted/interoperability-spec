@@ -10,29 +10,34 @@ Using such a widely adopted naming convention assists component developers throu
 
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | Alvis
+|
 | Full
 | Components are java classes organised using packages.
 | draft
 
 | ARGO/U-Compare
+|
 | partial
 | All of our current components are identified by strings that follow the Java fully-qualified class naming convention, however as the component identifier within Argo is derived from a filepath it is entirely possible for this requirement to be broken by new components.  For example, the UIMA descriptor for the Argo component Chemical Entity Recogniser has the path `/desc/uk/ac/nactem/uima/ChemicalEntityRecogniser.xml` which translates into the identifier `uk.ac.nactem.uima.ChemicalEntityRecogniser`.
 | draft
 
 | DKPro Core
+| 1.8.0
 | full
 | Components are identified by a Java class name. Per Java/Maven conventions, this classname is unique within DKPro Core. There is also a version associated with each class corresponding to the version of the enclosing Maven project/JAR.
 | draft
 
 | GATE
+| 8.2
 | full
 | All GATE components are implemented as Java Beans and as such fulfil this requirement.
 | draft
 
 | ILSP
+|
 | full
 | Components are identified by a Java class name. They are by convention unique within nlp.ilsp.gr. 
 | draft

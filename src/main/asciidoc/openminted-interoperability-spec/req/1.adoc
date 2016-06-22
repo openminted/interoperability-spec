@@ -14,29 +14,34 @@ metadata by which they describe themselves.
 // and may be moved to a more structured/principled format later maintained in separate files.
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | Alvis
+|
 | full
 | Alvis component descriptors
 | draft
 
 | ARGO/U-Compare
+|
 | full
 | UIMA component descriptors
 | draft
 
 | DKPro Core
+| 1.8.0
 | full
 | UIMA component descriptors, Maven project descriptors
 | draft
 
 | GATE
+| 8.2
 | full
 | CREOLE descriptors
 | draft
 
 | ILSP
+|
 | full
 | UIMA component descriptors
 | draft

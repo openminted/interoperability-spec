@@ -16,29 +16,34 @@ Note - we may wish to be more specific with this requirement
 // and may be moved to a more structured/principled format later maintained in separate files.
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | Alvis
+|
 | Partial
 | Alvis has a workflow representation that only accepts sequence of modules and parameter configuration on the individual modules. The workflows are expressed using XML constructs that the Alvis engine can interpret. The workflow expression can be modified, transfered and executed in different Alvis instances. The workflow representation is however only used within Alvis.
 | draft
 
 | ARGO/U-Compare
+|
 | Partial
 | Possibily misinterpreting this requirement, but Argo contains a visual web-based workflow editor which allows a user to easily compose a workflow using components, which is then translated into a format understood by the execution engine within Argo.  Argo is only partially compliant as the workflows it produces cannot currently be shared outside of the Argo platform.
 | draft
 
 | DKPro Core
+| 1.8.0
 | unknown
 | DKPro Core is build on UIMA and can be invoked through UIMA by any workflow manager or execution environment that supports UIMA. We do not really care whatever language that environment is using to describe their workflows. Many users like using DKPro Core components with uimaFIT (often either using SimplePipeline or CpeBuilder) - DKPro Core provides examples for this in various languages (Java, Groovy, Jython). LAPPS Grid integrates serives based on DKPro Core components with their Galaxy workflow engine. 
 | draft
 
 | GATE
+| 8.2
 | unknown
 | GATE has a standard description for workflows (as will any existing framework) but I really don't understand what this requirement is asking.
 | draft
 
 | ILSP
+|
 | unknown
 | ILSP components are combined in workflows using UIMA (AS) aggregate descriptors and/or using the workflow functionalities of processing infrastructures like CLARIN and METASHARE/QT21.
 | draft

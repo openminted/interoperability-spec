@@ -27,29 +27,34 @@ Source: WG 2 Scenario 3 — The relation between documents and knowledge bas
 // and may be moved to a more structured/principled format later maintained in separate files.
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | Alvis
+|
 | No
 | Not supported
 | draft
 
 | ARGO/U-Compare
+|
 | No
 | It is possible to model the alternative suggestion using Argo (i.e. using multiple instances of the same component but applying different resources to each one) however there is no subsequent component to determine the most relevant output.  Not sure how this would be implemented at a framework level; seems very use-case specific.
 | draft
 
 | DKPro Core
+| 1.8.0
 | No
 | The most prevasively used mechanism to load models in DKPro Core is the ResourceObjectProvider controlled through the parameters *PARAM_MODEL_LOCATION*, *PARAM_LANGAUGE*, and *PARAM_VARIANT*. This is presently set up in a way that only a single value is permitted for each of these parameters. Hence, e.g. the CoreNlpNamedEntityRecognizer would have to be added multiple times to a pipeline in order to be used with multiple models. The preference resolution mechanism that is normally part of the CoreNLP NER component would have to be modelled as a separate pipeline component (which is currently not offered by DKPro Core). In a few cases, components require multiple models (e.g. OpenNlpSegmenter) in which case we currently use multiple parameters, e.g. *PARAM_TOKENIZATION_MODEL_LOCATION* and *PARAM_SEGMENTATION_MODEL_LOCATION*. A few older components not using the ResourceObjectProvider may support multiple resources to be loaded, e.g. the StopWordRemover component.
 | draft
 
 | GATE
+| 8.2
 | unknown
 | you could write a GATE component in this way, but it isn't supported directly by the framework and I know of none that do this
 | draft
 
 | ILSP
+|
 | No
 | Not supported in a generic way.
 | draft

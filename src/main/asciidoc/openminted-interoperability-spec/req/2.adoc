@@ -14,29 +14,34 @@ the implementation (cf. <<uimafit>>).
 // and may be moved to a more structured/principled format later maintained in separate files.
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | Alvis
+|
 | not
 | Alvis XML descriptors manually maintained
 | draft
 
 | ARGO/U-Compare
+|
 | not (I believe)
 | UIMA XML descriptors manually maintained
 | draft
 
 | DKPro Core
+| 1.8.0
 | full
 | using uimaFIT Java annotations to automatically generate UIMA XML descriptors
 | draft
 
 | GATE
+| 8.2
 | partial
 | using CREOLE Java annotations, but not yet in all components
 | draft
 
 | ILSP
+|
 | partial
 | Both UIMA XML descriptors necessary for UIMA-AS integration, but also uimaFIT Java annotations to integrate components in command line pipelines
 | draft

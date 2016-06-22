@@ -12,29 +12,34 @@ It is important that citable publications for each component can be obtained fro
 // and may be moved to a more structured/principled format later maintained in separate files.
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | Alvis
+|
 | No
 | No citation information in general, the documentation of the modules may sometimes contain citation information
 | draft
 
 | ARGO/U-Compare
+|
 | no
 | No citable publication information available.
 | draft
 
 | DKPro Core
+| 1.8.0
 | unknown
 | The is no information whatsoever realted to citeable publications.
 | draft
 
 | GATE
+| 8.2
 | No
 | GATE does not support this, although it's likely that the URL to the documentation may well lead to a publication or documentation that references one.
 | draft
 
 | ILSP
+|
 | unknown
 | Available for some components but not always applicable or used.
 | draft

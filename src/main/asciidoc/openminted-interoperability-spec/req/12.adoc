@@ -10,29 +10,34 @@ Having some form of free-text description assists text and data miners in choosi
 
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | Alvis
+|
 | Partial
 | The description are free texts.
 | draft
 
 | ARGO/U-Compare
+|
 | partial
 | Components can declare a textual description using the `description` element within its associated UIMA descriptor file, however Argo doesn't enforce its existence. 
 | draft
 
 | DKPro Core
+| 1.8.0
 | Full
 | Most components have some kind of JavaDoc-based description. This is carried over into UIMA descriptors and Java annotations using the uimafit-maven-plugin during build time. This makes the descriptions available through Java reflection as well as in the UIMA XML descriptors. We use these descriptors as part of auto-generating the DKPro Core reference documentation. The quality of the documentation varies.
 | draft
 
 | GATE
+| 8.2
 | Full
 | The CREOLE metadata that describes a component includes the name and a brief description as well as a URL to the full documentation of the component. None of these are, however, mandatory and documentation varies across components (i.e. we have no control of the documentation of components developed by 3rd parties)
 | draft
 
 | ILSP
+|
 | partial
 | Most components have a minimal textual description in the UIMA descriptor file, which is often replicated in the Maven POM. If applicable, a reference to a scientific article is also included. 
 | draft

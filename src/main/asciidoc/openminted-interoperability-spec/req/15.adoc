@@ -12,29 +12,34 @@ Capturing, computing and presenting simplified information (e.g., availability, 
 // and may be moved to a more structured/principled format later maintained in separate files.
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | Alvis
+|
 | Partial
 | Available for the common features (e.g., name, description, provider,...)
 | draft
 
 | ARGO/U-Compare
+|
 | Full
 | Argo components have a human readable description.
 | draft
 
 | DKPro Core
+| 1.8.0
 | Full
 | Components should come with a description (primarily obtained from the JavaDoc of the component). That information may not be particularly comprehensive though. Availability, reliability, and the other example information given above are not releavant for DKPro Core as it is not service-based. 
 | draft
 
 | GATE
+| 8.2
 | Full
 | Each component has a human readable name and description as part of the metadata
 | draft
 
 | ILSP
+|
 | No
 | No availability or QoS information is provided for components available as web services. Readable names, descriptions, Terms Of Service, provider etc. are provided as metadata for these services.
 | draft

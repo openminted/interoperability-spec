@@ -10,29 +10,34 @@ Components should contain an identifier by which they can be distinguished from 
 
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | Alvis
+|
 | Partial
 | Components (instances of components) are well identified in a workflow but component versioning is not maintained in Alvis.
 | draft
 
 | ARGO/U-Compare
+|
 | partial
 | Each component has a unique id under the `uk.ac.nactem.uima` namespace (derived from the path of the UIMA descriptor file within the component's UIMA PEAR file) and a version number specified within the component's UIMA descriptor file.  Argo doesn't currently support the concept of component versions; it only uses whichever version of the component that was installed last.
 | draft
 
 | DKPro Core
+| 1.8.0
 | partial
 | Each component has a unique name under the `de.tudarmstadt.ukp.dkpro` namespace (basically a Java class name) and a version. The version of a component corresponds to the version of the JAR that contains the version. Each component is contained in a JAR which has a unique Maven GAVC coordinate (e.g. `de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.opennlp-asl:1.8.0:jar`).
 | draft
 
 | GATE
+| 8.2
 | partial
 | Each component is a Java class and as such has a unique name. Currently, however, there is no requirement for a GATE plugin or component to have a version number. In most cases we distribute GATE with a large set of plugins which are assumed to share the same version number as the framework itself. Plugins (which may contain multiple components) distributed via an update site must include a version number and all components inside that plugin share that. Experiance has shown that this is far from ideal and our future plans for GATE include moving to using Maven to distribute plugins in which case each plugin will be uniquely identified by a set of Maven coordinates, although support for loading legacy plugins without a version number will remain for the foreseeable future.
 | draft
 
 | ILSP
+|
 | partial
 | Each component has a unique name under the `gr.ilsp.nlp` namespace (basically a Java class name) and a version. The version of a component corresponds to the version of the JAR that contains the version. Each component is contained in a JAR which has a unique Maven GAVC coordinate (e.g. `gr.ilsp.nlp:ilsp-nlp-lemmatizer:1.2.1-SNAPSHOT.jar`). We try to use some type of semantic versioning (http://semver.org/) for the components, but for some of them this is not so strictly followed.
 | draft

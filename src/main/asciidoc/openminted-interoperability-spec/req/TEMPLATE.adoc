@@ -12,29 +12,34 @@ This is where the description of the requirement goes. If you wish to reference 
 // and may be moved to a more structured/principled format later maintained in separate files.
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | Alvis
+|
 | unknown
 | ...
 | draft
 
 | ARGO/U-Compare
+|
 | unknown
 | ...
 | draft
 
 | DKPro Core
+| 1.8.0
 | unknown
 | ...
 | draft
 
 | GATE
+| 8.2
 | unknown
 | ...
 | draft
 
 | ILSP
+|
 | unknown
 | ...
 | draft

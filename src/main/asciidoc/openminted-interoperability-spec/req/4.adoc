@@ -15,14 +15,16 @@ rules must be clearly documented.
 // and may be moved to a more structured/principled format later maintained in separate files.
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | CORE
+|
 | unknown
 | ...
 | draft
 
 | OpenAire
+|
 | unknown
 | ...
 | draft

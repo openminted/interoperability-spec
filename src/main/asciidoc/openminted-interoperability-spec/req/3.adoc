@@ -18,19 +18,22 @@ be at a well-known location within the component artifact.
 // and may be moved to a more structured/principled format later maintained in separate files.
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | Alvis
+|
 | full
 | Alvis XML exist separately from the code. Each XML descriptor is next to the component class it describes. By convention, the name of the XML file is created by appending the keyword "Doc" to the end the component name, for example GeniaTaggerDoc.xml for the component named GeniaTagger.
 | draft
 
 | ARGO/U-Compare
+|
 | partial
 | UIMA XML descriptors manually maintained
 | draft
 
 | DKPro Core
+| 1.8.0
 | full
 | using uimaFIT to automatically generate UIMA XML descriptors. XML descriptors as always next to
 the respective component classes. Pointers to all XML descriptors as stored in at
@@ -39,11 +42,13 @@ files are also embedded in the JARs under `META-INF/maven/.../pom.xml`.
 | draft
 
 | GATE
+| 8.2
 | partial
 | only for those components that still use CREOLE descriptors and do *not* use CREOLE Java annotations. It is, however, trivial to produce separate versions as GATE contains an ANT task to write CREOLE descriptors to disk from the Java annotations and it would be trivial to add this to the build process of each plugin.
 | draft
 
 | ILSP
+|
 | full (I think)
 | Maven POM files embedded in JARs under `META-INF/maven/.../pom.xml`. UIMA XML descriptors are included at the top level of the generated jars.
 | draft

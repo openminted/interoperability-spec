@@ -13,29 +13,34 @@ Components in systems such as Alvis offer several parameters used to configure t
 // and may be moved to a more structured/principled format later maintained in separate files.
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | Alvis
+|
 | Full
 | The parameters are well-typed in Alvis, they may be simple (e.g., integer, String, boolean) or complex (e.g., list, map). A description is planned for each parameter even if some parameters currently lack descriptions.
 | draft
 
 | ARGO/U-Compare
+|
 | Full
 | As Argo components are also UIMA components containing UIMA XML descriptor files, all configuration parameters have a name, a type (String, Integer, Float, or Boolean), an optional description, can be mulitvalued and also made to be mandatory.  Argo also allows an additional layer of information on top of the UIMA configuration parameters, such as indicating whether a string represents a file, a folder, or an enumeration.  This is intended to assist in both validation of configuration values and in providing the most appropriate graphical widgets within the Argo UI.
 | draft
 
 | DKPro Core
+| 1.8.0
 | Full
 | Parameters are implemented in DKPro Core through the uimaFIT `@ConfigurationParameter` annotation on class fields. These fields are typed and usually have documentation. They can have a default value and they can be marked as optional/mandatory. The annotation is retained for runtime such that parameter information can be dynamically obtained via uimaFIT. Additionally, UIMA XML descriptors are automatically generated for each component which also include the parameter declarations and default values. The parameter types supported are the standard UIMA-supported types (boolean, int, float, String). Additional types are supported via uimaFIT' automatic type-coercion mechanism. In this way, fields that are annotated as `@ConfigurationParameter` can e.g. be of the type `File` or `Pattern` or be different Java collection types or arrays.
 | draft
 
 | GATE
+| 8.2
 | full
 | Each parameter is typed and has a name and an optional description (most have a description but it is currently optional)
 | draft
 
 | ILSP
+|
 | unknown
 | ...
 | draft

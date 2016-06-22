@@ -12,30 +12,35 @@ To be moved to FR in WP6
 
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | Alvis
+|
 | Partial
 | Alvis does not categorize the components but can follow a categorization schema.
 | draft
 
 | ARGO/U-Compare
+|
 | Partial
 | Currently Argo puts components into 4 categories (reader, writer, analytics, web service), however the bulk of the components reside within the analytics category, and the only method for users to find a relevant component is to search through the entire list within the UI.  The reader, writer and analytics components are identified by examining their UIMA descriptor files (looking for either the collectionReaderDescription, casConsumerDescription and analysisEngineDescription elements).  Interactive components are identified by the `interactive` flag in their Argo descriptor file (An Argo descriptor is a complimentary file to the UIMA descriptor, providing additional information.  For example, it can help Argo select the most appropriate UI widget for configuration parameters, such as strings that represent types or files.)
 
 | draft
 
 | DKPro Core
+| 1.8.0
 | No
 | DKPro Core components try to follow a naming scheme, e.g. `XxxReader`, `XxxWriter`, `XxxSegmenter`, `XxxPosTagger`, etc. Categories can be derived off these names in many cases. In some cases, components fulfill multiple purposes, e.g. TreeTagger does lemmatization and POS tagging. A second source off which category information could be derived are the input/output types declared by the components, e.g. `Sentence`, `Token`, etc. There is no direct associated with any (external) categorization system.
 | draft
 
 | GATE
+| 8.2
 | no
 | GATE does not currently enforce such a categorization (or have any way internally of doing so). For the core plugins (i.e. those developed in Sheffield) we try and stick to a naming convention that gives some idea of the nature of the plugin; Lang_X, Parser_X, Tagger_X, etc. but this is purely a convention and is in no way fine grained enough to be used for indexing or other forms of automatic discovery.
 | draft
 
 | ILSP
+|
 | no
 | By convention we package all readers, exporters, and instantiations of uimafit pipelines as three different projects. A package is also used for uima service clients. The rest of the packages concern analyzers and follow an ilsp-nlp-XXX naming scheme, with XXX being a string like lemmatizer or depparser.
 | draft

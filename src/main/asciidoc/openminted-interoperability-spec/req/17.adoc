@@ -16,29 +16,34 @@ Note: If a component is required to be stateful, it would make sense for the pla
 // and may be moved to a more structured/principled format later maintained in separate files.
 [cols="2,1,4,1"]
 |====
-|Product|Compliant|Justification|Status
+|Product|Version|Compliant|Justification|Status
 
 | Alvis
+|
 | Partial
 | In a general way, there is no local state for a component and determinism is guaranted. However, aspects such as resource availability and resource access may imply state issues that Alvis core engine has to manage.
 | draft
 
 | ARGO/U-Compare
+|
 | Partial
 | Most Argo components are stateless.  It is possible to indicate that a component is stateful (which will result in only a single instance of that component being permitted within a distributed execution) by setting the multipleDeploymentAllowed value to false in the UIMA descriptor file.  Argo also automatically treats a subset of components as being stateful, which includes Reader, Writers and Interactive Components.
 | draft
 
 | DKPro Core
+| 1.8.0
 | Partial
 | Most DKPro Core components are stateless in the described sense: no information needs to be shared between multiple instances of the same component. There is the case of sharing models between multiple instances and this is experimentally supported by DKPro Core but can only be used if the models themselves are threadsafe/stateless. Note that components are *not* threadsafe! A single component instance cannot be safely invoked from multiple threads! A notable exception to statelessness are writer components which are able to aggregate information, e.g. writing all pipeline output to a single file. Such components cannot be sensibly scaled out. They are marked with the UIMA operational property *multipleDeploymentAllowed = false*.
 | draft
 
 | GATE
+| 8.2
 | *never*
 | GATE components are all Java beans. This means that the document to process is provided to the component via a set method making it part of the state of the component. Multiple instances of a component can of course be created to enable processing of multiple documents in parallel. Naively creating multiple instances should, however, be avoided as this is wasteful in terms of memory as it reequires multiple copies of internal state that can be shared. The framework supports inteligent duplication of components and applications to share appropriate state across threads.
 | draft
 
 | ILSP
+|
 | Yes
 | ILSP components deployed as services avoid any form of local state. Multiple instances of a service deployed on the same machine can share lexical resources and models.
 | draft
