@@ -40,7 +40,7 @@ Components in systems such as Alvis offer several parameters used to configure t
 | draft
 
 | ILSP
-|
+| 1.2.1
 | unknown
 | ...
 | draft

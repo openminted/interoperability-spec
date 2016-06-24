@@ -41,7 +41,7 @@ the implementation (cf. <<uimafit>>).
 | draft
 
 | ILSP
-|
+| 1.2.1
 | partial
 | Both UIMA XML descriptors necessary for UIMA-AS integration, but also uimaFIT Java annotations to integrate components in command line pipelines
 | draft

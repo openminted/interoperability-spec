@@ -37,7 +37,7 @@ Having some form of free-text description assists text and data miners in choosi
 | draft
 
 | ILSP
-|
+| 1.2.1
 | partial
 | Most components have a minimal textual description in the UIMA descriptor file, which is often replicated in the Maven POM. If applicable, a reference to a scientific article is also included. 
 | draft

@@ -37,7 +37,7 @@ Using such a widely adopted naming convention assists component developers throu
 | draft
 
 | ILSP
-|
+| 1.2.1
 | full
 | Components are identified by a Java class name. They are by convention unique within nlp.ilsp.gr. 
 | draft

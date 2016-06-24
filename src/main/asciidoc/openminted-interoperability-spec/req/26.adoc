@@ -47,7 +47,7 @@ Source: WG 2 Scenario 3 — The relation between documents and knowledge bas
 | draft
 
 | ILSP
-|
+| 1.2.1
 | No
 | No relevant annotation added.
 | draft

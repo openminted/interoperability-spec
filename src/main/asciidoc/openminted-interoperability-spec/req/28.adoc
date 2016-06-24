@@ -41,7 +41,7 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within
 | draft
 
 | ILSP
-|
+| 1.2.1
 | No
 | Processing components are available only as services.
 | draft

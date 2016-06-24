@@ -46,7 +46,7 @@ Note: This requirement may not be necessary in small-scale resource lookup.
 | draft
 
 | ILSP
-|
+| 1.2.1
 | partial
 | Some of the classes that provide access to resource data for ILSP components implement the org.apache.uima.resource.SharedResourceObject interface. 
 | draft

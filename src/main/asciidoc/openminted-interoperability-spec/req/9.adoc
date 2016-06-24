@@ -37,7 +37,7 @@ A workflow execution system will need to know which annotation schemas to load w
 | draft
 
 | ILSP
-|
+| 1.2.1
 | Partial
 | UIMA components declare the type system they depend upon within their descriptor file. The type system is a Maven dependency of all readers, analyzers and exporters. Components declare input and output types.
 | draft

@@ -48,7 +48,7 @@ files are also embedded in the JARs under `META-INF/maven/.../pom.xml`.
 | draft
 
 | ILSP
-|
+| 1.2.1
 | full (I think)
 | Maven POM files embedded in JARs under `META-INF/maven/.../pom.xml`. UIMA XML descriptors are included at the top level of the generated jars.
 | draft

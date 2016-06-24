@@ -39,7 +39,7 @@ Capturing, computing and presenting simplified information (e.g., availability, 
 | draft
 
 | ILSP
-|
+| 1.2.1
 | No
 | No availability or QoS information is provided for components available as web services. Readable names, descriptions, Terms Of Service, provider etc. are provided as metadata for these services.
 | draft

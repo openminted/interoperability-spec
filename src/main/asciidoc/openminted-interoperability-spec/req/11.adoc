@@ -37,7 +37,7 @@ To accommodate scaling of a workflow, it is imperative to understand which compo
 | draft
 
 | ILSP
-|
+| 1.2.1
 | Full
 | Most of the analyzers have been deployed as UIMA-Asynchronous Scaleout services and as parts of UIMA-AS aggregate services without any obvious issues. The scaleout capabilities of the UIMA-AS framework and of DUCC have not been fully explored.
 | draft

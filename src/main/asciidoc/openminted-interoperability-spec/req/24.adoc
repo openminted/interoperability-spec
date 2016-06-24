@@ -51,7 +51,7 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | draft
 
 | ILSP
-|
+| 1.2.1
 | Partial
 | See UIMA for UIMA-based ILSP components.
 | draft
