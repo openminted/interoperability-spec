@@ -8,7 +8,7 @@
 
 Text and Data Mining (TDM) components are not always self-contained entities; for example, a component maybe a wrapper to another library developed in a language not supported by the TDM framework.  This library may have additional system dependencies that must be available at runtime - think of a Java TDM component wrapping a python library; the python library will require Python and potentially other Python libraries.  Knowing the environmental requirements allows a workflow execution system to ensure that they are met before the component is initialised.
 
-[cols="2,1,4,1"]
+[cols="2,1,1,4,1"]
 |====
 |Product|Version|Compliant|Justification|Status
 

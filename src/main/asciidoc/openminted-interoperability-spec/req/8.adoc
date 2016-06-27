@@ -10,7 +10,7 @@ With a large number of components, it can be difficult for workflow creators to 
 
 To be moved to FR in WP6
 
-[cols="2,1,4,1"]
+[cols="2,1,1,4,1"]
 |====
 |Product|Version|Compliant|Justification|Status
 

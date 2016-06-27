@@ -14,7 +14,7 @@ Note - we may wish to be more specific with this requirement
 
 // Below is an example of how a compliance evaluation table could look. This is presently optional
 // and may be moved to a more structured/principled format later maintained in separate files.
-[cols="2,1,4,1"]
+[cols="2,1,1,4,1"]
 |====
 |Product|Version|Compliant|Justification|Status
 

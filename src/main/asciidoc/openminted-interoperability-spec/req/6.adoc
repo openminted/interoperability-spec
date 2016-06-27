@@ -8,7 +8,7 @@
 
 Components should contain an identifier by which they can be distinguished from each other, in addition to their version.  A component registry would then be able to use the combination of the identifier and version number to produce resolvable URLs from which components can be retrieved.
 
-[cols="2,1,4,1"]
+[cols="2,1,1,4,1"]
 |====
 |Product|Version|Compliant|Justification|Status
 

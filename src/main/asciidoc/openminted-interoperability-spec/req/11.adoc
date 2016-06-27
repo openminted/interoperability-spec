@@ -8,7 +8,7 @@
 
 To accommodate scaling of a workflow, it is imperative to understand which components can be deployed multiple times.  This is something that the developer will have to specify manually and components that cannot be scaled should be exception rather than the rule.
 
-[cols="2,1,4,1"]
+[cols="2,1,1,4,1"]
 |====
 |Product|Version|Compliant|Justification|Status
 

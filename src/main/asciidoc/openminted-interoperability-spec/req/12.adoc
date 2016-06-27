@@ -8,7 +8,7 @@
 
 Having some form of free-text description assists text and data miners in choosing the most appropriate components for their workflows and potentially boosts productivity, as it possibly reduces the need for experimentation if a component has configuration parameters. 
 
-[cols="2,1,4,1"]
+[cols="2,1,1,4,1"]
 |====
 |Product|Version|Compliant|Justification|Status
 

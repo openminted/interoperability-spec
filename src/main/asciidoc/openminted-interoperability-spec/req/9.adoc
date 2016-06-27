@@ -8,7 +8,7 @@
 
 A workflow execution system will need to know which annotation schemas to load when running a component within a workflow.  Not having this information would result in the system having to load all of the annotation schemas it knows about at runtime for each component or force the workflow creators to manually specify them, both highly inefficient options.  This information also forms part of the components documentation, assisting workflow creators.
 
-[cols="2,1,4,1"]
+[cols="2,1,1,4,1"]
 |====
 |Product|Version|Compliant|Justification|Status
 

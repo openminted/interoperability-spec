@@ -8,7 +8,7 @@
 
 To assist in the creation of workflows, it would be helpful to know what types of annotations are required and produced by components so that UI tooling can display appropriate warnings when a component is added in an invalid position within a workflow or to help diagnose runtime exceptions whilst running a workflow.
 
-[cols="2,1,4,1"]
+[cols="2,1,1,4,1"]
 |====
 |Product|Version|Compliant|Justification|Status
 
