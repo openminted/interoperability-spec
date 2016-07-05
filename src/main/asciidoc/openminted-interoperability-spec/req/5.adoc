@@ -19,7 +19,7 @@ Text and Data Mining (TDM) components are not always self-contained entities; fo
 | draft
 
 | ARGO/U-Compare
-|
+| 0.5rc
 | partial
 | All components are distributed as UIMA PEAR files written in Java, with some components requiring platform-specific binaries.  Platform-specific binaries are provided for OSX, Windows and Linux.  This appears to be the same behaviour as DK Pro.  When running a worklow on a cluster/cloud, Argo requires an expected maximum memory limit per component instance in a workflow, and this is not included in the component's metadata - it has to be entered manually by users.
 | draft
