@@ -13,7 +13,7 @@ A workflow execution system will need to know which annotation schemas to load w
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | Not
 | Work in progess.
 | draft
