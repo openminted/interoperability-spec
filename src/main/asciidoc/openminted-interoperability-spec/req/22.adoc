@@ -19,7 +19,7 @@ For reproducibility reasons extract and save/export (?) the exact experimental c
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | Partial
 | Alvis allows this through its workflow expression.
 | draft
