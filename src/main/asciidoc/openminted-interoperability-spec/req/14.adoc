@@ -14,7 +14,7 @@ To this end storing license information within component metadata seems the most
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | No
 | The licence information are currently provided as free texts in the tool documentation.
 | draft
