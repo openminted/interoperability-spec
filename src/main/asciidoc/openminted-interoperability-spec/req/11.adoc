@@ -13,7 +13,7 @@ To accommodate scaling of a workflow, it is imperative to understand which compo
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | Not
 | We do not deal with this aspect.
 | draft
