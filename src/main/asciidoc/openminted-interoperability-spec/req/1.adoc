@@ -17,7 +17,7 @@ metadata by which they describe themselves.
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+|0.5rc
 | full
 | Alvis component descriptors
 | draft
