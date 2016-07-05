@@ -23,7 +23,7 @@ Source: WG 2 Scenario 3 — The relation between documents and knowledge bas
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | Partial
 | The creator of an annotation is identified but no trace about the involved resources or annotation categories.
 | draft
