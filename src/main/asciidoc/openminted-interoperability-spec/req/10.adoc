@@ -13,7 +13,7 @@ To assist in the creation of workflows, it would be helpful to know what types o
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | Partial
 | The type system is shared by all the components.
 | draft
