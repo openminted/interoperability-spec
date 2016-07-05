@@ -17,7 +17,7 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | No
 | Not supported
 | draft
