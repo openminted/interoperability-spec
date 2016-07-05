@@ -13,7 +13,7 @@ Using such a widely adopted naming convention assists component developers throu
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | Full
 | Components are java classes organised using packages.
 | draft
