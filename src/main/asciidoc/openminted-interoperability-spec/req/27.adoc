@@ -15,7 +15,7 @@ In the event that a component fails (e.g. due to a loss in network connectivity 
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | No
 | Alvis however can re-run a component from a data dump. 
 | draft
