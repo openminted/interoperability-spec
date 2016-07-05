@@ -17,7 +17,7 @@ the implementation (cf. <<uimafit>>).
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+|0.5rc
 | not
 | Alvis XML descriptors manually maintained
 | draft
