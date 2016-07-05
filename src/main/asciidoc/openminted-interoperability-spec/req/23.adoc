@@ -16,7 +16,7 @@ A workflow must aggregate all licences either from the components which is compo
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | No
 | No licence information handled in workflows
 | draft
