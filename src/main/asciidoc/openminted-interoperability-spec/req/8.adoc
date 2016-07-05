@@ -15,7 +15,7 @@ To be moved to FR in WP6
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | Partial
 | Alvis does not categorize the components but can follow a categorization schema.
 | draft
