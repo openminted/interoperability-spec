@@ -13,7 +13,7 @@ Having some form of free-text description assists text and data miners in choosi
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | Partial
 | The description are free texts.
 | draft
