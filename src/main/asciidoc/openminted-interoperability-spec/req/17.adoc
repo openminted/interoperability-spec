@@ -19,7 +19,7 @@ Note: If a component is required to be stateful, it would make sense for the pla
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | Partial
 | In a general way, there is no local state for a component and determinism is guaranted. However, aspects such as resource availability and resource access may imply state issues that Alvis core engine has to manage.
 | draft
