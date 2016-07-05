@@ -30,7 +30,7 @@ Source: WG 2 Scenario 3 — The relation between documents and knowledge bas
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | No
 | Not supported
 | draft
