@@ -23,7 +23,7 @@ Note: This requirement may not be necessary in small-scale resource lookup.
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | unknown
 | ...
 | draft
