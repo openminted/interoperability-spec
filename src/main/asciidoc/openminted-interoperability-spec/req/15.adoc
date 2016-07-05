@@ -15,7 +15,7 @@ Capturing, computing and presenting simplified information (e.g., availability, 
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
+| 0.5rc
 | Partial
 | Available for the common features (e.g., name, description, provider,...)
 | draft
