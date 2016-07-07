@@ -35,8 +35,8 @@ A workflow must aggregate all licences either from the components which is compo
 
 | GATE
 | 8.2
-| unknown
-| ...
+| no
+| GATE currently doesn't record any license information at all
 | draft
 
 | ILSP
