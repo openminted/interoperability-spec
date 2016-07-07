@@ -38,8 +38,8 @@ For reproducibility reasons extract and save/export (?) the exact experimental c
 
 | GATE
 | 8.2
-| unknown
-| ...
+| partial
+| A GATE pipeline contains all the information required to recreate it from scratch (which components, in which order, with which parameter settings). Multiple different configurations are not supported though so changing a parameter to carry out an experiment would require saving a new copy of the pipeline.
 | draft
 
 | ILSP
