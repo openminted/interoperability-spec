@@ -1,0 +1,27 @@
+=== Licensing information should be expressed in a machine-readable form
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __recommended__#
+[small]#*_Category:_* __WG1__,__WG3__#
+[small]#*_Status:_* __final__#
+
+Licensing terms should be expressed in a machine-readable form so that the s/w can automatically compute permitted uses (cf. REL & CC-like licensing elements).
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| Licences
+| Jun-16
+| Partial
+| A few standard licences are available in machine-readable form, in RDF (CC-REL/ODRL) but they are not all officially recognised; additionally, for licences of DK-PRO Core, there is usually an URL reference to the license text in the POM, which is used by the Maven SPDX plugin to generate an RDF description of the licenses.
+| Final
+
+| DKPro Core
+| 1.8.0
+| Partial
+| Licensing information for our code is included in the POM file. Licenses for transitive dependencies can be reached (where available) by traversing the dependency hierarchy and inspecting the POM files of the dependencies. For models, we have no license information most of the time.
+| Final
+
+|====

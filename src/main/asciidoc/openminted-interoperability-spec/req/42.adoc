@@ -1,0 +1,95 @@
+=== The metadata can include the information on which projects/workflows involve the resource
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __optional__#
+[small]#*_Category:_* __WG1__,__WG2__,__WG3__,__WG4__#
+[small]#*_Status:_* __final__#
+
+The metadata can include the information on which projects/workflows involve the resource, thus allowing to state resource "popularity", increase reliablility, bring TDM outputs to a better interoperability. 
+
+Note: For use inside OMTD, this can be moved to the platform functions; for use out of OMTD, this can be left to the providers/users, so we can at best recommend it. This information can be used for evaluation purposes.
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+| Jun-16
+| Partial
+| Only if source's includes this information - core covers RIOXX's format (which offers this information - OpenAIRE equivalent for UK) that only a small subset of UK repositories is compliant to (and UK repos is only a small subset of the global coverage so essentially a very minor portion of the whole corpus) 
+| Final
+
+| OpenAIRE
+| Jun-16
+| Partial
+| Only as regards funding
+| Final
+
+| TheSoz
+| Jun-16
+| No
+| 
+| Final
+
+| Agrovoc
+| 21/01/2016
+| No
+| 
+| Final
+
+| JATS
+| 1.1
+| No
+| 
+| Final
+
+| OLiA
+| Jun-16
+| No
+| 
+| Final
+
+| LAPPS
+| Jun-16
+| No
+| 
+| Final
+
+| Licences
+| Jun-16
+| 
+| 
+| Final
+
+| Alvis
+| 0.5rc
+| No
+| No metadata
+| Final
+
+| Argo/U-Compare
+| 
+| No
+| 
+| 
+
+| DKPro Core
+| 1.8.0
+| No
+| It would be unfeasible to maintain a list of which project/workflows make use of our components. We do not know who is using the software and for which purposes.
+| Final
+
+| GATE
+| 8.2
+| No
+| 
+| Final
+
+| ILSP
+| 1.2.1
+| No
+| 
+| Final
+
+|====

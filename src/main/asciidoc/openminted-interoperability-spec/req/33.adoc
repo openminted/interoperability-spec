@@ -1,0 +1,101 @@
+=== Licensing information must be included in the metadata
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __mandatory__#
+[small]#*_Category:_* __WG1__,__WG2__,__WG3__,__WG4__#
+[small]#*_Status:_* __final__#
+
+All resources must be accompanied with a clear indication of their licensing terms; this can be indicated by the licence name, reference to a url or document that is accessible to the user and, if possible, a user-friendly summary. 
+
+Note: For this version, we will allow also "open access" or "other" etc. as statements in the metadata; in the next versions, this needs to be standardised, promoting licence values. It would also be preferable to attach the full document of the licence for (legal) certainty reasons
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+| Jun-16
+| Partial
+| Corpus coming from Open Access repositories, explicit licensing information included where avaialable
+| Final
+
+| OpenAIRE
+| Jun-16
+| Partial
+| All publications are harvested from open access sources, but licence values are not always present in the metadata of the original data provider
+| Final
+
+| Frontiers
+| NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1
+| Full
+| CCBy Licensing and version is included in the body of the article.
+| Final
+
+| TheSoz
+| Jun-16
+| Full
+| dc:license in void.ttl file
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Full
+| http://aims.fao.org/aos/agrovoc/void.ttl
+| Final
+
+| JATS
+| 1.1
+| Partial
+| although not in the metadata, the documentation includes a faq stating "The Standard (both PDF and HTML versions) is copyrighted by NISO, but all of the non-normative information found on this site is in the public domain. That includes all of the schemas and the Tag Libraries. The Tag Sets may be used freely and without permission from either the NLM or NISO."
+| Final
+
+| OLiA
+| Jun-16
+| No
+| 
+| Final
+
+| LAPPS
+| Jun-16
+| No
+| 
+| Final
+
+| Licences
+| Jun-16
+| Full
+| Only for standard public licences
+| Final
+
+| Alvis
+| 0.5rc
+| No
+| Alvis does not provide this aspect but some licence information are provided as free texts in tool descriptions or in some tool readme.
+| Final
+
+| Argo/U-Compare
+| 
+| Partial
+| Licensing information regarding components can be included within the Argo Descriptor File, however the majority of existing components within Argo do not have this information. When available, it's in free text.
+| add metadata
+
+| DKPro Core
+| 1.8.0
+| Partial
+| Licensing information for our code is included in the POM file. Licenses for transitive dependencies can be reached (where available) by traversing the dependency hierarchy and inspecting the POM files of the dependencies. For models, we have no license information most of the time.
+| Final
+
+| GATE
+| 8.2
+| Partial
+| The tool metadata does not provide licensing information, but license information is distributed with the tool
+| Final
+
+| ILSP
+| 1.2.1
+| Partial
+| Only for components integrated in infrastructures like CLARIN and METASHARE. For example https://goo.gl/yDynbu
+| Final
+
+|====

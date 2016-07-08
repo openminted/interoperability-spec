@@ -1,0 +1,65 @@
+=== The actual content of all content resources must be discoverable
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __mandatory__#
+[small]#*_Category:_* __WG1__,__WG2__,__WG3__#
+[small]#*_Status:_* __final__#
+
+The URL of the actual content of a resource, e.g. a text file, PDF file, or other common data format, must be derivable from readily discoverable data. It must either be included in the metadata or it must be reliably constructable from the metadata URL, e.g. by appending or changing a suffix; derivation rules must be clearly documented. 
+
+Note: This requirement refers only to content resources that can be used as input for a TDM process (i.e. corpora of publications etc.), or to knowledge resources (e.g. annotation schemas, typesystems, grammars etc.) that are used as ancillary resources for the operation of TDM components. The requirement is set for the proper operation of the TDM components in so far as they need to easily access the resources they operate on or with.
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+| Jun-16
+| Partial
+| Actual content (either pdf, text, or other) is available via constructing URL based on identifiers (internal CORE id, oai identifier, doi ) provided in the metadata record
+| Final
+
+| OpenAIRE
+| Jun-16
+| Partial
+| There's a link to the doi but not always; and usually the doi sends to a landing page, but there are some rules that can be used for "guessing" the download link
+| Final
+
+| Frontiers
+| NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1
+| Full
+| From XMLS, the URL can be reliably constructed using the DOI.
+| Final
+
+| TheSoz
+| Jun-16
+| Full
+| Url to the resource and the SPARQL endpoint is provided in the void.ttl file (however file is not at the moment available online due to technical issues).
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Full
+| 
+| Final
+
+| JATS
+| 1.1
+| Partial
+| although the URL to the JATS schemas (as DTDS, Relax NG & XSD) and elements is available at stable URIs, each at a separate folder (info is provided at https://jats.nlm.nih.gov/files.html), there is no formal metadata to indicate this
+| Final
+
+| OLiA
+| Jun-16
+| Full
+| 
+| Final
+
+| LAPPS
+| Jun-16
+| Full
+| 
+| Final
+
+|====

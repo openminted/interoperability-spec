@@ -1,0 +1,95 @@
+=== All resource metadata records must include a reference to the metadata schema used for their description
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __mandatory__#
+[small]#*_Category:_* __WG1__,__WG2__,__WG3__,__WG4__#
+[small]#*_Status:_* __final__#
+
+All resource metadata records must include a reference to the metadata schema used for their description. 
+
+Note: for provenance information, we need to know the metadata schema from which we are extracting/converting information.
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+| Jun-16
+| Partial
+| Schema not described formally in .xsd format but as part of API documentation
+| Final
+
+| OpenAIRE
+| Jun-16
+| Full
+| OpenAIRE schema
+| Final
+
+| Frontiers
+| NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1
+| Partial
+| XML provides the reference to the metadata schema. In a multiple metadata scenario, Frontiers provides the DOI of the related articles.
+| Final
+
+| TheSoz
+| Jun-16
+| Full
+| defined in the header
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Full
+| see rdf prefixes
+| Final
+
+| JATS
+| 1.1
+| No
+| no metadata
+| Final
+
+| OLiA
+| Jun-16
+| Full
+| List of namespaces
+| Final
+
+| LAPPS
+| Jun-16
+| No
+| 
+| Final
+
+| Alvis
+| 0.5rc
+| No
+| No metadata support
+| Final
+
+| Argo/U-Compare
+| 
+| No
+| 
+| add to metadata
+
+| DKPro Core
+| 1.8.0
+| Partial
+| UIMA XML descriptors and POMs contain a schema reference. Ad-hoc DKPro Core-specific metadata is currently not governed by a formal schema.
+| Final
+
+| GATE
+| 8.2
+| No
+| 
+| Final
+
+| ILSP
+| 1.2.1
+| No
+| Not supported
+| Final
+
+|====

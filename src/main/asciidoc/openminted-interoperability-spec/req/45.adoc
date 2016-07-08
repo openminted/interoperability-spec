@@ -1,0 +1,45 @@
+=== S/W (tools, web services, workflows) must indicate format of their output
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __mandatory__#
+[small]#*_Category:_* __WG1__,__WG4__#
+[small]#*_Status:_* __final__#
+
+s/w must indicate the specific formats of their output (e.g. statistical data, annotated corpora etc.)
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| Alvis
+| 0.5rc
+| No
+| Information are limited 
+| Final
+
+| Argo/U-Compare
+| 
+| Partial
+| Components can optionally declare what types it will output,.
+| add to metadata for all (if applicable)
+
+| DKPro Core
+| 1.8.0
+| Partial
+| via @TypeCapability tags and also sometimes declared as javadoc. Mind that some components cannot clearly state the supported inputs/outputs until they actually process a document and have loaded the necessary models/rules. It may also be the case that despite declaring a certain input, the component may work without it or that despite declaring a certain output, the component may not actually produce it (e.g. because the user disabled the creation of the output or because a document simply contains no instance of the specific type)
+| Final
+
+| GATE
+| 8.2
+| No
+| 
+| Final
+
+| ILSP
+| 1.2.1
+| Partial
+| Only for components integrated in infrastructures like CLARIN and METASHARE. For example https://goo.gl/yDynbu
+| Final
+
+|====

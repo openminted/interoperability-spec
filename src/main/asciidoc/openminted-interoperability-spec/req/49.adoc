@@ -1,0 +1,47 @@
+=== Metadata of tools should contain information about the models available for them
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __recommended__#
+[small]#*_Category:_* __WG1__,__WG4__#
+[small]#*_Status:_* __final__#
+
+Information about the models available for the tools (e.g. location, language, domain, etc) must be included in the metadata (c.f. https://dkpro.github.io/dkpro-core/releases/1.7.0/models/ as an example). 
+
+Note: this is important for the operation of the components; so, we need to standardize naming/reference to the models and add it to the metadata.
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| Alvis
+| 0.5rc
+| No
+| No metadata support
+| Final
+
+| Argo/U-Compare
+| 
+| No
+| 
+| add to metadata
+
+| DKPro Core
+| 1.8.0
+| Full
+| The POM of a tool contains references to the known available models. This information is can be used to automatically derive which models are available for which tools. We do this as part of our automatically generated documentation.
+| Final
+
+| GATE
+| 8.2
+| No
+| 
+| Final
+
+| ILSP
+| 1.2.1
+| No
+| Not supported
+| Final
+
+|====

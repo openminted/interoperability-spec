@@ -1,0 +1,63 @@
+=== Content resources must include metadata on their language(s)
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __mandatory__#
+[small]#*_Category:_* __WG1__,__WG2__#
+[small]#*_Status:_* __final__#
+
+Content resources including language, knowledge and text files must include metadata on their language(s)
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+| Jun-16
+| Partial
+| Described only the metadata record, not for each content resource separately
+| Final
+
+| OpenAIRE
+| Jun-16
+| Partial
+| If in the metadata of the original data provider, the document language is specified
+| Final
+
+| Frontiers
+| NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1
+| Full
+| Meta-text available for language. Other fields defined.
+| Final
+
+| TheSoz
+| Jun-16
+| Full
+| via language attribute for each entity in the thesaurus
+| Final
+
+| Agrovoc
+| 21/01/2016
+| No
+| 
+| Final
+
+| JATS
+| 1.1
+| No
+| Only in English as far as I have checked
+| Final
+
+| OLiA
+| Jun-16
+| No
+| Language only indirectly deducible from the description of the resource in the data type property 'comment' value.
+| Final
+
+| LAPPS
+| Jun-16
+| No
+| No
+| Final
+
+|====

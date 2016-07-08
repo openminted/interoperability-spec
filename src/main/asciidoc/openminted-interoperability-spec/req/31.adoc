@@ -1,0 +1,47 @@
+=== Metrics for the performance of the TDM operation should be included in the metadata
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __optional__#
+[small]#*_Category:_* __WG1__,__WG4__#
+[small]#*_Status:_* __final__#
+
+It is important to include metadata related to the performance of TDM operation the appropriate components. 
+
+Note: This requirement is considered premature; although it is important, we need first to define the appropriate metrics, methods and tools and perform evaluation on components in an objective way and then add it to their metadata.
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| Alvis
+| 0.5rc
+| No
+| Alvis does not provide this aspect.
+| Final
+
+| Argo/U-Compare
+| 
+| No
+| No performance information given by existing components
+| 
+
+| DKPro Core
+| 1.8.0
+| No
+| See above
+| Final
+
+| GATE
+| 8.2
+| Partial
+| Perfomance is sometimes available for specific tools over specific collections, but not generally. Quoting perfomance would also need us to quote the conditions under which it was obtained
+| Final
+
+| ILSP
+| 1.2.1
+| No
+| Not supported
+| Final
+
+|====

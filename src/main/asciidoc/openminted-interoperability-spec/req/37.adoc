@@ -1,0 +1,33 @@
+=== Information on the structural annotation (layout) of resources should be included in the metadata of the resource
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __recommended__#
+[small]#*_Category:_* __WG1__#
+[small]#*_Status:_* __final__#
+
+Resources, such as publications & text files from corpora, that are annotated at the structural level (i.e. are tagged as to elements of their internal structure) should include in their metadata a reference to the annotation scheme used (e.g. TEI, JATS etc.), through a name or link to a url
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+| Jun-16
+| Partial
+| Structure of resources not included as part of metadata record but described separately
+| Final
+
+| OpenAIRE
+| Jun-16
+| Partial
+| If the resource is included, it may be PDF, HTML or Word, but without any structural encoding
+| Final
+
+| Frontiers
+| NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1
+| Full
+| Article metadata include references to the annotations use. Frontiers uses NLM DTD.
+| Final
+
+|====

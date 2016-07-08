@@ -1,0 +1,81 @@
+=== Documentation references should be versioned
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __recommended__#
+[small]#*_Category:_* __WG1__,__WG2__,__WG3__,__WG4__#
+[small]#*_Status:_* __final__#
+
+When there is a link to documentation, that documentation should be versioned and should be about the version of a component/resource which carries the reference metadatum. The link should not simply point at the latest version of the documentation which may or may not be relevant for the given component/resource version in question.
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| TheSoz
+| Jun-16
+| No
+| 
+| Final
+
+| Agrovoc
+| 21/01/2016
+| No
+| 
+| Final
+
+| JATS
+| 1.1
+| No
+| 
+| Final
+
+| OLiA
+| Jun-16
+| No
+| 
+| Final
+
+| LAPPS
+| Jun-16
+| No
+| 
+| Final
+
+| Licences
+| Jun-16
+| Partial
+| Identifying the version of the associated documentation is optimal, but it still could be linked either to "any later version" (as long as it is specified that the version number in question applies to it and to any late version) 
+| Final
+
+| Alvis
+| 0.5rc
+| No 
+| No version
+| Final
+
+| Argo/U-Compare
+| 
+| No
+| 
+| link resource to its proper documentation (if available) in metadata 
+
+| DKPro Core
+| 1.8.0
+| Full
+| Documentation is versioned in parallel with the source code
+| Final
+
+| GATE
+| 8.2
+| No
+| 
+| Final
+
+| ILSP
+| 1.2.1
+| No
+| Not supported
+| Final
+
+|====

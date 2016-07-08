@@ -1,0 +1,33 @@
+=== Content resources must include metadata on their format (e.g. XML, DOCX etc.)
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __mandatory__#
+[small]#*_Category:_* __WG1__#
+[small]#*_Status:_* __final__#
+
+Content resources must include metadata on their format (e.g. XML, DOCX etc.), preferrably in accordance to the IANA mimetype; where applicable, further information on the specific type of the format (e.g. XML compatible with a specific schema XSD) should be included; when the resource is the output of an OMTD operation, the metadata should automatically receive the appropriate format values
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+| Jun-16
+| Partial
+| Resources contain their format type in their response Content-type header. Not included in the metadata record
+| Final
+
+| OpenAIRE
+| Jun-16
+| No
+| Various formats (doc, pdf, html etc.) but not specified in the metadata
+| Final
+
+| Frontiers
+| NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1
+| Full
+| Available in   XML in NLM 3.0, available as JATS.  Also available in ePUB
+| Final
+
+|====

@@ -1,0 +1,93 @@
+=== Access mode of resources must be included in the metadata
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __mandatory__#
+[small]#*_Category:_* __WG1__,__WG2__,__WG4__#
+[small]#*_Status:_* __final__#
+
+Access mode of all resources (e.g.  for s/w, whether they are downloadable or accessible as web services/workflows & for L/KRs through i/f, SPARQL endpoints etc.), must be included in the metadata
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+| Jun-16
+| Full
+| Resources are available, accessible and downloadable by default. If resources are not available is explicitly stated in a separate field (marked as deleted/disabled)
+| Final
+
+| OpenAIRE
+| Jun-16
+| Partial
+| If the resource is available, it can only be downloadable
+| Final
+
+| Frontiers
+| NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1
+| Full
+| For researchers, the page includes access to the resources (PDF, ePUB, XML, readcube). For crawlers, the FTP site to access resources can be provided upon request.
+| Final
+
+| TheSoz
+| Jun-16
+| Full
+| SPARQL endpoint and URI lookup endpoint in void.ttl file 
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Full
+| void:sparqlEndpoint, void:dataDump
+| Final
+
+| JATS
+| 1.1
+| No
+| 
+| Final
+
+| OLiA
+| Jun-16
+| No
+| 
+| Final
+
+| LAPPS
+| Jun-16
+| No
+| 
+| Final
+
+| Alvis
+| 0.5rc
+| No
+| No explicit specification of access mode 
+| Final
+
+| Argo/U-Compare
+| 
+| Partial
+| Components can be declared as native to Argo (allowing them to be executed within the Argo execution framework) or as web services, however there are also existing native components that simply wrap web services, so these types are not always mutually exclusive.
+| add to metadata
+
+| DKPro Core
+| 1.8.0
+| Full
+| All of the components are portable software packages available via maven artifact repository
+| Final
+
+| GATE
+| 8.2
+| Full
+| All components are downloadable packages
+| Final
+
+| ILSP
+| 1.2.1
+| Full
+| Only for components integrated in infrastructures like CLARIN and METASHARE. For example https://goo.gl/yDynbu
+| Final
+
+|====

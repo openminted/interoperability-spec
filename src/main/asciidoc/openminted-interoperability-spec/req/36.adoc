@@ -1,0 +1,77 @@
+=== Classification metadata should be included, where applicable, in the metadata record of the resource
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __recommended__#
+[small]#*_Category:_* __WG1__,__WG2__#
+[small]#*_Status:_* __final__#
+
+It is highly recommended to include classification, as applicable, to resources (e.g. domain, text type, genre etc.); the preferred form should be in accordance to one of the recommended controlled vocabularies/authority lists; if not, a link to a url that contains the list of values used for the specific classification should be included; in all cases, the source of value for the classification must be properly indicated (through the name or link to the vocabulary) and available to the user; mappings between the controlled vocabularies are recommended. 
+
+Note: for this version, we include in the metadata what exists in the resource metadata; for next versions, we promote standardisation through at least the marking of the classification scheme. It is also important to distinguish between the various classification information, e.g. subtypes of documents or tools vs. domain of documents and domain covered by a tool.
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+| Jun-16
+| Partial
+| Very limited classification metadata: only what the original metadata record offers (keywords, topics, or others that are usually not part of a defined vocabulary)
+| Final
+
+| OpenAIRE
+| Jun-16
+| Partial
+| Mainly keywords from the original metadata record; but this is not always present; in some subsets we have also used topic classification algorithms
+| Final
+
+| Frontiers
+| NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1
+| Partial
+| Frontiers is in the middle of deploying an XML based on JATS. i.e. Article types are mapped to JATS.    Domain, field, specialty, and taxonomy used is Frontiers defined.    
+| Final
+
+| TheSoz
+| Jun-16
+| Full
+| via DbPedia URIs. The following values are present in the current void.ttl:  dc:subject <http://dbpedia.org/resource/Social_sciences> ;   dc:subject <http://dbpedia.org/resource/Thesaurus> ; 
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Full
+| DbPedia URIs
+| Final
+
+| Alvis
+| 0.5rc
+| No
+| Not yet
+| Final
+
+| Argo/U-Compare
+| 
+| No
+| No metadata regarding component classification, however the name of a component is a generally a good indicator
+| standardize & add to metadata
+
+| DKPro Core
+| 1.8.0
+| Partial
+| Tool classification is recorded in the documentation (e.g. at https://dkpro.github.io/dkpro-core/releases/1.7.0/components/ ) but not in the metadata. However, the documentation is automatically created (since 1.8.0) and a classification can be automatically derived from the component names.
+| Final
+
+| GATE
+| 8.2
+| Partial
+| Tool classification is partially described by naming conventions
+| Final
+
+| ILSP
+| 1.2.1
+| No
+| Not supported
+| Final
+
+|====

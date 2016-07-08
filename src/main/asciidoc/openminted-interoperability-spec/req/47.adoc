@@ -1,0 +1,99 @@
+=== Information on funding of resources may be included in the metadata
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __optional__#
+[small]#*_Category:_* __WG1__,__WG2__,__WG3__,__WG4__#
+[small]#*_Status:_* __final__#
+
+Information on funding sources (e.g. projects, funders data etc.) may be included in the metadata of the resources
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+| Jun-16
+| Partial
+| same as point 17
+| Final
+
+| OpenAIRE
+| Jun-16
+| Full
+| If the original provider includes it, we harvest it
+| Final
+
+| Frontiers
+| NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1
+| Partial
+| New articles have the source of funding, if authors declare (i.e. connection to fundref)
+| Final
+
+| TheSoz
+| Jun-16
+| No
+| 
+| Final
+
+| Agrovoc
+| 21/01/2016
+| No
+| only its creator (FAO)
+| Final
+
+| JATS
+| 1.1
+| No
+| 
+| Final
+
+| OLiA
+| Jun-16
+| No
+| Some ontologies reference the project in which the resour ce was created.
+| Final
+
+| LAPPS
+| Jun-16
+| No
+| 
+| Final
+
+| Licences
+| Jun-16
+| No
+| 
+| Final
+
+| Alvis
+| 0.5rc
+| No
+| No funding information included in metatdata
+| Final
+
+| Argo/U-Compare
+| 
+| No
+| 
+| 
+
+| DKPro Core
+| 1.8.0
+| No
+| DKPro Core is a community project.
+| Final
+
+| GATE
+| 8.2
+| No
+| 
+| Final
+
+| ILSP
+| 1.2.1
+| No
+| Not a standard practice
+| Final
+
+|====

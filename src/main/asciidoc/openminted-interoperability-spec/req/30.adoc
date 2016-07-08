@@ -1,0 +1,47 @@
+=== Metrics for the confidence level of the TDM operation should be included in the metadata
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __optional__#
+[small]#*_Category:_* __WG1__,__WG4__#
+[small]#*_Status:_* __final__#
+
+It is important to include metadata stating the confidence level of the TDM operation in order to help users select the appropriate components. 
+
+Note: This requirement is considered premature; although it is  important, we need first to define the appropriate metrics, methods and tools and perform evaluation on components in an objective way and then add it to their metadata.
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| Alvis
+| 0.5rc
+| No
+| Alvis does not provide this aspect. Alvis does not yet deal with metadata.
+| Final
+
+| Argo/U-Compare
+| 
+| No
+| 
+| 
+
+| DKPro Core
+| 1.8.0
+| No
+| The confidence/quality of models (NOT necessarily tools) is typically very much depending on the processed data. It would be a lot of effort to provide such information. The main problem, however, is that there is not a wide range of free suitable gold standard corpora that could be used to generate such information.
+| Final
+
+| GATE
+| 8.2
+| Partial
+| Confidence level is available for tools where this is appropriate. In some cases, e.g. a tool for converting data from one format to another, it is not appropriate
+| Final
+
+| ILSP
+| 1.2.1
+| Partial
+| Some ILSP tools provide confidence level attributes for annotations, e.g. named entities.
+| Final
+
+|====

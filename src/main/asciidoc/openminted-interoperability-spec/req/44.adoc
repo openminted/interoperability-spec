@@ -1,0 +1,47 @@
+=== Statistical metadata that allow monitoring of resource versions may accompany resources
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __optional__#
+[small]#*_Category:_* __WG1__,__WG2__#
+[small]#*_Status:_* __final__#
+
+Resources must include statistical data (e.g. size of resource, total number of concepts, etc.) which allow monitoring of changes across versions; this will help measuring performance of components with different versions of the same resource. 
+
+Note: for version 1 this is set to optional, but for version 2 we should increase the strength for specific metadata elements
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| TheSoz
+| Jun-16
+| Partial
+| number of triples contained inside the resource and number of triples aligned with other resources (e.g. dbpedia)
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Full
+| number of concepts, labels
+| Final
+
+| JATS
+| 1.1
+| No
+| 
+| Final
+
+| OLiA
+| Jun-16
+| No
+| 
+| Final
+
+| LAPPS
+| Jun-16
+| No
+| 
+| Final
+
+|====
