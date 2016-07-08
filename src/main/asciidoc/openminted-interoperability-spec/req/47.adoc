@@ -73,10 +73,10 @@ Information on funding sources (e.g. projects, funders data etc.) may be include
 | Final
 
 | Argo/U-Compare
-| 
+| 1.5
 | No
 | 
-| 
+| Final
 
 | DKPro Core
 | 1.8.0
