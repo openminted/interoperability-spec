@@ -58,6 +58,7 @@ class GenerateWGSpec {
 		attributes['toc'] = 'left';
 		attributes['docinfo1'] = true;
 		attributes['toclevels'] = 8;
+		attributes['experimental'] = true;
 		attributes['sectanchors'] = true;
 
 		OptionsBuilder options = OptionsBuilder.options()
