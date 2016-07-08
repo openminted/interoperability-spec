@@ -140,6 +140,9 @@ in this particular example).
 include::{include-dir-spec}req/TEMPLATE.adoc[]
 ====
 
+=== Add a Requirement
+Click on btn:[Create] to create a new requirement
+ 
 = Requirements
 
 include::{include-dir-spec}WG1.adoc[]
