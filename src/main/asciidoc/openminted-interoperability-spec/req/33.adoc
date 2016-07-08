@@ -75,7 +75,7 @@ Note: For this version, we will allow also "open access" or "other" etc. as stat
 | Final
 
 | Argo/U-Compare
-| 
+| 1.5
 | Partial
 | Licensing information regarding components can be included within the Argo Descriptor File, however the majority of existing components within Argo do not have this information. When available, it's in free text.
 | add metadata
