@@ -78,7 +78,7 @@ Note: At this point, we only wish to check whether versioning is represented in 
 | 1.5
 | No
 | 
-| 
+| Final
 
 | DKPro Core
 | 1.8.0
