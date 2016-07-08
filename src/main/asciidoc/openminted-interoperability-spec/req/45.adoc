@@ -19,10 +19,10 @@ s/w must indicate the specific formats of their output (e.g. statistical data, a
 | Final
 
 | Argo/U-Compare
-| 
+| 1.5
 | Partial
 | Components can optionally declare what types it will output,.
-| add to metadata for all (if applicable)
+| Final
 
 | DKPro Core
 | 1.8.0
