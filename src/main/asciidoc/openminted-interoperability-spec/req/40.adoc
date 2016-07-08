@@ -19,10 +19,10 @@ S/W (web services & workflows but also of tools) classification & description mu
 | Final
 
 | Argo/U-Compare
-| 
+| 1.5
 | Partial
 | Components can be grouped by type (readers,, writers, analytics, web services) and by the type systems they use.
-| standaridise and add metadata
+| Final
 
 | DKPro Core
 | 1.8.0
