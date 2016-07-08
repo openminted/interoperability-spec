@@ -69,10 +69,10 @@ Note: For use inside OMTD, this can be moved to the platform functions; for use 
 | Final
 
 | Argo/U-Compare
-| 
+| 1.5
 | No
 | 
-| 
+| Final
 
 | DKPro Core
 | 1.8.0
