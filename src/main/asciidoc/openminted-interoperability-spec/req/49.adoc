@@ -21,10 +21,10 @@ Note: this is important for the operation of the components; so, we need to stan
 | Final
 
 | Argo/U-Compare
-| 
+| 1.5
 | No
 | 
-| add to metadata
+| Final
 
 | DKPro Core
 | 1.8.0
