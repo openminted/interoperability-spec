@@ -21,7 +21,7 @@ Note: This requirement is considered premature; although it is important, we nee
 | Final
 
 | Argo/U-Compare
-| 
+| 1.5
 | No
 | No performance information given by existing components
 | 
