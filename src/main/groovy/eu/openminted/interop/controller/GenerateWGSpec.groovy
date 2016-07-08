@@ -9,6 +9,9 @@ import org.asciidoctor.AttributesBuilder
 import org.asciidoctor.OptionsBuilder
 import org.asciidoctor.SafeMode
 import org.yaml.snakeyaml.Yaml;
+
+import eu.openminted.interop.controller.Helper;
+
 class GenerateWGSpec {
 
 	static Map<Integer, String> wgSpecMapping = [:];
@@ -199,7 +202,8 @@ class GenerateWGSpec {
 			//adding link to spec file
 			def temp = new File(baseDirSpec+"req/temp_"+tf.name);
 			temp.createNewFile();					
-			temp <<  "[[" + reqSpecMapping.get(Integer.parseInt(tf.name.replace(".adoc",""))).replaceAll(' ','_').replaceAll('[+]','-').replaceAll("/","_") +"]]"
+			def adocFileNameWOSuff = reqSpecMapping.get(Integer.parseInt(tf.name.replace(".adoc","")));
+			temp <<  "[[" + Helper.createLinkIdFromDescription(adocFileNameWOSuff)+"]]"
 			temp.append(tf.getText());
 			def name = tf.name;
 			tf.delete();

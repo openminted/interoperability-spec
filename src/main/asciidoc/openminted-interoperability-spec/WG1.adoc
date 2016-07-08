@@ -6,15 +6,8 @@
 [cols="10%,80%,10%"]
 |====
 <%
-def sortedWG = wgSpecMapping.grep{it.value.contains(spec.name.replace(".adoc",""))}		
-if(sortedWG.size()>0)
-{
-	println '|*ID*|*Requirement*|*WG\'s*'
-	sortedWG.each{it ->
-	def str = reqSpecMapping.get(it.key).replaceAll(' ','_').replaceAll('[+]','-').replaceAll("/","_");
-	println "|${it.key}|<<${str},${reqSpecMapping.get(it.key)}>>|${it.value}"
-	
-	}
-}
+import eu.openminted.interop.controller.Helper
+print Helper.renderWGTable(spec, wgSpecMapping, reqSpecMapping)
+
 %>
 |====
