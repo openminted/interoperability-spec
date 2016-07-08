@@ -103,7 +103,9 @@
 			alert("Copy the TEMPLATE from next alert to paste in github requirement file");
 			alert(atob(newRequirement["template"]));
 			}else{
-				prompt("Copy the TEMPLATE",atob(newRequirement["template"]));
+				var hex = newRequirement["template"];
+				hex = hex.split(" ").join("");
+				prompt("Copy the TEMPLATE",atob(hex));
 			}
 			var url = "https://github.com/openminted/interoperability-spec/new/master/src/main/asciidoc/openminted-interoperability-spec/req/"
 					+ newRequirement["newReq"]
