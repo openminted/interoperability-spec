@@ -78,7 +78,7 @@ Note: for this version, we only need a unique identifier, of whichever scheme th
 | 1.5
 | Full
 | All components and type systems have unique identifiers.
-| 
+| Final
 
 | DKPro Core
 | 1.8.0
