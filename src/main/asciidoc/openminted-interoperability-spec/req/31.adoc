@@ -24,7 +24,7 @@ Note: This requirement is considered premature; although it is important, we nee
 | 1.5
 | No
 | No performance information given by existing components
-| 
+| Final
 
 | DKPro Core
 | 1.8.0
