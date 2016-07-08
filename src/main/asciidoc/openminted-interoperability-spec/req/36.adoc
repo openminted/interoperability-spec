@@ -54,7 +54,7 @@ Note: for this version, we include in the metadata what exists in the resource m
 | 1.5
 | No
 | No metadata regarding component classification, however the name of a component is a generally a good indicator
-| standardize & add to metadata
+| Final
 
 | DKPro Core
 | 1.8.0
