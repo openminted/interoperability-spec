@@ -24,7 +24,7 @@ Note: This requirement is considered premature; although it is  important, we ne
 | 1.5
 | No
 | 
-| 
+| Final
 
 | DKPro Core
 | 1.8.0
