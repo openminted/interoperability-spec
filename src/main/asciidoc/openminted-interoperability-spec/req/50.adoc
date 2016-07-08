@@ -55,10 +55,10 @@ When there is a link to documentation, that documentation should be versioned an
 | Final
 
 | Argo/U-Compare
-| 
+| 1.5
 | No
 | 
-| link resource to its proper documentation (if available) in metadata 
+| Final 
 
 | DKPro Core
 | 1.8.0
