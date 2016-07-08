@@ -75,7 +75,7 @@ Note: At this point, we only wish to check whether versioning is represented in 
 | Final
 
 | Argo/U-Compare
-| 
+| 1.5
 | No
 | 
 | 
