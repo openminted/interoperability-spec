@@ -70,7 +70,7 @@ Access mode of all resources (e.g.  for s/w, whether they are downloadable or ac
 | 1.5
 | Partial
 | Components can be declared as native to Argo (allowing them to be executed within the Argo execution framework) or as web services, however there are also existing native components that simply wrap web services, so these types are not always mutually exclusive.
-| add to metadata
+| Final
 
 | DKPro Core
 | 1.8.0
