@@ -98,9 +98,9 @@ class GenerateWGSpec {
 							wgFileStr = wgFileStr.replaceAll("__","");
 							def wgListArr = wgFileStr.split(",")
 							wgListArr.eachWithIndex{wg,id->
-								if(id!=0){
+								//if(id!=0){
 									line = line.replaceAll(wg,"<<"+wg+","+wg+">>");
-								}
+								//}
 							}
 							temp << line + "\n";
 						}else{
@@ -203,8 +203,9 @@ class GenerateWGSpec {
 			//adding link to spec file
 			def temp = new File(baseDirSpec+"req/temp_"+tf.name);
 			temp.createNewFile();					
-			def adocFileNameWOSuff = reqSpecMapping.get(Integer.parseInt(tf.name.replace(".adoc","")));
-			temp <<  "[[" + Helper.createLinkIdFromDescription(adocFileNameWOSuff)+"]]"
+			def adocFileNameWOSuff = Integer.parseInt(tf.name.replace(".adoc","")); 
+			def adocDesc = reqSpecMapping.get(adocFileNameWOSuff);
+			temp <<  "[[" + Helper.createLinkIdFromDescription(adocDesc)+"]]"
 			temp.append(tf.getText());
 			def name = tf.name;
 			tf.delete();

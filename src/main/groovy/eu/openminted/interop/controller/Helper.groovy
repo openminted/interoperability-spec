@@ -22,20 +22,34 @@ class Helper {
 	* Renders the summary table of a WG.  
 	*/    
 	static String renderWGTable(spec,  Map<Integer, String> wgSpecMapping,  Map<Integer, String> reqSpecMapping){		
-		String ret = ""; 		
+		String ret = "";
 		
-		def sortedWG = wgSpecMapping.grep{it.value.contains(spec.name.replace(".adoc",""))}				
-		if(sortedWG.size()>0)
-		{
+		String wgName = spec.name.replace(".adoc","");		
+		def sortedWG = wgSpecMapping.grep{it.value.contains(wgName)}
+						
+		if(sortedWG.size() > 0){
 			ret = ret + '|*ID*|*Requirement*|*WG\'s*'
 			sortedWG.each{it ->
-			//def str = reqSpecMapping.get(it.key).replaceAll(' ','_').replaceAll('[+]','-').replaceAll("/","_").replaceAll("\\(","").replaceAll("\\)","").replaceAll(",","").replaceAll("&","");
-			def linkId = Helper.createLinkIdFromDescription(reqSpecMapping.get(it.key));		
-			ret = ret + "\n" + "|${it.key}|<<${linkId},${reqSpecMapping.get(it.key)}>>|${it.value}"
-			
+				//def str = reqSpecMapping.get(it.key).replaceAll(' ','_').replaceAll('[+]','-').replaceAll("/","_").replaceAll("\\(","").replaceAll("\\)","").replaceAll(",","").replaceAll("&","");
+				def linkId = Helper.createLinkIdFromDescription(reqSpecMapping.get(it.key));
+				String linksStr = it.value;	
+				linksStr = Helper.removeLink(wgName, linksStr);	
+				ret = ret + "\n" + "|${it.key}|<<${linkId},${reqSpecMapping.get(it.key)}>>|${linksStr}" ;			
 			}
 		}
 		
 		return ret;
+    }
+    
+	/*
+	* This method removes the unneccessary link from linksStr based on the currentWG value.
+	*/
+    static String removeLink(String currentWG, String linksStr){    	
+    	String src = "<<" + currentWG + "," + currentWG + ">>";
+    	String trg = currentWG;
+    	
+    	String ret = linksStr.replaceAll(src, trg);
+    	    		
+    	return ret;    		
     }
 }
