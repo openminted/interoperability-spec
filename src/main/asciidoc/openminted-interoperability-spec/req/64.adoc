@@ -1,0 +1,16 @@
+=== License must qualify for Open Access uses
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG3__#
+[small]#*_Status:_*       __draft__#
+
+Open Access compliant licences must cover all subject matter related to copyright and related rights such as: performers’ performances, broadcasts of broadcasting organisations, sound recordings (Rome), first fixation of a film (EU), SGDR (EU), and employ an open ended wording to include also additional (usually national or regional) related rights (e.g.: non original photographs, scientific editions of public domain works, typographical arrangements, etc).
+
+
+
+
+
+
+

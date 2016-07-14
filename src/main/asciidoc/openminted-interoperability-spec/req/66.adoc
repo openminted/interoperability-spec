@@ -1,0 +1,15 @@
+=== License must qualify for Open Access may include attribution requirements
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG3__#
+[small]#*_Status:_*       __draft__#
+
+Open Access compliant licences must can only features limitations connected with the requirement to acknowledge authorship (paternity) and to guarantee the integrity of the work.
+
+
+
+
+
+

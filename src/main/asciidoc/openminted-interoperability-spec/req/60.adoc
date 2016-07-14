@@ -1,0 +1,13 @@
+=== Boundary for derivative work must be clearly defined
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG3__#
+[small]#*_Status:_*       __draft__#
+
+The licence must clarify what activities can be done with the results of TDM which can qualify as a derivative work of the original protected work.
+
+
+
+

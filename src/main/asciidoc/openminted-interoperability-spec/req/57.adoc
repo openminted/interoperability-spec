@@ -1,0 +1,13 @@
+=== License should be unstandable by non-laywers
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG3__#
+[small]#*_Status:_*       __draft__#
+
+The licence should also be expressed in a statement that makes it easy for non lawyers understand the main rights and obligations (similar to CC “commons deed”).
+
+
+
+

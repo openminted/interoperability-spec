@@ -1,0 +1,12 @@
+=== License should be machine readable
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG3__#
+[small]#*_Status:_*       __draft__#
+
+The licence should be expressed not only in the full standard legal document, but also in a machine readable form, preferably using one of the standard Rights Expression Languages (RELs) and relevant metadata schemas and vocabularies.".
+
+
+

@@ -1,0 +1,16 @@
+=== World-wide and irrevocable license grant
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG3__#
+[small]#*_Status:_*       __draft__#
+
+To be TDMable a licence should not include restriction as to the geographical or temporal dimension of its validity.
+
+The licence must be irrevocable in order to grant the maximum level of reusability.
+
+
+
+
+

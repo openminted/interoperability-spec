@@ -1,0 +1,14 @@
+=== No restrictions on TDM results which are not derived works
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG3__#
+[small]#*_Status:_*       __draft__#
+
+The licence should not unduly restrict what can be done with results that are not derivative works of the original protected works.
+
+
+
+
+

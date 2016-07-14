@@ -1,0 +1,16 @@
+=== License must qualify for Open Access must not restrict use in any way
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG3__#
+[small]#*_Status:_*       __draft__#
+
+Open Access compliant licences must must permit the exercise of the aforementioned rights by anyone for any purpose, without limitations regarding temporal or geographical dimensions, nor should the purpose of the use be limited to non commercial, research only, academic uses, and similar unduly restrictive wording.
+
+
+
+
+
+
+

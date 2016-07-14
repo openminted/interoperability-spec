@@ -1,0 +1,11 @@
+=== Licensees should remain with a copy of the license
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG3__#
+[small]#*_Status:_*       __draft__#
+
+Researchers, data providers and repositories should retain a copy of the text of the licence.
+
+

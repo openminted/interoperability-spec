@@ -1,0 +1,12 @@
+=== License information must be in metadata
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG1__,__WG3__#
+[small]#*_Status:_*       __draft__#
+
+All resources must have a licence clearly indicated in the metadata description of the resource.
+
+
+

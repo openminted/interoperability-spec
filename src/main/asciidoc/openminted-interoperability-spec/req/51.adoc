@@ -1,0 +1,15 @@
+=== License should be attached
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG3__#
+[small]#*_Status:_*       __draft__#
+
+The licence (full legal document) must be attached to the resource, or be publicly available (e.g. URI to permanent web page).
+
+The licence should be attached to the resource, since there is no guarantee that the permanent URI will not change in the future. Public projects such as CC, GNU, Apache, provide with reasonable certainty that the licence will remain publicly available in a permanent location. This has developed a standard, but for smaller projects and/or individual providers may not be a sufficient guarantee.
+
+
+
+
