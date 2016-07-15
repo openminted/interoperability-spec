@@ -1,0 +1,64 @@
+=== The KR should be ingestable through a URI
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __recommended/mandatory__#
+[small]#*_Category:_* __WG2__#
+[small]#*_Status:_* __final-phase1__#
+
+The KR should be downloadable through a URI for ingest (possibly after adaptation) into the TDM workflow.
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| TheSoz
+| June 2016
+| Yes
+| SPARQL endpoint
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Yes
+| 
+| Final
+
+| JATS
+| 1.1
+| Yes
+| In XSD (and RELAX-NG & DTD formats) and accessible as three different schemas but the user has to select one of these.
+| Final
+
+| OLiA
+| June 2016
+| Yes
+| 
+| Final
+
+| LAPPS
+| June 2016
+| Yes
+| 
+| Final
+
+
+| Ontolex
+| June 2016
+| Yes
+| 
+| Final
+
+| CLARIN CCR
+| June-2016
+| No
+| 
+| Final
+
+| schema.org
+| 1.2.1
+| Yes
+| 
+| Final
+
+|====

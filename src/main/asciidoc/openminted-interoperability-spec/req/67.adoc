@@ -1,0 +1,64 @@
+=== Knowledge Resource Element Id
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract__#
+[small]#*_Strength:_* __recommended__#
+[small]#*_Category:_* __WG2__#
+[small]#*_Status:_* __final-phase1__#
+
+For the purposes of resource access and resource schema harmonization, schema elements in Knowledge Resources should be discoverable, identifiable and dereferencable/resolvable through a URI. This is in line with the Linked Data paradigm. If deemed necessary, multiple ids are allowed for the same knowledge resource element if these are linked by means of an equivalence relation in the registry.
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| TheSoz
+| June 2016
+| Yes
+| 
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Yes
+| 
+| Final
+
+| JATS
+| 1.1
+| Yes
+| 
+| Final
+
+| OLiA
+| June 2016
+| Yes
+| 
+| Final
+
+| LAPPS
+| June 2016
+| Yes
+| 
+| Final
+
+
+| Ontolex
+| June 2016
+| Full
+| Documentation is versioned in parallel with the source code
+| Final
+
+| CLARIN CCR
+| June 2016
+| Yes
+| 
+| Final
+
+| schema.org
+| June 2016
+| Yes
+| 
+| Final
+
+|====
