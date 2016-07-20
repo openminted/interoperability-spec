@@ -9,5 +9,3 @@
 If you want to work with a KR its relevant elements need to be added as text metadata. This enables the TDM modules to work in a uniform manner with the informational content the KRs provide. In order to obtain annotations you need to follow KR access routines such as XPATH/ontology based and gazetteer based lookup, and existing APIs/web services.
 
 This is a methodological requirement an as such not suited for the compliance check.		
-
-|====
