@@ -13,6 +13,8 @@ to interoperability working groups in the OpenMinTeD project:
 * WG3 - IPR and licensing
 * WG4 - Annotation and workflows
 
+== Structure
+
 The scenario descriptions are structured as follows:
 
 * Description
