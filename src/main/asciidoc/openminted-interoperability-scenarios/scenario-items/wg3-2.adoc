@@ -10,10 +10,10 @@ hand, database Z is directly accessed but using the software (freely downloadabl
 software Alfa allows users to use the software only for non commercial purposes. For the purpose of this scenario,
 database Y and Z are not protected by any IP rights nor their use is contractually restricted, i.e. they are in the
 public domain (i.e. the scope of the question is to test the enforceability of services’ and tools’ agreements in
-relation to the results of the TDM activity).
+relation to the results of the TDM activity). 
 
-The results of the TDM so obtained are all combined together in one new DB. Can the researcher publish a paper reproducing
-those results? Can he publish the paper in OA under a CC-BY. If yes, is he bound to apply a NC licence? Can the
+The results of the TDM so obtained are all combined together in one new DB. Can the researcher publish a paper based on
+those results? Can he publish the paper under a CC-BY 4.0  license. Can he also publish the DB itself under a CC-BY 4.0 license? If yes, is he bound to apply a NC licence? Can the
 researcher develop a commercial product and sell it? Would the fact that the “results” reproduce substantial or
 insubstantial parts of the original DB, or on the contrary that those results do not reproduce parts of the original
 DB (for example the statistical recurrence of a given word in the DBs, but not the word itself) make a difference in
@@ -22,11 +22,14 @@ the result?
 ==== Relevance to the WG
 
 The scenario adds a main element of complexity: some TDM services restrict the use that you can do with the results
-obtained from their services. In this case researchers are not directly accessing a database but they are using a service offered by the data provider to analyse its own DB. Of particular relevance when the DB is not protected by copyright or sui generis database rights (SGDR ) and therefore the SLA (service level agreement) is the only basis to restrict use of the results (not backed-up by property rights).
+obtained from their services. In this case researchers are not directly accessing a database but they are using a service
+offered by the data provider to analyse its own DB. Of particular relevance when the DB is not protected by copyright
+or sui generis database rights (SGDR ) and therefore the SLA (service level agreement) is the only basis to restrict
+use of the results (not backed-up by property rights).
 
 ==== Relevance to other WGs
 
-* WG 1 - Are the licences or rights statement expressed in DB metadata? How to identify this licences in case of services?
+* WG 1 - Are the licences or rights statement expressed in DB metadata? How to identify this license in case of services?
 * WG 2 - N/A
 * WG 4 - License information and provenance information must be preserved throughout the workflow.
 
@@ -43,8 +46,3 @@ labeling, through the correct application of the licence and licence metadata, a
 issues and transaction costs.
 * ELC: proper exception to copyright and related rights (e.g. UK to some extent) can contribute to fix additional access
 and reuse issues.
-
-==== Open questions
-
-Their specific experience in this and related areas. Many experts (internal and external) already faced some of the
-identified issues.
