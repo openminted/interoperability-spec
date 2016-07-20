@@ -110,6 +110,9 @@ NOTE: The format and schema of this file is still to be determined. YAML may be 
 
 == Adding new requirements
 
+New requirements can be added via the *Create new requirement* button in the sidebar, by
+clicking on btn:[Create] here, or by creating a new requirement file on GitHub.
+
 === Files and IDs
 
 Requirements are maintained in the folder `req`, one requirement per file, and files are numbered
@@ -133,8 +136,6 @@ in this particular example).
 include::{include-dir-spec}req/TEMPLATE.adoc[]
 ====
 
-=== Add a Requirement
-Click on btn:[Create] to create a new requirement
  
 = Requirements
 
