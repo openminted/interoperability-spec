@@ -146,7 +146,7 @@
 		var addClickFunction = function() {
 			var node = $('.button');
 			for (ele in node) {
-				if ($(node[ele]).text() == "Create") {
+				if ($(node[ele]).text() == "Create" || $(node[ele]).text() == "Create new requirement") {
 					$(node[ele]).css('cursor', 'pointer');
 					$(node[ele]).on('click', callCreateReq)
 				}
