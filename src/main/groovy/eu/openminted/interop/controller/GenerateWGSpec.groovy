@@ -33,7 +33,7 @@ class GenerateWGSpec {
 			}
 			if(it.startsWith(stringPatternHeading)){
 				def reqNo = aDescriptor.name.replace(".adoc","");
-				def p = it.substring(it.indexOf(reqNo) + reqNo.length()+1,it.length()).replaceFirst("^ *","");											
+				def p = it.substring(it.indexOf(reqNo) + reqNo.length()+1,it.length()).replaceFirst("^ *","");
 				reqSpecMapping.put(aDescriptor.name.replace(".adoc","").toInteger(),p);
 			}
 		}
@@ -99,7 +99,7 @@ class GenerateWGSpec {
 							def wgListArr = wgFileStr.split(",")
 							wgListArr.eachWithIndex{wg,id->
 								//if(id!=0){
-									line = line.replaceAll(wg,"<<"+wg+","+wg+">>");
+								line = line.replaceAll(wg,"<<"+wg+","+wg+">>");
 								//}
 							}
 							temp << line + "\n";
@@ -163,11 +163,11 @@ class GenerateWGSpec {
 		reqSpecMapping = reqSpecMapping.sort{a,b -> a.key <=> b.key};
 		// Adding edit options in the spec files
 		println "Applying templates for WG..."
-		
+
 		File adocTargetFolderWG = new File("target/generated-adocs/openminted-interoperability-spec")
 		def te = new groovy.text.SimpleTemplateEngine(GenerateWGSpec.class.classLoader);
-		
-		
+
+
 		//processing WG template
 		new File("target/generated-adocs/openminted-interoperability-spec").eachFile(FILES){tf->
 			if(!tf.name.endsWith(".adoc") || !tf.name.startsWith("WG")){
@@ -176,12 +176,12 @@ class GenerateWGSpec {
 			println "Processing template ${tf.name}...";
 			def spec =[:];
 			spec["source"]="https://github.com/openminted/interoperability-spec/blob/master/src/main/asciidoc/openminted-interoperability-spec/req/";
-			spec["name"] = tf.name;			
+			spec["name"] = tf.name;
 			try {
 				def template = te.createTemplate(tf.getText("UTF-8"));
 				def result = template.make([
 					spec: spec,wgSpecMapping:wgSpecMapping ,reqSpecMapping:reqSpecMapping]);
-				
+
 				def output = new File(adocTargetFolderWG, "${tf.name}");
 				output.parentFile.mkdirs();
 				output.setText(result.toString(), 'UTF-8');
@@ -192,7 +192,7 @@ class GenerateWGSpec {
 				throw e;
 			}
 		}
-		
+
 		//processing requirement template
 		println "Applying templates for requirement..."
 		File adocTargetFolder = new File("target/generated-adocs/openminted-interoperability-spec/req");
@@ -202,15 +202,15 @@ class GenerateWGSpec {
 			}
 			//adding link to spec file
 			def temp = new File(baseDirSpec+"req/temp_"+tf.name);
-			temp.createNewFile();					
-			def adocFileNameWOSuff = Integer.parseInt(tf.name.replace(".adoc","")); 
+			temp.createNewFile();
+			def adocFileNameWOSuff = Integer.parseInt(tf.name.replace(".adoc",""));
 			def adocDesc = reqSpecMapping.get(adocFileNameWOSuff);
 			temp <<  "[[" + Helper.createLinkIdFromDescription(adocDesc)+"]]"
 			temp.append(tf.getText());
 			def name = tf.name;
 			tf.delete();
 			temp.renameTo(baseDirSpec+"/req/"+name);
-//			
+			//
 			//processing template
 			println "Processing template ${tf.name}...";
 			def spec =[:];
@@ -230,8 +230,8 @@ class GenerateWGSpec {
 				throw e;
 			}
 		}
-		
-		
+
+
 
 		Asciidoctor asciidoctor = Asciidoctor.Factory.create();
 
@@ -243,7 +243,8 @@ class GenerateWGSpec {
 
 		render(false, "scenario-main", "target/generated-adocs/openminted-interoperability-scenarios",
 				"target/generated-docs/", "include-dir-scenario", asciidoctor);
-
+		// copy JS files to generated-docs/js
+		FileUtils.copyDirectory(new File("src/main/resources/"),new File("target/generated-docs/"));
 	}
 
 }
