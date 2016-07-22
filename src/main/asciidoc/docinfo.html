@@ -13,7 +13,7 @@
               <li><a href='openminted-interoperability-scenarios.html'>Interoperability scenarios</a>\
     		</ul>\
     		<hr/>\
-    		<b class='button' style='cursor: pointer;'>Create new requirement</b>\
+    		<b class='button btn' data-clipboard-text='Cannot copy template'>Create new requirement</b>\
             <hr/>\
 	");
 					})
@@ -22,6 +22,7 @@
 <!-- Generate a nice TOC -->
 <!-- script src="https://code.jquery.com/jquery-1.11.3.min.js"></script -->
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="js/clipboard.min.js"></script>
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js"></script>
 <!-- We do not need the tocify CSS because the asciidoc CSS already provides most of what we neeed -->
@@ -95,28 +96,44 @@
 		$(window).resize(handleTocOnResize);
 		handleTocOnResize();
 
+		//It add click functions to all the btn class elements in the DOM 
+		var addClickFunction = function() {
+			var clipboard = new Clipboard('.btn', {
+				text : function() {
+
+					return atob(newRequirement["template"]);
+				}
+			});
+			clipboard
+					.on(
+							'success',
+							function(e) {
+								var url = "https://github.com/openminted/interoperability-spec/new/master/src/main/asciidoc/openminted-interoperability-spec/req/"
+										+ newRequirement["newReq"]
+										+ ".adoc?filename="
+										+ newRequirement["newReq"] + ".adoc";
+								var msg = "TEMPLATE Copied. Press 'OK' which redirects to a new requirement file on GitHub where you can paste the text. The file's name will correspond to a new requirement ID.";
+								alert(msg);
+								window.location.href = url;
+
+							});
+
+			clipboard.on('error', function(e) {
+				console.log(e);
+			});
+		}
 		var newRequirement = {}
+		// Get the template data from github
 		var getTemplateData = function(data) {
 			if (data.status == 404 || data.length == 0) {
 				console.log("Error occured contact the administrator");
 			} else {
 				newRequirement["template"] = data.content
 			}
-			var msg = "Press CTRL-C or CMD-C to copy the template text. Then press to be redirected to a new requirements file on GitHub where you can paste the text. The file's name will correspond to a new requirement ID.";
-			if (navigator.userAgent.indexOf("Firefox") > 0) {
-    			alert(msg);
-  	   		    alert(atob(newRequirement["template"]));
-			} else {
-				var hex = newRequirement["template"];
-				hex = hex.split("\n").join("");
-				prompt(msg,atob(hex));
-			}
-			var url = "https://github.com/openminted/interoperability-spec/new/master/src/main/asciidoc/openminted-interoperability-spec/req/"
-					+ newRequirement["newReq"]
-					+ ".adoc?filename="
-					+ newRequirement["newReq"] + ".adoc";
-			window.location.href = url;
+			addClickFunction();
 		}
+		
+		//This is the callback function which search for latest req id using github api
 		var searchForId = function(data) {
 			if (data.status == 404 || data.length == 0) {
 				console.log("error");
@@ -136,22 +153,20 @@
 				var url = "https://api.github.com/repos/openminted/interoperability-spec/contents/src/main/asciidoc/openminted-interoperability-spec/req/TEMPLATE.adoc"
 				$.getJSON(url, getTemplateData).fail(getTemplateData);
 			}
-
 		}
+		
+		//Starting AJAX call to get all the requirements files on github 
 		var callCreateReq = function() {
+			// Add 'btn' class on all button nodes
+			var node = $('.button');
+			for (ele in node) {
+				$(node[ele]).addClass("btn");
+				$(node[ele]).css('cursor', 'pointer');
+			}
 			var specURL = "https://api.github.com/repos/openminted/interoperability-spec/contents/src/main/asciidoc/openminted-interoperability-spec/req";
 			// create a req to search for req files
 			$.getJSON(specURL, searchForId).fail(searchForId)
-		}
-		var addClickFunction = function() {
-			var node = $('.button');
-			for (ele in node) {
-				if ($(node[ele]).text() == "Create" || $(node[ele]).text() == "Create new requirement") {
-					$(node[ele]).css('cursor', 'pointer');
-					$(node[ele]).on('click', callCreateReq)
-				}
-			}
-		}
-		addClickFunction();
+		}		
+		callCreateReq();
 	});
 </script>
