@@ -30,6 +30,7 @@ Note: This requirement may not be necessary in small-scale resource lookup.
 
 | ARGO/U-Compare
 |
+| unknown
 | Components developed for Argo can make use of UIMA's external resources feature, however I don't believe there are many (if any) Argo components that do.  On the Argo development roadmap, we plan on using this approach with Argo reader and writer components.  Currently for every serialisation format (e.g. CAS XMI, RDF/XML) and storage platform (e.g. Argo File Store, SFTP) combination we require a new component to be created.  Instead, we plan to allow the addition of serialisation formats and storage platforms independently.
 | draft
 

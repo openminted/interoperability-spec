@@ -146,3 +146,7 @@ include::{include-dir-spec}WG4.adoc[]
 
 include::{include-dir-spec}Details.adoc[]
 include::{include-dir-spec}bibliography.adoc[]
+
+= View Requirements by Product
+include::{include-dir-template}requirementViewByProduct.adoc[]
+

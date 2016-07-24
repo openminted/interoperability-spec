@@ -10,7 +10,9 @@ import org.asciidoctor.OptionsBuilder
 import org.asciidoctor.SafeMode
 import org.yaml.snakeyaml.Yaml;
 
-import eu.openminted.interop.controller.Helper;
+import eu.openminted.interop.controller.Helper
+import eu.openminted.interop.model.Requirement
+import eu.openminted.interop.utils.RequirementUtils;;;
 
 class GenerateWGSpec {
 
@@ -43,7 +45,7 @@ class GenerateWGSpec {
 		detailFile << "\n" + includeString + "/" + req+".adoc"  +"[]";
 	}
 
-	static def render(Boolean isDirectory, String model, String sourceAdoc, String targetDoc, String replaceStr,
+	static def render(Boolean isDirectory, String model, String sourceAdoc, String targetDoc, HashMap<String,String> replaceMap,
 			Asciidoctor asciidoctor){
 
 		File adocSourceFolder = new File(sourceAdoc);
@@ -53,8 +55,10 @@ class GenerateWGSpec {
 				.linkCss(false)
 				.dataUri(true)
 				.asMap();
-
-		attributes[replaceStr] = adocSourceFolder.absolutePath+'/';
+		
+		replaceMap.keySet().each {key->			
+		attributes[key] = replaceMap.get(key);
+		}
 		attributes['toc'] = 'left';
 		attributes['docinfo1'] = true;
 		attributes['toclevels'] = 8;
@@ -118,6 +122,41 @@ class GenerateWGSpec {
 	static main(args) {
 
 		FileUtils.copyDirectory(new File(baseDir),new File(baseDirTarget));
+
+		new File("target/generated-adocs/openminted-interoperability-spec/req").eachFile(FILES) { tf ->
+			if (!tf.name.endsWith(".adoc") || tf.name.equals("TEMPLATE.adoc")) {
+				return;
+			}
+			//Begin Parse requirement
+			Requirement req = new Requirement(tf)
+			RequirementUtils.addRequirement(req);
+			//End Parse requirement
+		}
+
+		def te = new groovy.text.SimpleTemplateEngine(GenerateWGSpec.class.classLoader);
+
+		//make requirement view by product
+		new File("target/generated-adocs/template").eachFile(FILES){tf->
+			if(!tf.name.endsWith(".adoc")){
+				return;
+			}
+			println "Processing template ${tf.name}...";
+			try {
+				def template = te.createTemplate(tf.getText("UTF-8"));
+				def result = template.make([
+					requirementProductList: RequirementUtils.requirementProductList]);
+
+				def output = new File("target/generated-adocs/template", "${tf.name}");
+				output.parentFile.mkdirs();
+				output.setText(result.toString(), 'UTF-8');
+			}
+			catch (Exception e) {
+				te.setVerbose(true);
+				te.createTemplate(tf.getText("UTF-8"));
+				throw e;
+			}
+		}
+
 		String linkScript = '''<%
 		def links()
 		{
@@ -165,9 +204,6 @@ class GenerateWGSpec {
 		println "Applying templates for WG..."
 
 		File adocTargetFolderWG = new File("target/generated-adocs/openminted-interoperability-spec")
-		def te = new groovy.text.SimpleTemplateEngine(GenerateWGSpec.class.classLoader);
-
-
 		//processing WG template
 		new File("target/generated-adocs/openminted-interoperability-spec").eachFile(FILES){tf->
 			if(!tf.name.endsWith(".adoc") || !tf.name.startsWith("WG")){
@@ -233,17 +269,26 @@ class GenerateWGSpec {
 
 
 
+
 		Asciidoctor asciidoctor = Asciidoctor.Factory.create();
 
+		HashMap<String, String> replaceMapScenarioMain=new HashMap<String, String>();
+		replaceMapScenarioMain.put("include-dir-scenario",new File("target/generated-adocs/main").absolutePath+"/");
 		render(false, "main", "target/generated-adocs/main",
-				"target/generated-docs/", "include-dir-scenario", asciidoctor);
+				"target/generated-docs/", replaceMapScenarioMain, asciidoctor);
 
+		HashMap<String, String> replaceMapSpec=new HashMap<String, String>();
+		replaceMapSpec.put("include-dir-spec", new File("target/generated-adocs/openminted-interoperability-spec").absolutePath +"/");
+		replaceMapSpec.putAt("include-dir-template",new File("target/generated-adocs/template").absolutePath +"/");
 		render(false, "spec-main", "target/generated-adocs/openminted-interoperability-spec",
-				"target/generated-docs/", "include-dir-spec", asciidoctor);
+				"target/generated-docs/", replaceMapSpec, asciidoctor);
 
+		HashMap<String, String> replaceMapScenario=new HashMap<String, String>();
+		replaceMapScenario.put("include-dir-scenario", new File("target/generated-adocs/openminted-interoperability-scenarios").absolutePath +"/");
 		render(false, "scenario-main", "target/generated-adocs/openminted-interoperability-scenarios",
-				"target/generated-docs/", "include-dir-scenario", asciidoctor);
-		// copy JS files to generated-docs/js
+				"target/generated-docs/", replaceMapScenario, asciidoctor);
+
+		//copy JS files to generated-docs/js
 		FileUtils.copyDirectory(new File("src/main/resources/"),new File("target/generated-docs/"));
 	}
 
