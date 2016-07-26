@@ -6,8 +6,8 @@ import eu.openminted.interop.model.Requirement
 import eu.openminted.interop.model.ProductView;;
 
 class RequirementUtils {
-	static def requirementList=[];
-	static def requirementProductList = [];
+	static List<Requirement> requirementList = [];
+	static List<ProductView> requirementProductList = [];
 
 	static void addRequirement(Requirement req){		
 		requirementList.add(req);

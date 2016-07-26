@@ -28,7 +28,7 @@ productGroup.groupBy{it.compliance}.sort{it.key}.each{proCompliance,proComplianc
         productGroup.sort { it.productName }.each { productInner ->
 %>
 | ${productInner.id}
-| <<${createLinkIdFromDescription(productInner.requirementName)},${productInner.requirementName}>>
+| <<REQ-${productInner.id},${productInner.requirementName}>>
 | ${productInner.compliance}
 <%        
         }

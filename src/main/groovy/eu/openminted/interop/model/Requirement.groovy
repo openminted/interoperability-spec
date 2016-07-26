@@ -4,7 +4,8 @@ import eu.openminted.interop.utils.RequirementUtils;
 
 class Requirement {
 
-	Integer id;
+	public Integer id;
+    File file;
 	String name;
 	String concreteness;
 	String strength;
@@ -14,6 +15,7 @@ class Requirement {
 	List<ProductDetails> productDetails = new ArrayList();
 
 	Requirement(File f){
+        file = f;
 		String concretenessRegex = "[small]#*_Concreteness:_*";
 		String strengthRegex = "[small]#*_Strength:_*";
 		String statusRegex = "[small]#*_Status:_*";

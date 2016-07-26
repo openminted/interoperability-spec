@@ -30,11 +30,9 @@ class Helper {
 		if(sortedWG.size() > 0){
 			ret = ret + '|*ID*|*Requirement*|*WG\'s*'
 			sortedWG.each{it ->
-				//def str = reqSpecMapping.get(it.key).replaceAll(' ','_').replaceAll('[+]','-').replaceAll("/","_").replaceAll("\\(","").replaceAll("\\)","").replaceAll(",","").replaceAll("&","");
-				def linkId = Helper.createLinkIdFromDescription(reqSpecMapping.get(it.key));
 				String linksStr = it.value;	
 				linksStr = Helper.removeLink(wgName, linksStr);	
-				ret = ret + "\n" + "|${it.key}|<<${linkId},${reqSpecMapping.get(it.key)}>>|${linksStr}" ;			
+				ret = ret + "\n" + "|${it.key}|<<REQ-${it.key},${reqSpecMapping.get(it.key)}>>|${linksStr}" ;			
 			}
 		}
 		

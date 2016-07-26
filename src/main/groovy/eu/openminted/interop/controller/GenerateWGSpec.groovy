@@ -120,17 +120,15 @@ class GenerateWGSpec {
 		}
 	}
 	static main(args) {
-
 		FileUtils.copyDirectory(new File(baseDir),new File(baseDirTarget));
 
+        // Parse requirements
 		new File("target/generated-adocs/openminted-interoperability-spec/req").eachFile(FILES) { tf ->
 			if (!tf.name.endsWith(".adoc") || tf.name.equals("TEMPLATE.adoc")) {
 				return;
 			}
-			//Begin Parse requirement
 			Requirement req = new Requirement(tf)
 			RequirementUtils.addRequirement(req);
-			//End Parse requirement
 		}
 
 		def te = new groovy.text.SimpleTemplateEngine(GenerateWGSpec.class.classLoader);
@@ -232,43 +230,34 @@ class GenerateWGSpec {
 		//processing requirement template
 		println "Applying templates for requirement..."
 		File adocTargetFolder = new File("target/generated-adocs/openminted-interoperability-spec/req");
-		new File("target/generated-adocs/openminted-interoperability-spec/req").eachFile(FILES) { tf ->
-			if (!tf.name.endsWith(".adoc") || tf.name.equals("TEMPLATE.adoc")) {
-				return;
-			}
+        RequirementUtils.requirementList.forEach { Requirement req ->
 			//adding link to spec file
-			def temp = new File(baseDirSpec+"req/temp_"+tf.name);
+			def temp = new File("${baseDirSpec}/req/temp_${req.id}.adoc");
 			temp.createNewFile();
-			def adocFileNameWOSuff = Integer.parseInt(tf.name.replace(".adoc",""));
-			def adocDesc = reqSpecMapping.get(adocFileNameWOSuff);
-			temp <<  "[[" + Helper.createLinkIdFromDescription(adocDesc)+"]]"
-			temp.append(tf.getText());
-			def name = tf.name;
-			tf.delete();
-			temp.renameTo(baseDirSpec+"/req/"+name);
-			//
+			def adocDesc = reqSpecMapping.get(req.id);
+			temp << "[[REQ-${req.id}]]"
+			temp.append(req.file.getText("UTF-8"));
+			temp.renameTo("${baseDirSpec}/req/${req.file.name}");
+            
 			//processing template
-			println "Processing template ${tf.name}...";
+			println "Processing requirement ${req.id}...";
 			def spec =[:];
-			spec["source"]="https://github.com/openminted/interoperability-spec/blob/master/src/main/asciidoc/openminted-interoperability-spec/req/" + tf.name;
-			spec["name"] = tf.name;
+			spec["source"]="https://github.com/openminted/interoperability-spec/blob/master/src/main/asciidoc/openminted-interoperability-spec/req/${req.file.name}";
+			spec["name"] = "${req.file.name}";
 			try {
-				def template = te.createTemplate(tf.getText("UTF-8"));
+				def template = te.createTemplate(req.file.getText("UTF-8"));
 				def result = template.make([
 					spec: spec]);
-				def output = new File(adocTargetFolder, "${tf.name}");
+				def output = new File(adocTargetFolder, "${req.file.name}");
 				output.parentFile.mkdirs();
 				output.setText(result.toString(), 'UTF-8');
 			}
 			catch (Exception e) {
 				te.setVerbose(true);
-				te.createTemplate(tf.getText("UTF-8"));
+				te.createTemplate(req.file.getText("UTF-8"));
 				throw e;
 			}
 		}
-
-
-
 
 		Asciidoctor asciidoctor = Asciidoctor.Factory.create();
 
