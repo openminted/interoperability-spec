@@ -18,16 +18,16 @@ S/W (tools, web services, workflows) must indicate whether they are language-ind
 | Not supported
 | Final
 
-| Argo/U-Compare
+| ARGO/U-Compare
 | 1.5
 | No
-| 
+| Unknown
 | Final
 
 | DKPro Core
 | 1.8.0
 | Partial
-| 
+| Most DKPro Core components take a model as a parameter. The model then ususally determines the language. Also for components that a locked to a specific language, this information is currently not included in the component metadata.
 | Final
 
 | GATE

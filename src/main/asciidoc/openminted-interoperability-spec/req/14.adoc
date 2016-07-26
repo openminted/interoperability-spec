@@ -17,29 +17,29 @@ To this end storing license information within component metadata seems the most
 | 0.5rc
 | No
 | The licence information are currently provided as free texts in the tool documentation.
-| draft
+| Draft
 
 | ARGO/U-Compare
-|
+| Unknown
 | Partial
 | Components can declare licensing information with the Argo Descriptor File, however the vast majority of components do not make use of this facility.
-| draft
+| Draft
 
 | DKPro Core
 | 1.8.0
 | Partial
 | DKPro Core components have license metadata about their own code in their POM hierarchy. It is also available for those dependencies that provide license information in their respective POMs (not all dependencies declare such license information in their POMs). For most models/resources, we currently have no license information.
-| draft
+| Draft
 
 | GATE
 | 8.2
 | No
 | Currently GATE components do not have a license assigned as part of the metadata. The next version of GATE will use maven for plugin/component distribution and will have access to license information documented in the pom.xml for a plugin.
-| draft
+| Draft
 
 | ILSP
 | 1.2.1
 | Partial
 | ILSP components do not have a license assigned as part of the metadata. ILSP components are provided free for research purposes via UIMA, SOAP and/or rest services. The license information for these services is declared via appropriate metadata as for example in https://goo.gl/yDynbu
-| draft
+| Draft
 |====

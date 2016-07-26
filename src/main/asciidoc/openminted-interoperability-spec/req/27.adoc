@@ -18,29 +18,29 @@ In the event that a component fails (e.g. due to a loss in network connectivity 
 | 0.5rc
 | No
 | Alvis however can re-run a component from a data dump. 
-| draft
+| Draft
 
 | ARGO/U-Compare
-|
+| Unknown
 | Partial
 | There is no framework support for this (e.g. when an exception occurs in a component, a rollback/onError callback could be made on the component to handle any issues), however when developing components for Argo we always try to ensure that this requirement is implemented.  There aren't many components in Argo, if any at all, that will produce unwanted side-effects on the occurrance of an exception.
-| draft
+| Draft
 
 | DKPro Core
 | 1.8.0
 | N/A
 | DKPro Core does not provide any workflow functionality. It relies on such functionality to be provided by a workflow engine. Components are usually implemented fail-fast: as soon as a problem occurs, an exception is thrown. How the workflow engine (or application embedding DKPro Core components) handles these is up to them.
-| draft
+| Draft
 
 | GATE
 | 8.2
-| no
+| No
 | currently if a component fails (in a way not expected by the developer) than the exception will propogate back up to the workflow and halt execution.
-| draft
+| Draft
 
 | ILSP
 | 1.2.1
 | No
 | Not supported.
-| draft
+| Draft
 |====

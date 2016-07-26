@@ -14,31 +14,31 @@ For the purposes of resource access and resource schema harmonization, schema el
 
 | TheSoz
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
 | Agrovoc
 | 21/01/2016
-| Yes
+| Full
 | 
 | Final
 
 | JATS
 | 1.1
-| Yes
+| Full
 | 
 | Final
 
 | OLiA
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
 | LAPPS
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
@@ -51,13 +51,13 @@ For the purposes of resource access and resource schema harmonization, schema el
 
 | CLARIN CCR
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
 | schema.org
 | June 2016
-| Yes
+| Full
 | 
 | Final
 

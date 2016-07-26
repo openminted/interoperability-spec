@@ -54,7 +54,7 @@ When there is a link to documentation, that documentation should be versioned an
 | No version
 | Final
 
-| Argo/U-Compare
+| ARGO/U-Compare
 | 1.5
 | No
 | 

@@ -17,32 +17,32 @@ the implementation (cf. <<uimafit>>).
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|0.5rc
-| not
+| 0.5rc
+| No
 | Alvis XML descriptors manually maintained
-| draft
+| Draft
 
 | ARGO/U-Compare
-|
-| not (I believe)
-| UIMA XML descriptors manually maintained
-| draft
+| Unknown
+| No
+| (I believe) - UIMA XML descriptors manually maintained
+| Draft
 
 | DKPro Core
 | 1.8.0
-| full
+| Full
 | using uimaFIT Java annotations to automatically generate UIMA XML descriptors
-| draft
+| Draft
 
 | GATE
 | 8.2
-| partial
+| Partial
 | using CREOLE Java annotations, but not yet in all components
-| draft
+| Draft
 
 | ILSP
 | 1.2.1
-| partial
+| Partial
 | Both UIMA XML descriptors necessary for UIMA-AS integration, but also uimaFIT Java annotations to integrate components in command line pipelines
-| draft
+| Draft
 |====

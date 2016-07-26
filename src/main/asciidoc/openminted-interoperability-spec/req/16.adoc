@@ -24,29 +24,29 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | 0.5rc
 | Partial
 | Alvis has a stream manager that enables to caracterize models/resources to load or to store, it supports file system, web access, zip/jar,... and is extensible. 
-| draft
+| Draft
 
 | ARGO/U-Compare
-|
+| Unknown
 | Partial
 | Argo components that offer configurable models/resources make use of standard UIMA configuration parameters.  The majority of these configuration parameters accept a local file path, which relates to a user's file store within the Argo ecosystem.
-| draft
+| Draft
 
 | DKPro Core
 | 1.8.0
 | Full
 | DKPro Core components that use resources can typically be configured through two mechanisms: 1) via the *language/variant* coordinates which internally translate to a classpath lookup, and may make use of the built-in auto-download mechanism for models. 2) via the *PARAM_MODEL_LOCATION* which supports locally available resources (file system, classpath, ZIP/JAR files, but not arbitrary remote URLs).
-| draft
+| Draft
 
 | GATE
 | 8.2
-| full
+| Full
 | GATE components that are configured through models/resources etc. simply require a URL to the resources. This could be a file or jar URL as well as anormal http URL. Resources may be bundled inside jar files for distribution but these are simply the default files and can always be replaced.
-| draft
+| Draft
 
 | ILSP
 | 1.2.1
 | Partial
 | ILSP UIMA-based components are typically configured via uimafit ConfigurationParameter and/or ExternalResource annotations. As services, users can only configure parameters things like exporting format.
-| draft
+| Draft
 |====

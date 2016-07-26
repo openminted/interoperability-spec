@@ -17,32 +17,32 @@ metadata by which they describe themselves.
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|0.5rc
-| full
+| 0.5rc
+| Full
 | Alvis component descriptors
-| draft
+| Draft
 
 | ARGO/U-Compare
-|
-| full
+| Unknown
+| Full
 | UIMA component descriptors
-| draft
+| Draft
 
 | DKPro Core
 | 1.8.0
-| full
+| Full
 | UIMA component descriptors, Maven project descriptors
-| draft
+| Draft
 
 | GATE
 | 8.2
-| full
+| Full
 | CREOLE descriptors
-| draft
+| Draft
 
 | ILSP
 | 1.2.1
-| full
+| Full
 | UIMA component descriptors
-| draft
+| Draft
 |====

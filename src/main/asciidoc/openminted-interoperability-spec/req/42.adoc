@@ -29,37 +29,37 @@ Note: For use inside OMTD, this can be moved to the platform functions; for use 
 | TheSoz
 | Jun-16
 | No
-| 
+| Unknown
 | Final
 
 | Agrovoc
 | 21/01/2016
 | No
-| 
+| Unknown
 | Final
 
 | JATS
 | 1.1
 | No
-| 
+| Unknown
 | Final
 
 | OLiA
 | Jun-16
 | No
-| 
+| Unknown
 | Final
 
 | LAPPS
 | Jun-16
 | No
-| 
+| Unknown
 | Final
 
 | Licences
 | Jun-16
-| 
-| 
+| Unknown
+| Unknown
 | Final
 
 | Alvis
@@ -68,10 +68,10 @@ Note: For use inside OMTD, this can be moved to the platform functions; for use 
 | No metadata
 | Final
 
-| Argo/U-Compare
+| ARGO/U-Compare
 | 1.5
 | No
-| 
+| Unknown
 | Final
 
 | DKPro Core
@@ -83,13 +83,13 @@ Note: For use inside OMTD, this can be moved to the platform functions; for use 
 | GATE
 | 8.2
 | No
-| 
+| Unknown
 | Final
 
 | ILSP
 | 1.2.1
 | No
-| 
+| Unknown
 | Final
 
 |====

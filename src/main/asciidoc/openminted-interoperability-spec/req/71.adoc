@@ -14,38 +14,38 @@ The KR should be downloadable through a URI for ingest (possibly after adaptatio
 
 | TheSoz
 | June 2016
-| Yes
+| Full
 | SPARQL endpoint
 | Final
 
 | Agrovoc
 | 21/01/2016
-| Yes
+| Full
 | 
 | Final
 
 | JATS
 | 1.1
-| Yes
+| Full
 | In XSD (and RELAX-NG & DTD formats) and accessible as three different schemas but the user has to select one of these.
 | Final
 
 | OLiA
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
 | LAPPS
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
 
 | Ontolex
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
@@ -57,7 +57,7 @@ The KR should be downloadable through a URI for ingest (possibly after adaptatio
 
 | schema.org
 | 1.2.1
-| Yes
+| Full
 | 
 | Final
 

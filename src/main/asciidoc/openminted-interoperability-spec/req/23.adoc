@@ -19,29 +19,29 @@ A workflow must aggregate all licences either from the components which is compo
 | 0.5rc
 | No
 | No licence information handled in workflows
-| draft
+| Draft
 
 | ARGO/U-Compare
-|
+| Unknown
 | Full
 | A user will be shown a full list of licenses for a workflow when attempting to run it for the first time after any component changes are made to the workflow, to which they must agree before the workflow can be executed.
-| draft
+| Draft
 
 | DKPro Core
 | 1.8.0
 | No
 | Presently, DKPro Core does not record license information in processed documents.
-| draft
+| Draft
 
 | GATE
 | 8.2
-| no
+| No
 | GATE currently doesn't record any license information at all
-| draft
+| Draft
 
 | ILSP
 | 1.2.1
 | No
 | Components do not add license information to processed documents.
-| draft
+| Draft
 |====

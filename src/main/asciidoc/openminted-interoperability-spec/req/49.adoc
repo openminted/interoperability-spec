@@ -20,7 +20,7 @@ Note: this is important for the operation of the components; so, we need to stan
 | No metadata support
 | Final
 
-| Argo/U-Compare
+| ARGO/U-Compare
 | 1.5
 | No
 | 

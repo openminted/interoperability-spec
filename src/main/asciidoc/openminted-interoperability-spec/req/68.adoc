@@ -15,13 +15,13 @@ The compliance assessment checks the use of mentioned linking vocabulariess with
 
 | TheSoz
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
 | Agrovoc
 | 21/01/2016
-| Yes
+| Full
 | 
 | Final
 
@@ -33,13 +33,13 @@ The compliance assessment checks the use of mentioned linking vocabulariess with
 
 | OLiA
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
 | LAPPS
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
@@ -58,7 +58,7 @@ The compliance assessment checks the use of mentioned linking vocabulariess with
 
 | schema.org
 | June 2016
-| Yes
+| Full
 | 
 | Final
 

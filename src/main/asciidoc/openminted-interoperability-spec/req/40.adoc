@@ -18,7 +18,7 @@ S/W (web services & workflows but also of tools) classification & description mu
 | No metadata
 | Final
 
-| Argo/U-Compare
+| ARGO/U-Compare
 | 1.5
 | Partial
 | Components can be grouped by type (readers,, writers, analytics, web services) and by the type systems they use.

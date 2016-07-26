@@ -20,7 +20,7 @@ Note: This requirement is considered premature; although it is  important, we ne
 | Alvis does not provide this aspect. Alvis does not yet deal with metadata.
 | Final
 
-| Argo/U-Compare
+| ARGO/U-Compare
 | 1.5
 | No
 | 

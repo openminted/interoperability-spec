@@ -16,31 +16,31 @@ This is where the description of the requirement goes. If you wish to reference 
 
 | Alvis
 |
-| unknown
-| ...
-| draft
+| Unknown
+| Unknown
+| Draft
 
 | ARGO/U-Compare
-|
-| unknown
-| ...
-| draft
+| Unknown
+| Unknown
+| Unknown
+| Draft
 
 | DKPro Core
 | 1.8.0
-| unknown
-| ...
-| draft
+| Unknown
+| Unknown
+| Draft
 
 | GATE
 | 8.2
-| unknown
-| ...
-| draft
+| Unknown
+| Unknown
+| Draft
 
 | ILSP
 | 
-| unknown
-| ...
-| draft
+| Unknown
+| Unknown
+| Draft
 |====

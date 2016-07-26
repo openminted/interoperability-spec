@@ -16,29 +16,29 @@ To assist in the creation of workflows, it would be helpful to know what types o
 | 0.5rc
 | Partial
 | The type system is shared by all the components.
-| draft
+| Draft
 
 | ARGO/U-Compare
-|
-| partial
+| Unknown
+| Partial
 | Some components declare the types that they input and output, within the component's UIMA descriptor, however this is not always the case and is not required by Argo.
-| draft
+| Draft
 
 | DKPro Core
 | 1.8.0
 | Full
 | Most components declare the input and output types using UIMA *capabilities*. For some components, the types they operate on are configured through parameters.
-| draft
+| Draft
 
 | GATE
 | 8.2
 | Partial
 | GATE does not enforce any type system and as such does not require components to declare in any way their input/output types. That being said it does support XML schemas for defining annotations (and their features) and so it would be possible to bundle a set of schemas with a component (i.e. within the JAR file) that defined the expected input/output annotations. For example, the ANNIE plugin already comes with schemas which define the main NE annotations produced by the application (GATE's terminology for a workflow). We also have a component, the Schema Enforcer, that can be used to ensure that the output of an application strictly conforms to a given set of schemas removing any annotations or features not defined by the schemas. The manual annotation aspects of GATE Developer can also be configured to only allow annotations/features defined by XML schemas to be created.
-| draft
+| Draft
 
 | ILSP
 | 1.2.1
 | Partial
 | Components declare the input and output types using UIMA capabilities.
-| draft
+| Draft
 |====

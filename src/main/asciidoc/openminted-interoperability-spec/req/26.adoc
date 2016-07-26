@@ -26,29 +26,29 @@ Source: WG 2 Scenario 3 — The relation between documents and knowledge bas
 | 0.5rc
 | Partial
 | The creator of an annotation is identified but no trace about the involved resources or annotation categories.
-| draft
+| Draft
 
 | ARGO/U-Compare
-|
+| Unknown
 | No
 | There is no information output from an execution that identifies which components produced individual annotations.
-| draft
+| Draft
 
 | DKPro Core
 | 1.8.0
-| partial
+| Partial
 | Most DKPro Core components add tagset information. This mechanism currently assumes that only a single component in a workflow creates annotations of a given layer (i.e., the information is maintained at the level of layers, not at the level of individual annotations). Further, the mechanism requires that the tagset information can actually be extracted from the model being used.
-| draft
+| Draft
 
 | GATE
 | 8.2
-| partial
+| Partial
 | Some existing components (specifically the JAPE transducer) add information to annotations about what created them, but currently this isn't standard across all components, although I think I can see a way of doing so.
-| draft
+| Draft
 
 | ILSP
 | 1.2.1
 | No
 | No relevant annotation added.
-| draft
+| Draft
 |====

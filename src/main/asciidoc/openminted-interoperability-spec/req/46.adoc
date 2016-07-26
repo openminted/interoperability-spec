@@ -20,7 +20,7 @@ Note: the mechanism of adding this information is a function of the OMTD platfor
 | Alvis can provide some information, for example data formats and logs
 | Final
 
-| Argo/U-Compare
+| ARGO/U-Compare
 | 1.5
 | No
 | 

@@ -24,35 +24,35 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | 0.5rc
 | Full
 | The workflows are special components, they can be used in other workflows and Alvis offers means to handle the internal parameters.
-| draft
+| Draft
 
 | ARGO/U-Compare
-|
+| Unknown
 | No
 | At present Argo doesn't allow this.  There is some support for this within the execution engine, however it hasn't been fully tested and changes within the UI will be required.  Current support within the execution engine would limit distribution of an embedded workflow to a single node, as there is no ability to distribute its components.
-| draft
+| Draft
 
 | UIMA
 | 2.8.1
 | Full
 | UIMA supports the concept of *aggregate analysis engines* whose delegates can be either primitive analysis engines or further aggregate engines. Aggegate engines may declare parameters whose values can be forwarded to delegates.
-| draft
+| Draft
 
 | DKPro Core
 | 1.8.0
 | N/A
 | This is out of the scope of DKPro Core. See UIMA.
-| draft
+| Draft
 
 | GATE
 | 8.2
-| full
+| Full
 | In GATE every application is also a component allowing arbritary nesting of applications.
-| draft
+| Draft
 
 | ILSP
 | 1.2.1
 | Partial
 | See UIMA for UIMA-based ILSP components.
-| draft
+| Draft
 |====

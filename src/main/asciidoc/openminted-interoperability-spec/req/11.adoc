@@ -14,31 +14,31 @@ To accommodate scaling of a workflow, it is imperative to understand which compo
 
 | Alvis
 | 0.5rc
-| Not
+| No
 | We do not deal with this aspect.
-| draft
+| Draft
 
 | ARGO/U-Compare
-|
+| Unknown
 | Full
 | Components use the UIMA flag `multipleDeploymentAllowed` to indicate if they can be scaled out or not.  Argo also currently doesn't scale reader, writer, remote (e.g. component development sdk) and interactive (e.g. annotation editor) components.
-| draft
+| Draft
 
 | DKPro Core
 | 1.8.0
 | Full
 | Components use the UIMA flag `multipleDeploymentAllowed` to indicate if they can be scaled out or not. This flag is used mostly by writer components.
-| draft
+| Draft
 
 | GATE
 | 8.2
 | Full
 | Being Java Beans a GATE component is inherently single threaded, although there is no reason why a component cannot be instantiated multiple times within or across JVM's. It is, however, worth pointing out that within a JVM naively creating multiple instances of a component is probably not a good idea as this is likely to be wasteful in terms of memory as multiple instances of large data structures might be created. GATE contains methods to duplicate components and entire workflows in a more sensible fashion to share internal sturctures where safe to do so.
-| draft
+| Draft
 
 | ILSP
 | 1.2.1
 | Full
 | Most of the analyzers have been deployed as UIMA-Asynchronous Scaleout services and as parts of UIMA-AS aggregate services without any obvious issues. The scaleout capabilities of the UIMA-AS framework and of DUCC have not been fully explored.
-| draft
+| Draft
 |====

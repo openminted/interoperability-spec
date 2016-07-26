@@ -14,31 +14,31 @@ Description
 
 | TheSoz
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
 | Agrovoc
 | 21/01/2016
-| Yes
+| Full
 | 
 | Final
 
 | JATS
 | 1.1
-| Yes
+| Full
 | JATS is in XSD format, but each element can be accessed via a URI
 | Final
 
 | OLiA
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
 | LAPPS
 | June 2016
-| Yes
+| Full
 | 
 | Final
 

@@ -18,29 +18,29 @@ It is important that citable publications for each component can be obtained fro
 | 0.5rc
 | No
 | No citation information in general, the documentation of the modules may sometimes contain citation information
-| draft
+| Draft
 
 | ARGO/U-Compare
-|
-| no
+| Unknown
+| No
 | No citable publication information available.
-| draft
+| Draft
 
 | DKPro Core
 | 1.8.0
-| unknown
+| Unknown
 | The is no information whatsoever realted to citeable publications.
-| draft
+| Draft
 
 | GATE
 | 8.2
 | No
 | GATE does not support this, although it's likely that the URL to the documentation may well lead to a publication or documentation that references one.
-| draft
+| Draft
 
 | ILSP
 | 1.2.1
-| unknown
+| Unknown
 | Available for some components but not always applicable or used.
-| draft
+| Draft
 |====

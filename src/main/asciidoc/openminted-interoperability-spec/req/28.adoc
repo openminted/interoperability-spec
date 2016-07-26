@@ -20,29 +20,29 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within
 | 0.5rc
 | No
 | Not supported
-| draft
+| Draft
 
 | ARGO/U-Compare
-|
+| Unknown
 | No
 | Currently workflows and components only exist within the Argo platform. 
-| draft
+| Draft
 
 | DKPro Core
 | 1.8.0
-| full
+| Full
 | All released DKPro Core components come as downloadable Maven artifacts and are distributed via Maven Central.
-| draft
+| Draft
 
 | GATE
 | 8.2
-| full
+| Full
 | components are created by loading a plugin from a given URL. This results in the jar files being downloaded to the local machine in some way (dependent on a number of factors) and then added to the JVM. This means all processing occurs where the framework is being run and data does not have to leave the local machine.
-| draft
+| Draft
 
 | ILSP
 | 1.2.1
 | No
 | Processing components are available only as services.
-| draft
+| Draft
 |====

@@ -19,14 +19,14 @@ rules must be clearly documented.
 
 | CORE
 |
-| partial
+| Partial
 | Actual content (either pdf, text, or other) is available via constructing URL based on identifiers (internal CORE id, oai identifier, doi ) provided in the metadata record
-| draft
+| Draft
 
-| OpenAire
+| OpenAIRE
 |
-| partial
+| Partial
 | There's a link to the doi but not always; and usually the doi sends to a landing page, but there are some rules that can be used for "guessing" the download link
-| draft
+| Draft
 
 |====

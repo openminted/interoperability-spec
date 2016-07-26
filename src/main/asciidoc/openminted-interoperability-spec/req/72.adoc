@@ -14,13 +14,13 @@ Standard formats enable standard ingest into the TDM workflow.
 
 | TheSoz
 | June 2016
-| Yes
+| Full
 | RDF
 | Final
 
 | Agrovoc
 | 21/01/2016
-| Yes
+| Full
 | 
 | Final
 
@@ -32,32 +32,32 @@ Standard formats enable standard ingest into the TDM workflow.
 
 | OLiA
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
 | LAPPS
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
 
 | Ontolex
 | June 2016
-| Yes
+| Full
 | 
 | Final
 
 | CLARIN CCR
 | June-2016
-| Yes
+| Full
 | 
 | Final
 
 | schema.org
 | 1.2.1
-| Yes
+| Full
 | 
 | Final
 

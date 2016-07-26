@@ -24,31 +24,31 @@ Note: This requirement may not be necessary in small-scale resource lookup.
 
 | Alvis
 | 0.5rc
-| unknown
-| ...
-| draft
+| Unknown
+| Unknown
+| Draft
 
 | ARGO/U-Compare
-|
-| unknown
+| Unknown
+| Unknown
 | Components developed for Argo can make use of UIMA's external resources feature, however I don't believe there are many (if any) Argo components that do.  On the Argo development roadmap, we plan on using this approach with Argo reader and writer components.  Currently for every serialisation format (e.g. CAS XMI, RDF/XML) and storage platform (e.g. Argo File Store, SFTP) combination we require a new component to be created.  Instead, we plan to allow the addition of serialisation formats and storage platforms independently.
-| draft
+| Draft
 
 | DKPro Core
 | 1.8.0
-| partial
+| Partial
 | We experimented with such an approach e.g. in the SemanticFieldAnnotator where a resource abstract for semantic tagging resources exists. The idea was e.g. to read semantic tags either from a plain text file or alternatively from a Uby database. The ResourceObjectProvider abstraction internally used by DKPro Core to resolve and load models is also kind of related to this requirement. E.g. there is an experimental function to enable a behind-the-scene sharing of loaded models between multiple component resources. This works provided the models themselves are thread-safe.
-| draft
+| Draft
 
 | GATE
 | 8.2
-| unknown
-| ...
-| draft
+| Unknown
+| Unknown
+| Draft
 
 | ILSP
 | 1.2.1
-| partial
+| Partial
 | Some of the classes that provide access to resource data for ILSP components implement the org.apache.uima.resource.SharedResourceObject interface. 
-| draft
+| Draft
 |====

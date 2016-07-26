@@ -1,4 +1,6 @@
 <%
+import static eu.openminted.interop.controller.Helper.createLinkIdFromDescription;
+
 requirementProductList    
     .groupBy { it.productName }
     .sort { it.key }
@@ -26,7 +28,7 @@ productGroup.groupBy{it.compliance}.sort{it.key}.each{proCompliance,proComplianc
         productGroup.sort { it.productName }.each { productInner ->
 %>
 | ${productInner.id}
-| ${productInner.requirementName}
+| <<${createLinkIdFromDescription(productInner.requirementName)},${productInner.requirementName}>>
 | ${productInner.compliance}
 <%        
         }

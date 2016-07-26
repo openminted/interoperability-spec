@@ -14,31 +14,31 @@ A workflow execution system will need to know which annotation schemas to load w
 
 | Alvis
 | 0.5rc
-| Not
+| No
 | Work in progess.
-| draft
+| Draft
 
 | ARGO/U-Compare
-|
-| full
+| Unknown
+| Full
 | Argo components must declare the type systems they depend upon within their UIMA descriptor file. 
-| draft
+| Draft
 
 | DKPro Core
 | 1.8.0
 | Partial
 | Components live within Maven artifacts. These declare dependencies on other Maven artifacts which contain the type system definitions. Most component declare input and output types. Thus, the XML type system descriptors for a component can be obtained by scanning the Maven dependencies for XML type descriptors that declare types which are used as input/output types by a given component.
-| draft
+| Draft
 
 | GATE
 | 8.2
 | No
 | GATE does not require components to specifiy annotation shemas, and has no way (currently) of recording that information even if it were available. This is because GATE does not enforce a type system. This does mean that no annotation schemas have to be loaded for a GATE component to execute. This lack of an enforced type system is a feature of GATE and not a bug and so is unlikely to change, meaning any requirement to specify schemas per component is likely to only ever be optional within GATE.
-| draft
+| Draft
 
 | ILSP
 | 1.2.1
 | Partial
 | UIMA components declare the type system they depend upon within their descriptor file. The type system is a Maven dependency of all readers, analyzers and exporters. Components declare input and output types.
-| draft
+| Draft
 |====
