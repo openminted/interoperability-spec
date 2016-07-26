@@ -8,7 +8,7 @@
 
 The URL of the actual content of a resource, e.g. a text file, PDF file, or other common data format, must be derivable from readily discoverable data. It must either be included in the metadata or it must be reliably constructable from the metadata URL, e.g. by appending or changing a suffix; derivation rules must be clearly documented. 
 
-Note: This requirement refers only to content resources that can be used as input for a TDM process (i.e. corpora of publications etc.), or to knowledge resources (e.g. annotation schemas, typesystems, grammars etc.) that are used as ancillary resources for the operation of TDM components. The requirement is set for the proper operation of the TDM components in so far as they need to easily access the resources they operate on or with.
+NOTE: This requirement refers only to content resources that can be used as input for a TDM process (i.e. corpora of publications etc.), or to knowledge resources (e.g. annotation schemas, typesystems, grammars etc.) that are used as ancillary resources for the operation of TDM components. The requirement is set for the proper operation of the TDM components in so far as they need to easily access the resources they operate on or with.
 
 [cols="2,1,1,4,1"]
 |====

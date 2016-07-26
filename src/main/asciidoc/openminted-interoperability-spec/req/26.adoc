@@ -12,7 +12,7 @@ It should be possible to trace back which component produced an annotation eleme
 
 The ability to trace back could e.g. be relevant in order to perform a post-hoc linking/disambiguation of categories obtained from different knowledge resources or to adjust/harmonize relevance/confidence scores based on different scales.
 
-Note: DKPro Core includes tagset information into the annotated document (in most cases even for tags that were not seen, but present in the model). U-Compare had strong support for provenance. Some annotation schemes have support for relevance/confidence scores, but others do not.
+NOTE: DKPro Core includes tagset information into the annotated document (in most cases even for tags that were not seen, but present in the model). U-Compare had strong support for provenance. Some annotation schemes have support for relevance/confidence scores, but others do not.
 
 Source: WG 2 Scenario 3 — The relation between documents and knowledge bases through keywords
 

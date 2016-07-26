@@ -8,7 +8,7 @@
 
 Information about the models available for the tools (e.g. location, language, domain, etc) must be included in the metadata (c.f. https://dkpro.github.io/dkpro-core/releases/1.7.0/models/ as an example). 
 
-Note: this is important for the operation of the components; so, we need to standardize naming/reference to the models and add it to the metadata.
+NOTE: this is important for the operation of the components; so, we need to standardize naming/reference to the models and add it to the metadata.
 
 [cols="2,1,1,4,1"]
 |====

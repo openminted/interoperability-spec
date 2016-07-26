@@ -8,7 +8,7 @@
 
 It is important to include metadata stating the confidence level of the TDM operation in order to help users select the appropriate components. 
 
-Note: This requirement is considered premature; although it is  important, we need first to define the appropriate metrics, methods and tools and perform evaluation on components in an objective way and then add it to their metadata.
+NOTE: This requirement is considered premature; although it is  important, we need first to define the appropriate metrics, methods and tools and perform evaluation on components in an objective way and then add it to their metadata.
 
 [cols="2,1,1,4,1"]
 |====

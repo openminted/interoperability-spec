@@ -10,7 +10,7 @@
 
 Different platforms/component collections that wrap the same tools should be able to be configured in similar or uniform ways to use models/resources. E.g. all wrappers should permit loading models from an arbitrary location (on disk, JAR, URL), and not require that they be packaged with the component. Support for a common repository infrastructure from which to obtain models/resources automatically would be beneficial.
 
-Note: Maven is sometimes used today to store models/resources. Although Maven is largely popular in the Java world, there is e.g. also a client implementation for Python which would allow e.g. NLTK to use models stored on Maven repositories (jip).
+NOTE: Maven is sometimes used today to store models/resources. Although Maven is largely popular in the Java world, there is e.g. also a client implementation for Python which would allow e.g. NLTK to use models stored on Maven repositories (jip).
 
 Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 

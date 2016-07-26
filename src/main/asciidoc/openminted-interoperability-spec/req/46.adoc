@@ -8,7 +8,7 @@
 
 Output resources of web services/workflows must automatically be accompanied by appropriate metadata that can be derived from the usage of the service/workflow (e.g. format, language etc.) & indicating the processing thereof (provenance). 
 
-Note: the mechanism of adding this information is a function of the OMTD platform, but the actual values of the elements that need to be enriched or added are dependent on the s/w, so this information must be present in the s/w metadata that describes the output
+NOTE: the mechanism of adding this information is a function of the OMTD platform, but the actual values of the elements that need to be enriched or added are dependent on the s/w, so this information must be present in the s/w metadata that describes the output
 
 [cols="2,1,1,4,1"]
 |====

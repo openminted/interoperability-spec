@@ -8,7 +8,7 @@
 
 All resources must be accompanied with a clear indication of their licensing terms; this can be indicated by the licence name, reference to a url or document that is accessible to the user and, if possible, a user-friendly summary. 
 
-Note: For this version, we will allow also "open access" or "other" etc. as statements in the metadata; in the next versions, this needs to be standardised, promoting licence values. It would also be preferable to attach the full document of the licence for (legal) certainty reasons
+NOTE: For this version, we will allow also "open access" or "other" etc. as statements in the metadata; in the next versions, this needs to be standardised, promoting licence values. It would also be preferable to attach the full document of the licence for (legal) certainty reasons
 
 [cols="2,1,1,4,1"]
 |====

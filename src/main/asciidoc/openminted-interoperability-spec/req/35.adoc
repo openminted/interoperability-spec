@@ -8,7 +8,7 @@
 
 All resources must include an identifier (e.g. PID, DOI etc.) that allows them to be uniquely, non-ambiguously and persistently identified. 
 
-Note: for this version, we only need a unique identifier, of whichever scheme the provider already uses; for next versions, we should recommend a scheme
+NOTE: for this version, we only need a unique identifier, of whichever scheme the provider already uses; for next versions, we should recommend a scheme
 
 [cols="2,1,1,4,1"]
 |====

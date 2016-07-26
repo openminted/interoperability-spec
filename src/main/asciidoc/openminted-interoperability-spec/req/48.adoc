@@ -8,7 +8,7 @@
 
 All resource metadata records must include a reference to the metadata schema used for their description. 
 
-Note: for provenance information, we need to know the metadata schema from which we are extracting/converting information.
+NOTE: for provenance information, we need to know the metadata schema from which we are extracting/converting information.
 
 [cols="2,1,1,4,1"]
 |====

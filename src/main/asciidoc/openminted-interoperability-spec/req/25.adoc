@@ -19,7 +19,7 @@ Another alternative would be to add the same component multiple times to a workf
 
 Caveat: Having relevance/confidence scores from different sources bears a great risk of the scores being on different scales and not comparable.
 
-Note: parallel access to resources could be externalized into a resource adapter, such that the component itself would not have to deal explicitly with handling multiple adapters in parallel. 
+NOTE: parallel access to resources could be externalized into a resource adapter, such that the component itself would not have to deal explicitly with handling multiple adapters in parallel. 
 
 Source: WG 2 Scenario 3 — The relation between documents and knowledge bases through keywords
 

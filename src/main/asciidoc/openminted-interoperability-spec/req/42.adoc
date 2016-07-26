@@ -8,7 +8,7 @@
 
 The metadata can include the information on which projects/workflows involve the resource, thus allowing to state resource "popularity", increase reliablility, bring TDM outputs to a better interoperability. 
 
-Note: For use inside OMTD, this can be moved to the platform functions; for use out of OMTD, this can be left to the providers/users, so we can at best recommend it. This information can be used for evaluation purposes.
+NOTE: For use inside OMTD, this can be moved to the platform functions; for use out of OMTD, this can be left to the providers/users, so we can at best recommend it. This information can be used for evaluation purposes.
 
 [cols="2,1,1,4,1"]
 |====
