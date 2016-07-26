@@ -24,8 +24,8 @@ For reproducibility reasons extract and save/export (?) the exact experimental c
 | Alvis allows this through its workflow expression.
 | Draft
 
-| ARGO/U-Compare
-| Unknown
+| ARGO
+| 0.5
 | Partial
 | Argo stores the configuration parameters, order of components etc. alongside each workflow, so it can be ran again with the same values at a later date.  However, this may not always allow the exact same conditions to be reproduced, due to the nature of the components in the workflow, for example, a reader component that returns documents based on a web service search may provide different documents on a subsequent run, if the index behind the web service has beeen updated in the meantime.  Argo also lacks the ability to store sets of configuration parameter values against workflows - instead, if a user wants to change the configuration values of a workflow whilst keeping the previous set, they must first duplicate the workflow and make changes to the copy.
 | Draft

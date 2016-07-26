@@ -18,8 +18,8 @@ To assist in the creation of workflows, it would be helpful to know what types o
 | The type system is shared by all the components.
 | Draft
 
-| ARGO/U-Compare
-| Unknown
+| ARGO
+| 0.5
 | Partial
 | Some components declare the types that they input and output, within the component's UIMA descriptor, however this is not always the case and is not required by Argo.
 | Draft

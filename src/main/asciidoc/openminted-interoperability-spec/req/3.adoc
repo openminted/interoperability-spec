@@ -26,8 +26,8 @@ be at a well-known location within the component artifact.
 | Alvis XML exist separately from the code. Each XML descriptor is next to the component class it describes. By convention, the name of the XML file is created by appending the keyword "Doc" to the end the component name, for example GeniaTaggerDoc.xml for the component named GeniaTagger.
 | Draft
 
-| ARGO/U-Compare
-| Unknown
+| ARGO
+| 0.5
 | Partial
 | UIMA XML descriptors manually maintained
 | Draft

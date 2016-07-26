@@ -22,8 +22,8 @@ the implementation (cf. <<uimafit>>).
 | Alvis XML descriptors manually maintained
 | Draft
 
-| ARGO/U-Compare
-| Unknown
+| ARGO
+| 0.5
 | No
 | (I believe) - UIMA XML descriptors manually maintained
 | Draft

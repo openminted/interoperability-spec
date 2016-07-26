@@ -28,8 +28,8 @@ Source: WG 2 Scenario 3 — The relation between documents and knowledge bas
 | The creator of an annotation is identified but no trace about the involved resources or annotation categories.
 | Draft
 
-| ARGO/U-Compare
-| Unknown
+| ARGO
+| 0.5
 | No
 | There is no information output from an execution that identifies which components produced individual annotations.
 | Draft

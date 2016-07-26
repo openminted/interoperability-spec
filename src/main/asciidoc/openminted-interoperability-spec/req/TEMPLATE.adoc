@@ -20,8 +20,8 @@ This is where the description of the requirement goes. If you wish to reference 
 | Unknown
 | Draft
 
-| ARGO/U-Compare
-| Unknown
+| ARGO
+| 0.5
 | Unknown
 | Unknown
 | Draft

@@ -24,8 +24,8 @@ NOTE: If a component is required to be stateful, it would make sense for the pla
 | In a general way, there is no local state for a component and determinism is guaranted. However, aspects such as resource availability and resource access may imply state issues that Alvis core engine has to manage.
 | Draft
 
-| ARGO/U-Compare
-| Unknown
+| ARGO
+| 0.5
 | Partial
 | Most Argo components are stateless.  It is possible to indicate that a component is stateful (which will result in only a single instance of that component being permitted within a distributed execution) by setting the multipleDeploymentAllowed value to false in the UIMA descriptor file.  Argo also automatically treats a subset of components as being stateful, which includes Reader, Writers and Interactive Components.
 | Draft

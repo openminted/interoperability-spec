@@ -22,8 +22,8 @@ metadata by which they describe themselves.
 | Alvis component descriptors
 | Draft
 
-| ARGO/U-Compare
-| Unknown
+| ARGO
+| 0.5
 | Full
 | UIMA component descriptors
 | Draft

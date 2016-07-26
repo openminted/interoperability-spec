@@ -18,8 +18,8 @@ Using such a widely adopted naming convention assists component developers throu
 | Components are java classes organised using packages.
 | Draft
 
-| ARGO/U-Compare
-| Unknown
+| ARGO
+| 0.5
 | Partial
 | All of our current components are identified by strings that follow the Java fully-qualified class naming convention, however as the component identifier within Argo is derived from a filepath it is entirely possible for this requirement to be broken by new components.  For example, the UIMA descriptor for the Argo component Chemical Entity Recogniser has the path `/desc/uk/ac/nactem/uima/ChemicalEntityRecogniser.xml` which translates into the identifier `uk.ac.nactem.uima.ChemicalEntityRecogniser`.
 | Draft

@@ -19,8 +19,8 @@ To this end storing license information within component metadata seems the most
 | The licence information are currently provided as free texts in the tool documentation.
 | Draft
 
-| ARGO/U-Compare
-| Unknown
+| ARGO
+| 0.5
 | Partial
 | Components can declare licensing information with the Argo Descriptor File, however the vast majority of components do not make use of this facility.
 | Draft

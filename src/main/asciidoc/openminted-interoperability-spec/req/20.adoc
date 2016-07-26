@@ -22,8 +22,8 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within the
 | Alvis uses a shared data structure, the workflow engine is required to manage the data and the modules during the execution steps. However the Alvis modules can be encapsulated with the Alvis engine in a OpenMinTeD workflow.
 | Draft
 
-| ARGO/U-Compare
-| Unknown
+| ARGO
+| 0.5
 | Partial
 | On certain infrastructures with shared storage, it is possible for data to bypass the workflow engine.  The Argo development roadmap does contain a plan to allow components to be speak directly to one another.
 | Draft

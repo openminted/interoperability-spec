@@ -18,8 +18,8 @@ Having some form of free-text description assists text and data miners in choosi
 | The description are free texts.
 | Draft
 
-| ARGO/U-Compare
-| Unknown
+| ARGO
+| 0.5
 | Partial
 | Components can declare a textual description using the `description` element within its associated UIMA descriptor file, however Argo doesn't enforce its existence. 
 | Draft

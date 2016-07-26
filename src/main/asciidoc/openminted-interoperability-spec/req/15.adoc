@@ -20,8 +20,8 @@ Capturing, computing and presenting simplified information (e.g., availability, 
 | Available for the common features (e.g., name, description, provider,...)
 | Draft
 
-| ARGO/U-Compare
-| Unknown
+| ARGO
+| 0.5
 | Full
 | Argo components have a human readable description.
 | Draft

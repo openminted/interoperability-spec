@@ -26,8 +26,8 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | Alvis has a stream manager that enables to caracterize models/resources to load or to store, it supports file system, web access, zip/jar,... and is extensible. 
 | Draft
 
-| ARGO/U-Compare
-| Unknown
+| ARGO
+| 0.5
 | Partial
 | Argo components that offer configurable models/resources make use of standard UIMA configuration parameters.  The majority of these configuration parameters accept a local file path, which relates to a user's file store within the Argo ecosystem.
 | Draft
