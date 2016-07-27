@@ -4,7 +4,7 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __recommended__#
 [small]#*_Category:_* __WG2__#
-[small]#*_Status:_* __final-phase1__#
+[small]#*_Status:_* __final__#
 
 Linking elements from different schemas can be modelled in various ways. The most straightforward is the set of coarse grained lightweight thesaural mapping relations expressed by SKOS (https://www.w3.org/2004/02/skos/). This is our preferred linking approach, in combination with the following Owl and RDF object properties:  owl:sameAs, rdfs:subClassOf, and rdfs:subPropertyOf, owl:equivalentClass, and owl:equivalentProperty.
 The compliance assessment checks the use of mentioned linking vocabulariess within the KRs themselves, requesting an answer to the question: does the resource contain any of these links?

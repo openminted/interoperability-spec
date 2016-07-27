@@ -21,8 +21,8 @@ Component (web services & workflows but also of tools) classification & descript
 | No metadata
 | Final
 
-| ARGO/U-Compare
-| 1.5
+| ARGO
+| 0.5
 | Partial
 | Components can be grouped by type (readers,, writers, analytics, web services) and by the type systems they use.
 | Final

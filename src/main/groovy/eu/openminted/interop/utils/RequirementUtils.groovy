@@ -14,6 +14,7 @@ class RequirementUtils {
 		req.productDetails.each {product->
 			ProductView pv = new ProductView();
 			pv.id = req.id;
+            pv.requirement = req;
 			pv.compliance = product.compliance;
 			pv.productName = product.product;
 			pv.requirementName = req.name;

@@ -20,8 +20,8 @@ NOTE: This requirement is considered premature; although it is important, we nee
 | Alvis does not provide this aspect.
 | Final
 
-| ARGO/U-Compare
-| 1.5
+| ARGO
+| 0.5
 | No
 | No performance information given by existing components
 | Final

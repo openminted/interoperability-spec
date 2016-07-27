@@ -66,8 +66,8 @@ Access mode of all resources (e.g.  for s/w, whether they are downloadable or ac
 | No explicit specification of access mode 
 | Final
 
-| ARGO/U-Compare
-| 1.5
+| ARGO
+| 0.5
 | Partial
 | Components can be declared as native to Argo (allowing them to be executed within the Argo execution framework) or as web services, however there are also existing native components that simply wrap web services, so these types are not always mutually exclusive.
 | Final

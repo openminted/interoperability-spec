@@ -74,8 +74,8 @@ NOTE: For this version, we will allow also "open access" or "other" etc. as stat
 | Alvis does not provide this aspect but some licence information are provided as free texts in tool descriptions or in some tool readme.
 | Final
 
-| ARGO/U-Compare
-| 1.5
+| ARGO
+| 0.5
 | Partial
 | Licensing information regarding components can be included within the Argo Descriptor File, however the majority of existing components within Argo do not have this information. When available, it's in free text.
 | Final

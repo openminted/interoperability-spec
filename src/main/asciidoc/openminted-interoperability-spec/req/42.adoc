@@ -73,8 +73,8 @@ NOTE: For use inside OMTD, this can be moved to the platform functions; for use 
 | No metadata
 | Final
 
-| ARGO/U-Compare
-| 1.5
+| ARGO
+| 0.5
 | No
 | Unknown
 | Final

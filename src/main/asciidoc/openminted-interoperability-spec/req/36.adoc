@@ -53,8 +53,8 @@ NOTE: For this version, we include in the metadata what exists in the resource m
 | Not yet
 | Final
 
-| ARGO/U-Compare
-| 1.5
+| ARGO
+| 0.5
 | No
 | No metadata regarding component classification, however the name of a component is a generally a good indicator
 | Final

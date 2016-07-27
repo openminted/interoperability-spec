@@ -4,7 +4,7 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __recommended__#
 [small]#*_Category:_* __WG2__#
-[small]#*_Status:_* __final-phase1__#
+[small]#*_Status:_* __final__#
 
 Description
 

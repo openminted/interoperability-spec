@@ -18,8 +18,8 @@ s/w must indicate the specific formats of their output (e.g. statistical data, a
 | Information are limited 
 | Final
 
-| ARGO/U-Compare
-| 1.5
+| ARGO
+| 0.5
 | Partial
 | Components can optionally declare what types it will output,.
 | Final

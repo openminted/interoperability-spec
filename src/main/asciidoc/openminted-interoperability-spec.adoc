@@ -139,12 +139,10 @@ include::{include-dir-spec}req/TEMPLATE.adoc[]
  
 = Requirements
 
-include::{include-dir-spec}WG1.adoc[]
-include::{include-dir-spec}WG2.adoc[]
-include::{include-dir-spec}WG3.adoc[]
-include::{include-dir-spec}WG4.adoc[]
+include::{include-dir-template}overviewByWg.adoc[]
 
 include::{include-dir-spec}Details.adoc[]
+
 include::{include-dir-spec}bibliography.adoc[]
 
 = View Requirements by Product

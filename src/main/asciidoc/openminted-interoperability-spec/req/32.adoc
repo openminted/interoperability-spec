@@ -74,8 +74,8 @@ NOTE: At this point, we only wish to check whether versioning is represented in 
 | Alvis does not provide this aspect.
 | Final
 
-| ARGO/U-Compare
-| 1.5
+| ARGO
+| 0.5
 | No
 | 
 | Final

@@ -18,8 +18,8 @@ S/W (tools, web services, workflows) must indicate whether they are language-ind
 | Not supported
 | Final
 
-| ARGO/U-Compare
-| 1.5
+| ARGO
+| 0.5
 | No
 | Unknown
 | Final

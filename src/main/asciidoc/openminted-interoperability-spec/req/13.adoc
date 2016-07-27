@@ -28,8 +28,8 @@ It is important that citable publications for each component can be obtained fro
 
 | DKPro Core
 | 1.8.0
-| Unknown
-| The is no information whatsoever realted to citeable publications.
+| No
+| A few components contain references to relevant publications in their documentation, but it is not machine readable.
 | Draft
 
 | GATE

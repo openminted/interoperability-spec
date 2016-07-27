@@ -1,7 +1,6 @@
 <%
-import static eu.openminted.interop.controller.Helper.createLinkIdFromDescription;
-
 requirementProductList    
+    .findAll { !it.requirement.status.contains("deprecat") }
     .groupBy { it.productName }
     .sort { it.key }
     .each { product, productGroup ->
@@ -25,7 +24,9 @@ productGroup.groupBy{it.compliance}.sort{it.key}.each{proCompliance,proComplianc
 |====
 |ID|Requirement|Compliance
 <%
-        productGroup.sort { it.productName }.each { productInner ->
+        productGroup
+            .sort { it.id }
+            .each { productInner ->
 %>
 | ${productInner.id}
 | <<REQ-${productInner.id},${productInner.requirementName}>>

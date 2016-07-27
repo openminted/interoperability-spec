@@ -4,7 +4,7 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __recommended/mandatory__#
 [small]#*_Category:_* __WG2__#
-[small]#*_Status:_* __final-phase1__#
+[small]#*_Status:_* __final__#
 
 Standard formats enable standard ingest into the TDM workflow.
 

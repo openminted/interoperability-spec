@@ -72,8 +72,8 @@ Information on funding sources (e.g. projects, funders data etc.) may be include
 | No funding information included in metatdata
 | Final
 
-| ARGO/U-Compare
-| 1.5
+| ARGO
+| 0.5
 | No
 | 
 | Final

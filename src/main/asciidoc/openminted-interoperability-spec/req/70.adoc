@@ -4,7 +4,7 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __mandatory__#
 [small]#*_Category:_* __WG2__#
-[small]#*_Status:_* __final-phase1__#
+[small]#*_Status:_* __final__#
 
 If you want to work with a KR its relevant elements need to be added as text metadata. This enables the TDM modules to work in a uniform manner with the informational content the KRs provide. In order to obtain annotations you need to follow KR access routines such as XPATH/ontology based and gazetteer based lookup, and existing APIs/web services.
 

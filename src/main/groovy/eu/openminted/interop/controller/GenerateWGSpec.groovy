@@ -1,21 +1,20 @@
 package eu.openminted.interop.controller
 import static groovy.io.FileType.FILES
 
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.FilenameUtils;
+import org.apache.commons.io.FileUtils
+import org.apache.commons.io.FilenameUtils
 import org.asciidoctor.AsciiDocDirectoryWalker
 import org.asciidoctor.Asciidoctor
 import org.asciidoctor.AttributesBuilder
 import org.asciidoctor.OptionsBuilder
 import org.asciidoctor.SafeMode
-import org.yaml.snakeyaml.Yaml;
+import org.yaml.snakeyaml.Yaml
 
-import eu.openminted.interop.controller.Helper
 import eu.openminted.interop.model.Requirement
-import eu.openminted.interop.utils.RequirementUtils;;;
+import eu.openminted.interop.utils.RequirementUtils
 
-class GenerateWGSpec {
-
+class GenerateWGSpec 
+{
 	static Map<Integer, String> wgSpecMapping = [:];
 	static Map<Integer,String> reqSpecMapping = [:];
 	static def stringPatternCategory ="_Category:_" ;
@@ -25,7 +24,8 @@ class GenerateWGSpec {
 	static def baseDirTarget = "target/generated-adocs/";
 	static def baseDir = "src/main/asciidoc/";
 
-	static def updateWGspecAndReqMapping(File aDescriptor){
+	static def updateWGspecAndReqMapping(File aDescriptor)
+    {
 		def text = aDescriptor.getText();
 		text.eachLine {
 			if(it =~ stringPatternCategory) {
@@ -40,14 +40,16 @@ class GenerateWGSpec {
 			}
 		}
 	}
-	static def addEntry(String req , String spec ) {
+    
+	static def addEntry(String req , String spec ) 
+    {
 		def detailFile = new File(baseDirSpec + "Details.adoc");
 		detailFile << "\n" + includeString + "/" + req+".adoc"  +"[]";
 	}
 
-	static def render(Boolean isDirectory, String model, String sourceAdoc, String targetDoc, HashMap<String,String> replaceMap,
-			Asciidoctor asciidoctor){
-
+	static def render(Boolean isDirectory, String model, String sourceAdoc, String targetDoc, 
+        HashMap<String,String> replaceMap, Asciidoctor asciidoctor)
+    {
 		File adocSourceFolder = new File(sourceAdoc);
 
 		println "Rendering... " + model
@@ -81,7 +83,10 @@ class GenerateWGSpec {
 		}
 		println "Done!"
 	}
-	static def addLinkWithIdInSpecification(File baseDir, File targetDir, String linkScript, String linkCall){
+            
+	static def addLinkWithIdInSpecification(File baseDir, File targetDir, String linkScript, 
+        String linkCall)
+    {
 		baseDir.createTempDir()
 		baseDir.eachFile {
 			String name = it.getName();
@@ -112,14 +117,16 @@ class GenerateWGSpec {
 						}
 					}
 				}
-			}else{
+			} else {
 				File temp = new File(targetDir.absolutePath + "/"+ name);
 				temp.createNewFile();
 				temp << it;
 			}
 		}
 	}
-	static main(args) {
+    
+	static main(args) 
+    {
 		FileUtils.copyDirectory(new File(baseDir),new File(baseDirTarget));
 
         // Parse requirements
@@ -142,6 +149,7 @@ class GenerateWGSpec {
 			try {
 				def template = te.createTemplate(tf.getText("UTF-8"));
 				def result = template.make([
+                    requirementList: RequirementUtils.requirementList,
 					requirementProductList: RequirementUtils.requirementProductList]);
 
 				def output = new File("target/generated-adocs/template", "${tf.name}");
@@ -175,24 +183,6 @@ class GenerateWGSpec {
 				updateWGspecAndReqMapping(it);
 			}
 		}
-		new File(baseDirSpec).eachFileRecurse(FILES) {
-			if (it.name.endsWith('.adoc') && it.name.startsWith("WG")){
-				def temp = new File(baseDirSpec+"/temp_"+it.name);
-				temp.createNewFile();
-				it.getText().eachLine {tf ->
-
-					if(!tf.startsWith(includeString))
-					{
-						temp << tf +"\n";
-					}
-				}
-				def name = it.getName();
-				println name;
-				it.delete();
-				temp.renameTo(baseDirSpec+name);
-
-			}
-		}
 		wgSpecMapping = wgSpecMapping.sort{ a,b -> a.key <=> b.key };
 		for (var in wgSpecMapping) {
 			addEntry(var.key.toString(),var.value);
@@ -214,7 +204,9 @@ class GenerateWGSpec {
 			try {
 				def template = te.createTemplate(tf.getText("UTF-8"));
 				def result = template.make([
-					spec: spec,wgSpecMapping:wgSpecMapping ,reqSpecMapping:reqSpecMapping]);
+					spec: spec,
+                    wgSpecMapping: wgSpecMapping,
+                    reqSpecMapping: reqSpecMapping]);
 
 				def output = new File(adocTargetFolderWG, "${tf.name}");
 				output.parentFile.mkdirs();

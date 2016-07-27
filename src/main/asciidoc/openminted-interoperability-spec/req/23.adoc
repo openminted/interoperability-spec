@@ -4,7 +4,9 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_*     __recommended__#
 [small]#*_Category:_*     __WG3__,__WG4__#
-[small]#*_Status:_*       __final__#
+[small]#*_Status:_*       __deprecated__#
+
+IMPORTANT: This requirement has been deprecated because it is considered to be a functional requirement of the workflow manager rather than an interoperability requirement. 
 
 A workflow must aggregate all licences either from the components which is composed of, or from the language resources/knowledge bases that are used withing it and inform the user about them.
 (Requirement extracted from Interoperability scenario WG3-2)
