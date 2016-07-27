@@ -6,9 +6,12 @@
 [small]#*_Category:_* __WG1__,__WG2__#
 [small]#*_Status:_* __final__#
 
-It is highly recommended to include classification, as applicable, to resources (e.g. domain, text type, genre etc.); the preferred form should be in accordance to one of the recommended controlled vocabularies/authority lists; if not, a link to a url that contains the list of values used for the specific classification should be included; in all cases, the source of value for the classification must be properly indicated (through the name or link to the vocabulary) and available to the user; mappings between the controlled vocabularies are recommended. 
+It is highly recommended to include classification, as applicable, to resources (e.g. domain, text type, genre etc.); the preferred form should be in accordance to one of the recommended controlled vocabularies/authority lists; if not, a link to a URL that contains the list of values used for the specific classification should be included; in all cases, the source of value for the classification must be properly indicated (through the name or link to the vocabulary) and available to the user; mappings between the controlled vocabularies are recommended. 
 
-NOTE: for this version, we include in the metadata what exists in the resource metadata; for next versions, we promote standardisation through at least the marking of the classification scheme. It is also important to distinguish between the various classification information, e.g. subtypes of documents or tools vs. domain of documents and domain covered by a tool.
+NOTE: For this version, we include in the metadata what exists in the resource metadata; for next versions, we promote standardisation through at least the marking of the classification scheme. It is also important to distinguish between the various classification information, e.g. subtypes of documents or tools vs. domain of documents and domain covered by a tool.
+
+.See also
+* <<REQ-40>>
 
 [cols="2,1,1,4,1"]
 |====

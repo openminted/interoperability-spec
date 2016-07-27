@@ -4,7 +4,10 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_*     __optional__#
 [small]#*_Category:_*     __WG2__,__WG4__#
-[small]#*_Status:_*       __draft__#
+[small]#*_Status:_*       __deprecated__#
+
+IMPORTANT: This requirement has been deprecated following a discussion in WG4 that came to the conclusion the proposed approach would be over-engineering. Taking a gazeteer as an example, it was
+considered the main functionality of a specific gazeteer implementation to perform lookups. So there may be a DatabaseGazeteer, a FileGazeteer, or a SPARQLGazeteer. Adding another layer of abstraction to create a GenericGazeteer to be configured with a DatabaseLookup or FileLookup was not seen as important.
 
 A component that uses an external knowledge resources, e.g. a dictionary, should access that resource through an adapter instead of accessing it directly. E.g. a Gazeteer component could be configured with a WordListFileResourceAdapter that looks up words from a simple word list file or using some SparqlQueryAdapter that would perform the lookup via Sparql. Thus, providing access to different knowledge sources should not require changes to the component implementation itself, but rather require only the implementation of lightweight adapters. It is not important that all implementations use the same adapters, but rather that this abstraction exists in the first place. E.g. a GATE component may use a GATE-specific adapter implementation and a UIMA component may use an UIMA-specific implementation.
 

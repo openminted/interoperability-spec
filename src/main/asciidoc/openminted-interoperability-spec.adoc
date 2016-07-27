@@ -35,7 +35,7 @@ implementation details and help answering the second question.
   need must be fulfilled. The requirement may provide examples of techniques or implementations that
   fulfill the requirement, but does not mandate their use.
 * *Concrete* - the requirement specifies a need and prescribes the use of specific techniques,
-  standards, implementations, etc..
+  standards, implementations, etc.
 
 === Strength
 

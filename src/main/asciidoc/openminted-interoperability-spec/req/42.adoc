@@ -4,11 +4,16 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __optional__#
 [small]#*_Category:_* __WG1__,__WG2__,__WG3__,__WG4__#
-[small]#*_Status:_* __final__#
+[small]#*_Status:_* __scheduled for deprecation__#
+
+IMPORTANT: This requirement is on its way to become deprecated. It should be added back as a functional requirement for the workflow execution service (WFEX). The functional requirement should state that the registry should be able to collect and display all resources (e.g. workflows, components, whatever) that use a given resources (e.g. a component, model, KR, etc.). This information must be dynamically collected and displayed in the registry through a query. It cannot be part of static metadata.
 
 The metadata can include the information on which projects/workflows involve the resource, thus allowing to state resource "popularity", increase reliablility, bring TDM outputs to a better interoperability. 
 
 NOTE: For use inside OMTD, this can be moved to the platform functions; for use out of OMTD, this can be left to the providers/users, so we can at best recommend it. This information can be used for evaluation purposes.
+
+.See also
+* <<REQ-49>>
 
 [cols="2,1,1,4,1"]
 |====

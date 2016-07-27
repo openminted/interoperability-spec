@@ -1,4 +1,4 @@
-=== S/w (web services & workflows but also of tools) metadata must include standardised categories/tags that make them easy to discover
+=== Component metadata must include standardised categories/tags that make them easy to discover
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
@@ -6,7 +6,10 @@
 [small]#*_Category:_* __WG1__,__WG4__#
 [small]#*_Status:_* __final__#
 
-S/W (web services & workflows but also of tools) classification & description must include metadata that describe the task they perform (e.g. anntotation, named entity recogntion), preferably in the form of a standard(ised) vocabulary
+Component (web services & workflows but also of tools) classification & description must include metadata that describe the task they perform (e.g. anntotation, named entity recogntion), preferably in the form of a standard(ised) vocabulary
+
+.See also
+* <<REQ-36>>
 
 [cols="2,1,1,4,1"]
 |====

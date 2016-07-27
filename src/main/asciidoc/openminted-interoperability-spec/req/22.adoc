@@ -11,7 +11,8 @@ IMPORTANT: This requirement is on its way to become deprecated. It should be add
 For reproducibility reasons extract and save/export (?) the exact experimental conditions of a workflow, such as which input files used (knowledge base/corpus), which components  are used and in what order, which are the values of the parameters required per component, etc.
 (Requirement extracted from Interoperability Scenario WG1-4)
 
-* See also: <<REQ-46>>
+.See also
+* <<REQ-46>>
 
 // Below is an example of how a compliance evaluation table could look. This is presently optional
 // and may be moved to a more structured/principled format later maintained in separate files.

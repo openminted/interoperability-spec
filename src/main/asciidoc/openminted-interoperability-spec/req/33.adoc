@@ -3,7 +3,7 @@
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __mandatory__#
-[small]#*_Category:_* __WG1__,__WG2__,__WG3__,__WG4__#
+[small]#*_Category:_* __WG1__,__WG3__#
 [small]#*_Status:_* __final__#
 
 All resources must be accompanied with a clear indication of their licensing terms; this can be indicated by the licence name, reference to a url or document that is accessible to the user and, if possible, a user-friendly summary. 

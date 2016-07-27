@@ -4,11 +4,17 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __recommended__#
 [small]#*_Category:_* __WG1__,__WG4__#
-[small]#*_Status:_* __final__#
+[small]#*_Status:_* __scheduled for deprecation__#
+
+IMPORTANT: This requirement is on its way to become deprecated. Neither the model creators nor the component creators may know of all models/components they are compatible with. We discussed to keep component metadata, the model metadata, and the linking between components and models separately. A suggestion is to rephrase that requirement as "resource providers (e.g. components) should provide a list of other resources (e.g. models) they are compatible with". The concrete format of such a compatibility list likely needs to be defined. Additionally, the requirement should be turned into a functional requirement stating that the registry should be able to collect and display all resources (e.g. workflows, components, whatever) that are *compatible with a given resources* (e.g. a component, model, KR, etc.). This information must be dynamically collected and displayed in the registry through a query. It cannot be part of static metadata. This is different from REQ-42. REQ-42 is about actually depending/making use of other resources. REQ-49 is about being compatible (i.e. potentially making use of) other resources.
+
 
 Information about the models available for the tools (e.g. location, language, domain, etc) must be included in the metadata (c.f. https://dkpro.github.io/dkpro-core/releases/1.7.0/models/ as an example). 
 
-NOTE: this is important for the operation of the components; so, we need to standardize naming/reference to the models and add it to the metadata.
+NOTE: This is important for the operation of the components; so, we need to standardize naming/reference to the models and add it to the metadata.
+
+.See also
+* <<REQ-42>>
 
 [cols="2,1,1,4,1"]
 |====
