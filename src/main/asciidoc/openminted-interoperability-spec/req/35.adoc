@@ -1,4 +1,4 @@
-=== All resources must include a unique persistent identifier
+== All resources must include a unique persistent identifier
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

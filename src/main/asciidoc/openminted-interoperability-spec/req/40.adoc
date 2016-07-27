@@ -1,4 +1,4 @@
-=== Component metadata must include standardised categories/tags that make them easy to discover
+== Component metadata must include standardised categories/tags that make them easy to discover
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

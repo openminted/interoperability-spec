@@ -1,0 +1,32 @@
+[cols="10%,80%,10%"]
+<%
+def concretenesses = requirementList
+    .collect { it.concreteness }
+    .flatten().sort().unique();
+
+concretenesses.each { concreteness ->
+    def requirements = requirementList
+        .findAll { it.concreteness == concreteness } 
+        .sort { it.id };
+%>
+[[CONC-${concreteness}]]
+=== ${concreteness} (${requirements.size()})
+
+[cols="10%,80%,10%"]
+|====
+| *ID* | *Requirement* | *WG's*
+<%
+    requirements.each {
+            def links = it.category.collect { "<<${it.category}>>" }.join(",{nbsp}");
+%>
+| <<REQ-${it.id},${it.id}>>
+| ${it.name}
+| ${links}
+<%
+        } 
+%>
+|====
+
+<%
+}
+%>

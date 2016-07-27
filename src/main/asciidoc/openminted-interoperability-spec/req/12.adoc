@@ -1,4 +1,4 @@
-=== Components should provide documentation describing their functionality
+== Components should provide documentation describing their functionality
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

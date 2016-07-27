@@ -1,12 +1,12 @@
-=== Output resources of web services/workflows must be accompanied by provenance metadata
+== Output resources of web services/workflows must be accompanied by provenance metadata
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __mandatory__#
 [small]#*_Category:_* __WG1__,__WG4__#
-[small]#*_Status:_* __scheduled for deprecation__#
+[small]#*_Status:_* __deprecated__#
 
-IMPORTANT: This requirement is on its way to become deprecated. It should be added back as a functional requirement for the workflow execution service (WFEX).
+IMPORTANT: This requirement is deprecated. It should be added back as a functional requirement for the workflow execution service (WFEX).
 
 Output resources of web services/workflows must automatically be accompanied by appropriate metadata that can be derived from the usage of the service/workflow (e.g. format, language etc.) & indicating the processing thereof (provenance). 
 

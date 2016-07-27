@@ -1,4 +1,4 @@
-=== No restrictions on TDM results which are not derived works
+== No restrictions on TDM results which are not derived works
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

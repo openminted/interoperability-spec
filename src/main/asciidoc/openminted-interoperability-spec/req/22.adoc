@@ -1,12 +1,12 @@
-=== The Workflow Engine Should Permit Saving Experimental Conditions in a Workflow
+== The Workflow Engine Should Permit Saving Experimental Conditions in a Workflow
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_*     __recommended__#
 [small]#*_Category:_*     __WG1__,__WG4__#
-[small]#*_Status:_*       __scheduled for deprecation__#
+[small]#*_Status:_*       __deprecated__#
 
-IMPORTANT: This requirement is on its way to become deprecated. It should be added back as a functional requirement for the workflow execution service (WFEX).
+IMPORTANT: This requirement is deprecated. It should be added back as a functional requirement for the workflow execution service (WFEX).
 
 For reproducibility reasons extract and save/export (?) the exact experimental conditions of a workflow, such as which input files used (knowledge base/corpus), which components  are used and in what order, which are the values of the parameters required per component, etc.
 (Requirement extracted from Interoperability Scenario WG1-4)

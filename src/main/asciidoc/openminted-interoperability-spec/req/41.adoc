@@ -1,4 +1,4 @@
-=== Content resources must include metadata on their language(s)
+== Content resources must include metadata on their language(s)
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

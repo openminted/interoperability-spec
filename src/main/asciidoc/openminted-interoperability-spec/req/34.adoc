@@ -1,4 +1,4 @@
-=== Licensing information should be expressed in a machine-readable form
+== Licensing information should be expressed in a machine-readable form
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

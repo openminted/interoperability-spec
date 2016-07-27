@@ -1,4 +1,4 @@
-=== All KR content elements need to be added as text annotations within a TDM workflow.
+== All KR content elements need to be added as text annotations within a TDM workflow.
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

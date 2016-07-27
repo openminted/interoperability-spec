@@ -1,4 +1,4 @@
-=== Version must be included in the metadata description for all resources
+== Version must be included in the metadata description for all resources
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

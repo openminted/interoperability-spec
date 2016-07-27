@@ -15,6 +15,8 @@ import eu.openminted.interop.utils.RequirementUtils
 
 class GenerateWGSpec 
 {
+    public static def MAVEN_PROJECT;
+    
 	static Map<Integer, String> wgSpecMapping = [:];
 	static Map<Integer,String> reqSpecMapping = [:];
 	static def stringPatternCategory ="_Category:_" ;
@@ -66,6 +68,10 @@ class GenerateWGSpec
 		attributes['toclevels'] = 8;
 		attributes['experimental'] = true;
 		attributes['sectanchors'] = true;
+        if (MAVEN_PROJECT) {
+            attributes['project-version'] = MAVEN_PROJECT.version as String;
+            attributes['revnumber'] = MAVEN_PROJECT.version as String;
+        }
 
 		OptionsBuilder options = OptionsBuilder.options()
 				.backend('html5')
@@ -74,7 +80,7 @@ class GenerateWGSpec
 				.attributes(attributes)
 				.docType("book")
 				.toDir(new File(targetDoc));
-
+                
 		if(isDirectory)
 			asciidoctor.renderDirectory(new AsciiDocDirectoryWalker(sourceAdoc), options);
 		else {
@@ -98,7 +104,7 @@ class GenerateWGSpec
 				it.readLines().eachWithIndex {line, idx ->
 					if(idx==0){
 						temp << linkScript+"\n";
-						line = line.replace("===","=== " + name.replace("adoc",""));
+						line = line.replace("==","== " + name.replace("adoc",""));
 						temp << line +"\n";
 						temp << linkCall;
 					}else{
@@ -271,6 +277,8 @@ class GenerateWGSpec
 
 		//copy JS files to generated-docs/js
 		FileUtils.copyDirectory(new File("src/main/resources/"),new File("target/generated-docs/"));
+        
+        println MAVEN_PROJECT;
 	}
 
 }

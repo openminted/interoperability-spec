@@ -1,4 +1,4 @@
-=== Component metadata should be embedded into the component source code
+== Component metadata should be embedded into the component source code
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

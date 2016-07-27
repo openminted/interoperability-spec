@@ -1,4 +1,4 @@
-=== Documentation references should be versioned
+== Documentation references should be versioned
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

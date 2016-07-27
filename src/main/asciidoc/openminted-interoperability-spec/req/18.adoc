@@ -1,4 +1,4 @@
-=== The workflows should be described using an uniform language.
+== The workflows should be described using an uniform language.
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

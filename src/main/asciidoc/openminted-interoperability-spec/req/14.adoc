@@ -1,4 +1,4 @@
-=== Components must maintain License information
+== Components must maintain License information
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

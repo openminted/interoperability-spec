@@ -80,6 +80,7 @@
 						</goals>
 						<configuration>
 							<source>
+                                eu.openminted.interop.controller.GenerateWGSpec.MAVEN_PROJECT = project;
 								eu.openminted.interop.controller.GenerateWGSpec.main();								
 							</source>
 							<classpathScope>runtime</classpathScope>

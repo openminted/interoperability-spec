@@ -1,4 +1,4 @@
-=== The actual content of all content resources must be discoverable
+== The actual content of all content resources must be discoverable
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

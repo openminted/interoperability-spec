@@ -1,4 +1,4 @@
-=== Information on funding of resources may be included in the metadata
+== Information on funding of resources may be included in the metadata
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

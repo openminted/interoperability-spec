@@ -1,4 +1,4 @@
-=== Components should have a unique identifier and a version number
+== Components should have a unique identifier and a version number
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

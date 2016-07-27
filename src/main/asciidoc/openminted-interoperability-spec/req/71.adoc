@@ -1,8 +1,8 @@
-=== The KR should be ingestable through a URI
+== The KR should be ingestable through a URI
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
-[small]#*_Strength:_* __recommended/mandatory__#
+[small]#*_Strength:_* __recommended__#
 [small]#*_Category:_* __WG2__#
 [small]#*_Status:_* __final__#
 

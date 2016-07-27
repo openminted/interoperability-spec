@@ -1,4 +1,4 @@
-=== S/W (tools, web services, workflows) must indicate whether they are language-independent or the language(s) of the resources they take as input and output
+== S/W (tools, web services, workflows) must indicate whether they are language-independent or the language(s) of the resources they take as input and output
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

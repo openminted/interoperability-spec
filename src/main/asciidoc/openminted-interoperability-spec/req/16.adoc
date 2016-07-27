@@ -1,4 +1,4 @@
-=== Models/resources should be useable across different component collections/platforms
+== Models/resources should be useable across different component collections/platforms
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

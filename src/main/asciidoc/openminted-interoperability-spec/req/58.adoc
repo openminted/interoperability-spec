@@ -1,4 +1,4 @@
-=== TDM must be explicitly allowed
+== TDM must be explicitly allowed
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

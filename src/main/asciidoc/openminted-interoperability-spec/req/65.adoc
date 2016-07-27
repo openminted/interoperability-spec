@@ -1,4 +1,4 @@
-=== License must qualify for Open Access must not restrict use in any way
+== License must qualify for Open Access must not restrict use in any way
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

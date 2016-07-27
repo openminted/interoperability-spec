@@ -1,4 +1,4 @@
-=== Components should handle failures gracefully
+== Components should handle failures gracefully
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

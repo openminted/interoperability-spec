@@ -1,4 +1,4 @@
-=== Here goes the requirement title
+== Here goes the requirement title
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract|concrete__#

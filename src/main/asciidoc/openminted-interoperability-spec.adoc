@@ -147,6 +147,12 @@ include::{include-dir-template}overviewByWg.adoc[]
 == By Status
 include::{include-dir-template}overviewByStatus.adoc[]
 
+== By Strength
+include::{include-dir-template}overviewByStrength.adoc[]
+
+== By Concreteness
+include::{include-dir-template}overviewByConcreteness.adoc[]
+
 == By Product
 include::{include-dir-template}requirementViewByProduct.adoc[]
 

@@ -1,4 +1,4 @@
-=== Components should associate themselves with categories defined by the OpenMinted project
+== Components should associate themselves with categories defined by the OpenMinted project
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

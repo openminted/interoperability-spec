@@ -1,4 +1,4 @@
-=== Boundary for derivative work must be clearly defined
+== Boundary for derivative work must be clearly defined
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

@@ -1,4 +1,4 @@
-=== Licensing information must be included in the metadata
+== Licensing information must be included in the metadata
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

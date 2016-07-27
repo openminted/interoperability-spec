@@ -1,4 +1,4 @@
-=== Interoperability between elements from different knowledge resource schemas should be expressed through RDF statements.
+== Interoperability between elements from different knowledge resource schemas should be expressed through RDF statements.
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

@@ -1,4 +1,4 @@
-=== Licensor must be entitled to grant license
+== Licensor must be entitled to grant license
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

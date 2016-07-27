@@ -1,4 +1,4 @@
-=== Knowledge Resource Element Id
+== Knowledge Resource Element Id
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

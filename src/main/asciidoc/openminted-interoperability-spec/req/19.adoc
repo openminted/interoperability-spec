@@ -1,4 +1,4 @@
-=== Components that use external knowledge resources should delegate access to a resource adapter instead of handling it themselves
+== Components that use external knowledge resources should delegate access to a resource adapter instead of handling it themselves
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

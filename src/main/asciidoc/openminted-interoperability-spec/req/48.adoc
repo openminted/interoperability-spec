@@ -1,4 +1,4 @@
-=== All resource metadata records must include a reference to the metadata schema used for their description
+== All resource metadata records must include a reference to the metadata schema used for their description
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

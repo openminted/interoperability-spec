@@ -1,4 +1,4 @@
-===  Components should be stateless
+== Components should be stateless
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __concrete__#

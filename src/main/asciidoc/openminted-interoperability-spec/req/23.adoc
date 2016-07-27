@@ -1,4 +1,4 @@
-===  The Workflow Engine should permit Licence Aggregation in Workflows
+== The Workflow Engine should permit Licence Aggregation in Workflows
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

@@ -1,4 +1,4 @@
-=== Components should have a fully qualified name that follows the Java class naming conventions
+== Components should have a fully qualified name that follows the Java class naming conventions
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __concrete__#

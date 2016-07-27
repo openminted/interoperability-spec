@@ -1,4 +1,4 @@
-=== Standard licenses should be used
+== Standard licenses should be used
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

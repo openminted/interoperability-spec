@@ -1,4 +1,4 @@
-=== Component metadata is separable from the component
+== Component metadata is separable from the component
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

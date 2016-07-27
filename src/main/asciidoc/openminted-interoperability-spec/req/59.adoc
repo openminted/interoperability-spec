@@ -1,4 +1,4 @@
-=== Right for (temporary) reproduction must be granted
+== Right for (temporary) reproduction must be granted
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

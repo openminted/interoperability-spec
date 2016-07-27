@@ -1,4 +1,4 @@
-=== Information on the structural annotation (layout) of resources should be included in the metadata of the resource
+== Information on the structural annotation (layout) of resources should be included in the metadata of the resource
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

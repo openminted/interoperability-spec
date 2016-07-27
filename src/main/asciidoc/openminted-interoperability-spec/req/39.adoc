@@ -1,4 +1,4 @@
-=== Content resources must include metadata on their format (e.g. XML, DOCX etc.)
+== Content resources must include metadata on their format (e.g. XML, DOCX etc.)
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

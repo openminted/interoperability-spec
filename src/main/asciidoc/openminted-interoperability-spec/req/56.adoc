@@ -1,4 +1,4 @@
-=== License should be machine readable
+== License should be machine readable
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

@@ -1,4 +1,4 @@
-=== Metrics for the confidence level of the TDM operation should be included in the metadata
+== Metrics for the confidence level of the TDM operation should be included in the metadata
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

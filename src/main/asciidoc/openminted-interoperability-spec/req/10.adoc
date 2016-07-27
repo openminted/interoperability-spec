@@ -1,4 +1,4 @@
-=== Components should specify the types of the annotations that they input and output
+== Components should specify the types of the annotations that they input and output
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

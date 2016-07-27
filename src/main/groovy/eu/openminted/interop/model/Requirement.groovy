@@ -35,8 +35,8 @@ class Requirement {
 			}
 
 			// Get name
-			if(trimmedLine.startsWith("===")){
-				this.name = trimmedLine.replace("===","").trim()
+			if(trimmedLine.startsWith("==")){
+				this.name = trimmedLine.replace("==","").trim()
 			}
 
 			//Get concreteness

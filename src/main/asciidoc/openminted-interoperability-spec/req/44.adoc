@@ -1,4 +1,4 @@
-=== Statistical metadata that allow monitoring of resource versions may accompany resources
+== Statistical metadata that allow monitoring of resource versions may accompany resources
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

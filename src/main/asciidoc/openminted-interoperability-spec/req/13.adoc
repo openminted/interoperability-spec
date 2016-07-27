@@ -1,4 +1,4 @@
-=== Citation information for component
+== Citation information for component
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
