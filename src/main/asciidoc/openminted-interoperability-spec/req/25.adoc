@@ -4,9 +4,9 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_*     __recommended__#
 [small]#*_Category:_*     __WG4__#
-[small]#*_Status:_*       __final__#
+[small]#*_Status:_*       __deprecated__#
 
-
+IMPORTANT: This requirement has been deprecated per discussion in WG4. If multiple resources of a type need to be added to a workflow, simply add the same component multiple times, once configured for each resource in question. Engineering components in general such that they support using multiple resources will impose an unnecessary complexity on them and was considered over-engineering.
 
 Whenever possible, components should allow to incorporate multiple resources in parallel, e.g. looking up a word from multiple sources or using multiple classification models in parallel. Examples:
 
@@ -22,6 +22,9 @@ Caveat: Having relevance/confidence scores from different sources bears a great 
 NOTE: parallel access to resources could be externalized into a resource adapter, such that the component itself would not have to deal explicitly with handling multiple adapters in parallel. 
 
 Source: WG 2 Scenario 3 — The relation between documents and knowledge bases through keywords
+
+.See also
+* <<REQ-19>>
 
 // Below is an example of how a compliance evaluation table could look. This is presently optional
 // and may be moved to a more structured/principled format later maintained in separate files.
