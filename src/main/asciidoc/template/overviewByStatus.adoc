@@ -1,0 +1,32 @@
+[cols="10%,80%,10%"]
+<%
+def statuses = requirementList
+    .collect { it.status }
+    .flatten().sort().unique();
+
+statuses.each { status ->
+    def requirements = requirementList
+        .findAll { it.status == status } 
+        .sort { it.id };
+%>
+[[STATUS-${status}]]
+=== ${status} (${requirements.size()})
+
+[cols="10%,80%,10%"]
+|====
+| *ID* | *Requirement* | *WG's*
+<%
+    requirements.each {
+            def links = it.category.collect { "<<${it.category}>>" }.join(",{nbsp}");
+%>
+| <<REQ-${it.id},${it.id}>>
+| ${it.name}
+| ${links}
+<%
+        } 
+%>
+|====
+
+<%
+}
+%>

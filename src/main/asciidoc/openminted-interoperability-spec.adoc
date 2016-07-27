@@ -84,6 +84,7 @@ A requirement may be in multiple categories which must be provided as a comma-se
   access on a tool which does not offer a remote API. Abstract requirements should be formulated 
   in such a way that they are always applicable.
 
+////
 === Overall compliance levels
 
 * *None* - not compliant at all
@@ -107,6 +108,7 @@ component, format, etc. with the interoperability requirements.
 
 NOTE: The format and schema of this file is still to be determined. YAML may be a good format
       candidate. 
+////
 
 == Adding new requirements
 
@@ -139,7 +141,11 @@ include::{include-dir-spec}req/TEMPLATE.adoc[]
  
 = Requirements
 
+== By WG
 include::{include-dir-template}overviewByWg.adoc[]
+
+== By Status
+include::{include-dir-template}overviewByStatus.adoc[]
 
 include::{include-dir-spec}Details.adoc[]
 

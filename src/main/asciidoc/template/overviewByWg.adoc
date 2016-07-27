@@ -7,7 +7,7 @@ def categories = requirementList
 categories.each { cat ->
 %>
 [[${cat}]]
-== ${cat}
+=== ${cat}
 
 [cols="10%,70%,10%,10%"]
 |====
