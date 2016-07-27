@@ -12,15 +12,17 @@ strengths.each { strength ->
 [[STR-${strength}]]
 === ${strength} (${requirements.size()})
 
-[cols="10%,80%,10%"]
+[cols="10%,80%,10%,10%,10%"]
 |====
-| *ID* | *Requirement* | *WG's*
+| *ID* | *Requirement* | *Concreteness* | *Status* | *WG's*
 <%
     requirements.each {
             def links = it.category.collect { "<<${it.category}>>" }.join(",{nbsp}");
 %>
 | <<REQ-${it.id},${it.id}>>
 | ${it.name}
+| ${it.concreteness}
+| ${it.status}
 | ${links}
 <%
         } 

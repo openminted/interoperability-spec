@@ -76,7 +76,7 @@ A requirement may be in multiple categories which must be provided as a comma-se
 
 * *Full* - fully compliant
 * *Partial* - partially compliant. E.g. some parts of a product are compliant but not all. This is
-  typically the case if a product is in a state of transition from a non-compilant to a compliant
+  typically the case if a product is in a state of transition from a non-compliant to a compliant
   state.
 * *No* - not compliant.
 * *N/A* - not applicable. This is expected to occur mainly for concrete requirements if a certain
@@ -153,8 +153,13 @@ include::{include-dir-template}overviewByStrength.adoc[]
 == By Concreteness
 include::{include-dir-template}overviewByConcreteness.adoc[]
 
+= Compliance
+
 == By Product
 include::{include-dir-template}requirementViewByProduct.adoc[]
+
+== Without justification
+include::{include-dir-template}requirementWithoutJustification.adoc[]
 
 include::{include-dir-spec}Details.adoc[]
 

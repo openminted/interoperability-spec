@@ -1,4 +1,4 @@
-== using/treating workflows as components 
+== Using/treating workflows as components 
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

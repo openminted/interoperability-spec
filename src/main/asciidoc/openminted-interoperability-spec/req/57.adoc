@@ -1,4 +1,4 @@
-== License should be unstandable by non-laywers
+== License should be understandable by non-lawyers
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

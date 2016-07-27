@@ -1,0 +1,17 @@
+[cols="1,4,1,1"]
+|===
+| *ID* | *Requirement* | *Product* | *Compliance*
+<%
+requirementProductList    
+    .findAll { !it.justification || "unknown".equalsIgnoreCase(it.justification.trim()) }
+    .sort { it.requirement.id }
+    .each { assessment ->
+%>
+| <<REQ-${assessment.id},${assessment.id}>>
+| ${assessment.requirement.name}
+| ${assessment.productName}
+| ${assessment.compliance}
+<%
+    }
+%>
+|===

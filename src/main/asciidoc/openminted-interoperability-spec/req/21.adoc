@@ -1,4 +1,4 @@
-== The configuration and parametrizable options of the components should be identified and documented.
+== Configuration and parametrizable options of the components should be identified and documented
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

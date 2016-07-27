@@ -6,5 +6,5 @@ class ProductView {
 	String productName;
 	String requirementName;
 	String compliance;
-
+    String justification;
 }

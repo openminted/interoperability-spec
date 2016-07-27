@@ -16,6 +16,7 @@ class RequirementUtils {
 			pv.id = req.id;
             pv.requirement = req;
 			pv.compliance = product.compliance;
+            pv.justification = product.justification;
 			pv.productName = product.product;
 			pv.requirementName = req.name;
 			requirementProductList.add(pv); 

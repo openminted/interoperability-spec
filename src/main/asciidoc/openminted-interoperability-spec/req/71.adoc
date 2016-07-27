@@ -1,4 +1,4 @@
-== The KR should be ingestable through a URI
+== The KR should be ingestible through a URI
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#

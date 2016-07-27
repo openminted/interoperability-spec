@@ -9,9 +9,9 @@ categories.each { cat ->
 [[${cat}]]
 === ${cat}
 
-[cols="10%,70%,10%,10%"]
+[cols="10%,70%,10%,10%,10%,10%"]
 |====
-| *ID* | *Requirement* | *Status* | *WG's*
+| *ID* | *Requirement* | *Concreteness* | *Status* | *Strength* | *WG's*
 <%
     requirementList
         .findAll { !it.status.contains("deprecat") }
@@ -23,7 +23,9 @@ categories.each { cat ->
 %>
 | <<REQ-${it.id},${it.id}>>
 | ${it.name}
+| ${it.concreteness}
 | ${it.status}
+| ${it.strength}
 | ${links}
 <%
         } 
