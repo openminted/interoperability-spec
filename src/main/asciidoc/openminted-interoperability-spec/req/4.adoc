@@ -38,7 +38,7 @@ NOTE: This requirement refers only to content resources that can be used as inpu
 | TheSoz
 | Jun-16
 | Full
-| Url to the resource and the SPARQL endpoint is provided in the void.ttl file (however file is not at the moment available online due to technical issues).
+| Url to the resource and the SPARQL endpoint is provided in the void.ttl file (Should be located at: http://lod.gesis.org/thesoz/void.ttl however it is not at the moment available online due to technical issues).
 | Final
 
 | Agrovoc
