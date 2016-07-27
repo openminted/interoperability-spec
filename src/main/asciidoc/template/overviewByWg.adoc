@@ -5,19 +5,19 @@ def categories = requirementList
     .flatten().sort().unique();
 
 categories.each { cat ->
+    def requirements = requirementList
+        .findAll { !it.status.contains("deprecat") }
+        .findAll { it.category.find { it.category == cat} } 
+        .sort { it.id };
 %>
 [[${cat}]]
-=== ${cat}
+=== ${cat} (${requirements.size()})
 
 [cols="10%,70%,10%,10%,10%,10%"]
 |====
 | *ID* | *Requirement* | *Concreteness* | *Status* | *Strength* | *WG's*
 <%
-    requirementList
-        .findAll { !it.status.contains("deprecat") }
-        .findAll { it.category.find { it.category == cat} } 
-        .sort { it.id }
-        .each {
+    requirements.each {
             def links = it.category.collect { 
                 it.category == cat ? it.category : "<<${it.category}>>" }.join(",{nbsp}");
 %>
