@@ -139,7 +139,7 @@ include::{include-dir-spec}req/TEMPLATE.adoc[]
 ====
 
  
-= Requirements
+= Overviews
 
 == By WG
 include::{include-dir-template}overviewByWg.adoc[]
@@ -147,10 +147,10 @@ include::{include-dir-template}overviewByWg.adoc[]
 == By Status
 include::{include-dir-template}overviewByStatus.adoc[]
 
+== By Product
+include::{include-dir-template}requirementViewByProduct.adoc[]
+
 include::{include-dir-spec}Details.adoc[]
 
 include::{include-dir-spec}bibliography.adoc[]
-
-= View Requirements by Product
-include::{include-dir-template}requirementViewByProduct.adoc[]
 
