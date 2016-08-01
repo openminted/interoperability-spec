@@ -29,7 +29,7 @@ NOTE: This is important for the operation of the components; so, we need to stan
 | ARGO
 | 0.5
 | No
-| 
+| Not supported and not planned.  Would require a mechanism adding to Argo which allows users to register models against components.
 | Final
 
 | DKPro Core
