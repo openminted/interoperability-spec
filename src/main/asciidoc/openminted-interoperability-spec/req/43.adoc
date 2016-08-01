@@ -21,7 +21,7 @@ S/W (tools, web services, workflows) must indicate whether they are language-ind
 | ARGO
 | 0.5
 | No
-| Unknown
+| UIMA descriptors allow the definition of languages supported by a component, however Argo doesn't make use of this information at present and currently no Argo components declare this metadata.
 | Final
 
 | DKPro Core
