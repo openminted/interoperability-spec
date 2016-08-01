@@ -110,10 +110,12 @@ NOTE: The format and schema of this file is still to be determined. YAML may be 
       candidate. 
 ////
 
+ifeval::["{backend}" == "html5"]
 == Adding new requirements
 
 New requirements can be added via the *Create new requirement* button in the sidebar, by
 clicking on btn:[Create] here, or by creating a new requirement file on GitHub.
+endif::[]
 
 === Files and IDs
 

@@ -60,32 +60,45 @@ class GenerateWGSpec
 				.dataUri(true)
 				.asMap();
 		
-		replaceMap.keySet().each {key->			
-		attributes[key] = replaceMap.get(key);
-		}
+		replaceMap.keySet().each { key -> attributes[key] = replaceMap.get(key) };
 		attributes['toc'] = 'left';
 		attributes['docinfo1'] = true;
 		attributes['toclevels'] = 8;
 		attributes['experimental'] = true;
 		attributes['sectanchors'] = true;
+        attributes['pdf-style'] = 'src/main/asciidoc/theme/custom-theme.yml';
         if (MAVEN_PROJECT) {
             attributes['project-version'] = MAVEN_PROJECT.version as String;
             attributes['revnumber'] = MAVEN_PROJECT.version as String;
         }
 
-		OptionsBuilder options = OptionsBuilder.options()
+		OptionsBuilder htmlOptions = OptionsBuilder.options()
 				.backend('html5')
 				.safe(SafeMode.UNSAFE)
 				.mkDirs(true)
 				.attributes(attributes)
 				.docType("book")
 				.toDir(new File(targetDoc));
-                
-		if(isDirectory)
-			asciidoctor.renderDirectory(new AsciiDocDirectoryWalker(sourceAdoc), options);
+
+        OptionsBuilder pdfOptions = OptionsBuilder.options()
+                .backend('pdf')
+                .safe(SafeMode.UNSAFE)
+                .mkDirs(true)
+                .attributes(attributes)
+                .docType("book")
+                .toDir(new File(targetDoc));
+
+		if (isDirectory) {
+            println "Rendering HTML..."
+			asciidoctor.renderDirectory(new AsciiDocDirectoryWalker(sourceAdoc), htmlOptions);
+            println "Rendering PDF..."
+            asciidoctor.renderDirectory(new AsciiDocDirectoryWalker(sourceAdoc), pdfOptions);
+        }
 		else {
-			File adocSourceFile = new File(sourceAdoc + ".adoc")
-			asciidoctor.renderFile(adocSourceFile, options);
+            println "Rendering HTML..."
+			asciidoctor.renderFile(new File(sourceAdoc + ".adoc"), htmlOptions);
+            println "Rendering PDF..."
+            asciidoctor.renderFile(new File(sourceAdoc + ".adoc"), pdfOptions);
 		}
 		println "Done!"
 	}
@@ -103,10 +116,12 @@ class GenerateWGSpec
 				temp.createNewFile();
 				it.readLines().eachWithIndex {line, idx ->
 					if(idx==0){
-						temp << linkScript+"\n";
+						temp << linkScript + "\n";
 						line = line.replace("==","== " + name.replace("adoc",""));
-						temp << line +"\n";
-						temp << linkCall;
+						temp << line + "\n";
+                        temp << 'ifeval::["{backend}" == "html5"]\n';
+						temp << linkCall + '\n';
+                        temp << 'endif::[]\n';
 					}else{
 						if(line.contains(stringPatternCategory)) {
 							def wgFileStr = line.substring(line.indexOf("__"),line.length()-1);
