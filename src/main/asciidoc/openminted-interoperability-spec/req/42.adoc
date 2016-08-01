@@ -76,7 +76,7 @@ NOTE: For use inside OMTD, this can be moved to the platform functions; for use 
 | ARGO
 | 0.5
 | No
-| Unknown
+| This would be fairly simple to implement on a per-instance basis of Argo; all of the data required to conform to this requirement is held within an SQL database used by Argo.
 | Final
 
 | DKPro Core
