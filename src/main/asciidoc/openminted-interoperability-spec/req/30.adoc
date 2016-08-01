@@ -23,7 +23,7 @@ NOTE: This requirement is considered premature; although it is  important, we ne
 | ARGO
 | 0.5
 | No
-| 
+| Argo components don’t have any specific metadata relating to confidence levels that will help users selecting components when developing a workflow. We would expect this information to reside within the main textual description of a component, however none of the existing Argo components provide this.  There are a number of Argo components that produce confidence level values against annotations they produce during a workflow execution, however this wouldn’t appear to directly relate to this requirement.
 | Final
 
 | DKPro Core
