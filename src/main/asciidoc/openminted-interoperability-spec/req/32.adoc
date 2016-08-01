@@ -77,7 +77,7 @@ NOTE: At this point, we only wish to check whether versioning is represented in 
 | ARGO
 | 0.5
 | No
-| 
+| Argo components have versions specified in both their POM and UIMA XML files, however these are usually not updated by developers, are not guaranteed to be synchronised and are not exploited by the Argo system.  For example, an Argo instance will only ever use the latest version of a component when executing a workflow. 
 | Final
 
 | DKPro Core
