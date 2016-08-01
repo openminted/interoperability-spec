@@ -75,7 +75,7 @@ Information on funding sources (e.g. projects, funders data etc.) may be include
 | ARGO
 | 0.5
 | No
-| 
+| Not implemented as we have not foreseen a need for this.  We would expect this type of information to exist in the textual description of a component.  No plans to implement.
 | Final
 
 | DKPro Core
