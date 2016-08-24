@@ -1,0 +1,20 @@
+== Stick to widely used data compression formats
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_* __best practice__#
+[small]#*_Category:_* __WG4__#
+[small]#*_Status:_* __draft__#
+
+Compression algorithms are used to reduce the size of data. To avoid problems in working with such
+data (creating or consuming), only algorithms/formats should be used for which there is broad 
+support across platforms and programming languages. There are:
+
+* gzip (also known as gz)
+* zip
+* xz
+* tar (including tar.gz)
+
+Specifically to be avoided are commercial algorithms and their implementations, e.g.
+
+* rar
