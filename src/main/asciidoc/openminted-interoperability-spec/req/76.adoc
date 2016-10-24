@@ -1,0 +1,40 @@
+== Separating UIMA metadata from the component
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+* <<REQ-3>>
+
+Storing the component metadata as a XML resource specifier with in the same JAR file that also hosts the described component facilitates separating the metadata from the component. 
+
+Specifically, the JAR file can be downloaded and the resource specifier can be located within the JAR using `META-INF/org.apache.uima.fit/components.txt` without having to download any (transitive) dependencies. The resource specifier can be immediately used, e.g. for ingestion into the OpenMinTeD registry. 
+
+Mind that the uimaFIT annotations embedded in the component's class file cannot be used as easily. Extracting the metadata from the class file requires resolving the class file, which in turn requires having access to the transitive dependencies. This would entail a much larger download and would be impracticable for the OpenMinTeD registry crawler.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Fully
+| UIMA resource specifiers are auto-generated using the uimaFIT Maven plugin.
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+|====

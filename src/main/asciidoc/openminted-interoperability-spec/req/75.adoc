@@ -1,0 +1,69 @@
+== Embedding UIMA component metadata into the source code
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+* <<REQ-2>>
+
+The uimaFIT library provides Java annotations to embed most types of UIMA metadata as Java annotations directly into the source code of UIMA components.  Particularly relevant for OpenMinTeD are the following uimaFIT annotations:
+
+|===
+| uimaFIT annotation | Description
+
+| `@MimeTypeCapability`
+| For reader components: defines the supported input media types; for writer components: defines the supported output media types. The media type should be an official link:http://www.iana.org/assignments/media-types/media-types.xhtml[IANA media type].
+
+| `@TypeCapability`
+|  Defines the UIMA types that a component can consume or produce.
+
+| `@LanguageCapability`
+| Defines the languages a UIMA component supports. The language should be specified as a three letter link:https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes[ISO 639-3] code.
+
+| `@ConfigurationParameter`
+| Identifies a component parameter, whether the parameter is mandatory/optional, and may define a default parameter value.
+|===
+
+The *description* property of `@ConfigurationParameter` should *not* be used. Instead, parameter documentation should be placed before a constant declaration which defines the parameters name as shown in the example below. This ensures that IDEs show the parameters and associated documentation when auto-completion is invoked on a UIMA component. It also allows the link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#tools.uimafit.maven[uimaFIT Maven plugin] goal `enhance` to pick up the documentation and to automatically transfer it into the *description* property.
+
+.Documentation and parameter constant for UIMA component parameters
+[source,java]
+----
+/**
+ * Use this language instead of the document language to resolve the model.
+ */
+public static final String PARAM_LANGUAGE = "language";
+@ConfigurationParameter(name = PARAM_LANGUAGE, mandatory = false)
+protected String language;
+----
+
+Component metadata other than the ones specified are automatically derived from the source code and generated into a UIMA resource specifier by using the link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#tools.uimafit.maven[uimaFIT Maven plugin] goal `generate`, e.g. the parameter types, implementation name, etc.
+
+The uimaFIT `@ResourceMetaData` annotation *must not* be used as it would interfere with the need of the Maven POM and the UIMA resource specifier metadata being synchronized.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Partial
+| uimaFIT annotations are used. Language codes are expected to be ISO 639-1. Many components use private media types because many supported formats do not have a corresponding media type.
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+|====

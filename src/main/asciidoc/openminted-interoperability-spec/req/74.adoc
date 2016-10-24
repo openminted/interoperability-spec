@@ -1,0 +1,62 @@
+== Machine-readable metadata for UIMA components
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+* <<REQ-1>>
+
+The UIMA framework defines a series of so-called *resource specifiers* contain metadata about 
+components. The following types of components and associate resource specifiers are supported by OpenMinTeD:
+
+|===
+| Component | Resource specifier
+
+| Reader component
+| link:https://uima.apache.org/d/uimaj-current/references.html#ugr.ref.xml.component_descriptor.collection_processing_parts.collection_reader[CollectionReaderDescription]
+
+| Analysis engine / Writer component
+| link:https://uima.apache.org/d/uimaj-current/references.html#ugr.ref.xml.component_descriptor.aes[AnalysisEngineDescription]
+|===
+
+It is expected that these descriptors can be located within the same JAR file that also contains the component they describe. 
+
+The descriptor file should be located next to the Java class file that implements the described component, as it is indicated by the `implementationName` element within the descriptor.
+
+The JAR file must contain a locator file called `META-INF/org.apache.uima.fit/components.txt` which contains pointers to all component descriptor files within a JAR.
+
+[source,text]
+----
+classpath*:my/organizations/domain/name/package/Component.xml
+----
+
+The locator file should be automatically generated using the `generate` goal of the uimaFIT Maven Plugin as described in the link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#d5e639[uimaFIT documentation].
+
+There must be at most *one* resource specifer per component class. I.e. no two resource specifiers should use the same implementation class.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Fully
+| Resource specifier files automatically generated using uimaFIT Maven plugin.
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+|====
