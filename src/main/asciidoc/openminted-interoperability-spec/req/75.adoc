@@ -27,19 +27,6 @@ The uimaFIT library provides Java annotations to embed most types of UIMA metada
 | Identifies a component parameter, whether the parameter is mandatory/optional, and may define a default parameter value.
 |===
 
-The *description* property of `@ConfigurationParameter` should *not* be used. Instead, parameter documentation should be placed before a constant declaration which defines the parameters name as shown in the example below. This ensures that IDEs show the parameters and associated documentation when auto-completion is invoked on a UIMA component. It also allows the link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#tools.uimafit.maven[uimaFIT Maven plugin] goal `enhance` to pick up the documentation and to automatically transfer it into the *description* property.
-
-.Documentation and parameter constant for UIMA component parameters
-[source,java]
-----
-/**
- * Use this language instead of the document language to resolve the model.
- */
-public static final String PARAM_LANGUAGE = "language";
-@ConfigurationParameter(name = PARAM_LANGUAGE, mandatory = false)
-protected String language;
-----
-
 Component metadata other than the ones specified are automatically derived from the source code and generated into a UIMA resource specifier by using the link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#tools.uimafit.maven[uimaFIT Maven plugin] goal `generate`, e.g. the parameter types, implementation name, etc.
 
 The uimaFIT `@ResourceMetaData` annotation *must not* be used as it would interfere with the need of the Maven POM and the UIMA resource specifier metadata being synchronized.

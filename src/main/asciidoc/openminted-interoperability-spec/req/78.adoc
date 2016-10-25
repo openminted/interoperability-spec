@@ -1,0 +1,57 @@
+== Specifying input and output types of UIMA components
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+* <<REQ-10>>
+
+The input and output of UIMA components should be declared in the component's resource specified using link:https://uima.apache.org/d/uimaj-current/references.html#ugr.ref.xml.component_descriptor.aes.capabilities[type capabilities]. Capabilities should be declared in the component's source code using the uimaFIT `@TypeCapability` annotation.
+
+.Example of input/output capability declaration using uimaFIT annotations
+[source,java]
+----
+@TypeCapability(
+  inputs = { 
+    "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence" }, 
+  outputs = { 
+    "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS" })
+----
+
+It may not always be known what types a component produces or consumes. For example, the production/consumption of some types might be optional. Optional types should always be declared, even if they are not always produced7consumed. 
+
+The types being produced or consumed by truely generic components may depend on their specific parameter settings or on they models they are configured with (e.g. a rule-based transducer). Such components should not be expected to declare input/output types.
+
+UIMA type capabilities only specify the names of input and output types, but not where to locate the type system information or which version of the type system is used.
+
+OpenMinTeD may therefore check the dependencies of the Maven artifact containing the component for type system declarations using the `META-INF/org.apache.uima.fit/types.txt` link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#ugr.tools.uimafit.typesystem[locator mechanism].
+
+NOTE: Searching for types in the transitive dependencies of a component requires downloading all the transitive dependencies. This is something we explicitly wanted to avoid in <<REQ-3>>.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Fully
+| Input/output capabilities declared where possible.
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+|====

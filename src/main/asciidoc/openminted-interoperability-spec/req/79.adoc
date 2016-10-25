@@ -1,0 +1,65 @@
+== Documentation of UIMA components
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+* <<REQ-12>>
+* <<REQ-21>>
+
+The documentation of UIMA components should be maintained as JavaDoc in the component source code. The link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#tools.uimafit.maven[uimaFIT Maven plugin] goal `enhance` picks the documentation of components and parameters up from there and embedds it into the compiled class. The goal `generate` finally transfers the documentation into the automatically generated UIMA resource specifiers.
+
+The *description* properties of the uimaFIT `@ConfigurationParameter` and of the `@ResourceMetaData` annotations should *not* be used.
+
+Component documentation should be provided as JavaDoc on the component class itself.
+
+.Documentation and parameter constant for UIMA component parameters
+[source,java]
+----
+/**
+ * Part-of-Speech annotator using OpenNLP.
+ */
+public class OpenNlpPosTagger
+	extends JCasAnnotator_ImplBase
+{
+----
+
+Parameter documentation should be placed before a constant declaration which defines the parameters name as shown in the example below. This ensures that IDEs show the parameters and associated documentation when auto-completion is invoked on a UIMA component. It also allows the link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#tools.uimafit.maven[uimaFIT Maven plugin] goal `enhance` to pick up the documentation and to automatically transfer it into the *description* property.
+
+.Documentation and parameter constant for UIMA component parameters
+[source,java]
+----
+/**
+ * Use this language instead of the document language to resolve the model.
+ */
+public static final String PARAM_LANGUAGE = "language";
+@ConfigurationParameter(name = PARAM_LANGUAGE, mandatory = false)
+protected String language;
+----
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Fully
+| Documentation is mainained as JavaDoc and transferred into UIMA resource specifiers using the uimaFIT Maven plugin.
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+|====
