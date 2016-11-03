@@ -21,7 +21,8 @@ The uimaFIT library provides Java annotations to embed most types of UIMA metada
 |  Defines the UIMA types that a component can consume or produce.
 
 | `@LanguageCapability`
-| Defines the languages a UIMA component supports. The language should be specified as a three letter link:https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes[ISO 639-3] code.
+| Defines the languages a UIMA component supports. The language should be specified according to
+IETF BCP47.
 
 | `@ConfigurationParameter`
 | Identifies a component parameter, whether the parameter is mandatory/optional, and may define a default parameter value.
