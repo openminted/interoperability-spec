@@ -63,7 +63,7 @@ A uniform workflow language allows to use the same elements of language to repre
 | name of the module.
 
 | command
-| define the command to use when invoke this module.
+| define the command to use for invoking this module.
 
 | inputs
 | define the inputs parameters of this module. See the `parameter` table for the fields.
