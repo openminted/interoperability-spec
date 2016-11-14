@@ -6,8 +6,7 @@
 [small]#*_Category:_*     __WG4__#
 [small]#*_Status:_*       __draft__#
 
-A uniform workflow language allows to use the same elements of language to represent/describe a workflow (See * <<REQ-18>>. For example, link:http://www.commonwl.org/[Common Workflow Language (CWL)] is a workflow language used in many systems, for example Galaxy. Common parts to represent an executable workflow are the following :
-
+A uniform workflow language allows to use the same elements of language to represent/describe a workflow (See * <<REQ-18>>. For example, link:http://www.commonwl.org/[Common Workflow Language (CWL)] is a workflow language used in many systems, for example Galaxy. Common parts to represent an executable workflow are the following:
 |===
 |Parts | Description
 
@@ -25,8 +24,7 @@ A uniform workflow language allows to use the same elements of language to repre
 |===
 
 
-`@main_desc` is the part of the workflow represention that gives information about the workflow. It contains the following fields :
-
+`@main_desc` is the part of the workflow represention that gives information about the workflow. It contains the following fields:
 |===
 | Field | Description
 
@@ -43,8 +41,7 @@ A uniform workflow language allows to use the same elements of language to repre
 | A human readable description of the workflow.
 |===
 
-`@main_inputs` and `@main_outputs` are parts of the workflow representation that respectively difine the inputs and outputs `parameters` of the workflow. Each `parameter` contains at least the following fields :
-
+`@main_inputs` and `@main_outputs` are parts of the workflow representation that respectively difine the inputs and outputs `parameters` of the workflow. Each `parameter` contains at least the following fields:
 |===
 | Field | Description
 
@@ -58,9 +55,7 @@ A uniform workflow language allows to use the same elements of language to repre
 | to specify a default value for this parameter, if exists.
 |===
 
-`@steps` is the part of the workflow representation that defines the list of `modules` and the list of `dependencies` between modules of the workflow. 
-
-Each `module` is defined with the following fields :
+`@steps` is the part of the workflow representation that defines the list of `modules` and the list of `dependencies` between modules of the workflow. Each `module` is defined with the following fields :
 |===
 | Field | Description
 
@@ -77,8 +72,7 @@ Each `module` is defined with the following fields :
 | define the outputs parameters of this module. See the `parameter` table for the fields.
 |===
 
-The dependencies between the modules define the dataflow of the workflow. They tells what outputs are fed by inputs for execution. Each `dependency` is defined with the following fields :
-
+The dependencies between the modules define the dataflow of the workflow. They tells what outputs are fed by inputs for execution. Each `dependency` is defined with the following fields:
 |===
 | Field | Description
 
@@ -89,4 +83,4 @@ The dependencies between the modules define the dataflow of the workflow. They t
 | Is the `id` of a `input` of a specific `module` in this workflow.
 |===
 
-Note that, all elements described are supported by CWL that is built on technologies such as JSON-LD for data modeling and Docker for portable runtime environments. Another part, partially supported by CWL, can be considered to add `controls` like loops, conditions to the workflow. 
+NOTE: All elements described are supported by CWL that is built on technologies such as JSON-LD for data modeling and Docker for portable runtime environments. Another part, partially supported by CWL, can be considered to add `controls` like loops, conditions to the workflow.
