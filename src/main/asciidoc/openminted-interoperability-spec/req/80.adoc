@@ -1,0 +1,92 @@
+== Common elements to represent/describe an executable workflow
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __abstract|concrete__#
+[small]#*_Strength:_*     __mandatory|recommended|optional__#
+[small]#*_Category:_*     __WG4__#
+[small]#*_Status:_*       __draft__#
+
+A uniform workflow language allows to use the same elements of language to represent/describe a workflow (See * <<REQ-18>>. For example, link:http://www.commonwl.org/[Common Workflow Language (CWL)] is a workflow language used in many systems, for example Galaxy. Common parts to represent an executable workflow are the following :
+
+|===
+|Parts | Description
+
+|@main_desc
+|To provide information about the workflow.
+
+|@main_inputs
+|To define the inputs parameters of the workflow.
+
+|@main_outputs
+|To define the output parameters of the workflow.
+
+|@steps
+|To define the steps of the workflows.
+|===
+
+
+`@main_desc` is the part of the workflow represention that gives information about the workflow. It contains the following fields :
+
+|===
+| Field | Description
+
+| name
+| Name of the workflow.
+
+| command
+| Define the command to use for invoking the workflow.
+
+| version
+| Version of the workflow.
+
+| label
+| A human readable description of the workflow.
+|===
+
+`@main_inputs` and `@main_outputs` are parts of the workflow representation that respectively difine the inputs and outputs `parameters` of the workflow. Each `parameter` contains at least the following fields :
+
+|===
+| Field | Description
+
+| id
+| to identify this parameter.
+
+| type
+| type of values this parameter accepts e.g. float, string, File ...
+
+| value
+| to specify a default value for this parameter, if exists.
+|===
+
+`@steps` is the part of the workflow representation that defines the list of `modules` and the list of `dependencies` between modules of the workflow. 
+
+Each `module` is defined with the following fields :
+|===
+| Field | Description
+
+| name
+| name of the module.
+
+| command
+| define the command to use when invoke this module.
+
+| inputs
+| define the inputs parameters of this module. See the `parameter` table for the fields.
+
+| outputs
+| define the outputs parameters of this module. See the `parameter` table for the fields.
+|===
+
+The dependencies between the modules define the dataflow of the workflow. They tells what outputs are fed by inputs for execution. Each `dependency` is defined with the following fields :
+
+|===
+| Field | Description
+
+| module.output.id
+| Is the `id` of a `output` of a specific `module` in this workflow.
+
+| module.input.id
+| Is the `id` of a `input` of a specific `module` in this workflow.
+|===
+
+Note that, all elements described are supported by CWL that is built on technologies such as JSON-LD for data modeling and Docker for portable runtime environments. Another part, partially supported by CWL, can be considered to add `controls` like loops, conditions to the workflow. 
