@@ -7,7 +7,9 @@
 [small]#*_Status:_*       __draft__#
 
 See also 
+
 *<<REQ-45>>
+
 *<<REQ-72>>
 
 Some components (tools) will produce and consume files. To reduce mismatches and helps to properly handle the files, the following properties/features about the `file formats` are relevant (to attach to the description of the inputs/outputs that use `file`) :
