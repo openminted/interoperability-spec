@@ -2,7 +2,7 @@
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract|concrete__#
-[small]#*_Strength:_*     __mandatory|recommended|optional__#
+[small]#*_Strength:_*     __recommended__#
 [small]#*_Category:_*     __WG4__#
 [small]#*_Status:_*       __draft__#
 
