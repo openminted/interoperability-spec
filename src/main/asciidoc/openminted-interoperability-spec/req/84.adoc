@@ -1,0 +1,21 @@
+== Separating GATE metadata from the component
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+* <<REQ-3>>
+
+CREOLE metadata can be completely defined using an XML file (called `creole.xml` located at the root of a GATE plugin), however, we don't recommend this as it is too easy for embedded metadata and the XML version to go out of sync. It is useful though to have a standalone copy of the metadata as extracting it from the class file requires resolving the class, which in turn requires having access to the transitive dependencies which would be inefficient in situations such as the OpenMinTeD registry crawler.
+
+We recommend that during the build process a fully expanded copy of the metadata is produced and stored within the resulting JAR as `META-INF/gate/creole.xml` so that other systems, such as the OpenMinTeD registry crawler, can read the metadata directly without reference to any of the class files of the components or their transative dependencies.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+| GATE | 8.2 | Partial | While we provide the tools needed to produce the standalone metadata it is not currently part of the standard build process and so rarely happens. This will change with the next version of GATE. | draft
+|====
