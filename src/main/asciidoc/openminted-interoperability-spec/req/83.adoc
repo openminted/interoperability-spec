@@ -1,0 +1,25 @@
+== Documentation of GATE components
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+* <<REQ-12>>
+* <<REQ-15>>
+* <<REQ-21>>
+
+GATE components and their parameters are documented in two ways; CREOLE metadata and JavaDoc comments.
+
+It is possible to give each component and parameter a name and a human readable comment (used as a tooltip in the GUI) via the CREOLE metadata. Components can also be given a URL of more extensive documentation that the user can be redirected to. Combined with the way the GUI restricts configuration fields based upon automatically extracted metadata this documentation should be enough to aid regular users in configuring and using a component.
+
+JavaDoc comments are used to provide more API style documentation of each component and parameter and it is envisaged that this information is useful to those trying to embed GATE within another application rather than using the GUI.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+| GATE | 8.2 | Partial | While GATE provides ways of documenting components it is difficult to enforce this on all components especially those developed by 3rd parties | draft
+|====
