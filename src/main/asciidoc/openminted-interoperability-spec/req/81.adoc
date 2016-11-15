@@ -8,3 +8,20 @@
 
 .See also
 * <<REQ-2>>
+
+GATE provides a number of Javaannotations tht can be used to embed CREOLE metadata into the source of GATE components. The annotations relevant to OpenMinTeD are as follows:
+
+|===
+| Annotation | Description
+| `@CreoleResource` | used to annotate a class to show that it is a GATE resource. The type of resource (processing resource, language resource, etc.) depends upon the class hierarchy.
+| `@CreoleParameter` | used to annotate a bean setter method to indicate that the property defines a CREOLE parameter. A parameter can be provided with a default value using the `defaultValue` parameter of the annotation.
+|===
+
+All other metadata is determined at runtime via inspection of the class.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+| GATE | 8.2 | Full | Components can be fully specified through Java annotations | draft |
+|====
