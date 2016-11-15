@@ -1,0 +1,56 @@
+== == Unique identifier and version for components in the OMTD-SHARE schema
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+The OMTD-SHARE schema includes specific distinct metadata elements for identifier and version of all resources. More specifically:
+* identfier: element of type _xs:string_; it must be used together with the attributes _resourceIdentifierSchemeName_, by selecting a value from among the most widespread schemes for resource identifiers, or by adding a reference to the scheme in the _schemeURI_.
+* version: element of type _xs:string_
+Components that already include an identifier and version from previous metadata records, can map them to these elements. 
+
+NOTE: For components collected from Maven, the Maven id (groupId, artifactId, versionId) can be used with a reference to the Maven scheme (i.e. use the attribute _schemeURI_ with the value"https://maven.apache.org/pom.html#Maven_Coordinates").
+
+.See also
+* <<REQ-6>>
+
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| Alvis
+|
+| Unknown
+| Unknown
+| Draft
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Unknown
+| Unknown
+| Draft
+
+| GATE
+| 8.2
+| Unknown
+| Unknown
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+|====
+
