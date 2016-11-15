@@ -1,0 +1,40 @@
+== Unique identifiers and a versions for GATE components
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+* <<REQ-6>>
+
+Each GATE component is a Java class and as such can be uniquely identified by it's classname. Components are to be distributed via Maven amd versioning information will be recoreded as part of the link:https://maven.apache.org/pom.html#Maven_Coordinates[POM].
+Together these two sources provide the following information
+
+|===
+| Coordinate | Description | Source
+
+| groupId 
+| Group ID of the Maven artifact containing the component
+| Maven POM
+
+| artifactId 
+| Artifact ID of the Maven artifact containing the component
+| Maven POM
+
+| version 
+| Version of the Maven artifact containing the component
+| Maven POM
+
+| class 
+| Name of the class implementing the component
+| GATE CREOLE Metadata (derived from classname)
+|===
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+| GATE | 8.2 | Partial | Components are not yet distributed by Maven and as such versioning info is not available | draft
+|====
