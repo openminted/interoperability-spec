@@ -1,4 +1,4 @@
-=== Attach format properties to the description of the inputs and outputs that use file
+== Attaching format properties to the description of the inputs and outputs that use file
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __concrete__#
