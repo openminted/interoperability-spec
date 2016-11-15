@@ -1,4 +1,4 @@
-== == Unique identifier and version for components in the OMTD-SHARE schema
+== Unique identifier and version for components in the OMTD-SHARE schema
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __concrete__#
