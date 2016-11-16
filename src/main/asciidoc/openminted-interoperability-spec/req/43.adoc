@@ -6,7 +6,8 @@
 [small]#*_Category:_* __WG1__,__WG4__#
 [small]#*_Status:_* __final__#
 
-S/W (tools, web services, workflows) must indicate whether they are language-independent or the language(s) of the resources they take as input and output
+S/W (tools, web services, workflows) must indicate whether they are language-independent or the language(s) of the
+resources they take as input and output
 
 [cols="2,1,1,4,1"]
 |====
@@ -21,13 +22,15 @@ S/W (tools, web services, workflows) must indicate whether they are language-ind
 | ARGO
 | 0.5
 | No
-| UIMA descriptors allow the definition of languages supported by a component, however Argo doesn't make use of this information at present and currently no Argo components declare this metadata.
+| UIMA descriptors allow the definition of languages supported by a component, however Argo doesn't make use of
+this information at present and currently no Argo components declare this metadata.
 | Final
 
 | DKPro Core
 | 1.8.0
 | Partial
-| Most DKPro Core components take a model as a parameter. The model then ususally determines the language. Also for components that a locked to a specific language, this information is currently not included in the component metadata.
+| Most DKPro Core components take a model as a parameter. The model then usually determines the language. Also for
+components that are locked to a specific language, this information is currently not included in the component metadata.
 | Final
 
 | GATE

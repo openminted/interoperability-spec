@@ -10,7 +10,9 @@
 * <<REQ-45>>
 * <<REQ-72>>
 
-Some components (tools) will produce and consume files. To reduce mismatches and helps to properly handle the files, the following properties/features about the `file formats` are relevant (to attach to the description of the inputs/outputs that use `file`) :
+Some components (tools) will produce and consume files. To reduce mismatches and help to properly handle the files,
+the following properties/features about the `file formats` are relevant (to attach to the description of the
+inputs/outputs that use `file`) :
 
 |===
 |Feature | Strength | Description
@@ -23,9 +25,13 @@ Some components (tools) will produce and consume files. To reduce mismatches and
 
 |encoding | optional | identify the character encoding as described in the metadata (e.g., ms:characterEncoding)
 
-|parents | optional | formats from which this format is derived from, that allows to maintain an hierarchie of the formats. (Galaxy administrators do manage datatypes based on a hierarchy of formats)
+|parents | optional | formats from which this format is derived from, that allows to maintain a hierarchy of the
+formats. (Galaxy administrators do manage data types based on a hierarchy of formats)
 
 |doc_url | optional | link to the complete documentation provided in metadata (e.g., ms:documentationURL)
 |===
 
-The features are normally present in the metadata (e.g., ms:dataFormat) and in the embedded annotations (e.g., java annotations). To simplify, we can suppose that `id` is the only required element, even if all may be important for the users (e.g., to identify a specific file), the developers (e.g., to understand a file for implementation) or tools (e.g., to automatically process a file).
+The features are normally present in the metadata (e.g., ms:dataFormat) and in the embedded annotations (e.g.,
+java annotations). To simplify, we can suppose that `id` is the only required element, even if all may be important
+for the users (e.g., to identify a specific file), the developers (e.g., to understand a file for implementation) or
+tools (e.g., to automatically process a file).

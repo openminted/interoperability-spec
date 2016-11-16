@@ -15,19 +15,23 @@ s/w must indicate the specific formats of their output (e.g. statistical data, a
 | Alvis
 | 0.5rc
 | No
-| Information are limited 
+| Information is limited
 | Final
 
 | ARGO
 | 0.5
 | Partial
-| Components can optionally declare what types it will output,.
+| Components can optionally declare what types they will output.
 | Final
 
 | DKPro Core
 | 1.8.0
 | Partial
-| via @TypeCapability tags and also sometimes declared as javadoc. Mind that some components cannot clearly state the supported inputs/outputs until they actually process a document and have loaded the necessary models/rules. It may also be the case that despite declaring a certain input, the component may work without it or that despite declaring a certain output, the component may not actually produce it (e.g. because the user disabled the creation of the output or because a document simply contains no instance of the specific type)
+| via @TypeCapability tags and also sometimes declared as javadoc. Mind that some components cannot clearly state the
+supported inputs/outputs until they actually process a document and have loaded the necessary models/rules. It may also
+be the case that despite declaring a certain input, the component may work without it or that despite declaring a certain
+output, the component may not actually produce it (e.g. because the user disabled the creation of the output or because
+a document simply contains no instance of the specific type)
 | Final
 
 | GATE
