@@ -16,3 +16,28 @@ are determined by the available models. In such cases language information can n
 One option is to implement a functionality in the registry to look up available models for each component and update
 the component language capabilities based on the model’s language. This function can be triggered every time a new
 model is added to the registry.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Partial
+| Most DKPro Core components take a model as a parameter. The model then usually determines the language. Also for
+components that are locked to a specific language, this information is currently not included in the component metadata.
+| Draft
+
+| ILSP
+| 1.2.1
+| Unknown
+| Unknown
+| Draft
+|====
