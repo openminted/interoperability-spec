@@ -1,0 +1,18 @@
+== Embedding input language in UIMA component metadata
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also 
+* <<REQ-43>>
+* <<REQ-75>>
+
+This requirement can be fulfilled with implementation of requirement 75. However, it is common that components take a
+model as input parameter (for instance in the case of DKPro Core) and hence the languages supported by the component
+are determined by the available models. In such cases language information can not be encoded in the component metadata.
+One option is to implement a functionality in the registry to look up available models for each component and update
+the component language capabilities based on the model’s language. This function can be triggered every time a new
+model is added to the registry.
