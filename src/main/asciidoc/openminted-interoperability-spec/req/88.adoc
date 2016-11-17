@@ -1,0 +1,39 @@
+== Embedding output format in UIMA component metadata
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also 
+* <<REQ-45>>
+* <<REQ-75>>
+* <<REQ-86>>
+
+This requirement can be fulfilled with implementation of requirement 75. The output format of UIMA components can be
+defined using @MimeTypeCapability annotation.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Full
+| Components define their output format using @MimeTypeCapability annotation.
+| Draft
+
+| ILSP
+| 1.2.1
+| Unknown
+| Unknown
+| Draft
+|====
