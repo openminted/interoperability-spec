@@ -1,0 +1,88 @@
+== Version documentation in parallel with source
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG1__,__WG2__,__WG3__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also 
+* <<REQ-50>>
+
+To keep product and documentation in sync, It is a good practice to version documentation along with the source with
+identical versions. This means that documentation should reside inside the source as a dedicated module (e.g. for
+softwareX there could be softwareX-documentation module) with the same version identifier. Every time a new release of
+the software is published, its corresponding documentation accompanies it. This guarantees that source and
+documentation are always kept in sync.
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| TheSoz
+| Jun-16
+| No
+| No documentation available.
+| Draft
+
+| Agrovoc
+| 21/01/2016
+| Unknown
+|
+| draft
+
+| JATS
+| 1.1
+| Unknown
+|
+| draft
+
+| OLiA
+| Jun-16
+| Unknown
+|
+| draft
+
+| LAPPS
+| Jun-16
+| Unknown
+|
+| draft
+
+| Licences
+| Jun-16
+| Unknown
+|
+| draft
+
+| Alvis
+| 0.5rc
+| No
+| No version
+| draft
+
+| ARGO
+| 0.5
+| Unknown
+|
+| draft
+
+| DKPro Core
+| 1.8.0
+| Full
+| Documentation is versioned in parallel with the source code
+| draft
+
+| GATE
+| 8.2
+| Unknown
+|
+| draft
+
+| ILSP
+| 1.2.1
+| Unknown
+|
+| draft
+
+|====
