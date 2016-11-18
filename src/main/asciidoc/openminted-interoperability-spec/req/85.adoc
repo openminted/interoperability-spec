@@ -16,6 +16,7 @@ Components that already include an identifier and version from previous metadata
 
 NOTE: * For components collected from Maven, the Maven id (groupId, artifactId, versionId) can be used with a reference
 to the Maven scheme (i.e. use the attribute _schemeURI_ with the value"https://maven.apache.org/pom.html#Maven_Coordinates").
+
 * There is an ongoing discussion about a unique Persistent Identifier (PID) and the procedure for assigning it.
 
 .See also
