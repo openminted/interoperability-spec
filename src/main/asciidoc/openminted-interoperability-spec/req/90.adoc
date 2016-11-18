@@ -1,0 +1,48 @@
+== Components should be assigned at least one category from the OMTD-SHARE controlled vocabulary for component types
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+The OMTD-SHARE metadata schema includes the element _componentType_ which can be used for classifying components with values taken from a controlled vocabulary created in the OpenMinTeD project (implemented in SKOS: _pending link_). Each component can be assigned multiple values, allowing for multiple classification. The current set of values focuses on terms used by NLP and TDM experts, but it will be extended to include terms for non-expert users.
+
+* <<REQ-8>>
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| Alvis
+|
+| Unknown
+| Unknown
+| Draft
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Unknown
+| Unknown
+| Draft
+
+| GATE
+| 8.2
+| Unknown
+| Unknown
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+|====
