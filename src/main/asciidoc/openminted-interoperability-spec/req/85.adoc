@@ -12,13 +12,18 @@ More specifically:
 by selecting a value from among the most widespread schemes for resource identifiers, or by adding a reference to the
 scheme in the _schemeURI_.
 * version: element of type _xs:string_
-Components that already include an identifier and version from previous metadata records, can map them to these elements. 
+Components that already include an identifier and version from previous metadata records can map them to these elements. 
 
-NOTE: For components collected from Maven, the Maven id (groupId, artifactId, versionId) can be used with a reference
+NOTE: * For components collected from Maven, the Maven id (groupId, artifactId, versionId) can be used with a reference
 to the Maven scheme (i.e. use the attribute _schemeURI_ with the value"https://maven.apache.org/pom.html#Maven_Coordinates").
+* There is an ongoing discussion about a unique Persistent Identifier (PID) and the procedure for assigning it.
 
 .See also
 * <<REQ-6>>
+* <<REQ-32>>
+* <<REQ-35>>
+* <<REQ-77>>
+* <<REQ-82>>
 
 
 // Below is an example of how a compliance evaluation table could look. This is presently optional
