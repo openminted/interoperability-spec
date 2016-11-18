@@ -8,16 +8,45 @@
 
 The OMTD-SHARE schema includes specific distinct metadata elements for identifier and version of all resources.
 More specifically:
-* identifier: element of type _xs:string_; it must be used together with the attributes _resourceIdentifierSchemeName_,
-by selecting a value from among the most widespread schemes for resource identifiers, or by adding a reference to the
-scheme in the _schemeURI_.
-* version: element of type _xs:string_
+
+|====
+|Name|Element/Attribute|Type|Strength|Repeatability|Description
+
+|identifier
+|element
+|xs:string
+|mandatory
+|yes
+|Reference to a PID, DOI or any kind of identifier used by the resource provider for the resource; must obligatorily be used with the attribute _resourceIdentifierSchemeName_
+
+|resourceIdentifierSchemeName
+|attribute
+|open controlled vocabulary
+|mandatory
+|no
+|Reference to the resource scheme that has been used for the identifier (e.g. DOI, handle etc.); the list of values includes the most widespread schemes used for resources
+
+|schemeURI
+|attribute
+|URI
+|mandatory when applicable
+|no
+|Reference to a URI of the resource scheme that has been used for the identifier, providing more information about the resource scheme
+
+|version
+|attribute
+|xs:string
+|recommended
+|no
+|Any string, usually a number, that identifies the version of a resource
+|====
+
 Components that already include an identifier and version from previous metadata records can map them to these elements. 
 
-NOTE: * For components collected from Maven, the Maven id (groupId, artifactId, versionId) can be used with a reference
+NOTE: For components collected from Maven, the Maven id (groupId, artifactId, versionId) can be used with a reference
 to the Maven scheme (i.e. use the attribute _schemeURI_ with the value"https://maven.apache.org/pom.html#Maven_Coordinates").
 
-* There is an ongoing discussion about a unique Persistent Identifier (PID) and the procedure for assigning it.
+NOTE: There is an ongoing discussion about a unique Persistent Identifier (PID) and the procedure for assigning it which may lead to further specifications.
 
 .See also
 * <<REQ-6>>
