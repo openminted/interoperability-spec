@@ -1,4 +1,4 @@
-== Components should be assigned at least one category from the OMTD-SHARE controlled vocabulary for component types
+== Components must be assigned at least one category from the OMTD-SHARE controlled vocabulary for component types
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __concrete__#
@@ -6,7 +6,7 @@
 [small]#*_Category:_*     __WG1__,__WG4__#
 [small]#*_Status:_*       __draft__#
 
-The OMTD-SHARE metadata schema includes the element _componentType_ which can be used for classifying components with values taken from a controlled vocabulary created in the OpenMinTeD project (implemented in SKOS: _pending link_). Each component can be assigned multiple values, allowing for multiple classification. The current set of values focuses on terms used by NLP and TDM experts, but it will be extended to include terms for non-expert users.
+The OMTD-SHARE metadata schema includes the element _componentType_ which can be used for classifying components with values taken from a controlled vocabulary created in the OpenMinTeD project (implemented in SKOS: _pending link_). Each component must be assigned at least one value that best describes its function/task; the assignment of multiple values is possible, allowing for multiple classification. The current set of values focuses on terms of functions/tasks used by NLP and TDM experts, but it will be extended to include terms for non-expert users, catering for the description of integrated complex tasks.
 
 * <<REQ-8>>
 
