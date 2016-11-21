@@ -1,4 +1,4 @@
-== Embedding input language in UIMA component metadata
+== Embedding language capability in UIMA component metadata
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __concrete__#
