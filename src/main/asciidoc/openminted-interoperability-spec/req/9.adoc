@@ -1,4 +1,4 @@
-== Components should declare their annotation schema dependencies
+== Components must declare their annotation schema dependencies
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
