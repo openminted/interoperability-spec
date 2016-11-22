@@ -1,4 +1,4 @@
-== Components should detail all their environmental requirements for execution
+== Components must detail all their environmental requirements for execution
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
