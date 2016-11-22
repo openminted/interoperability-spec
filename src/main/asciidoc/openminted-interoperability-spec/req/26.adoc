@@ -1,4 +1,4 @@
-== Ability to determine source of an annotation/assigned category
+== It should be possible  to determine the source of an annotation/assigned category
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
