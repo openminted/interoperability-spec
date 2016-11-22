@@ -1,4 +1,4 @@
-== Components should be described by machine-readable metadata
+== Components must be described by machine-readable metadata
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
