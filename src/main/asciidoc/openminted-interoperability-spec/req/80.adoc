@@ -10,21 +10,21 @@ A uniform workflow language allows to use the same elements of language to repre
 |===
 |Parts | Description
 
-|@main_desc
+|Main_desc
 |To provide information about the workflow.
 
-|@main_inputs
+|Main_inputs
 |To define the inputs parameters of the workflow.
 
-|@main_outputs
+|Main_outputs
 |To define the output parameters of the workflow.
 
-|@steps
+|Steps
 |To define the steps of the workflows.
 |===
 
 
-`@main_desc` is the part of the workflow represention that gives information about the workflow. It contains the following fields:
+`Main_desc` is the part of the workflow represention that gives information about the workflow. It contains the following fields:
 |===
 | Field | Description
 
@@ -41,7 +41,7 @@ A uniform workflow language allows to use the same elements of language to repre
 | A human readable description of the workflow.
 |===
 
-`@main_inputs` and `@main_outputs` are parts of the workflow representation that respectively difine the inputs and outputs `parameters` of the workflow. Each `parameter` contains at least the following fields:
+`Main_inputs` and `Main_outputs` are parts of the workflow representation that respectively difine the inputs and outputs `parameters` of the workflow. Each `parameter` contains at least the following fields:
 |===
 | Field | Description
 
@@ -55,7 +55,7 @@ A uniform workflow language allows to use the same elements of language to repre
 | to specify a default value for this parameter, if exists.
 |===
 
-`@steps` is the part of the workflow representation that defines the list of `modules` and the list of `dependencies` between modules of the workflow. Each `module` is defined with the following fields :
+`Steps` is the part of the workflow representation that defines the list of `modules` and the list of `dependencies` between modules of the workflow. Each `module` is defined with the following fields :
 |===
 | Field | Description
 
