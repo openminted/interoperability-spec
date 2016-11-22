@@ -1,4 +1,4 @@
-== Components should declare whether they can be scaled within a workflow
+== Components must declare whether they can be scaled within a workflow
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
