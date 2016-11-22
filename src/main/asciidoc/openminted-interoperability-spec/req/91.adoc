@@ -1,0 +1,87 @@
+== Citable publications for components
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+* <<REQ-13>>
+
+It is customary to ask for scholarly attribution when a component is used through citation of a specific publication. 
+The OMTD-SHARE metadata schema includes a specific metadata element for this, namely "mustBeCitedWith", which is recommended and can be filled in either with the identifier of a publication (_publicationIdentifier_) or with a free text field (_documentUnstructured_).
+The preferred option is adding the identifier of the publication.
+
+|====
+|Name|Element/Attribute|Type|Strength|Repeatability|Description
+
+|publicationIdentifier
+|element
+|xs:string
+|mandatory (choice with documentUnstructured)
+|yes
+|Reference to a PID, DOI or any kind of identifier used for the publication; must obligatorily be used with the attribute _publicationIdentifierSchemeName_
+
+|publicationIdentifierSchemeName
+|attribute
+|open controlled vocabulary
+|mandatory
+|no
+|Reference to the publication scheme that has been used for the identifier (e.g. DOI, handle, arXiv, bibcode etc.); the list of values includes the most widespread schemes used for publications
+
+|schemeURI
+|attribute
+|URI
+|mandatory when applicable
+|no
+|Reference to a URI of the resource scheme that has been used for the identifier, providing more information about the resource scheme
+
+|documentUnstructured
+|element
+|xs:string
+|mandatory (choice with publicationIdentifier)
+|no
+|Used either as a free text description or as an unstructured (free form) presentation of a bibliographic record; alternative to the structured presentation of a document
+|====
+
+According to REQ-2, this information should be provided in the component metadata. The recommended way to do this is by adding Java annotations in the GATE and UIMA descriptors specific to this element.
+
+NOTE: discuss how to do this
+
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| Alvis
+|
+| Unknown
+| Unknown
+| Draft
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Unknown
+| Unknown
+| Draft
+
+| GATE
+| 8.2
+| Unknown
+| Unknown
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+|====
