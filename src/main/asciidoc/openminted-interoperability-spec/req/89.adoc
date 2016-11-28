@@ -1,4 +1,4 @@
-== Version documentation in parallel with source
+== Version documentation in parallel with component/resource
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __concrete__#
@@ -9,11 +9,21 @@
 .See also 
 * <<REQ-50>>
 
-To keep product and documentation in sync, It is a good practice to version documentation along with the source with
-identical versions. This means that documentation should reside inside the source as a dedicated module (e.g. for
-softwareX there could be softwareX-documentation module) with the same version identifier. Every time a new release of
-the software is published, its corresponding documentation accompanies it. This guarantees that source and
-documentation are always kept in sync.
+To keep the source material (i.e. component/resource) and documentation in sync, it is a good practice to version
+documentation along with the source material with identical versions. This means that documentation should reside in a
+subdirectory inside the source directory. It is also recommended that the source directory is stored under a
+version control repository. Every time a release is made, contents of the release should be identical to a specific
+time-state of the repository. This guarantees that each release of the source material contains its corresponding
+ documentation and they are always kept in sync.
+
+For software (i.e. components) the documentation should be stored in a module dedicated for this purpose (e.g. for
+softwareX there could be softwareX-documentation module).
+
+In some cases a certain version of documentation needs to be updated; for instance, to fix errors or provide more
+examples (not typical for software). In this scenario, it is recommended to publish the updated documentation with the
+same version identifier but with an updated revision number. For example, if the first documentation is released with
+version *v2.0 rev.1* then the updated documentation should be published with version *v2.0 rev.2*. As an alternative,
+update date of the document can be attached instead of the revision identifier.
 
 [cols="2,1,1,4,1"]
 |====
