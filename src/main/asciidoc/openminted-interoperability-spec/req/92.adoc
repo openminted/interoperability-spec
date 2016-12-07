@@ -1,0 +1,65 @@
+== Including license text in resource packages
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __recommended__#
+[small]#*_Category:_*     __WG1__,__WG3__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+* <<REQ-51>>
+
+The license text of a resources should be included with a packaged resource. The exact way this is
+done depends on the type of packaging.
+
+.ZIP files
+
+In ZIP files, the license should be located at the root of the file in a plain text file called
+`LICENSE`. The file may optionally have the suffix `.txt`. If multiple licenses apply, all of them
+should be concatenated in that file.
+
+.Java JAR files
+
+In Java JAR files, the license should be located in a plain text file `META-INF/LICENSE`. The file
+may optionally have the suffix `.txt`. If multiple licenses apply, all of them should be concatenated
+in that file.
+
+.Docker 
+
+*FIXME*
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| Alvis
+|
+| Unknown
+| Unknown
+| Draft
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Unknown
+| Unknown
+| Draft
+
+| GATE
+| 8.2
+| Unknown
+| Unknown
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+|====
