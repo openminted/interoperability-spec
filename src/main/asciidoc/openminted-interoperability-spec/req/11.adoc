@@ -33,7 +33,7 @@ To accommodate scaling of a workflow, it is imperative to understand which compo
 | GATE
 | 8.2
 | Full
-| Being Java Beans a GATE component is inherently single threaded, although there is no reason why a component cannot be instantiated multiple times within or across JVM's. It is, however, worth pointing out that within a JVM naively creating multiple instances of a component is probably not a good idea as this is likely to be wasteful in terms of memory as multiple instances of large data structures might be created. GATE contains methods to duplicate components and entire workflows in a more sensible fashion to share internal sturctures where safe to do so.
+| Being Java Beans a GATE component is inherently single threaded, although there is no reason why a component cannot be instantiated multiple times within or across JVM's. It is, however, worth pointing out that within a JVM naively creating multiple instances of a component is probably not a good idea as this is likely to be wasteful in terms of memory as multiple instances of large data structures might be created. GATE contains methods to duplicate components and entire workflows in a more sensible fashion to share internal structures where safe to do so.
 | Draft
 
 | ILSP

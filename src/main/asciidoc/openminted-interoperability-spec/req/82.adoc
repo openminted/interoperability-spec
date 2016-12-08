@@ -9,7 +9,7 @@
 .See also
 * <<REQ-6>>
 
-Each GATE component is a Java class and as such can be uniquely identified by it's classname. Components are to be distributed via Maven amd versioning information will be recoreded as part of the link:https://maven.apache.org/pom.html#Maven_Coordinates[POM].
+Each GATE component is a Java class and as such can be uniquely identified by it's classname. Components are to be distributed via Maven and versioning information will be recorded as part of the link:https://maven.apache.org/pom.html#Maven_Coordinates[POM].
 Together these two sources provide the following information
 
 |===

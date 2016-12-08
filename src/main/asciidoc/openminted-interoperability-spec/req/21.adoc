@@ -24,7 +24,7 @@ Components in systems such as Alvis offer several parameters used to configure t
 | ARGO
 | 0.5
 | Full
-| As Argo components are also UIMA components containing UIMA XML descriptor files, all configuration parameters have a name, a type (String, Integer, Float, or Boolean), an optional description, can be mulitvalued and also made to be mandatory.  Argo also allows an additional layer of information on top of the UIMA configuration parameters, such as indicating whether a string represents a file, a folder, or an enumeration.  This is intended to assist in both validation of configuration values and in providing the most appropriate graphical widgets within the Argo UI.
+| As Argo components are also UIMA components containing UIMA XML descriptor files, all configuration parameters have a name, a type (String, Integer, Float, or Boolean), an optional description, can be multivalued and also made to be mandatory.  Argo also allows an additional layer of information on top of the UIMA configuration parameters, such as indicating whether a string represents a file, a folder, or an enumeration.  This is intended to assist in both validation of configuration values and in providing the most appropriate graphical widgets within the Argo UI.
 | Draft
 
 | DKPro Core

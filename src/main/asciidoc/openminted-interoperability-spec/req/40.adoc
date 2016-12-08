@@ -6,7 +6,7 @@
 [small]#*_Category:_* __WG1__,__WG4__#
 [small]#*_Status:_* __final__#
 
-Component (web services & workflows but also of tools) classification & description must include metadata that describe the task they perform (e.g. anntotation, named entity recogntion), preferably in the form of a standard(ised) vocabulary
+Component (web services & workflows but also of tools) classification & description must include metadata that describe the task they perform (e.g. annotation, named entity recognition), preferably in the form of a standard(ised) vocabulary
 
 .See also
 * <<REQ-36>>

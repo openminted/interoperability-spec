@@ -15,7 +15,7 @@ A workflow execution system will need to know which annotation schemas to load w
 | Alvis
 | 0.5rc
 | No
-| Work in progess.
+| Work in progress.
 | Draft
 
 | ARGO
@@ -33,7 +33,7 @@ A workflow execution system will need to know which annotation schemas to load w
 | GATE
 | 8.2
 | No
-| GATE does not require components to specifiy annotation shemas, and has no way (currently) of recording that information even if it were available. This is because GATE does not enforce a type system. This does mean that no annotation schemas have to be loaded for a GATE component to execute. This lack of an enforced type system is a feature of GATE and not a bug and so is unlikely to change, meaning any requirement to specify schemas per component is likely to only ever be optional within GATE.
+| GATE does not require components to specify annotation schemas, and has no way (currently) of recording that information even if it were available. This is because GATE does not enforce a type system. This does mean that no annotation schemas have to be loaded for a GATE component to execute. This lack of an enforced type system is a feature of GATE and not a bug and so is unlikely to change, meaning any requirement to specify schemas per component is likely to only ever be optional within GATE.
 | Draft
 
 | ILSP

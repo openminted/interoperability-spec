@@ -6,7 +6,7 @@
 [small]#*_Category:_*     __WG4__#
 [small]#*_Status:_*       __draft__#
 
-It is important that not only is a license strongly assigned to components and resources but that this information is passed upwards through workflows etc. so that a license can be assigned to an agregate or to newly created resources that result.
+It is important that not only is a license strongly assigned to components and resources but that this information is passed upwards through workflows etc. so that a license can be assigned to an aggregate or to newly created resources that result.
 To this end storing license information within component metadata seems the most sensible way forward.
 
 [cols="2,1,1,4,1"]

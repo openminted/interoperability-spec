@@ -35,7 +35,7 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | UIMA
 | 2.8.1
 | Full
-| UIMA supports the concept of *aggregate analysis engines* whose delegates can be either primitive analysis engines or further aggregate engines. Aggegate engines may declare parameters whose values can be forwarded to delegates.
+| UIMA supports the concept of *aggregate analysis engines* whose delegates can be either primitive analysis engines or further aggregate engines. Aggregate engines may declare parameters whose values can be forwarded to delegates.
 | Draft
 
 | DKPro Core
@@ -47,7 +47,7 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | GATE
 | 8.2
 | Full
-| In GATE every application is also a component allowing arbritary nesting of applications.
+| In GATE every application is also a component allowing arbitrary nesting of applications.
 | Draft
 
 | ILSP

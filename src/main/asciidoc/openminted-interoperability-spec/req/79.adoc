@@ -10,7 +10,7 @@
 * <<REQ-12>>
 * <<REQ-21>>
 
-The documentation of UIMA components should be maintained as JavaDoc in the component source code. The link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#tools.uimafit.maven[uimaFIT Maven plugin] goal `enhance` picks the documentation of components and parameters up from there and embedds it into the compiled class. The goal `generate` finally transfers the documentation into the automatically generated UIMA resource specifiers.
+The documentation of UIMA components should be maintained as JavaDoc in the component source code. The link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#tools.uimafit.maven[uimaFIT Maven plugin] goal `enhance` picks the documentation of components and parameters up from there and embeds it into the compiled class. The goal `generate` finally transfers the documentation into the automatically generated UIMA resource specifiers.
 
 The *description* properties of the uimaFIT `@ConfigurationParameter` and of the `@ResourceMetaData` annotations should *not* be used.
 
@@ -54,7 +54,7 @@ protected String language;
 | DKPro Core
 | 1.8.0
 | Fully
-| Documentation is mainained as JavaDoc and transferred into UIMA resource specifiers using the uimaFIT Maven plugin.
+| Documentation is maintained as JavaDoc and transferred into UIMA resource specifiers using the uimaFIT Maven plugin.
 | Draft
 
 | ILSP

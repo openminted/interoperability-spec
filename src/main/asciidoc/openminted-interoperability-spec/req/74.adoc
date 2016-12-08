@@ -35,7 +35,7 @@ classpath*:my/organizations/domain/name/package/Component.xml
 
 The locator file should be automatically generated using the `generate` goal of the uimaFIT Maven Plugin as described in the link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#d5e639[uimaFIT documentation].
 
-There must be at most *one* resource specifer per component class. I.e. no two resource specifiers should use the same implementation class.
+There must be at most *one* resource specifier per component class. I.e. no two resource specifiers should use the same implementation class.
 
 .Compliance assessment
 [cols="2,1,1,4,1"]

@@ -51,7 +51,7 @@ Information on funding sources (e.g. projects, funders data etc.) may be include
 | OLiA
 | Jun-16
 | No
-| Some ontologies reference the project in which the resour ce was created.
+| Some ontologies reference the project in which the resource was created.
 | Final
 
 | LAPPS
@@ -69,7 +69,7 @@ Information on funding sources (e.g. projects, funders data etc.) may be include
 | Alvis
 | 0.5rc
 | No
-| No funding information included in metatdata
+| No funding information included in metadata
 | Final
 
 | ARGO

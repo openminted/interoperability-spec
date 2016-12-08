@@ -15,13 +15,13 @@ Text and Data Mining (TDM) components are not always self-contained entities; fo
 | Alvis
 | 0.5rc
 | Partial
-| Some components may need external libraries or resources. Alvis works better in a lunix environment.
+| Some components may need external libraries or resources. Alvis works better in a Linux environment.
 | Draft
 
 | ARGO
 | 0.5
 | Partial
-| All components are distributed as UIMA PEAR files written in Java, with some components requiring platform-specific binaries.  Platform-specific binaries are provided for OSX, Windows and Linux.  This appears to be the same behaviour as DK Pro.  When running a worklow on a cluster/cloud, Argo requires an expected maximum memory limit per component instance in a workflow, and this is not included in the component's metadata - it has to be entered manually by users.
+| All components are distributed as UIMA PEAR files written in Java, with some components requiring platform-specific binaries.  Platform-specific binaries are provided for OSX, Windows and Linux.  This appears to be the same behaviour as DK Pro.  When running a workflow on a cluster/cloud, Argo requires an expected maximum memory limit per component instance in a workflow, and this is not included in the component's metadata - it has to be entered manually by users.
 | Draft
 
 | DKPro Core
@@ -33,7 +33,7 @@ Text and Data Mining (TDM) components are not always self-contained entities; fo
 | GATE
 | 8.2
 | Partial
-| All components are written in Java althougbh some may make use of external platform-specific binaries. Where this is the case either the binaries are provided as part of the plugin, or documentation is provided explainnig how to obtain and install the appropriate components. There is no metadata to highlight the need for external components, although the metadata can (and usually does) provide a URL to the documentation where it would be discussed in detail.
+| All components are written in Java although some may make use of external platform-specific binaries. Where this is the case either the binaries are provided as part of the plugin, or documentation is provided explaining how to obtain and install the appropriate components. There is no metadata to highlight the need for external components, although the metadata can (and usually does) provide a URL to the documentation where it would be discussed in detail.
 | Draft
 
 | ILSP
