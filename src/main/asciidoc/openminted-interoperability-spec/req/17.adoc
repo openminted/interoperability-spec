@@ -21,7 +21,7 @@ NOTE: If a component is required to be stateful, it would make sense for the pla
 | Alvis
 | 0.5rc
 | Partial
-| In a general way, there is no local state for a component and determinism is guaranted. However, aspects such as resource availability and resource access may imply state issues that Alvis core engine has to manage.
+| In a general way, there is no local state for a component and determinism is guaranteed. However, aspects such as resource availability and resource access may imply state issues that Alvis core engine has to manage.
 | Draft
 
 | ARGO
@@ -39,7 +39,7 @@ NOTE: If a component is required to be stateful, it would make sense for the pla
 | GATE
 | 8.2
 | No
-| *never* - GATE components are all Java beans. This means that the document to process is provided to the component via a set method making it part of the state of the component. Multiple instances of a component can of course be created to enable processing of multiple documents in parallel. Naively creating multiple instances should, however, be avoided as this is wasteful in terms of memory as it reequires multiple copies of internal state that can be shared. The framework supports inteligent duplication of components and applications to share appropriate state across threads.
+| *never* - GATE components are all Java beans. This means that the document to process is provided to the component via a set method making it part of the state of the component. Multiple instances of a component can of course be created to enable processing of multiple documents in parallel. Naively creating multiple instances should, however, be avoided as this is wasteful in terms of memory as it requires multiple copies of internal state that can be shared. The framework supports intelligent duplication of components and applications to share appropriate state across threads.
 | Draft
 
 | ILSP

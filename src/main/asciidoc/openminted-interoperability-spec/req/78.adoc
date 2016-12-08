@@ -24,7 +24,7 @@ The input and output of UIMA components should be declared in the component's re
 
 It may not always be known what types a component produces or consumes. For example, the production/consumption of some types might be optional. Optional types should always be declared, even if they are not always produced7consumed. 
 
-The types being produced or consumed by truely generic components may depend on their specific parameter settings or on they models they are configured with (e.g. a rule-based transducer). Such components should not be expected to declare input/output types.
+The types being produced or consumed by truly generic components may depend on their specific parameter settings or on they models they are configured with (e.g. a rule-based transducer). Such components should not be expected to declare input/output types.
 
 UIMA type capabilities only specify the names of input and output types, but not where to locate the type system information or which version of the type system is used.
 

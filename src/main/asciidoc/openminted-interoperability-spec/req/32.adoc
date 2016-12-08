@@ -8,7 +8,7 @@
 
 Version information must be included in the metadata of all resources. 
 
-NOTE: At this point, we only wish to check whether versioning is represented in the metadata, and the recommended action can be to at least add the last udpate date; however, to ensure interoperability, we need to create guidelines for defining the notion of "version" for the same resource type and promote standardisation of its representation, at least per resource type; we also need to distinguish between versions of the metadata records and versions of the resources themselves
+NOTE: At this point, we only wish to check whether versioning is represented in the metadata, and the recommended action can be to at least add the last update date; however, to ensure interoperability, we need to create guidelines for defining the notion of "version" for the same resource type and promote standardisation of its representation, at least per resource type; we also need to distinguish between versions of the metadata records and versions of the resources themselves
 
 [cols="2,1,1,4,1"]
 |====

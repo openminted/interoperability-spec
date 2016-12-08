@@ -9,7 +9,7 @@
 .See also
 * <<REQ-2>>
 
-GATE provides a number of Javaannotations tht can be used to embed CREOLE metadata into the source of GATE components. The annotations relevant to OpenMinTeD are as follows:
+GATE provides a number of Javaannotations that can be used to embed CREOLE metadata into the source of GATE components. The annotations relevant to OpenMinTeD are as follows:
 
 |===
 | Annotation | Description

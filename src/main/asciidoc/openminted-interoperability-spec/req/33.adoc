@@ -17,7 +17,7 @@ NOTE: For this version, we will allow also "open access" or "other" etc. as stat
 | CORE
 | Jun-16
 | Partial
-| Corpus coming from Open Access repositories, explicit licensing information included where avaialable
+| Corpus coming from Open Access repositories, explicit licensing information included where available
 | Final
 
 | OpenAIRE

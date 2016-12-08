@@ -6,7 +6,7 @@
 [small]#*_Category:_*     __WG1__,__WG4__#
 [small]#*_Status:_*       __final__#
 
-Capturing, computing and presenting simplified information (e.g., availability, reliability, QoS, provider, class) about resources bring decisional information to best choose a specific resource compared to others. For example, based on aspects such as availability or QoS, one may ceate a specific view to filter out some specific services.
+Capturing, computing and presenting simplified information (e.g., availability, reliability, QoS, provider, class) about resources bring decisional information to best choose a specific resource compared to others. For example, based on aspects such as availability or QoS, one may create a specific view to filter out some specific services.
 
 // Below is an example of how a compliance evaluation table could look. This is presently optional
 // and may be moved to a more structured/principled format later maintained in separate files.
@@ -29,7 +29,7 @@ Capturing, computing and presenting simplified information (e.g., availability, 
 | DKPro Core
 | 1.8.0
 | Full
-| Components should come with a description (primarily obtained from the JavaDoc of the component). That information may not be particularly comprehensive though. Availability, reliability, and the other example information given above are not releavant for DKPro Core as it is not service-based. 
+| Components should come with a description (primarily obtained from the JavaDoc of the component). That information may not be particularly comprehensive though. Availability, reliability, and the other example information given above are not relevant for DKPro Core as it is not service-based. 
 | Draft
 
 | GATE

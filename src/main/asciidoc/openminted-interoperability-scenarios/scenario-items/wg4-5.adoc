@@ -32,7 +32,7 @@ Experience of deploying enterprise or end-user services that includes some level
 
 ==== Approaches
 
-OpenMinTeD could specifiy a standard API to access worklows (parameters, LR), output (annotations, clusters,
+OpenMinTeD could specify a standard API to access workflows (parameters, LR), output (annotations, clusters,
 classifiers), and status (running, fail).
 
 ==== Open questions

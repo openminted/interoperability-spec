@@ -8,7 +8,7 @@
 
 
 
-A workflow represents an experiment that users describe, visualize, execute, modifify and shared. To facilitate the lifecycle, the workflows should be described in a uniform way so that the instantiated components, parameters and data flow to be understandable by users as well as by the engines.
+A workflow represents an experiment that users describe, visualize, execute, modify and shared. To facilitate the lifecycle, the workflows should be described in a uniform way so that the instantiated components, parameters and data flow to be understandable by users as well as by the engines.
 
 Note - we may wish to be more specific with this requirement
 
@@ -27,13 +27,13 @@ Note - we may wish to be more specific with this requirement
 | ARGO
 | 0.5
 | Partial
-| Possibily misinterpreting this requirement, but Argo contains a visual web-based workflow editor which allows a user to easily compose a workflow using components, which is then translated into a format understood by the execution engine within Argo.  Argo is only partially compliant as the workflows it produces cannot currently be shared outside of the Argo platform.
+| Possibly misinterpreting this requirement, but Argo contains a visual web-based workflow editor which allows a user to easily compose a workflow using components, which is then translated into a format understood by the execution engine within Argo.  Argo is only partially compliant as the workflows it produces cannot currently be shared outside of the Argo platform.
 | Draft
 
 | DKPro Core
 | 1.8.0
 | Unknown
-| DKPro Core is build on UIMA and can be invoked through UIMA by any workflow manager or execution environment that supports UIMA. We do not really care whatever language that environment is using to describe their workflows. Many users like using DKPro Core components with uimaFIT (often either using SimplePipeline or CpeBuilder) - DKPro Core provides examples for this in various languages (Java, Groovy, Jython). LAPPS Grid integrates serives based on DKPro Core components with their Galaxy workflow engine. 
+| DKPro Core is build on UIMA and can be invoked through UIMA by any workflow manager or execution environment that supports UIMA. We do not really care whatever language that environment is using to describe their workflows. Many users like using DKPro Core components with uimaFIT (often either using SimplePipeline or CpeBuilder) - DKPro Core provides examples for this in various languages (Java, Groovy, Jython). LAPPS Grid integrates services based on DKPro Core components with their Galaxy workflow engine. 
 | Draft
 
 | GATE

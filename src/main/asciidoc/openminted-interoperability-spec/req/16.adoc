@@ -23,7 +23,7 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | Alvis
 | 0.5rc
 | Partial
-| Alvis has a stream manager that enables to caracterize models/resources to load or to store, it supports file system, web access, zip/jar,... and is extensible. 
+| Alvis has a stream manager that enables to characterize models/resources to load or to store, it supports file system, web access, zip/jar,... and is extensible. 
 | Draft
 
 | ARGO

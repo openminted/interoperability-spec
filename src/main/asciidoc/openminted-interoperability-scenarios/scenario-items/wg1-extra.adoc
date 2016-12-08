@@ -1,4 +1,4 @@
-=== Reqiuirements for WG1 from other WGs' scenarios
+=== Requirements for WG1 from other WGs' scenarios
 
 ==== From WG1
 

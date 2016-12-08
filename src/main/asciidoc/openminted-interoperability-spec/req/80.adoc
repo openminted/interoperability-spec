@@ -24,7 +24,7 @@ A uniform workflow language allows to use the same elements of language to repre
 |===
 
 
-`Main_desc` is the part of the workflow represention that gives information about the workflow. It contains the following fields:
+`Main_desc` is the part of the workflow representation that gives information about the workflow. It contains the following fields:
 |===
 | Field | Description
 
@@ -41,7 +41,7 @@ A uniform workflow language allows to use the same elements of language to repre
 | A human readable description of the workflow.
 |===
 
-`Main_inputs` and `Main_outputs` are parts of the workflow representation that respectively difine the inputs and outputs `parameters` of the workflow. Each `parameter` contains at least the following fields:
+`Main_inputs` and `Main_outputs` are parts of the workflow representation that respectively define the inputs and outputs `parameters` of the workflow. Each `parameter` contains at least the following fields:
 |===
 | Field | Description
 

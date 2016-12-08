@@ -35,7 +35,7 @@ NOTE: This requirement is considered premature; although it is important, we nee
 | GATE
 | 8.2
 | Partial
-| Perfomance is sometimes available for specific tools over specific collections, but not generally. Quoting perfomance would also need us to quote the conditions under which it was obtained
+| Performance is sometimes available for specific tools over specific collections, but not generally. Quoting performance would also need us to quote the conditions under which it was obtained
 | Final
 
 | ILSP

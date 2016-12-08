@@ -11,7 +11,7 @@ IMPORTANT: This requirement has been deprecated per discussion in WG4. If multip
 Whenever possible, components should allow to incorporate multiple resources in parallel, e.g. looking up a word from multiple sources or using multiple classification models in parallel. Examples:
 
 * Stanford CoreNLP named entity recognizer can load multiple NER models in parallel
-* a Gazeteer should be able to access not only a single knowledge resources, but be able to access e.g. multiple SparQL endpoints
+* a Gazetteer should be able to access not only a single knowledge resources, but be able to access e.g. multiple SparQL endpoints
 
 Components may choose or have to disambiguate results if there are multiple hits, e.g. using a relevance or confidence score, in particular if the annotation scheme being used does not allow for multiple categories to be assigned to a single element (e.g. a Named Entity) or does not allow multiple elements to exist at the same location.
 
