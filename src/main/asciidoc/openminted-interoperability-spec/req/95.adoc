@@ -1,0 +1,67 @@
+== The KR format should be in a standard format such as XML, JSON or RDF.
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_* __recommended__#
+[small]#*_Category:_* __WG2__#
+[small]#*_Status:_* __draft__#
+
+.See also
+* <<REQ-72>>
+
+Standard formats for knowledge resources enables TDM to make use of common software infrastructure for ingesting and using knowledge resources, and can ease knowledge resource interoperability. Knowledge resources should use XML or JSON based syntax. For Linked Data resources, any RDF format may be used, for example JSON-LD or RDF/XML.
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| TheSoz
+| June 2016
+| Full
+| RDF
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Full
+| 
+| Final
+
+| JATS
+| 1.1
+| Partial
+| XSD/RELAX-NG/DTD
+| Final
+
+| OLiA
+| June 2016
+| Full
+| 
+| Final
+
+| LAPPS
+| June 2016
+| Full
+| 
+| Final
+
+
+| Ontolex
+| June 2016
+| Full
+| 
+| Final
+
+| CLARIN CCR
+| June-2016
+| Full
+| 
+| Final
+
+| schema.org
+| 1.2.1
+| Full
+| 
+| Final
+
+|====

@@ -1,0 +1,76 @@
+== Data Category Linking Vocabulary
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_* __recommended__#
+[small]#*_Category:_* __WG2__#
+[small]#*_Status:_* __draft__#
+
+.See also
+* <<REQ-68>>
+* <<REQ-69>>
+
+Knowledge resource authors should provide linkage between their own resource, other resources in their domain, and generic resources such as citation standards. This enables TDM workflows that make use of multiple resources to resolve relationships between those resources.
+
+Where linking between knowledge resources is modeled by a Linked Data resource, mapping should be expressed through RDF statements, using relations from https://www.w3.org/2004/02/skos/[SKOS], together with the following OWL and RDF object properties:
+
+* owl:sameAs
+* owl:equivalentClass
+* owl:equivalentProperty
+* rdfs:subClassOf
+* rdfs:subPropertyOf
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| TheSoz
+| June 2016
+| Full
+| 
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Full
+| 
+| Final
+
+| JATS
+| 1.1
+| No
+| 
+| Final
+
+| OLiA
+| June 2016
+| Full
+| 
+| Final
+
+| LAPPS
+| June 2016
+| Full
+| 
+| Final
+
+
+| Ontolex
+| June 2016
+| Full
+| 
+| Final
+
+| CLARIN CCR
+| June 2016
+| No
+| 
+| Final
+
+| schema.org
+| June 2016
+| Full
+| 
+| Final
+
+|====
