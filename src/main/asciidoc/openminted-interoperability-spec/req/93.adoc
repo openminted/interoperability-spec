@@ -1,0 +1,74 @@
+== Provide identifiers for knowledge resource elements
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_* __recommended__#
+[small]#*_Category:_* __WG2__#
+[small]#*_Status:_* __draft__#
+
+.See also
+* <<REQ-67>>
+
+When making use of multiple knowledge resources, TDM workflows may need to identify individual knowledge resource elements and knowledge resource schema elements. For example,
+* A workflow may need to access information about an element. 
+* Multiple resources may be harmonised, requiring the relationships between schema elements to be specified.
+
+For this identification purpose, knowledge resource schema elements should be identified with a URI. For Linked Data resources, the following identifiers should  be used:
+* JSON-LD - the @id keyword
+* RDF/XML - the attributes xml:base, rdf:ID and rdf:about
+* XML - the xml:id attribute
+
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| TheSoz
+| June 2016
+| Full
+| 
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Full
+| 
+| Final
+
+| JATS
+| 1.1
+| Full
+| 
+| Final
+
+| OLiA
+| June 2016
+| Full
+| 
+| Final
+
+| LAPPS
+| June 2016
+| Full
+| 
+| Final
+
+
+| Ontolex
+| June 2016
+| Full
+| 
+| Final
+
+| CLARIN CCR
+| June 2016
+| Full
+| 
+| Final
+
+| schema.org
+| June 2016
+| Full
+| 
+| Final
+
+|====
