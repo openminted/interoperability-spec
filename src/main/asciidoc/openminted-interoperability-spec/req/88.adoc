@@ -14,6 +14,8 @@
 This requirement can be fulfilled with implementation of requirement 75. The output format of UIMA components can be
 defined using @MimeTypeCapability annotation.
 
+NOTE: This can be mapped to the OMTD-SHARE schema elements _mimeType_, which should take values from the IANA mimetype controlled vocabulary, and, in case this is not sufficient, _dataFormatSpecific_ (a free text field for specifying a name of a data format) and  _documentationURL_ (link to a URL with more infomation about the format), all embedded in _outputResourceInfo_.
+
 .Compliance assessment
 [cols="2,1,1,4,1"]
 |====
