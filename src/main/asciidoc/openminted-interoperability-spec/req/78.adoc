@@ -22,7 +22,7 @@ The input and output of UIMA components should be declared in the component's re
     "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS" })
 ----
 
-It may not always be known what types a component produces or consumes. For example, the production/consumption of some types might be optional. Optional types should always be declared, even if they are not always produced7consumed. 
+It may not always be known what types a component produces or consumes. For example, the production/consumption of some types might be optional. Optional types should always be declared, even if they are not always produced/consumed. 
 
 The types being produced or consumed by truly generic components may depend on their specific parameter settings or on they models they are configured with (e.g. a rule-based transducer). Such components should not be expected to declare input/output types.
 
@@ -31,6 +31,7 @@ UIMA type capabilities only specify the names of input and output types, but not
 OpenMinTeD may therefore check the dependencies of the Maven artifact containing the component for type system declarations using the `META-INF/org.apache.uima.fit/types.txt` link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#ugr.tools.uimafit.typesystem[locator mechanism].
 
 NOTE: Searching for types in the transitive dependencies of a component requires downloading all the transitive dependencies. This is something we explicitly wanted to avoid in <<REQ-3>>.
+NOTE: Annotation types for input and output resources can be mapped to the OMTD-SHARE element annotationLevel embedded in the inputContentResourceInfo and the outputResourceInfo respectively.
 
 .Compliance assessment
 [cols="2,1,1,4,1"]
