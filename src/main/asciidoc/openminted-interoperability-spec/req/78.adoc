@@ -31,6 +31,8 @@ UIMA type capabilities only specify the names of input and output types, but not
 OpenMinTeD may therefore check the dependencies of the Maven artifact containing the component for type system declarations using the `META-INF/org.apache.uima.fit/types.txt` link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#ugr.tools.uimafit.typesystem[locator mechanism].
 
 NOTE: Searching for types in the transitive dependencies of a component requires downloading all the transitive dependencies. This is something we explicitly wanted to avoid in <<REQ-3>>.
+
+
 NOTE: Annotation types for input and output resources can be mapped to the OMTD-SHARE element annotationLevel embedded in the inputContentResourceInfo and the outputResourceInfo respectively.
 
 .Compliance assessment
