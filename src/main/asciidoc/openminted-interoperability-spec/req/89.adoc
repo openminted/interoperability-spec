@@ -33,61 +33,55 @@ update date of the document can be attached instead of the revision identifier.
 | Jun-16
 | No
 | No documentation available.
-| Draft
+| final
 
 | Agrovoc
 | 21/01/2016
-| Unknown
+| No
 |
-| draft
-
-| JATS
-| 1.1
-| Unknown
-|
-| draft
+| final
 
 | OLiA
 | Jun-16
-| Unknown
+| No
 |
-| draft
+| final
 
 | LAPPS
 | Jun-16
-| Unknown
+| No
 |
-| draft
+| final
 
 | Licences
 | Jun-16
 | Unknown
 |
-| draft
+| final
 
 | Alvis
 | 0.5rc
 | No
 | No version
-| draft
+| final
 
 | ARGO
 | 0.5
 | Unknown
-|
+| 
 | draft
 
 | DKPro Core
 | 1.8.0
 | Full
 | Documentation is versioned in parallel with the source code
-| draft
+| final
 
 | GATE
 | 8.2
 | Unknown
-|
-| draft
+| Possible for all GATE components to be written this way
+| final
 
 | ILSP
 | 1.2.1
