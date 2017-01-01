@@ -31,8 +31,7 @@ model is added to the registry.
 | DKPro Core
 | 1.8.0
 | Partial
-| Most DKPro Core components take a model as a parameter. The model then usually determines the language. Also for
-components that are locked to a specific language, this information is currently not included in the component metadata.
+| Most DKPro Core components use language-specific models. It is impossible to know the full set up models for a component as new models can be created by users at any time. For those components where the language support is hard-coded (i.e. not determined by the model used), the component ususally bears language metadata in the form of a uimaFIT LanguageCapability annotation which translates into a language capability declaration in the component's UIMA descriptor.
 | Draft
 
 | ILSP
