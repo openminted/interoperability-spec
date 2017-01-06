@@ -4,7 +4,11 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_*     __mandatory__#
 [small]#*_Category:_*     __WG4__#
-[small]#*_Status:_*       __draft__#
+[small]#*_Status:_*       __deprecated__#
+
+.See also
+* <<REQ-33>>
+* <<REQ-34>>
 
 It is important that not only is a license strongly assigned to components and resources but that this information is passed upwards through workflows etc. so that a license can be assigned to an aggregate or to newly created resources that result.
 To this end storing license information within component metadata seems the most sensible way forward.
