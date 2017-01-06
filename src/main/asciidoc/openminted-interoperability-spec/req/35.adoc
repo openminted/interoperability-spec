@@ -6,6 +6,8 @@
 [small]#*_Category:_* __WG1__,__WG2__,__WG3__,__WG4__#
 [small]#*_Status:_* __deprecated__#
 
+IMPORTANT: This requirement has been deprecated. It is covered by REQ-6 and WG1-8.
+
 All resources must include an identifier (e.g. PID, DOI etc.) that allows them to be uniquely, non-ambiguously and persistently identified. 
 
 .See also
