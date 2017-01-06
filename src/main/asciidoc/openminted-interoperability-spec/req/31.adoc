@@ -4,7 +4,9 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __optional__#
 [small]#*_Category:_* __WG1__,__WG4__#
-[small]#*_Status:_* __premature__#
+[small]#*_Status:_* __deprecated__#
+
+IMPORTANT: This requirement has been deprecated, as it is premature and requires defining evaluation framework first.
 
 It is important to include metadata related to the performance of TDM operation the appropriate components. 
 
