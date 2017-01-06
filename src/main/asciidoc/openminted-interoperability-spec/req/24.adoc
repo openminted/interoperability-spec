@@ -6,7 +6,7 @@
 [small]#*_Category:_*     __WG4__#
 [small]#*_Status:_*       __deprecated__#
 
-
+IMPORTANT: This requirement has been deprecated. It is considered a platform functionality requirement (WP6).
 
 In order to incorporate an entire workflow (not only a single component) which may potentially be using a specific workflow engine/implementation or flow configuration that cannot be imported into my workflow editor of choice, it must be possible to treat the whole workflow as a component applying encapsulation and information hiding. However, it includes the ability to configure individual components in the workflow, e.g. by exposing these parameters as workflow parameters.
 
