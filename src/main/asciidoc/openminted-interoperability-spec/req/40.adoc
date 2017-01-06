@@ -6,6 +6,8 @@
 [small]#*_Category:_* __WG1__,__WG4__#
 [small]#*_Status:_* __deprecated__#
 
+IMPORTANT: This requirement has been deprecated. It is covered by REQ-8.
+
 Component (web services & workflows but also of tools) classification & description must include metadata that describe the task they perform (e.g. annotation, named entity recognition), preferably in the form of a standard(ised) vocabulary
 
 .See also
