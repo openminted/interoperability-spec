@@ -6,6 +6,8 @@
 [small]#*_Category:_*     __WG1__,__WG4__#
 [small]#*_Status:_*       __deprecated__#
 
+IMPORTANT: This requirement has been deprecated. It has been replaced with REQ-96.
+
 The OMTD-SHARE schema includes specific distinct metadata elements for identifier and version of all resources.
 More specifically:
 
