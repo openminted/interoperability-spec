@@ -4,9 +4,13 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __mandatory__#
 [small]#*_Category:_* __WG1__,__WG2__,__WG3__,__WG4__#
-[small]#*_Status:_* __final__#
+[small]#*_Status:_* __deprecated__#
 
 All resources must include an identifier (e.g. PID, DOI etc.) that allows them to be uniquely, non-ambiguously and persistently identified. 
+
+.See also
+* <<REQ-6>>
+* <<WG1-8>>
 
 NOTE: for this version, we only need a unique identifier, of whichever scheme the provider already uses; for next versions, we should recommend a scheme
 
