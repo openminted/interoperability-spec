@@ -4,7 +4,7 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_*     __recommended__#
 [small]#*_Category:_*     __WG1__,__WG4__#
-[small]#*_Status:_*       __final__#
+[small]#*_Status:_*       __deprecated__#
 
 Capturing, computing and presenting simplified information (e.g., availability, reliability, QoS, provider, class) about resources bring decisional information to best choose a specific resource compared to others. For example, based on aspects such as availability or QoS, one may create a specific view to filter out some specific services.
 
