@@ -6,6 +6,8 @@
 [small]#*_Category:_*     __WG1__,__WG4__#
 [small]#*_Status:_*       __deprecated__#
 
+IMPORTANT: This requirement has been deprecated. It is overlapping with REQ-12, WG1-5 and is not sufficiently clear.
+
 Capturing, computing and presenting simplified information (e.g., availability, reliability, QoS, provider, class) about resources bring decisional information to best choose a specific resource compared to others. For example, based on aspects such as availability or QoS, one may create a specific view to filter out some specific services.
 
 // Below is an example of how a compliance evaluation table could look. This is presently optional
