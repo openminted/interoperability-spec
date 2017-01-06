@@ -6,6 +6,8 @@
 [small]#*_Category:_*     __WG4__#
 [small]#*_Status:_*       __deprecated__#
 
+IMPORTANT: This requirement has been deprecated. Its is covered by REQ-33, REQ-34 and expected functionality of the OpenMinTeD platform.
+
 .See also
 * <<REQ-33>>
 * <<REQ-34>>
