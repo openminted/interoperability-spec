@@ -4,7 +4,7 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __optional__#
 [small]#*_Category:_* __WG1__,__WG4__#
-[small]#*_Status:_* __final__#
+[small]#*_Status:_* __deprecated__#
 
 It is important to include metadata stating the confidence level of the TDM operation in order to help users select the appropriate components. 
 
