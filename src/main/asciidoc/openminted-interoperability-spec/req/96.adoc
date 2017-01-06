@@ -1,0 +1,90 @@
+== Unique identifiers and versions for components using Maven
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+* <<REQ-6>>
+* <<REQ-77>>
+* <<REQ-82>>
+
+
+Each GATE or UIMA component is a Java class and as such can be uniquely identified by it's classname. Components are to be distributed via Maven and versioning information will be recorded as part of the link:https://maven.apache.org/pom.html#Maven_Coordinates[POM].
+Together these two sources provide the following information
+
+|===
+| Coordinate | Description | Source
+
+| groupId 
+| Group ID of the Maven artifact containing the component
+| Maven POM
+
+| artifactId 
+| Artifact ID of the Maven artifact containing the component
+| Maven POM
+
+| version 
+| Version of the Maven artifact containing the component
+| Maven POM
+
+| packaging 
+|  *optional* Packaging of the Maven artifact containing the component
+| Maven POM
+
+| classifier 
+| *optional* Classifier of the Maven artifact containing the component
+| Maven POM
+
+| class 
+| Name of the class implementing the component
+| UIMA resource specifier or GATE CREOLE Metadata (derived from classname)
+|===
+
+In UIMA, the identifier has the following forms depending on the presence of the optional coordinates:
+
+.Component identifiers
+----
+uima-mvn:{groupId}:{artifactId}:{version}#{class}
+uima-mvn:{groupId}:{artifactId}:{classifier}:{version}#{class}
+uima-mvn:{groupId}:{artifactId}:{packaging}:{classifier}:{version}#{class}
+----
+
+.Example
+----
+uima-mvn:my.organization.tdm:dictionary-tools:1.0.1#my.organization.tdm.DictionaryLookup
+----
+
+NOTE: The version is also available from the UIMA resource specifier. It must be in sync with the version specified in the Maven POM. The link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#tools.uimafit.maven[uimaFIT Maven plugin] goal `generate` ensures this by determining the version in the generated UIMA resource specifier from the version specified in the Maven POM. The `overrideComponentVersion` and `componentVersion` settings in the uimaFIT MAven plugin must *not* be used. Neither must the uimaFIT `@ResourceMetaData` annotation be used to manually provide a version.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Fully
+| UIMA components are provided as Maven artifacts.
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+
+| GATE
+| 8.2
+| Partial
+| Components are not yet distributed by Maven and as such versioning info is not available
+| Draft
+|====
