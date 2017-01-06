@@ -1,12 +1,12 @@
-== Component metadata should be embedded into the component source code
+== Component metadata have to be embedded into the component source code
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
-[small]#*_Strength:_* __recommended__#
+[small]#*_Strength:_* __mandatory__#
 [small]#*_Status:_* __final__#
 [small]#*_Category:_* __WG4__#
 
-To avoid implementation and metadata getting out-of-sync, the metadata should be closely integrated
+To avoid implementation and metadata getting out-of-sync, the metadata have to be closely integrated
 with the component source code such that e.g. parameter names and types are obtained directly from
 the implementation (cf. <<uimafit>>).
 
