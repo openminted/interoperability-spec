@@ -4,7 +4,7 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_*     __mandatory__#
 [small]#*_Category:_*     __WG4__#
-[small]#*_Status:_*       __final__#
+[small]#*_Status:_*       __deprecated__#
 
 
 
