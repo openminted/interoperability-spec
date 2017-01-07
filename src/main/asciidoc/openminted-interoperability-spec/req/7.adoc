@@ -6,7 +6,7 @@
 [small]#*_Category:_* __WG4__#
 [small]#*_Status:_* __final__#
 
-Using such a widely adopted naming convention assists component developers through familiarity and helps avoid naming collisions due to the use of use domain names, under the control of the developers, as part of the identifier. It is also the recommended method of identifying components in existing text mining systems such as Argo and GATE. 
+Using such a widely adopted naming convention assists component developers through familiarity and helps avoid naming collisions due to the use of domain names, under the control of the developers, as part of the identifier. It is also the recommended method of identifying components in existing text mining systems such as Argo and GATE. 
 
 NOTE: This requirement was previously titled "Components should be uniquely identified using a string that follows the Java fully-qualified class naming convention". In particular the word "uniquely" has been removed because a Java fully-qualified name does not include version information and in principle there is no safe-guard against having multiple Java classes by the same name on the classpath at the same time. The main point here is that users name their components within a namespace that can be considered under their control. The Java conventions then provide a best-practice how to choose and structure such a namespace. Additional best-practices and techniques, e.g. the Maven best-practices and version-resolving techniques then should ensure that only a single version of a given component is available at runtime. If a system needs to use multiple versions of a component, additional precautions may need to be necessary.
 
