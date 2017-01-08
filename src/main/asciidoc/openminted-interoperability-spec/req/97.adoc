@@ -1,0 +1,55 @@
+== Declaring scaleout capability in UIMA
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+* <<REQ-11>>
+
+Whether or not a component maybe replicated/scaled up within a workflow by the workflow engine can
+be declared in UIMA using the `multipleDeploymentAllowed` flag. If this flag is set to `true`, then
+the workflow engine may create multiple instances of the component and run them in parallel with 
+the implicit effect that each component may only see a subset of the documents to be processed.
+Components that write/export data should set this flag to `false`.
+
+The flag can be set using a uimaFIT annotation on the component class.
+
+.Setting the `multipleDeploymentAllowed` using uimaFIT
+----
+@OperationalProperties(multipleDeploymentAllowed=false)
+class MyComponentClass 
+----
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Fully
+| Flag is (un)set depending on the type of component. Processing components can usually be scaled 
+  while writers cannot.
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+
+| GATE
+| 8.2
+| Unknown
+| Unknown
+| Draft
+|====
