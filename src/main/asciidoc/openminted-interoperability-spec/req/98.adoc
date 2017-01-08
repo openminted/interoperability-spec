@@ -1,0 +1,49 @@
+== Publishing components via software repositories (Maven, Docker)
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+* <<REQ-28>>
+
+In order to make components downloadable, they must be published either via a Maven repository or
+via a Docker repository. The respective repositories used should be Maven Central and DockerHub as
+these are by default supported by related tooling.
+
+The process of publishing software via Maven Central is detailed in the link:http://central.sonatype.org/pages/ossrh-guide.html[OSSRH Guide].
+
+The process of publishing software via DockerHub is detailed link:https://docs.docker.com/engine/tutorials/dockerrepos/[here].
+
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Fully
+| DKPro Core is fully available from Maven Central.
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+
+| GATE
+| 8.2
+| Unknown
+| Unknown
+| Draft
+|====
