@@ -1,0 +1,47 @@
+== Encoding in the metadata a direct access link for content resources
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__#
+[small]#*_Status:_*       __draft__#
+
+See also
+* <<REQ-4>>
+
+The contents of a resource that is going to be processed for TDM purposes (scholarly publications in OpenMinTeD) must be directly accessible by components in a single step. In order to avoid confusion and misconceptions, the access location of the resource must be provided in a metadata element conceived for this purpose and not through the identifier(s).
+
+The following recommendations, therefore, are in order:
+* aggregators (OpenAIRE and CORE) and other content resource providers that register their resources directly to the OpenMinTeD registry must use the element 'downloadURL' for encoding only direct URL's, i.e. leading to the file(s) of the resource, and not for landing pages
+* publishers, journals, literature repositories, archives, etc. that wish to provide access to their publications for TDM purposes can do so through OpenAIRE and CORE, following their respective guidelines.
+
+NOTE: The element 'downloadURL' can be repeated for multiple exact copies of the same publication (e.g. PDF versions of the publication distributed at various websites).   
+For different variants of the same publication, e.g. in PDF and HTML format, the whole  'documentDistributionInfo' module can be repeated, with the relevant information encoded in the 'downloadURL' and 'mimetype' elements. 
+
+
+link:{include-dir}req/1.adoc[this].
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| cORE
+|
+| Unknown
+| Unknown
+| Draft
+
+| OpenAIRE
+| 
+| Unknown
+| Unknown
+| Draft
+
+| Frontiers
+| 
+| Unknown
+| Unknown
+| Draft
+|====
