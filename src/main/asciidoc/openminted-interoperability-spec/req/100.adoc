@@ -1,0 +1,42 @@
+== Providing access to content resources (sharing/exposing and transferring) 
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+* <<REQ-4>>
+* <<REQ-99>>
+
+The contents of a resource that is going to be processed for TDM purposes (scholarly publications in OpenMinTeD) must be directly accessible by components in a single step.
+Publications are registered to OpenMinTeD via OpenAIRE and CORE.
+End-users ... (user corpus building process via RESTful APIs)
+OpenAIRE and CORE: harvesting process (OAI-PMH)
+content connector from publishers: ResourceSync
+
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+|
+| Unknown
+| Unknown
+| Draft
+
+| OpenAIRE
+| 
+| Unknown
+| Unknown
+| Draft
+
+| Frontiers
+| 
+| Unknown
+| Unknown
+| Draft
+|====
