@@ -1,0 +1,112 @@
+== Encoding metadata on domain/subject/ classification for all resources when applicable
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG2__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+
+* <<REQ-36>>
+
+Domain/subject classification is valuable both for the discovery of resources of particular interest to the users, as well as for ensuring better results for the TDM processes. However, the vocabularies used for the classification of resources are numerous (cf. {http://id.loc.gov/vocabulary/classSchemes.html} and {https://www.loc.gov/standards/sourcelist/subject.html}), and there isn't yet any common consensus for adopting only a few of them. 
+
+Therefore, OpenMinTeD suggests that (a) relevant metadata elements are set at the recommended level, (b) the use of widespread classification vocabularies is promoted and (c) mandates that at least the classification vocabulary, if any, used for the specific resource is described with a name and URI.
+
+The above requirements translate into the following metadata elements:
+
+* recommended 'domain', with attributes mandatory 'classificationSchemeName' and optional 'schemeURI'
+
+* recommended 'subject', with attributes mandatory 'classificationSchemeName' and optional 'schemeURI'
+
+* recommended 'keyword', which can be used as a last resort to at least ingest keywords currently used for the classification of resources.
+
+The attribute 'classificationSchemeName' uses a controlled vocabulary (link to be provided) with widespread classification schemes to help users in filling in this information.
+
+
+The 'dc:subject' element can be used for encoding classification, but this doesn't provide the required information.
+
+NOTE: Classification is also possible with the metadata elements 'textGenre', 'textType', and 'register', which also carry the same attributes as domain and subject.
+
+Components are also included in the compliance table, although in the vast majority, they are domain-independent. The reason for their inclusion is to indicate whether they come with specific resources (e.g. models) that are trained with corpora of specific domains.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+|
+| Unknown
+| Unknown
+| Draft
+
+| OpenAIRE
+|
+| Unknown
+| Unknown
+| Draft
+
+| Frontiers
+|
+| Unknown
+| Unknown
+| Draft
+
+
+| Alvis
+|
+| No
+| Not currently
+| Draft
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| No
+| For some models, the “variant” coordinate includes relevant information.
+| Draft
+
+| GATE
+| 8.2
+| No
+| No current built in support but I assume this is another OMTD-SHARE level requirement which has no bearing on the actual component implementations
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+
+| TheSoz
+| June-16
+| Full
+| via DbPedia URIs. The following values are present in the current void.ttl: dc:subject http://dbpedia.org/resource/Social_sciences ; dc:subject http://dbpedia.org/resource/Thesaurus
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Full
+| DbPedia URIs
+| Final
+
+| OLiA
+| June-16
+| 
+| 
+| Draft
+
+| LAPPS
+| June-16
+| 
+| 
+| Draft
+|====
+
