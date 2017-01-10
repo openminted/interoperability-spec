@@ -6,7 +6,7 @@
 [small]#*_Category:_* __WG1__,__WG2__,__WG3__,__WG4__#
 [small]#*_Status:_* __deprecated__#
 
-IMPORTANT: This requirement has been deprecated. It is covered by REQ-6 and REQ-102.
+IMPORTANT: This requirement has been deprecated. It is covered by <<REQ-6>> and <<REQ-102>>.
 
 Version information must be included in the metadata of all resources. 
 
