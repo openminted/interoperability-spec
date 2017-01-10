@@ -1,0 +1,108 @@
+== Encoding licensing terms in the metadata description of the resource
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG3__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+
+* <<REQ-33>>
+
+It is mandatory to include an indication of the licensing terms under which a resource is made accessible. In OpenMinTeD this can be implemented in one of the following ways, in preferential order:
+
+* Selection from a list of values of the most popular standard licences in the 'licence' element (link to the controlled vocabulary to be provided) and indication of the licence version in the 'version' element;
+
+* For licences not included in the list, selection of the 'other' value in the 'licence' element and usage of the elements 'nonStandardLicenceTermsName' to provide a name for the licence and 'nonStandardLicenceTermsURL' to provide a link to the licence text or 'nonStandardLicenceTermsText' to add the licence text.
+
+* For legacy resources that come without a clear indication of licence but which can be classified into one of the Rights Statements discussed in OpenMinTeD, the last option is to use the element 'rightsStmtName' and 'rightsStmtURL' (with a link to the definition of the rights statement)
+
+NOTE: For resources that are produced through OpenMinTeD operations (e.g. user queries for creating corpora, resources annotated by workflows in the platform etc.), the user will be shown an aggregation of all licence values of the resources.
+
+To fulfill the above requirements, further recommendations:
+
+* For all resources: the 'dc:license' (which requires a licence document) is preferable to 'dc:rights' (which can be filled in with a free text statement); it is essential to also attach the full legal document containing the licensing terms to the packaged resource and add the licenseURI in the metadata description.
+
+* Components coming from Maven repositories: the wrapper element <license> with nested elements <name> & <url> for the full title of the licence (mentioning also version) and for the url respectively must be obligatorily filled in; if possible, use of one of the OpenMinTeD recommended licences is preferred.
+
+* Resources from the Linked Data community can use the dc:license or dc:rights elements to provide a link to the licence text or a licence name.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+|
+| Unknown
+| Unknown
+| Draft
+
+| OpenAIRE
+|
+| Unknown
+| Unknown
+| Draft
+
+| Frontiers
+|
+| Unknown
+| Unknown
+| Draft
+
+
+| Alvis
+|
+| Partial
+| Provided in free-text
+| Draft
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Unknown
+| For components, license information is in the POM file and more detailed in the LICENSE.txt file included in each Maven artifact. For models, the information may presently be missing or only be available in a DKPro Core-specific metadata file associated with the model. 
+| Draft
+
+| GATE
+| 9
+| Full
+| License information should be includedin the pom.xml from where it can be automatically extracted
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+
+| TheSoz
+| June-16
+| Full
+| dc:license in void.ttl file
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Full
+| dc:license in void.ttl file
+| Final
+
+| OLiA
+| June-16
+| No
+| 
+| Final
+
+| LAPPS
+| June-16
+| No
+| 
+| Final
+|====
