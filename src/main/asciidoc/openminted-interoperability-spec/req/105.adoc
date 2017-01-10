@@ -24,7 +24,7 @@ In addition, standard file extensions are highly recommended when publishing a c
 NOTE: If there are multiple distributions of the same resource with different formats from different locations, they should be described as separate distributions with the 'mimetype' repeated inside the 'distributionInfo' wrapper element. If the same location is used for all distributions (i.e. the access location is a landing page), providers can simply repeat the 'mimetype' inside the 'textFormatInfo' element at the resource level. 
 For corpora composed of resources with various formats, again the 'mimetype' element inside the 'textFormatInfo' can be repeated.
 
-NOTE:  As a general rule, standard text formats should be preferred, e.g. for structural annotation, the JATS article tag suite ({https://jats.nlm.nih.gov/}) or TEI ({http://www.tei-c.org/index.xml}).
+NOTE:  As a general rule, standard text formats should be preferred, e.g. for structural annotation, the JATS article tag suite (https://jats.nlm.nih.gov/) or TEI (http://www.tei-c.org/index.xml).
 
 NOTE: Under consideration: discuss how the page with the controlled vocabulary of dataFormatSpecific can include more information on each format so that it's directly usable for components.
 
