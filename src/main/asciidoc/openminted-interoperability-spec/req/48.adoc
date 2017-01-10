@@ -4,7 +4,9 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __mandatory__#
 [small]#*_Category:_* __WG1__,__WG2__,__WG3__,__WG4__#
-[small]#*_Status:_* __final__#
+[small]#*_Status:_* __deprecated__#
+
+NOTE: Deprecated because this is a requirement on each metadata schema rather than the actual resources 
 
 All resource metadata records must include a reference to the metadata schema used for their description. 
 
