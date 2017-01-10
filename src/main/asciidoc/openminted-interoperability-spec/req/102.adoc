@@ -1,0 +1,101 @@
+== Adding version information in the metadata descriptions of all resources
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG2__,__WG3__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+
+* <<REQ-32>>
+* <<REQ-96>>
+
+Although versioning is considered important for all resource types, the practices used for its encoding differ across them. 
+Therefore, in OpenMinTeD the general rule is that the version of the resource must be clearly indicated in its metadata description. This is done with the element 'version' (of type _xs:string_) and, if the providers wish, they can also provide more information about the types of changes between the versions in the element 'revision' and the date of the last update ('lastDateUpdated'). 
+
+However, the values that the 'version' element takes can differ depending on the source and resource type; given that the OMTD-SHARE element 'version' is of type _xs:string_, this can be accommodated without problems in the mapping process:
+* For publications: following the OpenAIRE guidelines (new version to be released), the values of the OpenAIRE element 'version' must be taken from a controlled vocabulary (_accepted, published, draft, submitted, updated_)
+* For all other resources, the most popular practice is to provide a number (e.g. 1.0, 3.0.1 etc.) and this is endorsed by OpenMinTeD; link:http://semver.org[semantic versioning] principles are recommended where possible for its assignment; the element, though, where this information is encoded in existing metadata descriptions may differ: 
+- For components collected from Maven repositories: according to <<REQ-96>>, this information must be added in the 'version' element in the pom xml file
+- For resources described with metadata in RDF, the 'owl:versionInfo' is the equivalent to the OMTD-SHARE 'version' element
+- If there is no information on the metadata record of a resource harvested into OMTD, the version element is to be filled in with the creation date of the resource and, if this is again missing, the date of the registration of the resource in OpenMinTeD.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+|
+| Partial
+| Versions exist for the components
+| Draft
+
+| OpenAIRE
+|
+| Unknown
+| Unknown
+| Draft
+
+| Frontiers
+|
+| Unknown
+| Unknown
+| Draft
+
+
+| Alvis
+|
+| Unknown
+| Unknown
+| Draft
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Full
+| Version information is contained in the pom file
+| Draft
+
+| GATE
+| 9
+| Full
+| Components distributed via maven include version information within the pom.xml file.
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+
+| TheSoz
+| June-16
+| Full
+| owl:versionInfo in void.ttl file
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Partial
+| modification date (dcterms:modified) is available
+| Final
+
+| OLiA
+| June-16
+| Partial
+| no version id, but a textual description of the resource’s evolution.
+| Final
+
+| LAPPS
+| June-16
+| No
+| 
+| Final
+|====
