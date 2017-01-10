@@ -4,7 +4,9 @@
 [small]#*_Concreteness:_* __abstract|concrete__#
 [small]#*_Strength:_*     __recommended__#
 [small]#*_Category:_*     __WG4__#
-[small]#*_Status:_*       __draft__#
+[small]#*_Status:_*       __deprectated__#
+
+IMPORTANT: This requirement has been deprecated. Its parent abstract requirement (REQ-18) should be covered by the functionality of the OpenMinTeD platform, namely Galaxy workflow editor.
 
 A uniform workflow language allows to use the same elements of language to represent/describe a workflow (See * <<REQ-18>>. For example, link:http://www.commonwl.org/[Common Workflow Language (CWL)] is a workflow language used in many systems, for example Galaxy. Common parts to represent an executable workflow are the following:
 |===
