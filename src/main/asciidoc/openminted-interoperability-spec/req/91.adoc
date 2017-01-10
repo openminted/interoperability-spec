@@ -1,13 +1,24 @@
-== Citable publications for components
+== Encoding citable publications (for scholarly attribution) in resource metadata records
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __concrete__#
 [small]#*_Strength:_*     __recommended__#
-[small]#*_Category:_*     __WG1__,__WG4__#
+[small]#*_Category:_*     __WG1__,__WG2__,__WG4__#
 [small]#*_Status:_*       __draft__#
 
 * <<REQ-13>>
 
+It is customary for resource creators/owners to ask for scholarly attribution through the citation of publications; these are usually publications that describe the resource, its functionalities, design principles etc. 
+The OMTD-SHARE metadata schema includes a specific metadata element for this, namely 'mustBeCitedWith', which is recommended and can be filled in with 
+* the identifier of a publication (‘publicationIdentifier’) or 
+* a free text field (‘documentUnstructured’), which can be used for recording a whole bibliographic record. 
+The preferred option is adding the identifier of the publication (with the appropriate attributes).
+
+Further specifications according to this requirement:
+* for components, in accordance with <<REQ-2>>, this  information should be provided in the component metadata. The recommended way to do this is by adding Java annotations in the GATE and UIMA descriptors specific to this element. We recommend the usage of the @citation element. Within this element the author should place one or more bibliographic records, preferably in bibtex format.
+* for resources coming from the Linked Data community, 
+
+NOTE: The relation presented here is different from the ‘datacite:relationType’ _isCitedBy_, which records the actual citation of the resource in various publications; in fact, it is closer to the _isDocumentedIn_ and the _dc:bibliographicCitation_ but this relation type doesn’t highlight the preferential nature of the citable publication.
 It is customary to ask for scholarly attribution when a component is used through citation of a specific publication. 
 The OMTD-SHARE metadata schema includes a specific metadata element for this, namely "mustBeCitedWith", which is recommended and can be filled in either with the identifier of a publication (_publicationIdentifier_) or with a free text field (_documentUnstructured_).
 The preferred option is adding the identifier of the publication.
@@ -44,13 +55,15 @@ The preferred option is adding the identifier of the publication.
 |Used either as a free text description or as an unstructured (free form) presentation of a bibliographic record; alternative to the structured presentation of a document
 |====
 
-According to REQ-2, this information should be provided in the component metadata. The recommended way to do this is by adding Java annotations in the GATE and UIMA descriptors specific to this element.
+Further specifications according to this requirement:
+* for components, in accordance with <<REQ-2>>, this  information should be provided in the component metadata. The recommended way to do this is by adding Java annotations in the GATE and UIMA descriptors specific to this element. We recommend the usage of the @citation element. Within this element the author should place one or more bibliographic records, preferably in bibtex format.
 
-NOTE: discuss how to do this
+NOTE: For clarification reasons, it is noted that this relation is different from the ‘datacite:relationType’ _isCitedBy_, which records the actual citation of the resource in various publications; in fact, it is closer to the _isDocumentedIn_ and the _dc:bibliographicCitation_ but this relation type doesn’t highlight the preferential nature of the citable publication.
 
 
 // Below is an example of how a compliance evaluation table could look. This is presently optional
 // and may be moved to a more structured/principled format later maintained in separate files.
+.Compliance assessment
 [cols="2,1,1,4,1"]
 |====
 |Product|Version|Compliant|Justification|Status
@@ -83,5 +96,29 @@ NOTE: discuss how to do this
 | 
 | Unknown
 | Unknown
+| Draft
+
+| TheSoz
+| June-16
+| No
+| 
+| Draft
+
+| Agrovoc
+| 21/01/2016
+| No
+| 
+| Draft
+
+| OLiA
+| June-16
+| No
+| 
+| Draft
+
+| LAPPS
+| June-16
+| No
+| 
 | Draft
 |====
