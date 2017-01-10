@@ -1,4 +1,4 @@
-== The KR format should be in a standard format such as XML, JSON or RDF.
+== The KR format should be in a standard format such as XML, JSON-LD or RDF/XML.
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __concrete__#
@@ -9,7 +9,7 @@
 .See also
 * <<REQ-72>>
 
-Standard formats for knowledge resources enables TDM to make use of common software infrastructure for ingesting and using knowledge resources, and can ease knowledge resource interoperability. Knowledge resources should use XML or JSON based syntax. For Linked Data resources, any RDF format may be used, for example JSON-LD or RDF/XML.
+Standard formats for knowledge resources enables TDM to make use of common software infrastructure for ingesting and using knowledge resources, and can ease knowledge resource interoperability. Knowledge resources should use XML or JSON based syntax. For Linked Data resources, any RDF format may be used, for example JSON-LD or RDF/XML. Other formats are acceptable for resources that are not based on Linked Data.
 
 [cols="2,1,1,4,1"]
 |====
