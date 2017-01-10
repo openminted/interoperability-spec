@@ -6,6 +6,6 @@
 [small]#*_Category:_* __WG2__#
 [small]#*_Status:_* __final__#
 
-If you want to work with a KR its relevant elements need to be added as text metadata. This enables the TDM modules to work in a uniform manner with the informational content the KRs provide. In order to obtain annotations you need to follow KR access routines such as XPATH/ontology based and gazetteer based lookup, and existing APIs/web services.
+When working with a knowledge resource (KR), its relevant elements need to be added as text metadata. In other words, any text annotations created from information in the KR should be linked to the URI of the relevant KR element. This enables the TDM modules to work in a uniform manner with the informational content the KRs provide. This is in line with the Linked Data paradigm.
 
 This is a methodological requirement an as such not suited for the compliance check.		
