@@ -1,0 +1,52 @@
+== Encoding of format in the metadata description of content resources
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+
+* <<REQ-37>>
+* <<REQ-39>>
+
+All content resources (i.e. publications, but also ancillary resources, such as lexica, tagsets etc.) that are involved in the TDM process must include in the metadata description information on the format with which they are distributed (e.g. docx, xml, rdf/xml etc.). The OMTD-SHARE schema includes the following metadata elements:
+
+* 'mimeType': mandatory; must be filled in with one of the values of the IANA (Internet Assigned Numbers Authority, http://www.iana.org/assignments/media-types/media-types.xhtml)
+
+* 'dataFormatSpecific': this element is optional and can be used to provide further information about the format of the resource, when the 'mimetype' does not suffice, e.g. for xml files structured following a specific schema structure; to help the resource provider, the element takes a list of values with the data formats currently covered by partners of the OpenMinTeD consortium (link to the controlled vocabulary to be provided).
+
+* 'documentationURL': for data formats that are not included in the previous list, the resource providers are recommended to include a link to a URL where the format is documented (e.g. with an XSD or other formal explanation of the format, examples etc.).
+
+In addition, standard file extensions are highly recommended when publishing a content resource, as it helps in discovering the correct mimetype.
+
+NOTE: If there are multiple distributions of the same resource with different formats from different locations, they should be described as separate distributions with the 'mimetype' repeated inside the 'distributionInfo' wrapper element. If the same location is used for all distributions (i.e. the access location is a landing page), providers can simply repeat the 'mimetype' inside the 'textFormatInfo' element at the resource level. 
+For corpora composed of resources with various formats, again the 'mimetype' element inside the 'textFormatInfo' can be repeated.
+Under consideration: discuss how the page with the controlled vocabulary of datatypes can include more information on the datatype so that it's directly usable for components
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+|
+| Unknown
+| Unknown
+| Draft
+
+| OpenAIRE
+|
+| Unknown
+| Unknown
+| Draft
+
+| Frontiers
+|
+| Unknown
+| Unknown
+| Draft
+|====
+
+
