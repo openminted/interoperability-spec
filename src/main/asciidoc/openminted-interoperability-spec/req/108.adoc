@@ -1,0 +1,72 @@
+== Encoding language information in the metadata of content resources
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG2__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+
+* <<REQ-41>>
+
+Language is one of the most important features for discovering content resources and for ensuring the proper operation of processing components. Therefore, it is important not only to include it in the metadata descriptions of resources but also to normalise it.
+
+For normalistaion purposes, OpenMinTeD recommends the use of the IETF's BCP 47 ({https://tools.ietf.org/html/bcp47}), which specifies syntax for language tags, so as to include language, region, script and variant tags in one code.
+
+Language information is mandatory and can be repeated for multilingual resources. 
+
+The metadata elements to be used are:
+
+* 'language' for the language of the contents of the resource: mandatory language tag, which is concatenated by mandatory language identifier (from the ISO 639 codes) and optional script, region and variant tags
+
+* 'metalanguage': can be optionally used for lexical/conceptual resources and language descriptions, for the language that is used to describe a resource (e.g. a lexicon of Greek terms with definitions in English is considered as having 'language' _Greek_ and 'metalanguage' _English_).
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+|
+| Unknown
+| Unknown
+| Draft
+
+| OpenAIRE
+|
+| Unknown
+| Unknown
+| Draft
+
+| Frontiers
+|
+| Unknown
+| Unknown
+| Draft
+
+| TheSoz
+| June-16
+| Full
+| via language attribute for each entity in the thesaurus
+| Final
+
+| Agrovoc
+| 21/01/2016
+| No
+| 
+| Final
+
+| OLiA
+| June-16
+| No
+| Language only indirectly deducible from the description of the resource in the data type property 'comment' value.
+| Final
+
+| LAPPS
+| June-16
+| No
+| 
+| Final
+|====
+
