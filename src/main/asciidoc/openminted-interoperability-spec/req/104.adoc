@@ -1,0 +1,109 @@
+== Encoding funding information in the metadata descriptions of all resources
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG2__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+
+* <<REQ-47>>
+
+Funding information in metadata descriptions of all resources is optional; we recommend adopting the DataCite recommendations for all resources, which are also endorsed by OpenAIRE:
+
+* 'fundingReference': 'funderName', and optional 'funderIdentifier' (with attribute 'type': _ISNI, GRID, Crossref funder Id, other_), 'awardNumber' (with attribute 'awardURI') and 'awardTitle'.
+
+NOTE: in the current version of OMTD-SHARE (v1.1), funding information is encoded in the 'fundingProject' element, which can be filled in with a 'projectIdentifier' or a 'projectName'. Projects can also be uploaded to the OpenMinTeD registry with a set of specific metadata elements which include information on the funder(s), types of awards etc. The next version will be aligned with this requirement.
+
+To fulfill this requirement, further actions are in order:
+* addition in the component metadata of the required information; this can be done through the following recommendations:
+* Usage of the following java annotations (in line with OpenAire’s standards)
+	* @funderName
+	* @funderIdentifier (optional)
+	* @funderIdentifierType (mandatory if funderIdentifier is present)
+	* @awardNumber
+	* @awardURI (optional)
+	* @awardTitle
+  
+* resources coming from the Linked Data community:
+- the 'foaf:fundedBy' property can be used to record the funding organization; if possible, adding an identifier (e.g. ISNI) for the organization would be an asset.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+|
+| Unknown
+| Unknown
+| Draft
+
+| OpenAIRE
+|
+| Unknown
+| Unknown
+| Draft
+
+| Frontiers
+|
+| Unknown
+| Unknown
+| Draft
+
+
+| Alvis
+|
+| Unknown
+| Unknown
+| Draft
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Not applicable
+| DKPro Core is now a community effort based on volunteer contributions. There is no dedicated funding. Also, DKPro Core mainly wraps third-party tools in UIMA. We do not keep track of third-party funding information and are not aware of third-parties providing such information in an automatically processable way.
+| Draft
+
+| GATE
+| 8.2
+| No
+| 
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+
+| TheSoz
+| June-16
+| No
+| 
+| Final
+
+| Agrovoc
+| 21/01/2016
+| No
+| only its creator (FAO)
+| Final
+
+| OLiA
+| June-16
+| No
+| Some ontologies reference the project in which the resource was created.
+| Final
+
+| LAPPS
+| June-16
+| No
+| 
+| Final
+|====
