@@ -12,7 +12,7 @@
 
 Language is one of the most important features for discovering content resources and for ensuring the proper operation of processing components. Therefore, it is important not only to include it in the metadata descriptions of resources but also to normalise it.
 
-For normalistaion purposes, OpenMinTeD recommends the use of the IETF's BCP 47 ({https://tools.ietf.org/html/bcp47}), which specifies syntax for language tags, so as to include language, region, script and variant tags in one code.
+For normalistaion purposes, OpenMinTeD recommends the use of the IETF's BCP 47 (https://tools.ietf.org/html/bcp47), which specifies syntax for language tags, so as to include language, region, script and variant tags in one code.
 
 Language information is mandatory and can be repeated for multilingual resources. 
 
