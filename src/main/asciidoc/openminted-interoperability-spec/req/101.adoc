@@ -1,0 +1,84 @@
+== Making models and annotation resources accessible as entities distinct from the components they are compatible with
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG2__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+
+* <<REQ-16>>
+
+To ensure that this requirement is fully specified, it is recommended that models and resources that can be used for annotating content resources (e.g. tagsets, lexica, ontologies etc.) are made accessible and described as separate entities from the components they can be deployed with. 
+This means that for models and other resources embedded in Maven artifacts together with components, they should be packaged as separate entities but can still be stored in Maven, where they will be collected from. 
+Further to this, a set of metadata elements that can be used for the automatic identification of compatible ancillary resources and s/w components must be filled in their descriptions; these include mainly:
+
+* 'language'(for all resources)
+
+* 'variant' (for models)
+
+* format, i.e. 'mimetype' and, optionally, 'dataFormatSpecific' & 'documentationURL' (for all resources)
+
+* 'relationType' with value 'isCompatibleWith': a relation that can be used to encode compatible resources, e.g. a model that can potentially be used with two or more taggers, or a tagger that can use all models in a specific format; it is encoded as an external relation linking two resources, through the resource identifier (preferably) or the resource name.
+
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| Alvis
+| 
+| Partial
+| Possible but not done yet
+| Draft
+
+| ARGO
+| 0.5
+| 
+| 
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Partial
+| Models are shipped as separate maven artifacts (there may be very few exceptions).  Compatibility between components and models is recorded in the POM of the component in DKPro Core via the Maven Managed Dependencies mechanism. Mimetype, dataFormatSpecific are not recorded. Some models include links to the relevant websites. This is planned to be extended in future.
+| Draft
+
+| GATE
+| 8.2
+| No
+| Currently (default) resources are stored in the same artifact as the components. Also while GATE9 can load components from maven artifacts that are not CREOLE plugins cannot be loaded and models/resources are not treated as plugins. A workflow system that uses the GATE API could however pull in resources via maven which are not GATE plugins.
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+
+| TheSoz
+| June-16
+| No
+| 
+| Draft
+
+| Agrovoc
+| 21/01/2016
+| No
+| 
+| Draft
+
+| OLiA
+| June-16
+| No
+| 
+| Draft
+
+| LAPPS
+| June-16
+| No
+| 
+| Draft
+|====
