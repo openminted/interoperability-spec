@@ -1,0 +1,94 @@
+== Specifying access mode of resources and encoding it in the metadata descriptions
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG2__,__WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+
+* <<REQ-38>>
+
+All content resources to be mined for OpenMinTeD purposes as well as ancillary resources (tagsets, lexica, models etc.) must be downloadable and accessible in a single step (cf. <<REQ-4>>, <<REQ-99>>). The elements 'distributionMedium', with values _downloadable_, _accessibleThroughInterfacace_, etc. (cf. link to the controlled vocabulary to be provided) is reserved for the access mode.
+
+Components can be accessed as web services and/or as downloadable tools, and this must be indicated in the 'componentDistributionMedium' element with values _webService_, _sourceCode_, _executableCode_ or _sourceAndExecutableCode_; if a component is available in more than one modes, it is recommended that this is described as two distinct distributions (i.e. with two 'distributionInfo' elements) that allow better encoding of all relevant details (e.g. potentially different licensing terms, different access locations etc.). See also <<REQ-98>> for making components downloadable.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+|
+| Unknown
+| Unknown
+| Draft
+
+| OpenAIRE
+|
+| Unknown
+| Unknown
+| Draft
+
+| Frontiers
+|
+| Unknown
+| Unknown
+| Draft
+
+
+| Alvis
+|
+| Unknown
+| Unknown
+| Draft
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Full
+| DKPro Core components are maven modules which can always be accessed by downloading from maven repositories.
+| Draft
+
+| GATE
+| 8.2
+| Unknown
+| Unknown
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+
+| TheSoz
+| June-16
+| Full
+| SPARQL endpoint and URI lookup endpoint in void.ttl file
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Full
+| void:sparqlEndpoint, void:dataDump
+| Final
+
+| OLiA
+| June-16
+| No
+| 
+| Final
+
+| LAPPS
+| June-16
+| No
+| 
+| Final
+|====
