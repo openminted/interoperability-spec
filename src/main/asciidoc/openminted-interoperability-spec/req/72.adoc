@@ -1,4 +1,4 @@
-== The KR format should be in a standard format such as XML, JSON or RDF.
+== The KR format should be in a standard format such as XML, JSON-LD or RDF/XML.
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
