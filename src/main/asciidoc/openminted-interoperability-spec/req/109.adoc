@@ -1,0 +1,66 @@
+== Encoding statistical information in the content resources
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG2__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+
+* <<REQ-44>>
+
+Statistical metrics are one of the ways that one can use to decide on whether a certain resource is of interest as well as to monitor versions of the same resource. 
+Size is a feature that can be considered stable enough to use for this reason; however, size is recorded with various units of measurement, depending on the type of the resource as well as on community practices. 
+
+For this reason, OpenMinTeD uses a set of two mandatory metadata elements, 'size' and 'sizeUnit' which are combined together in the 'sizeInfo' element. 'SizeInfo' is obligatory and can be repeated to record different size dimensions, if the users wishes to. 
+'Size' records in the form of a number the size of a resource with regard to the 'sizeUnit', while 'sizeUnit' takes values from a controlled vocabulary (link to be provided), which includes a list of the most widespread values for resources.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+|
+| Unknown
+| Unknown
+| Draft
+
+| OpenAIRE
+|
+| Unknown
+| Unknown
+| Draft
+
+| Frontiers
+|
+| Unknown
+| Unknown
+| Draft
+
+| TheSoz
+| June-16
+| Full
+| number of triples contained inside the resource and number of triples aligned with other resources (e.g. dbpedia)
+| Final
+
+| Agrovoc
+| 21/01/2016
+| Full
+| number of concepts, labels
+| Final
+
+| OLiA
+| June-16
+| No
+| 
+| Final
+
+| LAPPS
+| June-16
+| No
+| 
+| Final
+|====
+
