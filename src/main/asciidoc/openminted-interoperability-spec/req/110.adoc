@@ -1,0 +1,107 @@
+== Assigning a unique persistent identifier for all resources
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG1__,__WG2__,__WG3__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+* <<REQ-35>>
+
+* <<REQ-96>>
+
+All resources must be assigned an identifier (e.g.DOI, Handle PID, URI etc.) that allows them to be uniquely, non-ambiguously and persistently identified. 
+
+Resources that already have a PID, can include this in their metadata descriptions, in the element 'identifier'/'publicationIdentifier' using the 'resourceIdentifierSchemeName'/'publicationIdentifierSchemeName' attribute to specify the corresponding scheme, for instance:
+
+* publications that already have a DOI can include this in the 'publicationIdentifier' with the value _doi_ 'publicationIdentifierSchemeName'; DOIs are the recommended identifiers for publications
+
+* datasets, lexica, etc. that already have a DOI or a Handle id, will include these in the 'resourceIdentifier' with 'resourceIdentifierSchemeName' _doi_ or _hdl_ respectively
+
+* knowledge resources that come from the Linked Data community and have a URI, can encode this in the 'resourceIdentifier' with 'resourceIdentifierSchemeName' _uri_
+
+* s/w components, in accordance to <<REQ-96>>, can include the component coordinates and add the value _other_ for 'resourceIdentifierScheme' and _https://maven.apache.org/pom.html#Maven_Coordinates_ for 'schemeURI'.
+
+Resources without PIDs will be assigned one according to the procedure specified in the OMTD policies.
+
+NOTE: The element 'identifier' is not reserved for PIDs; it can be used for any kind of identifier, including organization-internal identifiers.
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| CORE
+|
+| Unknown
+| Unknown
+| Draft
+
+| OpenAIRE
+|
+| Unknown
+| Unknown
+| Draft
+
+| Frontiers
+|
+| Unknown
+| Unknown
+| Draft
+
+
+| Alvis
+| 0.5rc
+| Full
+| Components can be uniquely and persistently identified
+| Draft
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Full
+| UIMA components are provided as Maven artifacts.
+| Draft
+
+| GATE
+| 9
+| Full
+| Components distributed via maven can be uniquely and persistently identified via their maven coordinates and class name
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+
+| TheSoz
+| June-16
+| No
+| 
+| Draft
+
+| Agrovoc
+| 21/01/2016
+| Full
+| 
+| Draft
+
+| OLiA
+| June-16
+| Full
+| 
+| Draft
+
+| LAPPS
+| June-16
+| Full
+| 
+| Draft
+|====
