@@ -26,6 +26,9 @@ However, the values that the 'version' element takes can differ depending on the
 
 - If there is no information on the metadata record of a resource harvested into OMTD, the version element is to be filled in with the creation date of the resource and, if this is again missing, the date of the registration of the resource in OpenMinTeD.
 
+NOTE: In the next version of the schema, the "version" element will be restricted to the numeric type of encoding versions, following the http://semver.org[semantic versioning] principles, and another element will be added that will be of type "controlled vocabulary" that will take values such as _accepted, published, submitted_ etc. for publications, but also _alpha, beta, testing_ etc. for s/w resources.
+
+
 .Compliance assessment
 [cols="2,1,1,4,1"]
 |====
