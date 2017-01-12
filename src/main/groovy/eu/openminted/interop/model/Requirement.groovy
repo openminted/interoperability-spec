@@ -21,11 +21,12 @@ class Requirement {
 		String statusRegex = "[small]#*_Status:_*";
 		String categoryRegex = "[small]#*_Category:_*";
 		//check if table is started
-		Boolean tableStarted = false;
+		boolean tableStarted = false;
+        boolean inComplianceTable = false;
 
 		//flag for a row of product is entered while readline. Check template of requirement
-		Boolean rowEntered = false;
-		StringBuilder concatenatedRow = new StringBuilder();;
+		boolean rowEntered = false;
+		StringBuilder concatenatedRow = new StringBuilder();
 
 		this.id = Integer.parseInt(f.getName().replace(".adoc",""))
 		f.readLines().each{ line->
@@ -35,30 +36,30 @@ class Requirement {
 			}
 
 			// Get name
-			if(trimmedLine.startsWith("==")){
+			if (trimmedLine.startsWith("==")){
 				this.name = trimmedLine.replace("==","").trim()
 			}
 
 			//Get concreteness
-			if(trimmedLine.startsWith(concretenessRegex))
+			if (trimmedLine.startsWith(concretenessRegex))
 			{
 				this.concreteness = trimmedLine.split("__")[1]
 			}
 
 			//Get strength
-			if(trimmedLine.startsWith(strengthRegex))
+			if (trimmedLine.startsWith(strengthRegex))
 			{
 				this.strength = trimmedLine.split("__")[1]
 			}
 
 			//Get status
-			if(trimmedLine.startsWith(statusRegex))
+			if (trimmedLine.startsWith(statusRegex))
 			{
 				this.status = trimmedLine.split("__")[1]
 			}
 
 			//Get category
-			if(trimmedLine.startsWith(categoryRegex))
+			if (trimmedLine.startsWith(categoryRegex))
 			{
 				def arr = trimmedLine.split("__")
 				arr.eachWithIndex { wg,wgid->
@@ -70,26 +71,32 @@ class Requirement {
 				}
 			}
 
-			//Check if product table has started
-			if(trimmedLine.equals("|====")){
-				if(tableStarted){
-					tableStarted = false	
-					rowEntered = false;													
-				}else{
-					tableStarted = true
+			// Check if table has started
+			if (trimmedLine.equals("|====")){
+				if (tableStarted){
+					tableStarted = false;
+					rowEntered = false;
+				} else {
+					tableStarted = true;
 				}
+                return;
 			}
+            
+            // Check if table is product table
+            if (tableStarted && trimmedLine.startsWith("|Product|")) {
+                inComplianceTable = true;
+            }
 
 			//Description should start with a character or numbers
-			if(!tableStarted && RequirementUtils.startsWithDigitOrAlphabet(trimmedLine)){
-				if(this.description){
+			if (!tableStarted && RequirementUtils.startsWithDigitOrAlphabet(trimmedLine)){
+				if (this.description) {
 					this.description = this.description + " " + trimmedLine;
-				}else{
-					this.description = trimmedLine
+				} else {
+					this.description = trimmedLine;
 				}
 			}
 
-			if(tableStarted){
+			if (inComplianceTable){
 				if(trimmedLine.isEmpty()){
 					if(rowEntered){
 						//now perform actions on concatenatedRow to extract product details 
@@ -114,8 +121,6 @@ class Requirement {
 					concatenatedRow.append(trimmedLine)
 				}
 			}
-
-
 		}		
 	}
 }

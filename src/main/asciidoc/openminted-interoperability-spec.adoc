@@ -158,6 +158,9 @@ include::{include-dir-template}overviewByConcreteness.adoc[]
 = Compliance
 
 == By Product
+
+Numbers exclude deprecated requirements.
+
 include::{include-dir-template}requirementViewByProduct.adoc[]
 
 == Without justification
