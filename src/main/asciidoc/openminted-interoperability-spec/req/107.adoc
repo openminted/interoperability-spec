@@ -99,14 +99,14 @@ Components are also included in the compliance table, although in the vast major
 
 | OLiA
 | June-16
-| 
-| 
+| Unknown
+| Unknown
 | Draft
 
 | LAPPS
 | June-16
-| 
-| 
+| Unknown
+| Unknown
 | Draft
 |====
 
