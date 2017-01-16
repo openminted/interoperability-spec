@@ -4,7 +4,7 @@
 [small]#*_Concreteness:_* __abstract|concrete__#
 [small]#*_Strength:_*     __recommended__#
 [small]#*_Category:_*     __WG4__#
-[small]#*_Status:_*       __deprectated__#
+[small]#*_Status:_*       __deprecated__#
 
 IMPORTANT: This requirement has been deprecated. Its parent abstract requirement (REQ-18) should be covered by the functionality of the OpenMinTeD platform, namely Galaxy workflow editor.
 
