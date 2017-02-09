@@ -50,7 +50,7 @@ There must be at most *one* resource specifier per component class. I.e. no two 
 
 | DKPro Core
 | 1.8.0
-| Fully
+| Full
 | Resource specifier files automatically generated using uimaFIT Maven plugin.
 | Draft
 

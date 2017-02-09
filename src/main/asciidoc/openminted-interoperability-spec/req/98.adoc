@@ -31,7 +31,7 @@ The process of publishing software via DockerHub is detailed link:https://docs.d
 
 | DKPro Core
 | 1.8.0
-| Fully
+| Full
 | DKPro Core is fully available from Maven Central.
 | Draft
 

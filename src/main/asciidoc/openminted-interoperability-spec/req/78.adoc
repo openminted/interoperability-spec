@@ -48,7 +48,7 @@ NOTE: Annotation types for input and output resources can be mapped to the OMTD-
 
 | DKPro Core
 | 1.8.0
-| Fully
+| Full
 | Input/output capabilities declared where possible.
 | Draft
 

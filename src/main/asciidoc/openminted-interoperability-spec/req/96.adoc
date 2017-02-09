@@ -72,7 +72,7 @@ NOTE: The version is also available from the UIMA resource specifier. It must be
 
 | DKPro Core
 | 1.8.0
-| Fully
+| Full
 | UIMA components are provided as Maven artifacts.
 | Draft
 

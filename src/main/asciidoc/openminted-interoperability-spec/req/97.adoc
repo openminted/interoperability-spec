@@ -36,7 +36,7 @@ class MyComponentClass
 
 | DKPro Core
 | 1.8.0
-| Fully
+| Full
 | Flag is (un)set depending on the type of component. Processing components can usually be scaled 
   while writers cannot.
 | Draft

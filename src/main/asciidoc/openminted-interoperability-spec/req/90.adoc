@@ -30,8 +30,8 @@ The OMTD-SHARE metadata schema includes the element _componentType_ which can be
 
 | DKPro Core
 | 1.8.0
-| Unknown
-| Unknown
+| No
+| DKPro Core uses naming conventions for components and DKPro Meta implements a set of rules to derive component types from these naming conventions. However, the component types used by DKPro Meta (and consequently the DKPro Core reference documentation) do not fully correspond to the OMTD-SHARE component types. Also, the component type is not explicitly included with the respective component metadata. It can only be found in the reference documentation.
 | Draft
 
 | GATE

@@ -47,8 +47,8 @@ in that file.
 
 | DKPro Core
 | 1.8.0
-| Unknown
-| Unknown
+| Partial
+| JAR files for DKPro Core components contain a LICENSE.txt file. JAR files for models so far usually do not contain a LICENSE.txt file. 
 | Draft
 
 | GATE

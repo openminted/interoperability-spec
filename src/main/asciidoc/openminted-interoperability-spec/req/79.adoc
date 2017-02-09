@@ -53,7 +53,7 @@ protected String language;
 
 | DKPro Core
 | 1.8.0
-| Fully
+| Full
 | Documentation is maintained as JavaDoc and transferred into UIMA resource specifiers using the uimaFIT Maven plugin.
 | Draft
 

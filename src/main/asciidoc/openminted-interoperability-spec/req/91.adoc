@@ -77,8 +77,9 @@ NOTE: For clarification reasons, it is noted that this relation is different fro
 
 | DKPro Core
 | 1.8.0
-| Unknown
-| Unknown
+| No
+| Occasionally, pointers to relevant papers are included in the documentation or metadata of components,
+but this information is only indicative. The DKPro Core website explicitly asks users to look up relevant papers for the components they use - or more specifically - the tools they wrap and the models that are used with them. 
 | Draft
 
 | GATE

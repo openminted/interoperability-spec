@@ -28,7 +28,7 @@ Mind that the uimaFIT annotations embedded in the component's class file cannot 
 
 | DKPro Core
 | 1.8.0
-| Fully
+| Full
 | UIMA resource specifiers are auto-generated using the uimaFIT Maven plugin.
 | Draft
 
