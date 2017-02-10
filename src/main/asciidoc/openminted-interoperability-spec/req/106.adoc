@@ -53,9 +53,9 @@ To fulfill the above requirements, further recommendations:
 
 
 | Alvis
-|
+| 0.5rc
 | Partial
-| Provided in free-text
+| Provided in free-text mode. Identification of the licences according to the most popular standard licences in progress.
 | Draft
 
 | ARGO
