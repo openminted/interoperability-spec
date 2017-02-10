@@ -39,9 +39,9 @@ Components can be accessed as web services and/or as downloadable tools, and thi
 
 
 | Alvis
-|
-| Unknown
-| Unknown
+| 0.5rc
+| Full
+| The Alvis engine, its components and the available resources are downlodable from repositories and web sites.
 | Draft
 
 | ARGO
