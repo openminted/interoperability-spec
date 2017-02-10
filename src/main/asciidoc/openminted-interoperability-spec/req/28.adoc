@@ -18,8 +18,8 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within
 
 | Alvis
 | 0.5rc
-| No
-| Not supported
+| Full
+| AlvisEngine and its components can be downloaded. Docker images for Alvis in progress.
 | Draft
 
 | ARGO
