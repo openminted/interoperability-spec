@@ -64,6 +64,12 @@ NOTE: The version is also available from the UIMA resource specifier. It must be
 |====
 |Product|Version|Compliant|Justification|Status
 
+| Alvis
+| 0.5rc
+| Partial
+| Alvis is provided as Maven artifacts. Decomposing each component as a maven sub-artfifact is not done.  
+| Draft
+
 | ARGO
 | 0.5
 | Unknown
