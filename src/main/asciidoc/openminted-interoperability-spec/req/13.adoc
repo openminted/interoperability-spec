@@ -17,7 +17,7 @@ It is important that citable publications for each component can be obtained fro
 | Alvis
 | 0.5rc
 | No
-| No citation information in general, the documentation of the modules may sometimes contain citation information
+| No citation information in general, the documentation of the modules sometimes contains citation information.
 | Draft
 
 | ARGO
