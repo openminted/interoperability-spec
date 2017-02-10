@@ -3,6 +3,7 @@
 | *ID* | *Requirement* | *Product* | *Compliance*
 <%
 requirementProductList    
+    .findAll { !it.requirement.status.contains("deprecat") }
     .findAll { !it.justification || "unknown".equalsIgnoreCase(it.justification.trim()) }
     .sort { it.requirement.id }
     .each { assessment ->
