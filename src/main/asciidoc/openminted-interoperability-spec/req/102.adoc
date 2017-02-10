@@ -54,9 +54,9 @@ NOTE: In the next version of the schema, the "version" element will be restricte
 
 
 | Alvis
-|
-| Unknown
-| Unknown
+| 0.5rc
+| Partial
+| Versions exist for the components. In general, version for resources has to be adapted to follow the link:http://semver.org[semantic versioning] principles.
 | Draft
 
 | ARGO
