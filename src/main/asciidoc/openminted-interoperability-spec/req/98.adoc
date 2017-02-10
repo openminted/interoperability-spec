@@ -23,6 +23,12 @@ The process of publishing software via DockerHub is detailed link:https://docs.d
 |====
 |Product|Version|Compliant|Justification|Status
 
+| Alvis
+| 0.5rc
+| Partial
+| The Alvis engine is publish via a maven repository, Dockering Alvis is in progress. Note that, into Alvis,  an executable component is a couple of <Alvis engine + the component>.
+| Draft
+
 | ARGO
 | 0.5
 | Unknown
