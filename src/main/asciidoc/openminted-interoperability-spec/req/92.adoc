@@ -34,9 +34,9 @@ in that file.
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
-| Unknown
-| Unknown
+| 0.5rc
+| partial
+| Exist for the corpus
 | Draft
 
 | ARGO
