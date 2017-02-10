@@ -71,7 +71,7 @@ NOTE: For this version, we will allow also "open access" or "other" etc. as stat
 | Alvis
 | 0.5rc
 | No
-| Alvis does not provide this aspect but some licence information are provided as free texts in tool descriptions or in some tool readme.
+| Alvis does not provide this aspect but some licence information are provided as free texts in the tool descriptions or in README of some tools.
 | Final
 
 | ARGO
