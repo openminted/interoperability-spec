@@ -15,7 +15,7 @@ Having some form of free-text description assists text and data miners in choosi
 | Alvis
 | 0.5rc
 | Partial
-| The description are free texts.
+| Components have descriptions as html streams containing formatting tags.
 | Draft
 
 | ARGO
