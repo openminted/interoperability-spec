@@ -15,7 +15,7 @@ To accommodate scaling of a workflow, it is imperative to understand which compo
 | Alvis
 | 0.5rc
 | No
-| We do not deal with this aspect.
+| Do not deal with this aspect.
 | Draft
 
 | ARGO
