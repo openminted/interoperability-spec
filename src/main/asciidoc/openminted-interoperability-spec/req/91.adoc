@@ -64,9 +64,9 @@ NOTE: For clarification reasons, it is noted that this relation is different fro
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
-| Unknown
-| Unknown
+| 0.5rc
+| No
+| Not supported for the moment.
 | Draft
 
 | ARGO
