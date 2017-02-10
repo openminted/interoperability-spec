@@ -20,7 +20,7 @@ NOTE: This requirement was previously titled "Components should be uniquely iden
 | Alvis
 | 0.5rc
 | Full
-| Components are Java classes organised using packages.
+| Components are Java classes organised through packages.
 | Draft
 
 | ARGO
