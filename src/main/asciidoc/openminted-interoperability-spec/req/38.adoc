@@ -63,7 +63,7 @@ Access mode of all resources (e.g.  for s/w, whether they are downloadable or ac
 | Alvis
 | 0.5rc
 | No
-| No explicit specification of access mode 
+| No explicit and formal specification of access mode 
 | Final
 
 | ARGO
