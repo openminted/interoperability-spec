@@ -66,7 +66,7 @@ To fulfill the above requirements, further recommendations:
 
 | DKPro Core
 | 1.8.0
-| Unknown
+| Partial
 | For components, license information is in the POM file and more detailed in the LICENSE.txt file included in each Maven artifact. For models, the information may presently be missing or only be available in a DKPro Core-specific metadata file associated with the model. 
 | Draft
 
