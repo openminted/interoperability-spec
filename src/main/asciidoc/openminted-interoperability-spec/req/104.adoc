@@ -54,9 +54,9 @@ To fulfill this requirement, further actions are in order:
 
 
 | Alvis
-|
-| Unknown
-| Unknown
+| 0.5rc
+| No
+| The information does not exist or is not formalized.
 | Draft
 
 | ARGO
