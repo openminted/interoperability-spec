@@ -33,7 +33,7 @@ Access mode of all resources (e.g.  for s/w, whether they are downloadable or ac
 | TheSoz
 | Jun-16
 | Full
-| SPARQL endpoint and URI lookup endpoint in void.ttl file 
+| SPARQL endpoint and URI lookup endpoint in `void.ttl` file
 | Final
 
 | Agrovoc

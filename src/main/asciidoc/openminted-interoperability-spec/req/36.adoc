@@ -38,7 +38,8 @@ NOTE: For this version, we include in the metadata what exists in the resource m
 | TheSoz
 | Jun-16
 | Full
-| via DbPedia URIs. The following values are present in the current void.ttl:  dc:subject <http://dbpedia.org/resource/Social_sciences> ;   dc:subject <http://dbpedia.org/resource/Thesaurus> ; 
+| via DbPedia URIs. The following values are present in the current `void.ttl`:  `dc:subject`
+<http://dbpedia.org/resource/Social_sciences> ;   `dc:subject` <http://dbpedia.org/resource/Thesaurus> ;
 | Final
 
 | Agrovoc
