@@ -32,8 +32,8 @@ update date of the document can be attached instead of the revision identifier.
 | TheSoz
 | Jun-16
 | No
-| No documentation available.
-| final
+| Documentation is not versioned (http://lod.gesis.org/thesoz/de/help.html)
+| Final
 
 | Agrovoc
 | 21/01/2016

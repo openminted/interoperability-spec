@@ -15,7 +15,7 @@ When there is a link to documentation, that documentation should be versioned an
 | TheSoz
 | Jun-16
 | No
-| 
+| Documentation is not versioned (http://lod.gesis.org/thesoz/de/help.html)
 | Final
 
 | Agrovoc

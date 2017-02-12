@@ -60,9 +60,10 @@ Further to this, a set of metadata elements that can be used for the automatic i
 
 | TheSoz
 | June-16
-| No
-| 
-| Draft
+| Partial
+| Language attributes are stored per concept and term, not on the whole resource. Vocabulary and schema of the resource
+are declared in the `void.ttl` file.
+| Final
 
 | Agrovoc
 | 21/01/2016

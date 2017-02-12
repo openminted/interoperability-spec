@@ -86,7 +86,7 @@ To fulfill this requirement, further actions are in order:
 | TheSoz
 | June-16
 | No
-| 
+| Only resource publisher is declared
 | Final
 
 | Agrovoc

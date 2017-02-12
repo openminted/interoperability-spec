@@ -83,9 +83,9 @@ NOTE: The element 'identifier' is not reserved for PIDs; it can be used for any 
 
 | TheSoz
 | June-16
-| No
-| 
-| Draft
+| Full
+| http://lod.gesis.org/thesoz/ (`void:uriLookupEndpoint` in `void.ttl` file)
+| Final
 
 | Agrovoc
 | 21/01/2016
