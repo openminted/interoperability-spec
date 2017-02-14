@@ -53,7 +53,7 @@ NOTE: For this version, we will allow also "open access" or "other" etc. as stat
 | OLiA
 | Jun-16
 | No
-| 
+| Not yet; plan to be released under a Creative Commons Attribution Sharealike licence as soon as a reference publication has appeared
 | Final
 
 | LAPPS
