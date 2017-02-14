@@ -44,7 +44,7 @@ NOTE: This requirement refers only to content resources that can be used as inpu
 | Agrovoc
 | 21/01/2016
 | Full
-| 
+| Url to the two versions of the resource and the SPARQL endpoint is provided in the void.ttl file (http://aims.fao.org/aos/agrovoc/void.ttl)
 | Final
 
 | JATS
@@ -56,13 +56,13 @@ NOTE: This requirement refers only to content resources that can be used as inpu
 | OLiA
 | Jun-16
 | Full
-| 
+| all resources are at the landing page: http://acoli.cs.uni-frankfurt.de/resources/olia/
 | Final
 
 | LAPPS
 | Jun-16
 | Full
-| 
+| in various formats, available from http://vocab.lappsgrid.org/
 | Final
 
 |====
