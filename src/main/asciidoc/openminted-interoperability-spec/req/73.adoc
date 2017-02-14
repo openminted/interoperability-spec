@@ -18,3 +18,4 @@ support across platforms and programming languages. There are:
 Specifically to be avoided are commercial algorithms and their implementations, e.g.
 
 * rar
+
