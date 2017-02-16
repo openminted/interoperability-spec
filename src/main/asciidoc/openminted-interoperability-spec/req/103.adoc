@@ -46,8 +46,8 @@ Components can be accessed as web services and/or as downloadable tools, and thi
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| Partial
+| Source code for our open source components is available on GitHub.
 | Draft
 
 | DKPro Core
