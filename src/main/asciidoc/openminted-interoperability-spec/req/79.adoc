@@ -47,8 +47,8 @@ protected String language;
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| Partial
+| Documentation is manually maintained within the UIMA resource specifiers.
 | Draft
 
 | DKPro Core
