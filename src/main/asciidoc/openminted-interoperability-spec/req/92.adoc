@@ -41,8 +41,8 @@ in that file.
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| Partial
+| Some existing Argo components contain a LICENSE.txt file, however this is not always the case and these license files don't get included with the packaged components.
 | Draft
 
 | DKPro Core
