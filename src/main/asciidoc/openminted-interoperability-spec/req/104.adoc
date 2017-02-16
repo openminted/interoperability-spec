@@ -61,8 +61,8 @@ To fulfill this requirement, further actions are in order:
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| No
+| 
 | Draft
 
 | DKPro Core
