@@ -44,8 +44,8 @@ There must be at most *one* resource specifier per component class. I.e. no two 
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| Partial
+| Argo components are described using standard UIMA XML Descriptor files, however the descriptor files are not required to be located next to the implementation class.  Argo components don't contain the `META-INF/org.apache.uima.fit/components.txt` locator file as they are distributed as UIMA PEAR packages, which already contain this information.
 | Draft
 
 | DKPro Core
