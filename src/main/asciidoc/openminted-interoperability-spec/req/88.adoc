@@ -23,8 +23,8 @@ NOTE: This can be mapped to the OMTD-SHARE schema elements _mimeType_, which sho
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| No
+| 
 | Draft
 
 | DKPro Core
