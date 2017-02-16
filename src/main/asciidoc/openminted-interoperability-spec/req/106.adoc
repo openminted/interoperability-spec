@@ -60,8 +60,8 @@ To fulfill the above requirements, further recommendations:
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| Partial
+| Licenses of components maybe declared in the component metadata, in a LICENSE.txt file at the root of a component's source code project or in the Maven POM file.
 | Draft
 
 | DKPro Core
