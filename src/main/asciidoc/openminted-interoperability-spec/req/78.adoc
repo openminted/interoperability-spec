@@ -42,8 +42,8 @@ NOTE: Annotation types for input and output resources can be mapped to the OMTD-
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| Partial
+| All components have the ability (within their UIMA XML descriptor) to declare their input/output types, however existing Argo components generally lack this information.  This is something we will correct.
 | Draft
 
 | DKPro Core
