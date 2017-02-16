@@ -39,8 +39,8 @@ The uimaFIT `@ResourceMetaData` annotation *must not* be used as it would interf
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| Partial
+| Some Argo components make use of the uimaFIT annotations, although it is not a requirement of Argo for components to do so.  It is planned that, at some point, we will convert all of our existing components to use uimaFIT annotations.
 | Draft
 
 | DKPro Core
