@@ -24,8 +24,8 @@ The OMTD-SHARE metadata schema includes the element _componentType_ which can be
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| No
+| This requirement could be fulfilled through a change to the specification of the Argo Descriptor file.  
 | Draft
 
 | DKPro Core
