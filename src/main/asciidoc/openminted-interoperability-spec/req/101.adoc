@@ -36,8 +36,8 @@ Further to this, a set of metadata elements that can be used for the automatic i
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| No
+| 
 | Draft
 
 | DKPro Core
