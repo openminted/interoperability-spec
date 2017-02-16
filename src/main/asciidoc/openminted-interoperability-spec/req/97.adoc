@@ -30,8 +30,8 @@ class MyComponentClass
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| Full
+| UIMA Components can be deployed multiple times within a workflow execution if this flag is set and it is not an instance of CollectionReader, CasConsumer, WebServiceReader, WebServiceConsumer, InteractiveAnalysisEngine
 | Draft
 
 | DKPro Core
