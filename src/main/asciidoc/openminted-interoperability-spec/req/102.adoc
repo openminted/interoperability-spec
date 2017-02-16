@@ -61,8 +61,8 @@ NOTE: In the next version of the schema, the "version" element will be restricte
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| Partial
+| Type Systems and Components have versioning information, however other resources do not.
 | Draft
 
 | DKPro Core
