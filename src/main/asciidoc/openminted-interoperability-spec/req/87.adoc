@@ -24,8 +24,8 @@ model is added to the registry.
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| Partial
+| Argo components can embed language metadata in their UIMA XML descriptors, however most components do not declare this information.
 | Draft
 
 | DKPro Core
