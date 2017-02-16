@@ -22,8 +22,8 @@ Mind that the uimaFIT annotations embedded in the component's class file cannot 
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| Full
+| UIMA resource specifiers are manually maintained by the resource developers.
 | Draft
 
 | DKPro Core
