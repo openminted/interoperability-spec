@@ -59,8 +59,8 @@ NOTE: The element 'identifier' is not reserved for PIDs; it can be used for any 
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| Full
+| All Argo components and type systems are identifiable using Maven coordinates.
 | Draft
 
 | DKPro Core
