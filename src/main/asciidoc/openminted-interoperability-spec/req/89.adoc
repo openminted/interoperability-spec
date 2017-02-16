@@ -67,7 +67,7 @@ update date of the document can be attached instead of the revision identifier.
 
 | ARGO
 | 0.5
-| Unknown
+| No
 | 
 | draft
 
