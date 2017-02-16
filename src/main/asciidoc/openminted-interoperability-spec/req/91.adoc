@@ -71,8 +71,8 @@ NOTE: For clarification reasons, it is noted that this relation is different fro
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| No
+| No plans to support this.
 | Draft
 
 | DKPro Core
