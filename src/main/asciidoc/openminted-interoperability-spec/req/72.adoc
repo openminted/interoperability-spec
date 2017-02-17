@@ -6,7 +6,7 @@
 [small]#*_Category:_* __WG2__#
 [small]#*_Status:_* __final__#
 
-Standard formats enable standard ingest into the TDM workflow.
+Standard formats enable standard ingestion into the TDM workflow.
 
 [cols="2,1,1,4,1"]
 |====
