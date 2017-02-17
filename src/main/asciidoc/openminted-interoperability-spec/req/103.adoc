@@ -33,9 +33,9 @@ Components can be accessed as web services and/or as downloadable tools, and thi
 
 | Frontiers
 |
-| Unknown
-| Unknown
-| Draft
+| Partial
+| Encoding partially available; Full deployment by Q3 2017
+| Final
 
 
 | Alvis
