@@ -84,7 +84,7 @@ To fulfill the above requirements, further recommendations:
 | TheSoz
 | June-16
 | Full
-| dc:license in void.ttl file
+| `dc:license` in `void.ttl` file
 | Final
 
 | Agrovoc

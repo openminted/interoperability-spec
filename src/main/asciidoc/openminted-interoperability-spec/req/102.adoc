@@ -86,7 +86,7 @@ NOTE: In the next version of the schema, the "version" element will be restricte
 | TheSoz
 | June-16
 | Full
-| owl:versionInfo in void.ttl file
+| `owl:versionInfo` in `void.ttl` file
 | Final
 
 | Agrovoc

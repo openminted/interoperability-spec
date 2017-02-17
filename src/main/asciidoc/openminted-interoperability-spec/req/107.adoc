@@ -88,7 +88,8 @@ Components are also included in the compliance table, although in the vast major
 | TheSoz
 | June-16
 | Full
-| via DbPedia URIs. The following values are present in the current void.ttl: dc:subject http://dbpedia.org/resource/Social_sciences ; dc:subject http://dbpedia.org/resource/Thesaurus
+| via DbPedia URIs. The following values are present in the current `void.ttl` file: `dc:subject`
+http://dbpedia.org/resource/Social_sciences ; `dc:subject` http://dbpedia.org/resource/Thesaurus
 | Final
 
 | Agrovoc

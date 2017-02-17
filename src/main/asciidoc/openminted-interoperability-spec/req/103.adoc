@@ -71,7 +71,7 @@ Components can be accessed as web services and/or as downloadable tools, and thi
 | TheSoz
 | June-16
 | Full
-| SPARQL endpoint and URI lookup endpoint in void.ttl file
+| SPARQL endpoint and URI lookup endpoint in `void.ttl` file
 | Final
 
 | Agrovoc

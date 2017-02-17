@@ -27,7 +27,7 @@ For this identification purpose, knowledge resource schema elements should be id
 | TheSoz
 | June 2016
 | Full
-| 
+| knowledge resource elements are identified via `rdf:about` and `rdf:resource` attributes
 | Final
 
 | Agrovoc

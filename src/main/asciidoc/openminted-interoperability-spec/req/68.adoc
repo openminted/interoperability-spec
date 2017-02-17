@@ -16,7 +16,7 @@ The compliance assessment checks the use of mentioned linking vocabularies withi
 | TheSoz
 | June 2016
 | Full
-| 
+| Relations are specified using `rdfs:subClassOf`, `rdfs:subPropertyOf`
 | Final
 
 | Agrovoc
