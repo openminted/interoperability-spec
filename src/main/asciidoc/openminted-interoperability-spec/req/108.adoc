@@ -41,8 +41,8 @@ The metadata elements to be used are:
 
 | Frontiers
 |
-| Unknown
-| Unknown
+| No
+| English only supported
 | Draft
 
 | TheSoz
