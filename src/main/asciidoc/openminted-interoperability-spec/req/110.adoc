@@ -46,9 +46,9 @@ NOTE: The element 'identifier' is not reserved for PIDs; it can be used for any 
 
 | Frontiers
 |
-| Unknown
-| Unknown
-| Draft
+| Full
+| DOI's for all publications
+| Final
 
 
 | Alvis
