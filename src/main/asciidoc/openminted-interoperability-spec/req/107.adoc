@@ -50,8 +50,8 @@ Components are also included in the compliance table, although in the vast major
 
 | Frontiers
 |
-| Unknown
-| Unknown
+| Partial
+| Domain/subject classification based on PMC naming conventions
 | Draft
 
 
