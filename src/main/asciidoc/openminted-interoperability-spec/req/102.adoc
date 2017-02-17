@@ -48,9 +48,9 @@ NOTE: In the next version of the schema, the "version" element will be restricte
 
 | Frontiers
 |
-| Unknown
-| Unknown
-| Draft
+| No
+| Available Q3 2017
+| Final
 
 
 | Alvis
