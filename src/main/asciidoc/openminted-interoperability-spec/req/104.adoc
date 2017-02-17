@@ -48,10 +48,9 @@ To fulfill this requirement, further actions are in order:
 
 | Frontiers
 |
-| Unknown
-| Unknown
-| Draft
-
+| No
+| Available Q3 2017
+| Final
 
 | Alvis
 | 0.5rc
