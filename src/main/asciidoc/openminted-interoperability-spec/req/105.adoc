@@ -48,9 +48,9 @@ NOTE: Under consideration: discuss how the page with the controlled vocabulary o
 
 | Frontiers
 |
-| Unknown
-| Unknown
-| Draft
+| No
+| Available Q3 2017
+| Final
 |====
 
 
