@@ -28,8 +28,9 @@ For different variants of the same publication, e.g. in PDF and HTML format, the
 
 | CORE
 |
-| Unknown
-| Unknown
+| Partial
+| Access link can be crafted using the internal identifiers - same as requirement 4. So content resources (in CORE case the referenced pdf) should be accessible from CORE’s API :
+/articles/get/{coreId}/download/pdf
 | Draft
 
 | OpenAIRE
