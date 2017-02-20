@@ -35,8 +35,8 @@ To fulfill the above requirements, further recommendations:
 
 | CORE
 |
-| Unknown
-| Unknown
+| Partial
+| License is provided where license was explicitly stated in the aggregated resource, otherwise omitted
 | Draft
 
 | OpenAIRE
