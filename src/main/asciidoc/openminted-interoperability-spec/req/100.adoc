@@ -24,8 +24,11 @@ content connector from publishers: ResourceSync
 
 | CORE
 |
-| Unknown
-| Unknown
+| Full
+| Access is provided via CORE API (recommended) or by manually crafting download URL:
+https://core.ac.uk/api-v2/articles/get/{coreid}/download/pdf?apiKey=20hIsS1F5j4D2C2iXrg4Wxf7VTp4Xt1j (recommended way via API
+Or 
+http://dev.core.ac.uk/download/pdf/{coreid}.pdf (supported but not recommended)
 | Draft
 
 | OpenAIRE
