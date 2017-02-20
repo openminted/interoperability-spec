@@ -21,8 +21,8 @@ Components can be accessed as web services and/or as downloadable tools, and thi
 
 | CORE
 |
-| Unknown
-| Unknown
+| Full
+| Resources are always available through the recommended interface (CORE API) or via direct URL (see req. 100). Therefore accessMode is at the same time downloadable (if direct URL is used) and accessibleThroughInterface (if API is used)
 | Draft
 
 | OpenAIRE
