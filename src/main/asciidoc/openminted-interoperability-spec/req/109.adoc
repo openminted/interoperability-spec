@@ -23,8 +23,8 @@ For this reason, OpenMinTeD uses a set of two mandatory metadata elements, 'size
 
 | CORE
 |
-| Unknown
-| Unknown
+| Full
+| Size and sizeunit of the resource is provided
 | Draft
 
 | OpenAIRE
