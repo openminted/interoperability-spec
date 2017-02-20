@@ -38,8 +38,11 @@ Components are also included in the compliance table, although in the vast major
 
 | CORE
 |
-| Unknown
-| Unknown
+| Partial
+| (i) ‘domain’ is left empty as at the moment CORE does not classify publications to research areas. 
+(ii) ‘Subject’ field is populated where applicable according to the aggregated metadata of the resource (e.g. what is provided in dc:subject tag).
+(iii) ‘Keywords’ is left empty as at the moment CORE does not perform keyword extraction. 
+(i) and (iii) are part of CORE’s future endeavours and implementations to happen through the aid of OpenMinTed platform
 | Draft
 
 | OpenAIRE
