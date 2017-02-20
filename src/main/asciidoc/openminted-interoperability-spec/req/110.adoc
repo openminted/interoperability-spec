@@ -34,8 +34,8 @@ NOTE: The element 'identifier' is not reserved for PIDs; it can be used for any 
 
 | CORE
 |
-| Unknown
-| Unknown
+| Full
+| CORE publications are uniquely and persistently identified (using the CORE's internal ID)
 | Draft
 
 | OpenAIRE
