@@ -29,8 +29,8 @@ The metadata elements to be used are:
 
 | CORE
 |
-| Unknown
-| Unknown
+| Full
+| Language is provided where available through the metadata of the aggregated resource or inferred through the full text
 | Draft
 
 | OpenAIRE
