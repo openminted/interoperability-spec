@@ -36,8 +36,8 @@ To fulfill this requirement, further actions are in order:
 
 | CORE
 |
-| Unknown
-| Unknown
+| No
+| CORE holds no funding information about the shared resources. As part of future developments this shall be retrieved from aggregated metadata or inferred (mined) from fulltext (see Openminted Scholarly Communication use case)
 | Draft
 
 | OpenAIRE
