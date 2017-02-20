@@ -1,0 +1,63 @@
+== Annotation schema dependencies for UIMA components using Maven
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+* <<REQ-9>>
+
+A UIMA component, which is managed using Maven, will declare any required type systems as Maven dependencies.  
+
+The Maven artifacts, containing the type systems, will have UIMA resource specifiers describing the type systems (in terms of types and type features).  These resource specifiers can be located in two ways:
+
+* The Maven type system artifacts can contain a locator file file called `META-INF/org.apache.uima.fit/types.txt` which declares pointers to all of the type system descriptor files existing within the artifact.
+----
+classpath*:my/organizations/domain/name/package/TypeSystem.xml
+----
+* The resource specifier of the UIMA component can explicitly declare the names of type systems it requires.  These names should be written as fully qualified Java-style dotted names and refer to XML files at the given locations in the classpath. 
+----
+<typeSystemDescription>
+  <imports>
+    <import name="my.organizations.domain.name.package.TypeSystem" />
+  </imports>
+</typeSystemDescription>
+----
+
+.Compliance assessment
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| Alvis
+| 0.5rc
+| Unknown
+| Unknown
+| Draft
+
+| ARGO
+| 0.5
+| Fully
+| All Argo components include type systems as Maven dependencies and explicitly declare the name of the type systems used within their XML descriptor. 
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Unknown
+| Unknown
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+
+| GATE
+| 8.2
+| Unknown
+| Unknown
+| Draft
+|====
