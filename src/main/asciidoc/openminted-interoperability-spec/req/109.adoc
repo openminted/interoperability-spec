@@ -35,9 +35,9 @@ For this reason, OpenMinTeD uses a set of two mandatory metadata elements, 'size
 
 | Frontiers
 |
-| Unknown
-| Unknown
-| Draft
+| Full
+| Number of words per publication
+| Final
 
 | TheSoz
 | June-16
