@@ -36,8 +36,8 @@ NOTE: Under consideration: discuss how the page with the controlled vocabulary o
 
 | CORE
 |
-| Unknown
-| Unknown
+| Full
+| Content resource is distributed using mimeType: http://www.iana.org/assignments/media-types/application/json for the metadata and http://www.iana.org/assignments/media-types/application/pdf for the content. documentationURL (for the metadata case) is https://core.ac.uk/docs/
 | Draft
 
 | OpenAIRE
