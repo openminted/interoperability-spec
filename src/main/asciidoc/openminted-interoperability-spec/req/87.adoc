@@ -4,7 +4,9 @@
 [small]#*_Concreteness:_* __concrete__#
 [small]#*_Strength:_*     __mandatory__#
 [small]#*_Category:_*     __WG1__,__WG4__#
-[small]#*_Status:_*       __draft__#
+[small]#*_Status:_*       __deprecated__#
+
+IMPORTANT: The abstract requirement is now covered by requirement 75.
 
 .See also 
 * <<REQ-43>>
