@@ -10,7 +10,7 @@
 
 * <<REQ-33>>
 
-It is mandatory to include an indication of the licensing terms under which a resource is made accessible. In OpenMinTeD this can be implemented in one of the following ways, in preferential order:
+It is mandatory to include an indication of the licensing terms under which a resource is made accessible. In the OMTD-SHARE schema, this can be implemented in one of the following ways, in preferential order:
 
 * Selection from a list of values of the most popular standard licences in the 'licence' element (link to the controlled vocabulary to be provided) and indication of the licence version in the 'version' element;
 
@@ -22,11 +22,10 @@ NOTE: For resources that are produced through OpenMinTeD operations (e.g. user q
 
 To fulfill the above requirements, further recommendations:
 
-* For all resources: the 'dc:license' (which requires a licence document) is preferable to 'dc:rights' (which can be filled in with a free text statement); it is essential to also attach the full legal document containing the licensing terms to the packaged resource and add the licenseURI in the metadata description.
-
 * Components coming from Maven repositories: the wrapper element <license> with nested elements <name> & <url> for the full title of the licence (mentioning also version) and for the url respectively must be obligatorily filled in; if possible, use of one of the OpenMinTeD recommended licences is preferred.
 
-* Resources from the Linked Data community can use the dc:license or dc:rights elements to provide a link to the licence text or a licence name.
+* Resources from the Linked Data community can use the dc:license or dc:rights elements to provide a link to the licence text or a licence name. The 'dc:license' (which requires a licence document) is preferable to 'dc:rights' (which can be filled in with a free text statement); it is essential to also attach the full legal document containing the licensing terms to the packaged resource and add the "licenseURI" in the metadata description.
+
 
 .Compliance assessment
 [cols="2,1,1,4,1"]
