@@ -42,6 +42,7 @@ class MyComponentClass
 | Draft
 
 | ILSP
+| 1.2.1
 | Full
 | UIMA-based components have the `multipleDeploymentAllowed` flag set
 | Unknown

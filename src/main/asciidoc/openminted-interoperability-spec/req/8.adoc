@@ -34,13 +34,13 @@ To be moved to FR in WP6
 
 | GATE
 | 8.2
-| no
+| No
 | GATE does not currently enforce such a categorization (or have any way internally of doing so). For the core plugins (i.e. those developed in Sheffield) we try and stick to a naming convention that gives some idea of the nature of the plugin; Lang_X, Parser_X, Tagger_X, etc. but this is purely a convention and is in no way fine grained enough to be used for indexing or other forms of automatic discovery.
 | Draft
 
 | ILSP
 | 1.2.1
-| no
+| No
 | By convention we package all readers, exporters, and instantiations of uimafit pipelines as three different projects. A package is also used for uima service clients. The rest of the packages concern analyzers and follow an ilsp-nlp-XXX naming scheme, with XXX being a string like lemmatizer or depparser.
 | Draft
 |====

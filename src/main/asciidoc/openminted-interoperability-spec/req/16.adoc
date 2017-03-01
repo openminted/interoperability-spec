@@ -41,12 +41,12 @@ Source: WG 4 Scenario 1 — Transferability of components between ecosystems
 | GATE
 | 8.2
 | Full
-| GATE components that are configured through models/resources etc. simply require a URL to the resources. This could be a file or jar URL as well as anormal http URL. Resources may be bundled inside jar files for distribution but these are simply the default files and can always be replaced.
+| GATE components that are configured through models/resources etc. simply require a URL to the resources. This could be a file or jar URL as well as a normal http URL. Resources may be bundled inside jar files for distribution but these are simply the default files and can always be replaced.
 | Draft
 
 | ILSP
 | 1.2.1
 | Partial
-| ILSP UIMA-based components are typically configured via uimafit ConfigurationParameter and/or ExternalResource annotations. As services, users can only configure parameters things like exporting format.
+| ILSP UIMA-based components are typically configured via uimaFIT ConfigurationParameter and/or ExternalResource annotations. As services, users can only configure parameters things like exporting format.
 | Draft
 |====

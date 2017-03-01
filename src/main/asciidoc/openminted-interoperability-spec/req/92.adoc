@@ -35,7 +35,7 @@ in that file.
 
 | Alvis
 | 0.5rc
-| partial
+| Partial
 | Exist for the corpus
 | Draft
 
