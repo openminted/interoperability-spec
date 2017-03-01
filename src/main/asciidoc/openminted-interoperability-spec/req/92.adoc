@@ -53,8 +53,8 @@ in that file.
 
 | GATE
 | 8.2
-| Unknown
-| Unknown
+| No
+| Some plugins do do this, but in general it's not the case. The next version of GATE will use maven for plugin build/distribution at which time the license will be listed in the pom.xml. We don't currently envisage adding the full license text into the META-INF folder, mostly as users will never have access to it, but information from the pom.xml may well be exposed.
 | Draft
 
 | ILSP
