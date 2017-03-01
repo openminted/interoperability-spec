@@ -69,7 +69,7 @@ When there is a link to documentation, that documentation should be versioned an
 | GATE
 | 8.2
 | No
-| 
+| There is currently no mechanism in place for linking changes in a version of a component with any links to its documentation. 
 | Final
 
 | ILSP
