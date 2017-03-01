@@ -36,8 +36,8 @@ The OMTD-SHARE metadata schema includes the element _componentType_ which can be
 
 | GATE
 | 8.2
-| Unknown
-| Unknown
+| No
+| There are some naming conventions used with the GATE plugins developed in Sheffield that could be mapped to these categories but in general we don't currently support this requirement in any way.
 | Draft
 
 | ILSP
