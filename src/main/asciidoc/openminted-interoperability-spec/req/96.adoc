@@ -83,9 +83,9 @@ NOTE: The version is also available from the UIMA resource specifier. It must be
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.2.1
+| Partial
+| Most components are developed as Maven artifacts but are not distributed via any publicly available Maven repository
 | Draft
 
 | GATE

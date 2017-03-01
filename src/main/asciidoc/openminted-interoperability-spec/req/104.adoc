@@ -77,9 +77,9 @@ To fulfill this requirement, further actions are in order:
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.2.1
+| No
+| This information is not systematically added to components
 | Draft
 
 | TheSoz

@@ -85,8 +85,8 @@ update date of the document can be attached instead of the revision identifier.
 
 | ILSP
 | 1.2.1
-| Unknown
-|
+| No
+| No version
 | draft
 
 |====

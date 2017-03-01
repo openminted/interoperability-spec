@@ -53,9 +53,9 @@ Further to this, a set of metadata elements that can be used for the automatic i
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.1.2
+| No
+| Not supported
 | Draft
 
 | TheSoz

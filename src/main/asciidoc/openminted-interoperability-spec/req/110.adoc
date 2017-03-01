@@ -76,9 +76,9 @@ NOTE: The element 'identifier' is not reserved for PIDs; it can be used for any 
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.2.1
+| Full
+| UIMA components are developed as Maven artifacts.
 | Draft
 
 | TheSoz

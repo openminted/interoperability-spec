@@ -42,9 +42,9 @@ The process of publishing software via DockerHub is detailed link:https://docs.d
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.2.1
+| No
+| Components are deployed as UIMA-AS services. They are not available from Maven/Docker repositories.
 | Draft
 
 | GATE

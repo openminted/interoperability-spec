@@ -75,9 +75,9 @@ To fulfill the above requirements, further recommendations:
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.2.1
+| Partial
+| Components provided as web services are accompanied by a statement that they provided free for research purposes.
 | Draft
 
 | TheSoz

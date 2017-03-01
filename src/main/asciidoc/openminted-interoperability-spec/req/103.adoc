@@ -63,9 +63,9 @@ Components can be accessed as web services and/or as downloadable tools, and thi
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.2.1
+| Full
+| ILSP components are available as web services
 | Draft
 
 | TheSoz

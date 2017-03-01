@@ -78,9 +78,9 @@ NOTE: In the next version of the schema, the "version" element will be restricte
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.2.1
+| No
+| Not supported yet
 | Draft
 
 | TheSoz

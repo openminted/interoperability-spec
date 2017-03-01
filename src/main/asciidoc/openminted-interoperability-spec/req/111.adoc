@@ -50,7 +50,7 @@ classpath*:my/organizations/domain/name/package/TypeSystem.xml
 | Draft
 
 | ILSP
-| 
+| UIMA-based ILSP components include dependencies to a Maven project providing a common type system
 | Unknown
 | Unknown
 | Draft
