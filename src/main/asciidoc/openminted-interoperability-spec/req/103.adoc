@@ -58,8 +58,8 @@ Components can be accessed as web services and/or as downloadable tools, and thi
 
 | GATE
 | 8.2
-| Unknown
-| Unknown
+| Full
+| All GATE plugins are either loaded via a single URL which points to a directory containing creole.xml (this tells us what other files we might need) or in the current dev version via maven coordinates.
 | Draft
 
 | ILSP
