@@ -37,7 +37,7 @@ a document simply contains no instance of the specific type)
 | GATE
 | 8.2
 | No
-| 
+| GATE components do not specify any information regarding their input and output, mostly as there is no defined type system in GATE. Essentially we use the document as a blackboard so the input and output is the document with extra information added to it in the form of annotations and/or features, but each component is free to use that blackboard as they wish.
 | Final
 
 | ILSP
