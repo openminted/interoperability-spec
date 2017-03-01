@@ -73,7 +73,7 @@ To fulfill this requirement, further actions are in order:
 | GATE
 | 8.2
 | No
-| 
+| We don't currently track this information and have no plans to do so in any systematic way, although documentation for specific components may give funding information.
 | Draft
 
 | ILSP
