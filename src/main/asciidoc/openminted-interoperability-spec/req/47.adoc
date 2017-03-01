@@ -87,7 +87,7 @@ Information on funding sources (e.g. projects, funders data etc.) may be include
 | GATE
 | 8.2
 | No
-| 
+| We do support a help URL though where funding information may be listed, but nothing explicit.
 | Final
 
 | ILSP
