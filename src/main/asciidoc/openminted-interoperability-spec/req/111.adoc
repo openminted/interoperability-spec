@@ -39,14 +39,14 @@ classpath*:my/organizations/domain/name/package/TypeSystem.xml
 
 | ARGO
 | 0.5
-| Fully
+| Full
 | All Argo components include type systems as Maven dependencies and explicitly declare the name of the type systems used within their XML descriptor. 
 | Draft
 
 | DKPro Core
 | 1.8.0
-| Unknown
-| Unknown
+| Full
+| All DKPro Core components include type systems as Maven dependencies and explicitly declare the name of the type systems used within their XML descriptor. 
 | Draft
 
 | ILSP
