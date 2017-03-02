@@ -28,7 +28,7 @@ The compliance assessment checks the use of mentioned linking vocabularies withi
 | JATS
 | 1.1
 | No
-| 
+| No linking to other resources.
 | Final
 
 | OLiA
@@ -53,7 +53,7 @@ The compliance assessment checks the use of mentioned linking vocabularies withi
 | CLARIN CCR
 | June 2016
 | No
-| 
+| The CCR does not support linking between concepts; apparently, this will be done through a Relation Registry (which is not yet ready) or at the component/profile level in CMDI.
 | Final
 
 | schema.org
