@@ -26,8 +26,8 @@ For the purposes of resource access and resource schema harmonization, schema el
 
 | JATS
 | 1.1
-| Full
-| 
+| Partial
+| JATS is available in the form of a suite of DTD's. All elements and attributes are documented with their own html page but do not have a URI assigned to them.
 | Final
 
 | OLiA
@@ -52,7 +52,7 @@ For the purposes of resource access and resource schema harmonization, schema el
 | CLARIN CCR
 | June 2016
 | Full
-| 
+| All concepts have their own id, a uri issued by handle.
 | Final
 
 | schema.org
