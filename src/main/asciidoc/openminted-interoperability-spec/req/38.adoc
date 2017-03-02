@@ -45,7 +45,7 @@ Access mode of all resources (e.g.  for s/w, whether they are downloadable or ac
 | JATS
 | 1.1
 | No
-| 
+| No formal metadata description for JATS
 | Final
 
 | OLiA
