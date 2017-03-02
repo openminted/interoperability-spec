@@ -39,7 +39,7 @@ Where linking between knowledge resources is modeled by a Linked Data resource, 
 | JATS
 | 1.1
 | No
-| 
+| No linking with other resources
 | Final
 
 | OLiA
@@ -64,7 +64,7 @@ Where linking between knowledge resources is modeled by a Linked Data resource, 
 | CLARIN CCR
 | June 2016
 | No
-| 
+| No linking with other resources
 | Final
 
 | schema.org
