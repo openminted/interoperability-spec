@@ -24,7 +24,7 @@ NOTE: This can be mapped to the OMTD-SHARE schema elements _mimeType_, which sho
 | ARGO
 | 0.5
 | No
-| 
+| At present users can only deduce the output format of a UIMA component from either the name of a component or its textual description.  Argo components will eventually be able to use the @MimeTypeCapability annotation when uimaFIT becomes a first-class citizen within Argo.
 | Draft
 
 | DKPro Core
