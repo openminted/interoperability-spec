@@ -68,7 +68,7 @@ update date of the document can be attached instead of the revision identifier.
 | ARGO
 | 0.5
 | No
-| 
+| No versioning of the documentation is performed or enforced by Argo, however this is something that could be adopted.
 | draft
 
 | DKPro Core
