@@ -61,7 +61,7 @@ To fulfill this requirement, further actions are in order:
 | ARGO
 | 0.5
 | No
-| 
+| Argo components don't contain any funding information and there are no plans to support this. 
 | Draft
 
 | DKPro Core
