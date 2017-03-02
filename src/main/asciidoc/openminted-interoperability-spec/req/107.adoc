@@ -67,7 +67,7 @@ Components are also included in the compliance table, although in the vast major
 | ARGO
 | 0.5
 | No
-| 
+| Currently no support for this.
 | Draft
 
 | DKPro Core
