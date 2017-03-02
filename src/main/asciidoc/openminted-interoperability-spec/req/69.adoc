@@ -26,8 +26,8 @@ Description
 
 | JATS
 | 1.1
-| Full
-| JATS is in XSD format, but each element can be accessed via a URI
+| N/A
+| No linking to other resources
 | Final
 
 | OLiA
@@ -52,7 +52,7 @@ Description
 | CLARIN CCR
 | June-2016
 | No
-| 
+| No linking to other resources
 | Final
 
 | schema.org
