@@ -27,7 +27,7 @@ When there is a link to documentation, that documentation should be versioned an
 | JATS
 | 1.1
 | No
-| 
+| Documentation is not versioned
 | Final
 
 | OLiA
