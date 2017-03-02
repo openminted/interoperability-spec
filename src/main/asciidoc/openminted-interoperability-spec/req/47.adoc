@@ -45,7 +45,7 @@ Information on funding sources (e.g. projects, funders data etc.) may be include
 | JATS
 | 1.1
 | No
-| 
+| No formal metadata exist for JATS
 | Final
 
 | OLiA
