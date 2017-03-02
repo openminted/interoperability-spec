@@ -37,7 +37,7 @@ Further to this, a set of metadata elements that can be used for the automatic i
 | ARGO
 | 0.5
 | No
-| 
+| Argo doesn't currently have a concept of resources, other than components or type systems.  Models are either bundled into components (which are distributed as UIMA PEAR files) or live within a user's Argo filestore and passed to a component through configuration parameters, but there is no standard to this. 
 | Draft
 
 | DKPro Core
