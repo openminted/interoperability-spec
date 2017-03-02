@@ -26,8 +26,8 @@ Standard formats enable standard ingestion into the TDM workflow.
 
 | JATS
 | 1.1
-| Partial
-| XSD/RELAX-NG/DTD
+| Full
+| Standard format: XSD/RELAX-NG/DTD
 | Final
 
 | OLiA
@@ -52,7 +52,7 @@ Standard formats enable standard ingestion into the TDM workflow.
 | CLARIN CCR
 | June-2016
 | Full
-| 
+| Collections as SKOS/RDF
 | Final
 
 | schema.org
