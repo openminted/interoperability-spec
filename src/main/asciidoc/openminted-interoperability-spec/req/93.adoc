@@ -38,8 +38,8 @@ For this identification purpose, knowledge resource schema elements should be id
 
 | JATS
 | 1.1
-| Full
-| 
+| Partial
+| No URI but JATS is a formal DTD and each element/attribute has its own id.
 | Final
 
 | OLiA
@@ -64,7 +64,7 @@ For this identification purpose, knowledge resource schema elements should be id
 | CLARIN CCR
 | June 2016
 | Full
-| 
+| Each concept is assigned a handle URI
 | Final
 
 | schema.org
