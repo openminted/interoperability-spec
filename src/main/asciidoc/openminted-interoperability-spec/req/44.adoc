@@ -26,12 +26,6 @@ NOTE: for version 1 this is set to optional, but for version 2 we should increas
 | number of concepts, labels
 | Final
 
-| JATS
-| 1.1
-| No
-| 
-| Final
-
 | OLiA
 | Jun-16
 | No
