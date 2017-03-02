@@ -30,7 +30,7 @@ Standard formats for knowledge resources enables TDM to make use of common softw
 | JATS
 | 1.1
 | Partial
-| XSD/RELAX-NG/DTD
+| Standard format: XSD/RELAX-NG/DTD
 | Final
 
 | OLiA
@@ -55,7 +55,7 @@ Standard formats for knowledge resources enables TDM to make use of common softw
 | CLARIN CCR
 | June-2016
 | Full
-| 
+| SKOS/RDF
 | Final
 
 | schema.org
