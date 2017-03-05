@@ -27,8 +27,8 @@ Components can be accessed as web services and/or as downloadable tools, and thi
 
 | OpenAIRE
 |
-| Unknown
-| Unknown
+| Partial
+| Access and download of content resources is in principle supported, but currently restricted.
 | Draft
 
 | Frontiers

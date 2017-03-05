@@ -40,8 +40,8 @@ To fulfill the above requirements, further recommendations:
 
 | OpenAIRE
 |
-| Unknown
-| Unknown
+| No
+| Currently not supported
 | Draft
 
 | Frontiers

@@ -42,8 +42,8 @@ To fulfill this requirement, further actions are in order:
 
 | OpenAIRE
 |
-| Unknown
-| Unknown
+| Partial
+| Funder and project information is provided through OpenAIRE's own vocabulary.
 | Draft
 
 | Frontiers

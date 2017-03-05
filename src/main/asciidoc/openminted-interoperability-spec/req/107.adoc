@@ -47,7 +47,7 @@ Components are also included in the compliance table, although in the vast major
 
 | OpenAIRE
 |
-| Unknown
+| Partial 
 | Unknown
 | Draft
 

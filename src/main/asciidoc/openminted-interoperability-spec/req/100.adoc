@@ -33,8 +33,8 @@ http://dev.core.ac.uk/download/pdf/{coreid}.pdf (supported but not recommended)
 
 | OpenAIRE
 | 
-| Unknown
-| Unknown
+| No
+| Direct access to the content of a resource is currently restricted.
 | Draft
 
 | Frontiers
