@@ -27,7 +27,8 @@ Where linking between knowledge resources is modeled by a Linked Data resource, 
 | TheSoz
 | June 2016
 | Full
-| 
+| Interlinking to the following resources are defined in `void.ttl` file:  `STW Thesaurus for Economics`, `AGROVOC`,
+and `DBpedia`
 | Final
 
 | Agrovoc

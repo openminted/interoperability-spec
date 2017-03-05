@@ -15,7 +15,7 @@ For the purposes of resource access and resource schema harmonization, schema el
 | TheSoz
 | June 2016
 | Full
-| 
+| Schema elements are from SKOS vocabulary and an extension of it defined by http://lod.gesis.org/thesoz/ext/thesoz_ext.rdf
 | Final
 
 | Agrovoc

@@ -33,7 +33,7 @@ Information on funding sources (e.g. projects, funders data etc.) may be include
 | TheSoz
 | Jun-16
 | No
-| 
+| No funding information included in metadata
 | Final
 
 | Agrovoc
