@@ -42,8 +42,8 @@ NOTE: In the next version of the schema, the "version" element will be restricte
 
 | OpenAIRE
 |
-| Unknown
-| Unknown
+| No
+| Version information is currently not evaluated
 | Draft
 
 | Frontiers

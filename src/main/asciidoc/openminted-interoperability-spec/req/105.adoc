@@ -42,8 +42,8 @@ NOTE: Under consideration: discuss how the page with the controlled vocabulary o
 
 | OpenAIRE
 |
-| Unknown
-| Unknown
+| Partial
+| Format or mimetype of content resources are provided for content accessible through OpenAIRE interfaces. 
 | Draft
 
 | Frontiers

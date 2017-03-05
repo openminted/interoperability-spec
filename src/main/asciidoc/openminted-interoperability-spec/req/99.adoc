@@ -35,8 +35,8 @@ For different variants of the same publication, e.g. in PDF and HTML format, the
 
 | OpenAIRE
 | 
-| Unknown
-| Unknown
+| Partial
+| Provision of the access link in the metadata is supported in the OpenAIRE record schema (result/fulltext).
 | Draft
 
 | Frontiers
