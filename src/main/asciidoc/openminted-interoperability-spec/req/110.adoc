@@ -40,8 +40,8 @@ NOTE: The element 'identifier' is not reserved for PIDs; it can be used for any 
 
 | OpenAIRE
 |
-| Unknown
-| Unknown
+| Partial
+| Whenever possible resources are assigned persistent identifiers; in addition OpenAIRE object identifiers are assigned whereas their persistence depends on the original resource identifier
 | Draft
 
 | Frontiers

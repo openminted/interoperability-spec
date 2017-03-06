@@ -42,8 +42,8 @@ To fulfill this requirement, further actions are in order:
 
 | OpenAIRE
 |
-| Partial
-| Funder and project information is provided through OpenAIRE's own vocabulary.
+| Full
+| Funder and project information is provided in the metadata exposed via the OpenAIRE API.
 | Draft
 
 | Frontiers

@@ -48,7 +48,7 @@ Components are also included in the compliance table, although in the vast major
 | OpenAIRE
 |
 | Partial 
-| Unknown
+| keywords and subjects are provided in the metadata.
 | Draft
 
 | Frontiers
