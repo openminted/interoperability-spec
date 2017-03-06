@@ -35,8 +35,8 @@ The metadata elements to be used are:
 
 | OpenAIRE
 |
-| Unknown
-| Unknown
+| Full
+| Language is provided where available through the metadata of the aggregated resource.
 | Draft
 
 | Frontiers

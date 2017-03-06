@@ -28,7 +28,7 @@ Components can be accessed as web services and/or as downloadable tools, and thi
 | OpenAIRE
 |
 | Partial
-| Access and download of content resources is in principle supported, but currently restricted.
+| Access and download of content resources is in principle available through the OpenAIRE API, but currently restricted. Alternatively the links to the original URLs to access and download content is provided in the metadata.
 | Draft
 
 | Frontiers

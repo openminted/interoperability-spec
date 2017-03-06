@@ -29,8 +29,8 @@ For this reason, OpenMinTeD uses a set of two mandatory metadata elements, 'size
 
 | OpenAIRE
 |
-| Unknown
-| Unknown
+| Partial
+| Size information is support for "datasets" only.
 | Draft
 
 | Frontiers
