@@ -1,6 +1,6 @@
 == Information on funding of resources may be included in the metadata
 
-[%hardbreaks]
+n[%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __optional__#
 [small]#*_Category:_* __WG1__,__WG2__,__WG3__,__WG4__#
@@ -10,7 +10,7 @@ Information on funding sources (e.g. projects, funders data etc.) may be include
 
 [cols="2,1,1,4,1"]
 |====
-|Product|Version|Compliant|Justification|Status
+u|Product|Version|Compliant|Justification|Status
 
 | CORE
 | Jun-16
@@ -20,17 +20,17 @@ Information on funding sources (e.g. projects, funders data etc.) may be include
 
 | OpenAIRE
 | Jun-16
-| Full
+f| Full
 | If the original provider includes it, we harvest it
 | Final
 
-| Frontiers
+No funding information| Frontiers
 | NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1
 | Partial
 | New articles have the source of funding, if authors declare (i.e. connection to fundref)
 | Final
 
-| TheSoz
+ | TheSoz
 | Jun-16
 | No
 | No funding information included in metadata
@@ -40,7 +40,7 @@ Information on funding sources (e.g. projects, funders data etc.) may be include
 | 21/01/2016
 | No
 | only its creator (FAO)
-| Final
+o| Final
 
 | JATS
 | 1.1
@@ -63,7 +63,7 @@ Information on funding sources (e.g. projects, funders data etc.) may be include
 | Licences
 | Jun-16
 | No
-| 
+| No funding information provided
 | Final
 
 | Alvis
