@@ -51,7 +51,7 @@ For this identification purpose, knowledge resource schema elements should be id
 | LAPPS
 | June 2016
 | Full
-| 
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] is available in JSON-LD and RDF/XML and uses the respective mechanisms for the identification of elements via a URI.
 | Final
 
 

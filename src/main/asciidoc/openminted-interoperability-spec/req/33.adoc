@@ -59,7 +59,7 @@ NOTE: For this version, we will allow also "open access" or "other" etc. as stat
 | LAPPS
 | Jun-16
 | No
-| 
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] does not include any types for license information.
 | Final
 
 | Licences

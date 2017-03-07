@@ -45,48 +45,48 @@ update date of the document can be attached instead of the revision identifier.
 | Jun-16
 | No
 |
-| final
+| Final
 
 | LAPPS
 | Jun-16
 | No
-|
-| final
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] resides in a version control system, but it does not have a release cycle, unlike the Groovy-based API. Rather, the vocabulary is updated and extended without explicit versioning. It is not clear which verison of the API is compatible with which state of the vocabulary.
+| Final
 
 | Licences
 | Jun-16
 | Unknown
 |
-| final
+| Final
 
 | Alvis
 | 0.5rc
 | No
 | No version
-| final
+| Final
 
 | ARGO
 | 0.5
 | No
 | No versioning of the documentation is performed or enforced by Argo, however this is something that could be adopted.
-| draft
+| Draft
 
 | DKPro Core
 | 1.8.0
 | Full
 | Documentation is versioned in parallel with the source code
-| final
+| Final
 
 | GATE
 | 8.2
 | No
 | Possible for all GATE components to be written this way although we don't currently enforce it in any way
-| final
+| Final
 
 | ILSP
 | 1.2.1
 | No
 | No version
-| draft
+| Draft
 
 |====

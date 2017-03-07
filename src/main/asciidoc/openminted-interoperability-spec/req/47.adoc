@@ -57,7 +57,7 @@ Information on funding sources (e.g. projects, funders data etc.) may be include
 | LAPPS
 | Jun-16
 | No
-| 
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] does not specify and metadata elements related to funding information.
 | Final
 
 | Licences

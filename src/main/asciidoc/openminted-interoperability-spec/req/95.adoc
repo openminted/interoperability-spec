@@ -42,7 +42,7 @@ Standard formats for knowledge resources enables TDM to make use of common softw
 | LAPPS
 | June 2016
 | Full
-| 
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] is available in JSON-LD, RDF/XML and other formats from their website. The RDF/XML and JSON-LD versions can also be obtained by specifying the appropriate Accept header in the HTTP request when accessing `http://vocab.lappsgrid.org`.
 | Final
 
 

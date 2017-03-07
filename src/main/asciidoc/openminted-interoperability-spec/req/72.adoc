@@ -6,6 +6,9 @@
 [small]#*_Category:_* __WG2__#
 [small]#*_Status:_* __final__#
 
+.See also
+* <<REQ-95>>
+
 Standard formats enable standard ingestion into the TDM workflow.
 
 [cols="2,1,1,4,1"]
@@ -39,7 +42,7 @@ Standard formats enable standard ingestion into the TDM workflow.
 | LAPPS
 | June 2016
 | Full
-| 
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] is available in JSON-LD, RDF/XML and other formats from their website. The RDF/XML and JSON-LD versions can also be obtained by specifying the appropriate Accept header in the HTTP request when accessing `http://vocab.lappsgrid.org`.
 | Final
 
 

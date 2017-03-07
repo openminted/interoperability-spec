@@ -35,7 +35,7 @@ NOTE: for version 1 this is set to optional, but for version 2 we should increas
 | LAPPS
 | Jun-16
 | No
-| 
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] does not specify and metadata elements covering statistics.
 | Final
 
 |====

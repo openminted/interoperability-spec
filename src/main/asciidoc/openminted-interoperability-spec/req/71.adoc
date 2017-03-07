@@ -39,7 +39,7 @@ The KR should be downloadable through a URI for ingest (possibly after adaptatio
 | LAPPS
 | June 2016
 | Full
-| 
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] exists is various formats on the website can can be downloaded from there.
 | Final
 
 

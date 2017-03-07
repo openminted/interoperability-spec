@@ -39,7 +39,7 @@ For the purposes of resource access and resource schema harmonization, schema el
 | LAPPS
 | June 2016
 | Full
-| 
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] is specified in RDF and the concept identifiers are URLs that point to their respective documentation.
 | Final
 
 

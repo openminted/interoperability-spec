@@ -40,7 +40,13 @@ The compliance assessment checks the use of mentioned linking vocabularies withi
 | LAPPS
 | June 2016
 | Full
-| 
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] includes several pointers to related concepts, e.g. in IsoCat.
+| Final
+
+| DKPro Core
+| 1.8.0
+| Full
+| The DKPro Core type system documentation includes several pointers to related concepts, e.g. in IsoCat, LAPPS, and others. Since not all of the resources pointed to have proper identifiers (e.g. type name conventions in GATE), some pointers are ad-hoc.
 | Final
 
 

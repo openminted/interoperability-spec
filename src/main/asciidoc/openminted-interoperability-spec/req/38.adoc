@@ -56,9 +56,9 @@ Access mode of all resources (e.g.  for s/w, whether they are downloadable or ac
 
 | LAPPS
 | Jun-16
-| No
-| 
-| Final
+| Yes
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] defines the type `Document` with the properties `source` and `sourcType` which can be used to point to the point from which the data has been obtained.
+| Draft
 
 | Alvis
 | 0.5rc
@@ -75,7 +75,7 @@ Access mode of all resources (e.g.  for s/w, whether they are downloadable or ac
 | DKPro Core
 | 1.8.0
 | Full
-| All of the components are portable software packages available via maven artifact repository
+| All of the components are portable software packages available via Maven artifact repository
 | Final
 
 | GATE

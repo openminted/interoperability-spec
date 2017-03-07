@@ -39,7 +39,7 @@ When there is a link to documentation, that documentation should be versioned an
 | LAPPS
 | Jun-16
 | No
-| 
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] is not versioned itself and thus there is also no versioned documentation.
 | Final
 
 | Licences

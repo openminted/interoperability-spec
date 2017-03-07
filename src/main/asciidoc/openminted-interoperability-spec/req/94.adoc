@@ -52,7 +52,7 @@ and `DBpedia`
 | LAPPS
 | June 2016
 | Full
-| 
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] expresses relations with other resources (specifically IsoCat) using `owl:sameAs` statements.
 | Final
 
 
