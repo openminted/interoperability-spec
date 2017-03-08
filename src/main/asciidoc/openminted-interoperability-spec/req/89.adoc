@@ -56,7 +56,7 @@ Identifying the version of the associated documentation is optimal, but it still
 | Licences
 | Jun-16
 | Unknown
-| Version may be provided, yet documentation may use reference to "any later version" (see also 50.adoc)
+| Version may be provided, yet documentation may use reference to "any later version" (see also <<REQ-50>>)
 | Final
 
 | Alvis
