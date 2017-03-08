@@ -1,6 +1,6 @@
 == Information on funding of resources may be included in the metadata
 
-n[%hardbreaks]
+[%hardbreaks]
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __optional__#
 [small]#*_Category:_* __WG1__,__WG2__,__WG3__,__WG4__#
