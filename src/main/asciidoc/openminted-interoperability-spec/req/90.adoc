@@ -17,9 +17,9 @@ The OMTD-SHARE metadata schema includes the element _componentType_ which can be
 |Product|Version|Compliant|Justification|Status
 
 | Alvis
-|
-| Unknown
-| Unknown
+| 0.5rc
+| No
+| Not supported yet, will be done manually for each component.
 | Draft
 
 | ARGO
