@@ -45,7 +45,7 @@ For this identification purpose, knowledge resource schema elements should be id
 | OLiA
 | June 2016
 | Full
-| 
+| Knowledge resouce elements are identified with URIs. See http://nachhalt.sfb632.uni-potsdam.de/owl/
 | Final
 
 | LAPPS
