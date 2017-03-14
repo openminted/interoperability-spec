@@ -34,7 +34,7 @@ The compliance assessment checks the use of mentioned linking vocabularies withi
 | OLiA
 | June 2016
 | Full
-| 
+| OLiA makes us of the relevant OWL and RDF properties, see http://purl.org/olia/olia.owl
 | Final
 
 | LAPPS
