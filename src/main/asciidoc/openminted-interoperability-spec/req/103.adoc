@@ -82,8 +82,8 @@ Components can be accessed as web services and/or as downloadable tools, and thi
 
 | OLiA
 | June-16
-| No
-| 
+| Yes
+| Donloadable URLs are given in rdf:about and xml:base attributes
 | Final
 
 | LAPPS
