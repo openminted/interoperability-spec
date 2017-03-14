@@ -33,7 +33,7 @@ When there is a link to documentation, that documentation should be versioned an
 | OLiA
 | Jun-16
 | No
-| 
+| See http://nachhalt.sfb632.uni-potsdam.de/owl/ - where documentation is provided, it is not versioned
 | Final
 
 | LAPPS
