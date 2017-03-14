@@ -36,7 +36,7 @@ Standard formats for knowledge resources enables TDM to make use of common softw
 | OLiA
 | June 2016
 | Full
-| 
+| RDF/XML - see http://purl.org/olia/olia.owl
 | Final
 
 | LAPPS
