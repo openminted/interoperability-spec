@@ -33,7 +33,7 @@ The KR should be downloadable through a URI for ingest (possibly after adaptatio
 | OLiA
 | June 2016
 | Full
-| 
+| Available as an OWL download, see http://purl.org/olia/olia.owl
 | Final
 
 | LAPPS
