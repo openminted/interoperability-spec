@@ -74,7 +74,7 @@ are declared in the `void.ttl` file.
 | OLiA
 | June-16
 | No
-| 
+| Not shipped as a Maven artefact
 | Draft
 
 | LAPPS
