@@ -96,7 +96,7 @@ NOTE: The element 'identifier' is not reserved for PIDs; it can be used for any 
 | OLiA
 | June-16
 | Full
-| 
+| PURLs are used, see http://nachhalt.sfb632.uni-potsdam.de/owl/
 | Draft
 
 | LAPPS
