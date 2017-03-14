@@ -95,7 +95,7 @@ To fulfill the above requirements, further recommendations:
 | OLiA
 | June-16
 | No
-| 
+| Not yet; plan to be released under a Creative Commons Attribution Sharealike licence as soon as a reference publication has appeared
 | Final
 
 | LAPPS
