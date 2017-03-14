@@ -33,7 +33,7 @@ Description
 | OLiA
 | June 2016
 | Full
-| 
+| RDF stateements are used, see http://purl.org/olia/olia.owl
 | Final
 
 | LAPPS
