@@ -29,7 +29,7 @@ NOTE: for version 1 this is set to optional, but for version 2 we should increas
 | OLiA
 | Jun-16
 | No
-| 
+| The OLiA website does not specify any statistics, or metadata elements covering statistics. http://nachhalt.sfb632.uni-potsdam.de/owl/
 | Final
 
 | LAPPS
