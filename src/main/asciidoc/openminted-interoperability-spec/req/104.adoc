@@ -17,15 +17,15 @@ Funding information in metadata descriptions of all resources is optional; we re
 NOTE: in the current version of OMTD-SHARE (v1.1), funding information is encoded in the 'fundingProject' element, which can be filled in with a 'projectIdentifier' or a 'projectName'. Projects can also be uploaded to the OpenMinTeD registry with a set of specific metadata elements which include information on the funder(s), types of awards etc. The next version will be aligned with this requirement.
 
 To fulfill this requirement, further actions are in order:
+
 * addition in the component metadata of the required information; this can be done through the following recommendations:
-* Usage of the following java annotations (in line with OpenAire’s standards)
-	* @funderName
-	* @funderIdentifier (optional)
-	* @funderIdentifierType (mandatory if funderIdentifier is present)
-	* @awardNumber
-	* @awardURI (optional)
-	* @awardTitle
-  
+* Usage of the following java annotations (in line with OpenAire’s standards)	
+** @funderName
+** @funderIdentifier (optional)
+** @funderIdentifierType (mandatory if funderIdentifier is present)
+** @awardNumber
+** @awardURI (optional)
+** @awardTitle
 * resources coming from the Linked Data community:
 - the 'foaf:fundedBy' property can be used to record the funding organization; if possible, adding an identifier (e.g. ISNI) for the organization would be an asset.
 
