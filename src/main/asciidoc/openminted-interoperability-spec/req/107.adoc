@@ -103,8 +103,8 @@ http://dbpedia.org/resource/Social_sciences ; `dc:subject` http://dbpedia.org/re
 
 | OLiA
 | June-16
-| Unknown
-| Unknown
+| No
+| No current support provided
 | Draft
 
 | LAPPS
