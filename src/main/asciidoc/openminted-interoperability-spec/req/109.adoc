@@ -54,7 +54,7 @@ For this reason, OpenMinTeD uses a set of two mandatory metadata elements, 'size
 | OLiA
 | June-16
 | No
-| 
+| The OLiA website does not specify any statistics, or metadata elements covering statistics. http://nachhalt.sfb632.uni-potsdam.de/owl/
 | Final
 
 | LAPPS
