@@ -36,7 +36,7 @@ Standard formats enable standard ingestion into the TDM workflow.
 | OLiA
 | June 2016
 | Full
-| 
+| RDF/XML - see http://purl.org/olia/olia.owl
 | Final
 
 | LAPPS
