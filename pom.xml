@@ -24,6 +24,10 @@
       <artifactId>groovy-templates</artifactId>
     </dependency>
     <dependency>
+      <groupId>org.codehaus.groovy</groupId>
+      <artifactId>groovy-ant</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-csv</artifactId>
       <version>1.2</version>
@@ -64,6 +68,11 @@
       <dependency>
         <groupId>org.codehaus.groovy</groupId>
         <artifactId>groovy-json</artifactId>
+        <version>${groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-ant</artifactId>
         <version>${groovy.version}</version>
       </dependency>
       <dependency>
@@ -147,6 +156,7 @@
             <!-- We already build and attach a source JAR using the groovydoc-maven-plugin -->
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-source-plugin</artifactId>
+            <version>3.0.1</version>
             <configuration>
               <skipSource>true</skipSource>
             </configuration>
