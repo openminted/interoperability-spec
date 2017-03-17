@@ -30,7 +30,7 @@ update date of the document can be attached instead of the revision identifier.
 |Product|Version|Compliant|Justification|Status
 
 | TheSoz
-Identifying the version of the associated documentation is optimal, but it still could be linked either to "any later version"| Jun-16
+| Jun-16
 | No
 | Documentation is not versioned (http://lod.gesis.org/thesoz/de/help.html)
 | Final

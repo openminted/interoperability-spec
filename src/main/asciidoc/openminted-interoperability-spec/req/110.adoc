@@ -103,4 +103,5 @@ NOTE: The element 'identifier' is not reserved for PIDs; it can be used for any 
 | June-16
 | Full
 | The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] defines URLs for all its metadata elements. Web services reside at known URLs. However, there is no guarantee that a service might not be upgraded and could thus change its behavior.
+| Draft
 |====
