@@ -34,7 +34,7 @@ classpath*:my/organizations/domain/name/package/TypeSystem.xml
 | Alvis
 | 0.5rc
 | Partial
-| Currently the Alvis type system exists only as Java classes. A path to the main Java class can be specified but for an automatic interpretation of the type syetem some conventions need be formalized.
+| Currently the Alvis type system exists only as Java classes. A path to the main Java class can be specified but for an automatic interpretation of the type system some conventions need be formalized.
 | Draft
 
 | ARGO
@@ -53,11 +53,5 @@ classpath*:my/organizations/domain/name/package/TypeSystem.xml
 | 1.2.1
 | Full
 | UIMA-based ILSP components include Maven dependencies to a project providing a common type system.
-| Draft
-
-| GATE
-| 8.2
-| Unknown
-| Unknown
 | Draft
 |====

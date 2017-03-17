@@ -47,10 +47,4 @@ class MyComponentClass
 | UIMA-based components have the `multipleDeploymentAllowed` flag set
 | Unknown
 | Draft
-
-| GATE
-| 8.2
-| Unknown
-| Unknown
-| Draft
 |====
