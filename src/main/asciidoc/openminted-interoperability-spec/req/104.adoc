@@ -37,7 +37,7 @@ To fulfill this requirement, further actions are in order:
 | CORE
 |
 | No
-| CORE holds no funding information about the shared resources. As part of future developments this shall be retrieved from aggregated metadata or inferred (mined) from fulltext (see Openminted Scholarly Communication use case)
+| CORE holds no funding information about the shared resources. As part of future developments this shall be retrieved from aggregated metadata or inferred (mined) from fulltext (see OpenMinTeD Scholarly Communication use case)
 | Draft
 
 | OpenAIRE
@@ -67,8 +67,8 @@ To fulfill this requirement, further actions are in order:
 | DKPro Core
 | 1.8.0
 | No
-| DKPro Core is now a community effort based on volunteer contributions. There is no dedicated funding. Also, DKPro Core mainly wraps third-party tools in UIMA. We do not keep track of third-party funding information and are not aware of third-parties providing such information in an automatically processable way.
-| Draft
+| DKPro Core is now a community effort based on volunteer contributions. There is no dedicated funding. So at the level of DKPro Core itself, this requirement does not apply. Regarding the third-party tools that we wrap, we do not keep track of third-party funding information. We are not aware of third-parties providing such information in an automatically processable way. If it were possible with reasonable effort to extract funding from the third-party components, we could consider surfacing this information e.g. in our component overview documentation.
+| Final
 
 | GATE
 | 8.2

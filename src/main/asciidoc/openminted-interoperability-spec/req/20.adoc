@@ -32,8 +32,8 @@ Source: WG1 Scenario 2 — SME running research analytics for funders within the
 
 | DKPro Core
 | 1.8.0
-| No
-| DKPro Core itself does not provide workflow functionality. It's components can in principle be used in a workflow setup where data is passed directly between components, i.e. without going through a central workflow manager. But providing such a manager is beyond the scope of DKPro Core.
+| N/A
+| DKPro Core itself does not provide workflow functionality. It's components can in principle be used in a workflow setup where data is passed directly between components, i.e. without going through a central workflow manager. Providing such a manager is beyond the scope of DKPro Core.
 | Draft
 
 | GATE
