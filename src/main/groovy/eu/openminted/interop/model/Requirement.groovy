@@ -2,8 +2,8 @@ package eu.openminted.interop.model
 
 import eu.openminted.interop.utils.RequirementUtils;
 
-class Requirement {
-
+class Requirement 
+{
 	public Integer id;
     File file;
 	String name;
@@ -14,7 +14,8 @@ class Requirement {
 	String description;
 	List<ProductDetails> productDetails = new ArrayList();
 
-	Requirement(File f){
+	public Requirement(File f) 
+    {
         file = f;
 		String concretenessRegex = "[small]#*_Concreteness:_*";
 		String strengthRegex = "[small]#*_Strength:_*";
@@ -31,7 +32,7 @@ class Requirement {
 		this.id = Integer.parseInt(f.getName().replace(".adoc",""))
 		f.readLines().each{ line->
 			String trimmedLine= line.trim();
-			if(trimmedLine.startsWith("//")) {
+			if (trimmedLine.startsWith("//")) {
 				return;
 			}
 
@@ -40,25 +41,25 @@ class Requirement {
 				this.name = trimmedLine.replace("==","").trim()
 			}
 
-			//Get concreteness
+			// Get concreteness
 			if (trimmedLine.startsWith(concretenessRegex))
 			{
 				this.concreteness = trimmedLine.split("__")[1]
 			}
 
-			//Get strength
+			// Get strength
 			if (trimmedLine.startsWith(strengthRegex))
 			{
 				this.strength = trimmedLine.split("__")[1]
 			}
 
-			//Get status
+			// Get status
 			if (trimmedLine.startsWith(statusRegex))
 			{
 				this.status = trimmedLine.split("__")[1]
 			}
 
-			//Get category
+			// Get category
 			if (trimmedLine.startsWith(categoryRegex))
 			{
 				def arr = trimmedLine.split("__")
@@ -76,19 +77,29 @@ class Requirement {
 				if (tableStarted){
 					tableStarted = false;
 					rowEntered = false;
+                    
+                    // Also create a product for the last entry in the compliance table
+                    if (inComplianceTable) {
+                        if (concatenatedRow.size() > 0){
+                            ProductDetails pro = parseProduct(concatenatedRow);
+                            this.productDetails.add(pro);
+                            concatenatedRow.setLength(0);
+                        }
+                    }
+
 				} else {
 					tableStarted = true;
 				}
                 return;
 			}
             
-            // Check if table is product table
+            // Check if table is product compliance table
             if (tableStarted && trimmedLine.startsWith("|Product|")) {
                 inComplianceTable = true;
             }
 
-			//Description should start with a character or numbers
-			if (!tableStarted && RequirementUtils.startsWithDigitOrAlphabet(trimmedLine)){
+			// Description should start with a character or numbers
+			if (!tableStarted && RequirementUtils.startsWithDigitOrAlphabet(trimmedLine)) {
 				if (this.description) {
 					this.description = this.description + " " + trimmedLine;
 				} else {
@@ -96,34 +107,43 @@ class Requirement {
 				}
 			}
 
-			if (inComplianceTable){
-				if(trimmedLine.isEmpty()){
-					if(rowEntered){
+			if (inComplianceTable) {
+                // A new product entry is created when hitting a blank line in the compliance table
+				if (trimmedLine.isEmpty()) {
+					if (rowEntered){
 						//now perform actions on concatenatedRow to extract product details 
-						if(concatenatedRow.size()>0){
-							def rowArr = concatenatedRow.toString().split("\\|")					
-//							|Product|Version|Compliant|Justification|Status							
-							ProductDetails pro = new ProductDetails();
-							pro.product = rowArr[1].trim();
-							pro.version = rowArr[2].trim();
-							pro.compliance = rowArr[3].trim();
-							pro.justification = rowArr[4].trim();
-							pro.status = rowArr[5].trim();
+						if (concatenatedRow.size() > 0){
+                            ProductDetails pro = parseProduct(concatenatedRow);
 							this.productDetails.add(pro);
 							concatenatedRow.setLength(0); 
 						}
 					}
-					else
+					else {
 						rowEntered = true
+					}
 				}
 
-				if(rowEntered){
+				if (rowEntered) {
 					concatenatedRow.append(trimmedLine)
 				}
 			}
 		}		
 	}
+    
+    private ProductDetails parseProduct(CharSequence concatenatedRow)
+    {
+        def rowArr = concatenatedRow.toString().split("\\|")
+        // |Product|Version|Compliant|Justification|Status
+        ProductDetails pro = new ProductDetails();
+        pro.product = rowArr[1].trim();
+        pro.version = rowArr[2].trim();
+        pro.compliance = rowArr[3].trim();
+        pro.justification = rowArr[4].trim();
+        pro.status = rowArr[5].trim();
+        return pro;
+    }
 }
+
 class WGCategory{
 	String category;
 }
