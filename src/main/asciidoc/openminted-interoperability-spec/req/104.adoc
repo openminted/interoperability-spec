@@ -103,6 +103,6 @@ To fulfill this requirement, further actions are in order:
 | LAPPS
 | June-16
 | No
-| 
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] does not specify any metadata elements relating to funding information.
 | Final
 |====

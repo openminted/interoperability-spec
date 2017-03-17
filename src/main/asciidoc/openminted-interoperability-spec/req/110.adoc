@@ -11,7 +11,7 @@
 
 * <<REQ-96>>
 
-All resources must be assigned an identifier (e.g.DOI, Handle PID, URI etc.) that allows them to be uniquely, non-ambiguously and persistently identified. 
+All resources must be assigned an identifier (e.g. DOI, Handle PID, URI etc.) that allows them to be uniquely, non-ambiguously and persistently identified. 
 
 Resources that already have a PID, can include this in their metadata descriptions, in the element 'identifier'/'publicationIdentifier' using the 'resourceIdentifierSchemeName'/'publicationIdentifierSchemeName' attribute to specify the corresponding scheme, for instance:
 
@@ -102,6 +102,5 @@ NOTE: The element 'identifier' is not reserved for PIDs; it can be used for any 
 | LAPPS
 | June-16
 | Full
-| 
-| Draft
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] defines URLs for all its metadata elements. Web services reside at known URLs. However, there is no guarantee that a service might not be upgraded and could thus change its behavior.
 |====

@@ -109,8 +109,8 @@ http://dbpedia.org/resource/Social_sciences ; `dc:subject` http://dbpedia.org/re
 
 | LAPPS
 | June-16
-| Unknown
-| Unknown
+| No
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] does not specify any metadata elements relating to domain/subject classification.
 | Draft
 |====
 

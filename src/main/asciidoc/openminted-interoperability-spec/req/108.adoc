@@ -65,8 +65,8 @@ The metadata elements to be used are:
 
 | LAPPS
 | June-16
-| No
-| 
+| Partial
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] defines a `language` property at the document level. However, instead of BCP 47, they recommend link:http://www.ietf.org/rfc/rfc3066.txt[RFC 3066].
 | Final
 |====
 

@@ -83,12 +83,12 @@ Components can be accessed as web services and/or as downloadable tools, and thi
 | OLiA
 | June-16
 | Yes
-| Donloadable URLs are given in rdf:about and xml:base attributes
+| Downloadable URLs are given in rdf:about and xml:base attributes
 | Final
 
 | LAPPS
 | June-16
-| No
-| 
+| Full
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] can be downloaded in various formats from the webpage. Components that are offered through LAPPSGrid are offered as web services.
 | Final
 |====
