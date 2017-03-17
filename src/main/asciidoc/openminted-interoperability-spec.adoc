@@ -78,11 +78,17 @@ A requirement may be in multiple categories which must be provided as a comma-se
 * *Partial* - partially compliant. E.g. some parts of a product are compliant but not all. This is
   typically the case if a product is in a state of transition from a non-compliant to a compliant
   state.
-* *No* - not compliant.
-* *N/A* - not applicable. This is expected to occur mainly for concrete requirements if a certain
-  requirement is not applicable for a certain implementation, e.g. a requirement on remote API
-  access on a tool which does not offer a remote API. Abstract requirements should be formulated 
-  in such a way that they are always applicable.
+* *No* - not compliant yet, but could be made compliant in the future.
+* *N/A* - not applicable. This is used when a requirement is considered out-of-scope for a given
+  product. Typically this occurs when multiple products belonging to a broadly similar category
+  are considered potentially relevant for a requirement, but when examining in detail, the 
+  requirement does not make sense for a particular product. An example would be <<REQ-20>> which
+  describes a workflow-related requirement. This would be applicable to products including a
+  workflow engine such as GATE, but not to pure component collections such as DKPro Core (note
+  that GATE and DKPro Core typically occur together as relevant products in requirements).
+  
+If a product does not appear at all in a compliance table, then that is because there never was any
+question that it is not applicable and no justification is required.
 
 === Overall compliance levels
 
