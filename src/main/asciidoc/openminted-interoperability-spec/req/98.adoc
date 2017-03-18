@@ -48,8 +48,8 @@ The process of publishing software via DockerHub is detailed link:https://docs.d
 | Draft
 
 | GATE
-| 8.2
-| Unknown
-| Unknown
+| 8.5-SNAPSHOT
+| Full
+| Historically plugins could not be hosted in Maven due to the way the GATE plugin mechanism works. This has changed with the latest development release, and now both GATE itself and the plugins can be stored in Maven.
 | Draft
 |====
