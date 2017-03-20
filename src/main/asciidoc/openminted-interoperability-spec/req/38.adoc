@@ -50,7 +50,7 @@ Access mode of all resources (e.g.  for s/w, whether they are downloadable or ac
 
 | OLiA
 | Jun-16
-| Yes
+| Full
 | Donloadable URLs are given in rdf:about and xml:base attributes
 | Final
 

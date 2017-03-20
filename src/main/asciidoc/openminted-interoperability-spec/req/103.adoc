@@ -82,7 +82,7 @@ Components can be accessed as web services and/or as downloadable tools, and thi
 
 | OLiA
 | June-16
-| Yes
+| Full
 | Downloadable URLs are given in rdf:about and xml:base attributes
 | Final
 
