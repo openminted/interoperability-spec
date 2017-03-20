@@ -56,7 +56,7 @@ Access mode of all resources (e.g.  for s/w, whether they are downloadable or ac
 
 | LAPPS
 | Jun-16
-| Yes
+| Full
 | The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] defines the type `Document` with the properties `source` and `sourcType` which can be used to point to the point from which the data has been obtained.
 | Draft
 
