@@ -65,7 +65,7 @@ The compliance assessment checks the use of mentioned linking vocabularies withi
 | schema.org
 | June 2016
 | Full
-| 
+| RDF properties - see http://schema.org/docs/schema_org_rdfa.html
 | Final
 
 |====
