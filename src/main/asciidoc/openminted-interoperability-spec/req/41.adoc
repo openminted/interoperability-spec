@@ -38,8 +38,8 @@ Content resources including language, knowledge and text files must include meta
 
 | Agrovoc
 | 21/01/2016
-| No
-| 
+| Yes
+| Concept labels include language attribiutes, see http://aims.fao.org/vest-registry/vocabularies/agrovoc-multilingual-agricultural-thesaurus
 | Final
 
 | JATS
