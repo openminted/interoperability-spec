@@ -49,7 +49,7 @@ Standard formats for knowledge resources enables TDM to make use of common softw
 | Ontolex
 | June 2016
 | Full
-| 
+| See https://www.w3.org/community/ontolex/wiki/Final_Model_Specification
 | Final
 
 | CLARIN CCR
