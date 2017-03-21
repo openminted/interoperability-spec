@@ -90,7 +90,7 @@ NOTE: The element 'identifier' is not reserved for PIDs; it can be used for any 
 | Agrovoc
 | 21/01/2016
 | Full
-| 
+| URI udentifers are provided for all resources
 | Draft
 
 | OLiA
