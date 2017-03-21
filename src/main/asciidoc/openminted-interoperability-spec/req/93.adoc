@@ -58,7 +58,7 @@ For this identification purpose, knowledge resource schema elements should be id
 | Ontolex
 | June 2016
 | Full
-| 
+| See https://www.w3.org/community/ontolex/wiki/Final_Model_Specification
 | Final
 
 | CLARIN CCR
