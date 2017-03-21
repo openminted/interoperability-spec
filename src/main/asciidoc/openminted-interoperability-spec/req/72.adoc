@@ -24,7 +24,7 @@ Standard formats enable standard ingestion into the TDM workflow.
 | Agrovoc
 | 21/01/2016
 | Full
-| 
+| RDF, see http://aims.fao.org/vest-registry/vocabularies/agrovoc-multilingual-agricultural-thesaurus
 | Final
 
 | JATS
