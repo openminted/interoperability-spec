@@ -24,7 +24,7 @@ Standard formats for knowledge resources enables TDM to make use of common softw
 | Agrovoc
 | 21/01/2016
 | Full
-| 
+| Published as RDF/XML, see http://aims.fao.org/vest-registry/vocabularies/agrovoc-multilingual-agricultural-thesaurus
 | Final
 
 | JATS

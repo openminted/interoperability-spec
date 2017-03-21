@@ -34,7 +34,7 @@ and `DBpedia`
 | Agrovoc
 | 21/01/2016
 | Full
-| 
+| OWL and RDF properties used, see http://aims.fao.org/vest-registry/vocabularies/agrovoc-multilingual-agricultural-thesaurus
 | Final
 
 | JATS
