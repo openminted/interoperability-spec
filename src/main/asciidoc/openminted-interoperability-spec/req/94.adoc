@@ -71,7 +71,7 @@ and `DBpedia`
 | schema.org
 | June 2016
 | Full
-| 
+| See http://schema.org/docs/datamodel.html
 | Final
 
 |====
