@@ -58,7 +58,7 @@ For the purposes of resource access and resource schema harmonization, schema el
 | schema.org
 | June 2016
 | Full
-| 
+| See http://schema.org/docs/schema_org_rdfa.html
 | Final
 
 |====
