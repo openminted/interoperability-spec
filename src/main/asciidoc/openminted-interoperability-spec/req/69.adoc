@@ -58,7 +58,7 @@ Description
 | schema.org
 | 1.2.1
 | No
-| 
+| RDF is used, see http://schema.org/docs/schema_org_rdfa.html
 | Final
 
 |====
