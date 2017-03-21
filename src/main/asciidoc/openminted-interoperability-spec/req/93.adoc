@@ -70,7 +70,7 @@ For this identification purpose, knowledge resource schema elements should be id
 | schema.org
 | June 2016
 | Full
-| 
+| See http://schema.org/docs/datamodel.html
 | Final
 
 |====
