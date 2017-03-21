@@ -33,8 +33,8 @@ Mind that the uimaFIT annotations embedded in the component's class file cannot 
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.2.1
+| Full
+| UIMA Component Descriptor XML files are manually maintained.
 | Draft
 |====

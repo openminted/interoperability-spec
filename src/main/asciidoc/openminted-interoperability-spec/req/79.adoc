@@ -58,8 +58,8 @@ protected String language;
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.2.1
+| Partial
+| Partial documentation of component source code is maintained and generated as JavaDoc.
 | Draft
 |====

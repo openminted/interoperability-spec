@@ -40,7 +40,7 @@ It is important that citable publications for each component can be obtained fro
 
 | ILSP
 | 1.2.1
-| Unknown
+| Partial
 | Available for some components but not always applicable or used.
 | Draft
 |====

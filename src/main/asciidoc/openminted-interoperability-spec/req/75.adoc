@@ -50,8 +50,8 @@ The uimaFIT `@ResourceMetaData` annotation *must not* be used as it would interf
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.2.1
+| Partial
+| The main requirement is that components are described with UIMA XML descriptors, accompanied by UIMA AS deployment descriptors that are used when components are deployed as services.
 | Draft
 |====

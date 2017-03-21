@@ -53,8 +53,8 @@ NOTE: Annotation types for input and output resources can be mapped to the OMTD-
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.2.1
+| Full
+| input and output types of UIMA components are specified in each component's XML descriptor.
 | Draft
 |====

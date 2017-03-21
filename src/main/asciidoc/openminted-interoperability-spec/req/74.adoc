@@ -55,8 +55,8 @@ There must be at most *one* resource specifier per component class. I.e. no two 
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.2.1
+| Partial
+| Resource specifiers (XML component descriptors) are manually maintained. There is one such specifier in the src/main/resources directory of each component or of a package grouping a set of similar components, e.g. a set of reader or `consumer` components.
 | Draft
 |====

@@ -58,8 +58,8 @@ in that file.
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.2.1
+| No
+| License text of resources is not included.
 | Draft
 |====

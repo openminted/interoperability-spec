@@ -41,8 +41,8 @@ The OMTD-SHARE metadata schema includes the element _componentType_ which can be
 | Draft
 
 | ILSP
-| 
-| Unknown
-| Unknown
+| 1.2.1
+| No
+| Components are not assigned categories yet.
 | Draft
 |====

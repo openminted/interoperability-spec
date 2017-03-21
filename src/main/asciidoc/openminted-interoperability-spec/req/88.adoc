@@ -35,7 +35,7 @@ NOTE: This can be mapped to the OMTD-SHARE schema elements _mimeType_, which sho
 
 | ILSP
 | 1.2.1
-| Unknown
-| Unknown
+| No
+| Not supported
 | Draft
 |====
