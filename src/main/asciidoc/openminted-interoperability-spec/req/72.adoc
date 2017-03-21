@@ -49,7 +49,7 @@ Standard formats enable standard ingestion into the TDM workflow.
 | Ontolex
 | June 2016
 | Full
-| 
+| See https://www.w3.org/community/ontolex/wiki/Final_Model_Specification
 | Final
 
 | CLARIN CCR
