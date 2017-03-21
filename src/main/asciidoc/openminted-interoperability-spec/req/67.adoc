@@ -21,7 +21,7 @@ For the purposes of resource access and resource schema harmonization, schema el
 | Agrovoc
 | 21/01/2016
 | Full
-| 
+| URI concept identifiers, see http://aims.fao.org/vest-registry/vocabularies/agrovoc-multilingual-agricultural-thesaurus
 | Final
 
 | JATS
