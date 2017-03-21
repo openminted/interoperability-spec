@@ -38,7 +38,7 @@ update date of the document can be attached instead of the revision identifier.
 | Agrovoc
 | 21/01/2016
 | No
-|
+| Docuemtnation (such as FAQs and service descriptions) are not versioned, see http://aims.fao.org/vest-registry/vocabularies/agrovoc-multilingual-agricultural-thesaurus
 | final
 
 | OLiA
