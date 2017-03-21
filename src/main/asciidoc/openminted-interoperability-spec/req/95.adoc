@@ -61,7 +61,7 @@ Standard formats for knowledge resources enables TDM to make use of common softw
 | schema.org
 | 1.2.1
 | Full
-| 
+| RDFa - see http://schema.org/docs/datamodel.html
 | Final
 
 |====
