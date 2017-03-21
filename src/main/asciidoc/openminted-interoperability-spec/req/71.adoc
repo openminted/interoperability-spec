@@ -58,7 +58,7 @@ The KR should be downloadable through a URI for ingest (possibly after adaptatio
 | schema.org
 | 1.2.1
 | Full
-| 
+| All schemas are hosted at schema.org. Downloads are also avaialable, see e.g. http://schema.org/version/3.1/
 | Final
 
 |====
