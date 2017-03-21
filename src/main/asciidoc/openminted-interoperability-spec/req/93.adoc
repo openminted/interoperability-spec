@@ -33,7 +33,7 @@ For this identification purpose, knowledge resource schema elements should be id
 | Agrovoc
 | 21/01/2016
 | Full
-| 
+| The usual RDF identifiers used, see http://aims.fao.org/vest-registry/vocabularies/agrovoc-multilingual-agricultural-thesaurus
 | Final
 
 | JATS
