@@ -61,7 +61,7 @@ Standard formats enable standard ingestion into the TDM workflow.
 | schema.org
 | 1.2.1
 | Full
-| 
+| RDFa, other formats available
 | Final
 
 |====
