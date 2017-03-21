@@ -21,7 +21,7 @@ When there is a link to documentation, that documentation should be versioned an
 | Agrovoc
 | 21/01/2016
 | No
-| 
+| Documentation (e.g. FAQ and other documents) listed on http://aims.fao.org/vest-registry/vocabularies/agrovoc-multilingual-agricultural-thesaurus are not versioned
 | Final
 
 | JATS
