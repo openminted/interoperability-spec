@@ -46,7 +46,7 @@ The KR should be downloadable through a URI for ingest (possibly after adaptatio
 | Ontolex
 | June 2016
 | Full
-| 
+| https://www.w3.org/ns/lemon/ontolex.owl
 | Final
 
 | CLARIN CCR
