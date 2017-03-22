@@ -53,8 +53,8 @@ The metadata elements to be used are:
 
 | Agrovoc
 | 21/01/2016
-| Yes
-| Labels are associated with language attribtues, see models linked from http://aims.fao.org/vest-registry/vocabularies/agrovoc-multilingual-agricultural-thesaurus
+| Full
+| Labels are associated with language attributes, see models linked from http://aims.fao.org/vest-registry/vocabularies/agrovoc-multilingual-agricultural-thesaurus
 | Final
 
 | OLiA
