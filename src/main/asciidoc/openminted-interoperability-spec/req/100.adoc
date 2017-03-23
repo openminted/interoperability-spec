@@ -39,7 +39,7 @@ http://dev.core.ac.uk/download/pdf/{coreid}.pdf (supported but not recommended)
 
 | Frontiers
 | 
-| Unknown
-| Unknown
+| Partial
+| Full compliance by May. Today, Frontiers resources are available in repositories such as PubMed and CrossRef. Deposit to DOAJ is in progress for completion by May. Frontiers own repository is being implemented for completion by May. This means Frontiers resources are publicly available provided credentials are validated.  Direct access link to content resources via OpenAire will be covered in this project.
 | Draft
 |====
