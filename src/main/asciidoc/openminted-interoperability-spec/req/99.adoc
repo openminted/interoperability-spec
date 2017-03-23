@@ -41,7 +41,7 @@ For different variants of the same publication, e.g. in PDF and HTML format, the
 
 | Frontiers
 | 
-| Unknown
-| Unknown
+| Full
+| Frontiers contents are discoverable by attached images (single step) or links (multiple steps). Discoverable through OpenAIRE will be covered in this project.
 | Draft
 |====
