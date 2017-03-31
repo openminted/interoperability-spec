@@ -45,7 +45,7 @@ Description
 
 | Ontolex
 | June 2016
-| Yes
+| Full
 | See https://www.w3.org/community/ontolex/wiki/Final_Model_Specification
 | Final
 
