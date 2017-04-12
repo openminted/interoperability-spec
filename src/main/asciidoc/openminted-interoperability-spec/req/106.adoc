@@ -101,6 +101,6 @@ To fulfill the above requirements, further recommendations:
 | LAPPS
 | June-16
 | No
-| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] does not specify any metadata elements relating to licensing information.
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] neither provides a license nor specifies any metadata elements relating to licensing information.
 | Final
 |====
