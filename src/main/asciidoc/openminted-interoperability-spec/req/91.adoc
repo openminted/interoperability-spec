@@ -115,6 +115,6 @@ but this information is only indicative. The DKPro Core website explicitly asks 
 | LAPPS
 | June-16
 | No
-| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] does not define any metadata elements related to attribution.
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] does not define any metadata elements related to attribution, and no refernce is provided on the download site.
 | Draft
 |====
