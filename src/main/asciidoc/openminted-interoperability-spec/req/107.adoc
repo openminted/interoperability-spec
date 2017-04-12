@@ -110,7 +110,7 @@ http://dbpedia.org/resource/Social_sciences ; `dc:subject` http://dbpedia.org/re
 | LAPPS
 | June-16
 | No
-| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] does not specify any metadata elements relating to domain/subject classification.
+| The link:http://vocab.lappsgrid.org[LAPPS Web Service Exchange Vocabulary] does not specify any metadata elements relating to domain/subject classification, and neither does the LAPPS web site give a description of that domain, beyond saying that it is for linguistic data.
 | Draft
 |====
 
