@@ -1,7 +1,7 @@
 == Common elements to represent/describe an executable workflow
 
 [%hardbreaks]
-[small]#*_Concreteness:_* __abstract|concrete__#
+[small]#*_Concreteness:_* __concrete__#
 [small]#*_Strength:_*     __recommended__#
 [small]#*_Category:_*     __WG4__#
 [small]#*_Status:_*       __deprecated__#
