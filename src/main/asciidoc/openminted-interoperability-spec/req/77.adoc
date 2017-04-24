@@ -1,4 +1,4 @@
-== Unique identifiers and a versions for UIMA components
+== Unique identifiers and versions for UIMA components
 
 [%hardbreaks]
 [small]#*_Concreteness:_* __concrete__#
