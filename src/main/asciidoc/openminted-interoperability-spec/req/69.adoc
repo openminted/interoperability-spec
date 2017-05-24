@@ -15,7 +15,7 @@ Description
 | TheSoz
 | June 2016
 | Full
-|
+| RDF statements used, see http://lod.gesis.org/
 | Final
 
 | Agrovoc
