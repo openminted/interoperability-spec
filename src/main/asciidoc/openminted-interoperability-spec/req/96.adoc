@@ -47,14 +47,14 @@ In UIMA, the identifier has the following forms depending on the presence of the
 
 .Component identifiers
 ----
-uima-mvn:{groupId}:{artifactId}:{version}#{class}
-uima-mvn:{groupId}:{artifactId}:{classifier}:{version}#{class}
-uima-mvn:{groupId}:{artifactId}:{packaging}:{classifier}:{version}#{class}
+mvn:{groupId}:{artifactId}:{version}#{class}
+mvn:{groupId}:{artifactId}:{classifier}:{version}#{class}
+mvn:{groupId}:{artifactId}:{packaging}:{classifier}:{version}#{class}
 ----
 
 .Example
 ----
-uima-mvn:my.organization.tdm:dictionary-tools:1.0.1#my.organization.tdm.DictionaryLookup
+mvn:my.organization.tdm:dictionary-tools:1.0.1#my.organization.tdm.DictionaryLookup
 ----
 
 NOTE: The version is also available from the UIMA resource specifier. It must be in sync with the version specified in the Maven POM. The link:https://uima.apache.org/d/uimafit-current/tools.uimafit.book.html#tools.uimafit.maven[uimaFIT Maven plugin] goal `generate` ensures this by determining the version in the generated UIMA resource specifier from the version specified in the Maven POM. The `overrideComponentVersion` and `componentVersion` settings in the uimaFIT MAven plugin must *not* be used. Neither must the uimaFIT `@ResourceMetaData` annotation be used to manually provide a version.
