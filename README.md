@@ -1,6 +1,4 @@
-OpenMinTeD Interoperability Specification
-
-This project is in its very early stages and work in progress.
+## OpenMinTeD Interoperability Specification
 
 Our build server is monitoring this repository and with a bit of delay providing an up-to-dated
 rendered version of the documents at:
