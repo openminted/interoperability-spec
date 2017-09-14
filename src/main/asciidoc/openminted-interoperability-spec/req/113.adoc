@@ -1,0 +1,55 @@
+== Components should be compatible with the web service framework
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __optional__#
+[small]#*_Category:_*     __WG4__#
+[small]#*_Status:_*       __draft__#
+
+.See also
+
+* <<REQ-103>>
+
+Where required, components should be available as web services. Two use cases for web services are:
+. Where licencing issues prevent the sharing of component source code.
+. Where a component has a long intialisation time and a user wishes to reuse the component across multiple workflows.
+
+The omtd web service framework is documented at: https://openminted.github.io/releases/processing-web-services/1.0.0/specification
+
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| Alvis
+|
+| Unknown
+| Unknown
+| Draft
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Unknown
+| Unknown
+| Draft
+
+| GATE
+| 8.2
+| Unknown
+| Unknown
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+|====
