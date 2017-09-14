@@ -1,0 +1,46 @@
+== Dockerisation of components
+
+[%hardbreaks]
+[small]#*_Concreteness:_* __concrete__#
+[small]#*_Strength:_*     __mandatory__#
+[small]#*_Category:_*     __WG4__#
+[small]#*_Status:_*       __draft__#
+
+Components should be wrapped in a docker image, conforming to the specification at: https://openminted.github.io/releases/docker-spec/0.1.0/specification
+
+// Below is an example of how a compliance evaluation table could look. This is presently optional
+// and may be moved to a more structured/principled format later maintained in separate files.
+[cols="2,1,1,4,1"]
+|====
+|Product|Version|Compliant|Justification|Status
+
+| Alvis
+|
+| Unknown
+| Unknown
+| Draft
+
+| ARGO
+| 0.5
+| Unknown
+| Unknown
+| Draft
+
+| DKPro Core
+| 1.8.0
+| Unknown
+| Unknown
+| Draft
+
+| GATE
+| 8.2
+| Unknown
+| Unknown
+| Draft
+
+| ILSP
+| 
+| Unknown
+| Unknown
+| Draft
+|====
