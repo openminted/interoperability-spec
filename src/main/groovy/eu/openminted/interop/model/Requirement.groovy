@@ -11,6 +11,7 @@ class Requirement
 	String strength;
 	String status;
 	List<WGCategory> category = new ArrayList();
+    List<String> derivedFrom = new ArrayList();
 	String description;
 	List<ProductDetails> productDetails = new ArrayList();
 
@@ -21,6 +22,7 @@ class Requirement
 		String strengthRegex = "[small]#*_Strength:_*";
 		String statusRegex = "[small]#*_Status:_*";
 		String categoryRegex = "[small]#*_Category:_*";
+        String derivedFromRegex = "[small]#*_Derived from:_*";
 		//check if table is started
 		boolean tableStarted = false;
         boolean inComplianceTable = false;
@@ -71,6 +73,17 @@ class Requirement
 					}
 				}
 			}
+
+            // Get abstract requirements
+            if (trimmedLine.startsWith(derivedFromRegex))
+            {
+                def arr = trimmedLine.split("__")
+                arr.eachWithIndex { req, index ->
+                    if(index.mod(2) == 1){
+                        derivedFrom.add(req);
+                    }
+                }
+            }
 
 			// Check if table has started
 			if (trimmedLine.equals("|====")){
@@ -141,7 +154,7 @@ class Requirement
                 }
                 
                 for (String prod : prodsInCat) {
-                    println "REQ-${id} is missing a compliance assessment for product [${prod}]!";
+                    println "WARNING: REQ-${id} is missing a compliance assessment for product [${prod}]!";
                 }
             }
         }
@@ -154,13 +167,16 @@ class Requirement
         for (ProductDetails prodDetails : productDetails) {
             List<String> prodCats = ProductCategories.map.get(prodDetails.product);
             if (prodCats != null && !assessedCategories.any { prodCats.contains(it) }) {
-                println "REQ-${id} has assessment for product [${prodDetails.product}] but does not list any of its product categories!";
+                println "WARNING: REQ-${id} has assessment for product [${prodDetails.product}] but does not list any of its product categories!";
             }
         }
         
         if (!productCategorySeen) {
-            println "REQ-${id} declares no product categories!";
-            
+            println "WARNING: REQ-${id} declares no product categories!";
+        }
+        
+        if (concreteness == "concrete" && derivedFrom.isEmpty()) {
+            println "WARNING: REQ-${id} is concrete but declares no requirements it derives from!";
         }
 	}
     

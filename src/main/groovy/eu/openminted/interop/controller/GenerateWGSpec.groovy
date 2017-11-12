@@ -20,7 +20,9 @@ class GenerateWGSpec
     
 	static Map<Integer, String> wgSpecMapping = [:];
 	static Map<Integer,String> reqSpecMapping = [:];
-	static def stringPatternCategory ="_Category:_" ;
+    static def stringPatternCategory ="_Category:_" ;
+    static def derivedFromCue ="_Derived from:_" ;
+	static def headerCue ="[small]#*_" ;
 	static def stringPatternHeading = "===";
 	static def includeString = "include::{include-dir-spec}req";
 	static def baseDirSpec = baseDirTarget + "openminted-interoperability-spec/";
@@ -92,14 +94,14 @@ class GenerateWGSpec
 		if (isDirectory) {
             println "Rendering HTML..."
 			asciidoctor.renderDirectory(new AsciiDocDirectoryWalker(sourceAdoc), htmlOptions);
-            println "Rendering PDF..."
-            asciidoctor.renderDirectory(new AsciiDocDirectoryWalker(sourceAdoc), pdfOptions);
+            //println "Rendering PDF..."
+            //asciidoctor.renderDirectory(new AsciiDocDirectoryWalker(sourceAdoc), pdfOptions);
         }
 		else {
             println "Rendering HTML..."
 			asciidoctor.renderFile(new File(sourceAdoc + ".adoc"), htmlOptions);
-            println "Rendering PDF..."
-            asciidoctor.renderFile(new File(sourceAdoc + ".adoc"), pdfOptions);
+            //println "Rendering PDF..."
+            //asciidoctor.renderFile(new File(sourceAdoc + ".adoc"), pdfOptions);
 		}
 		println "Done!"
 	}
@@ -115,26 +117,61 @@ class GenerateWGSpec
 				if(temp.exists())
 					temp.delete();
 				temp.createNewFile();
+                boolean inHeader = false;
 				it.readLines().eachWithIndex {line, idx ->
-					if(idx==0){
+					if (idx==0) {
 						temp << linkScript + "\n";
 						line = line.replace("==","== " + name.replace("adoc",""));
 						temp << line + "\n";
                         temp << 'ifeval::["{backend}" == "html5"]\n';
 						temp << linkCall + '\n';
                         temp << 'endif::[]\n';
-					}else{
-						if(line.contains(stringPatternCategory)) {
+					} else {
+                        if (line.startsWith(headerCue)) {
+                            inHeader = true;
+                        }
+                        else if (inHeader) {
+                            inHeader = false;
+                            int reqId = name[0..-6] as int;
+                            Requirement req = RequirementUtils.requirementList.find { it.id == reqId };
+                            if ("abstract" == req.concreteness) {
+                                List<String> instantiations = [];
+                                
+                                RequirementUtils.requirementList
+                                    .findAll { it.derivedFrom.contains("REQ-"+req.id) }
+                                    .each { instantiations.add("<<REQ-${it.id}>>") };
+                                
+                                if (instantiations) {
+                                    temp << "[small]#*_Instantiations:_* __${instantiations.join('__,__')}__#\n";
+                                }
+                                else {
+                                    temp << "[small]#*_Instantiations:_* __none__#\n";
+                                    println "WARNING: REQ-${req.id} abstract and has no instantiations!";
+                                }
+                            }
+                        } 
+
+						if (line.contains(stringPatternCategory)) {
 							def wgFileStr = line.substring(line.indexOf("__"),line.length()-1);
 							wgFileStr = wgFileStr.replaceAll("__","");
 							def wgListArr = wgFileStr.split(",")
 							wgListArr.eachWithIndex{wg,id->
 								//if(id!=0){
-								line = line.replaceAll(wg,"<<"+wg+","+wg+">>");
+								line = line.replaceAll(wg,"<<"+wg.replace(" ", "_")+","+wg+">>");
 								//}
 							}
 							temp << line + "\n";
-						}else{
+						} 
+                        else if (line.contains(derivedFromCue)) {
+                            def wgFileStr = line.substring(line.indexOf("__"),line.length()-1);
+                            wgFileStr = wgFileStr.replaceAll("__","");
+                            def wgListArr = wgFileStr.split(",")
+                            wgListArr.each { req ->
+                                line = line.replaceAll(req,"<<"+req+">>");
+                            }
+                            temp << line + "\n";
+                        }
+                        else {
 							temp << line + "\n";
 						}
 					}
