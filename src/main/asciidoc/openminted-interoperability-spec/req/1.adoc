@@ -4,7 +4,7 @@
 [small]#*_Concreteness:_* __abstract__#
 [small]#*_Strength:_* __mandatory__#
 [small]#*_Status:_* __final__#
-[small]#*_Category:_* __WG4__#
+[small]#*_Category:_* __WG4__,__Component Collections__#
 
 In order to incorporate components into the platform in an efficient manner, the platform must be
 able to automatically obtain information about them. Hence, components must provide machine-readable

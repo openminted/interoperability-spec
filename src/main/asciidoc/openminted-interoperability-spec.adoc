@@ -147,8 +147,8 @@ include::{include-dir-spec}req/TEMPLATE.adoc[]
  
 = Overviews
 
-== By WG
-include::{include-dir-template}overviewByWg.adoc[]
+== By Category
+include::{include-dir-template}overviewByCategory.adoc[]
 
 == By Status
 include::{include-dir-template}overviewByStatus.adoc[]

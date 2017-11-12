@@ -114,6 +114,7 @@ class Requirement
 						//now perform actions on concatenatedRow to extract product details 
 						if (concatenatedRow.size() > 0){
                             ProductDetails pro = parseProduct(concatenatedRow);
+                            ProductCategories.productSeen(pro.product);
 							this.productDetails.add(pro);
 							concatenatedRow.setLength(0); 
 						}
@@ -127,7 +128,40 @@ class Requirement
 					concatenatedRow.append(trimmedLine)
 				}
 			}
-		}		
+		}
+        
+        // Ensure that all products are mentioned for every product category that is listed under the categories
+        boolean productCategorySeen = false;
+        for (WGCategory cat : category) {
+            if (ProductCategories.isProductCategory(cat.category)) {
+                productCategorySeen = true;
+                List<String> prodsInCat = ProductCategories.getProducts(cat.category);
+                for (ProductDetails prodDetails : productDetails) {
+                    prodsInCat.remove(prodDetails.product);
+                }
+                
+                for (String prod : prodsInCat) {
+                    println "REQ-${id} is missing a compliance assessment for product [${prod}]!";
+                }
+            }
+        }
+        
+        // Ensure that all assessed products are also in a product category that is listed
+        Set<String> assessedCategories = new HashSet<>();
+        category.each { if (ProductCategories.isProductCategory(it.category)) { 
+            assessedCategories.add(it.category)
+        } };
+        for (ProductDetails prodDetails : productDetails) {
+            List<String> prodCats = ProductCategories.map.get(prodDetails.product);
+            if (prodCats != null && !assessedCategories.any { prodCats.contains(it) }) {
+                println "REQ-${id} has assessment for product [${prodDetails.product}] but does not list any of its product categories!";
+            }
+        }
+        
+        if (!productCategorySeen) {
+            println "REQ-${id} declares no product categories!";
+            
+        }
 	}
     
     private ProductDetails parseProduct(CharSequence concatenatedRow)
@@ -144,6 +178,6 @@ class Requirement
     }
 }
 
-class WGCategory{
+class WGCategory {
 	String category;
 }

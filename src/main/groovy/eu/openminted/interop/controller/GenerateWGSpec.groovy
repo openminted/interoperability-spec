@@ -10,6 +10,7 @@ import org.asciidoctor.OptionsBuilder
 import org.asciidoctor.SafeMode
 import org.yaml.snakeyaml.Yaml
 
+import eu.openminted.interop.model.ProductCategories
 import eu.openminted.interop.model.Requirement
 import eu.openminted.interop.utils.RequirementUtils
 
@@ -272,6 +273,8 @@ class GenerateWGSpec
 			}
 		}
 
+        ProductCategories.printUncategorizedProducts();
+        
 		Asciidoctor asciidoctor = Asciidoctor.Factory.create();
 
 		HashMap<String, String> replaceMapScenarioMain=new HashMap<String, String>();
@@ -292,8 +295,6 @@ class GenerateWGSpec
 
 		//copy JS files to generated-docs/js
 		FileUtils.copyDirectory(new File("src/main/resources/"),new File("target/generated-docs/"));
-        
-        println MAVEN_PROJECT;
 	}
 
 }
