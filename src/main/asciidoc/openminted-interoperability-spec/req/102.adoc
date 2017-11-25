@@ -72,7 +72,7 @@ NOTE: In the next version of the schema, the "version" element will be restricte
 | Draft
 
 | GATE
-| 9
+| 8.5-SNAPSHOT
 | Full
 | Components distributed via maven include version information within the pom.xml file.
 | Draft
