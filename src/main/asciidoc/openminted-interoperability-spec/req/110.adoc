@@ -70,9 +70,9 @@ NOTE: The element 'identifier' is not reserved for PIDs; it can be used for any 
 | Draft
 
 | GATE
-| 9
+| 8.5-SNAPSHOT
 | Full
-| Components distributed via maven can be uniquely and persistently identified via their maven coordinates and class name
+| Components distributed via maven can be uniquely and persistently identified via their maven coordinates and class name. Furthermore resources included within a Maven artifact can also be uniquely identified by the maven coordinates and path within the JAR file.
 | Draft
 
 | ILSP
