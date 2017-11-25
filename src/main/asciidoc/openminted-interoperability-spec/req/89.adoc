@@ -78,9 +78,9 @@ update date of the document can be attached instead of the revision identifier.
 | Final
 
 | GATE
-| 8.2
-| No
-| Possible for all GATE components to be written this way although we don't currently enforce it in any way
+| 8.5-SNAPSHOT
+| Full
+| Possible for all GATE components to be written this way although we don't currently enforce it in any way.
 | Final
 
 | ILSP
