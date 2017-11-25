@@ -33,9 +33,9 @@ To be moved to FR in WP6
 | Draft
 
 | GATE
-| 8.2
-| No
-| GATE does not currently enforce such a categorization (or have any way internally of doing so). For the core plugins (i.e. those developed in Sheffield) we try and stick to a naming convention that gives some idea of the nature of the plugin; Lang_X, Parser_X, Tagger_X, etc. but this is purely a convention and is in no way fine grained enough to be used for indexing or other forms of automatic discovery.
+| 8.5-SNAPSHOT
+| Partial
+| GATE components can be categorised using the new OMTD-SHARE Java annotations. If these are used then the component category will correctly appear in the OMTD-SHARE descriptor file produced during the build process. However, currently none of our core plugins are so annotated.
 | Draft
 
 | ILSP
