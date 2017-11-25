@@ -33,9 +33,9 @@ Components should be wrapped in a docker image, conforming to the specification 
 | Draft
 
 | GATE
-| 8.2
-| Unknown
-| Unknown
+| 8.5-SNAPSHOT
+| Full
+| The project has developed code that given the maven coordinates of a GATE component, and a GATE executor script can produce a Docker image for that component which can be used as part of a Galaxy workflow and hence meets the OMTD Docker specification.
 | Draft
 
 | ILSP
