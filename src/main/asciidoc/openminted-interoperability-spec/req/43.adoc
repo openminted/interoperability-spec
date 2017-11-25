@@ -34,9 +34,9 @@ components that are locked to a specific language, this information is currently
 | Final
 
 | GATE
-| 8.2
-| No
-| Not currently provided
+| 8.5-SNAPSHOT
+| Partial
+| Most GATE plugins are language agnostic, and are configured for a given language by the resources/models supplied as parameters during initialization.
 | Final
 
 | ILSP
