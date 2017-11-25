@@ -89,8 +89,8 @@ NOTE: The version is also available from the UIMA resource specifier. It must be
 | Draft
 
 | GATE
-| 8.2
-| Partial
-| Components are not yet distributed by Maven and as such versioning info is not available
+| 8.5-SNAPSHOT
+| Full
+| Components are distributed and installed via Maven, and will be pushed to Maven central upon a none SNAPSHOT release.
 | Draft
 |====
