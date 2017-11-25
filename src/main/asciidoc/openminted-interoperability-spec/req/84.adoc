@@ -23,6 +23,5 @@ the metadata directly without reference to any of the class files of the compone
 [cols="2,1,1,4,1"]
 |====
 |Product|Version|Compliant|Justification|Status
-| GATE | 8.2 | Partial | While we provide the tools needed to produce the standalone metadata it is not currently part
-of the standard build process and so rarely happens. This will change with the next version of GATE. | draft
+| GATE | 8.5-SNAPSHOT | Full | Producing the standalone XML version of the metadata is a standard part of the plugin build process | draft
 |====
