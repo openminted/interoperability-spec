@@ -44,7 +44,7 @@ The omtd web service framework is documented at: https://openminted.github.io/re
 | GATE
 | 8.4.2
 | Full
-| All GATE components can be provided as a web service via GATE Cloud (see http://cloud.gate.ac.uk). We also have a GATE component which can be embded in any GATE application and which can call GATE Cloud. As this is a normal GATE component it can be included in any OMTD workflow in the normal fashion.
+| All GATE components can be provided as a web service via GATE Cloud (see http://cloud.gate.ac.uk). We also have a GATE component which can be embded in any GATE application and which can call GATE Cloud. As this is a normal GATE component it can be included in any OMTD workflow in the normal fashion. Note that this makes the components available as a web service without the need for them to comply with the OMTD web service specification.
 | Draft
 
 | ILSP
