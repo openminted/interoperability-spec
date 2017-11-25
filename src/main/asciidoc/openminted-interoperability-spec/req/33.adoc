@@ -87,9 +87,9 @@ NOTE: For this version, we will allow also "open access" or "other" etc. as stat
 | Final
 
 | GATE
-| 8.2
-| Partial
-| The tool metadata does not provide licensing information, but license information is distributed with the tool
+| 8.5-SNAPSHOT
+| Full
+| License information is provided in the POM file. transitive dependencies can be reached (where available) by traversing the dependency hierarchy and inspecting the POM files of the dependencies.
 | Final
 
 | ILSP
