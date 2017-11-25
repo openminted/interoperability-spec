@@ -42,9 +42,9 @@ files are also embedded in the JARs under `META-INF/maven/.../pom.xml`.
 | Draft
 
 | GATE
-| 8.2
-| Partial
-| only for those components that still use CREOLE descriptors and do *not* use CREOLE Java annotations. It is, however, trivial to produce separate versions as GATE contains an ANT task to write CREOLE descriptors to disk from the Java annotations and it would be trivial to add this to the build process of each plugin.
+| 8.5-SNAPSHOT
+| Full
+| The standard plugin build process now produces a standalone XML file containing all the metadata supplied by the Java anootations. This is stored in `META-INF/gate/creole.xml`. Other metadata can be obtained from the Maven pom.xml which is also bundled inside the jar file.
 | Draft
 
 | ILSP
