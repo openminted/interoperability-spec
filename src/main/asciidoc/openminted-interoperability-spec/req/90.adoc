@@ -35,9 +35,9 @@ The OMTD-SHARE metadata schema includes the element _componentType_ which can be
 | Draft
 
 | GATE
-| 8.2
-| No
-| There are some naming conventions used with the GATE plugins developed in Sheffield that could be mapped to these categories but in general we don't currently support this requirement in any way.
+| 8.5-SNAPSHOT
+| Full
+| As the OMTD-SHARE java annotations can be used to annotate GATE components it is trivial to assign a component type to each  GATE component. This information will end up in the OMTD-SHARE descriptor distributed with the components. We currently ensure that if not specified the componentType is set to "other" so as to provide the mandatory field in the OMTD-SHARE descriptor.
 | Draft
 
 | ILSP
