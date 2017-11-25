@@ -35,9 +35,9 @@ the implementation (cf. <<uimafit>>).
 | Draft
 
 | GATE
-| 8.2
-| Partial
-| using CREOLE Java annotations, but not yet in all components
+| 8.5-SNAPSHOT
+| Full
+| All our components now have the metadata embedded in them
 | Draft
 
 | ILSP
