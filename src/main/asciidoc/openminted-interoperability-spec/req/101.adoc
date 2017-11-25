@@ -47,9 +47,9 @@ Further to this, a set of metadata elements that can be used for the automatic i
 | Draft
 
 | GATE
-| 8.2
-| No
-| Currently (default) resources are stored in the same artifact as the components. Also while GATE9 can load components from maven artifacts that are not CREOLE plugins cannot be loaded and models/resources are not treated as plugins. A workflow system that uses the GATE API could however pull in resources via maven which are not GATE plugins.
+| 8.5-SNAPSHOT
+| Partial
+| Currently (default) resources are stored in the same artifact as the components. It is however possible for components to be configured using resources from other plugins which can be also distributed via Maven and hence accessiable separately. However, resources are not descrbed via metadata in GATE so none of the extra information about this is recorded.
 | Draft
 
 | ILSP
