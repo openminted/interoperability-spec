@@ -28,8 +28,8 @@ Components should be wrapped in a docker image, conforming to the specification 
 
 | DKPro Core
 | 1.8.0
-| Unknown
-| Unknown
+| Full
+| The omtd-component-executor (https://github.com/galanisd/omtd-component-executor) can be used to generate Docker images for DKPro Core components.
 | Draft
 
 | GATE
