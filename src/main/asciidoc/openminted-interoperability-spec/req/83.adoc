@@ -21,5 +21,10 @@ JavaDoc comments are used to provide more API style documentation of each compon
 [cols="2,1,1,4,1"]
 |====
 |Product|Version|Compliant|Justification|Status
-| GATE | 8.2 | Partial | While GATE provides ways of documenting components it is difficult to enforce this on all components especially those developed by 3rd parties | draft
+
+| GATE 
+| 8.2 
+| Partial 
+| While GATE provides ways of documenting components it is difficult to enforce this on all components especially those developed by 3rd parties 
+| draft
 |====

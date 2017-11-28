@@ -38,5 +38,10 @@ Together these two sources provide the following information
 [cols="2,1,1,4,1"]
 |====
 |Product|Version|Compliant|Justification|Status
-| GATE | 8.2 | Partial | Components are not yet distributed by Maven and as such versioning info is not available | draft
+
+| GATE 
+| 8.2 
+| Partial 
+| Components are not yet distributed by Maven and as such versioning info is not available 
+| draft
 |====

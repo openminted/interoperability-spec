@@ -23,5 +23,10 @@ All other metadata is determined at runtime via inspection of the class.
 [cols="2,1,1,4,1"]
 |====
 |Product|Version|Compliant|Justification|Status
-| GATE | 8.2 | Full | Components can be fully specified through Java annotations | draft |
+
+| GATE 
+| 8.2 
+| Full 
+| Components can be fully specified through Java annotations 
+| draft 
 |====
