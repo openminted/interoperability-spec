@@ -37,8 +37,8 @@ The omtd web service framework is documented at: https://openminted.github.io/re
 
 | DKPro Core
 | 1.8.0
-| Unknown
-| Unknown
+| No
+| DKPro Core is provided as downloadable software only. Since DKPro Core is only a component collection, providing services is beyond its scope. 
 | Draft
 
 | GATE
