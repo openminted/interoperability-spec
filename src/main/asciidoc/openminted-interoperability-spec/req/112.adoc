@@ -22,8 +22,8 @@ Components should be wrapped in a docker image, conforming to the specification 
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| Partial
+| Argo components support uimaFIT Java annotations to provide metadata. The metadata can be used to generate the OMTD-SHARE descriptor in compliance with the dockerized specification.
 | Draft
 
 | DKPro Core

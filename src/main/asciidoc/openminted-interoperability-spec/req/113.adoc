@@ -31,8 +31,8 @@ The omtd web service framework is documented at: https://openminted.github.io/re
 
 | ARGO
 | 0.5
-| Unknown
-| Unknown
+| Partial
+| Some ARGO components and workflows are available as web services which are already compliant with the OMTD web service specification. 
 | Draft
 
 | DKPro Core
