@@ -10,7 +10,7 @@ IMPORTANT: This requirement has been deprecated. Its parent abstract requirement
 
 A uniform workflow language allows to use the same elements of language to represent/describe a workflow (See * <<REQ-18>>. For example, link:http://www.commonwl.org/[Common Workflow Language (CWL)] is a workflow language used in many systems, for example Galaxy. Common parts to represent an executable workflow are the following:
 |===
-|Parts | Description
+|Parts | Description
 
 |Main_desc
 |To provide information about the workflow.
@@ -28,7 +28,7 @@ A uniform workflow language allows to use the same elements of language to repre
 
 `Main_desc` is the part of the workflow representation that gives information about the workflow. It contains the following fields:
 |===
-| Field | Description
+| Field | Description
 
 | name
 | Name of the workflow.
@@ -45,7 +45,7 @@ A uniform workflow language allows to use the same elements of language to repre
 
 `Main_inputs` and `Main_outputs` are parts of the workflow representation that respectively define the inputs and outputs `parameters` of the workflow. Each `parameter` contains at least the following fields:
 |===
-| Field | Description
+| Field | Description
 
 | id
 | to identify this parameter.
@@ -59,7 +59,7 @@ A uniform workflow language allows to use the same elements of language to repre
 
 `Steps` is the part of the workflow representation that defines the list of `modules` and the list of `dependencies` between modules of the workflow. Each `module` is defined with the following fields :
 |===
-| Field | Description
+| Field | Description
 
 | name
 | name of the module.
@@ -76,7 +76,7 @@ A uniform workflow language allows to use the same elements of language to repre
 
 The dependencies between the modules define the dataflow of the workflow. They tells what outputs are fed by inputs for execution. Each `dependency` is defined with the following fields:
 |===
-| Field | Description
+| Field | Description
 
 | module.output.id
 | Is the `id` of a `output` of a specific `module` in this workflow.

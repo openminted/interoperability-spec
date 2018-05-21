@@ -13,7 +13,7 @@
 The uimaFIT library provides Java annotations to embed most types of UIMA metadata as Java annotations directly into the source code of UIMA components.  Particularly relevant for OpenMinTeD are the following uimaFIT annotations:
 
 |===
-| uimaFIT annotation | Description
+| uimaFIT annotation | Description
 
 | `@MimeTypeCapability`
 | For reader components: defines the supported input media types; for writer components: defines the supported output media types. The media type should be an official link:http://www.iana.org/assignments/media-types/media-types.xhtml[IANA media type].
