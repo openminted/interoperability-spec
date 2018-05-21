@@ -1,6 +1,6 @@
 [cols="1,4,1,1"]
 |===
-| *ID* | *Requirement* | *Product* | *Compliance*
+| *ID* | *Requirement* | *Product* | *Compliance*
 <%
 requirementProductList    
     .findAll { !it.requirement.status.contains("deprecat") }
