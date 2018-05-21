@@ -2,10 +2,6 @@
 :Author: OpenMinTeD Interoperability Team (T5.2)
 :toc-title: Contents
 
-This document will host the interoperability specification for the OpenMinTeD platform. Currently,
-there is not much to see here. For the time being, we use this place to dump intermediate
-information that may or may not end up in the final specification.
-
 = Introduction
 
 == Requirement metadata
